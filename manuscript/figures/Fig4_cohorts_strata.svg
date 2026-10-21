@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" role="img" aria-label="Fig 4 stratum medians across cohorts">
+<rect width="680" height="340" fill="#ffffff"/>
+<g font-family="Helvetica, Arial, sans-serif" fill="#1f2937">
+<rect x="70.0" y="52.0" width="560.0" height="200.0" fill="#fbfdff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<line x1="70.0" y1="166.3" x2="630.0" y2="166.3" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="66.0" y1="237.7" x2="70.0" y2="237.7" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="240.7" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">-10</text>
+<line x1="66.0" y1="202.0" x2="70.0" y2="202.0" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="205.0" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">-5</text>
+<line x1="66.0" y1="166.3" x2="70.0" y2="166.3" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="169.3" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">0</text>
+<line x1="66.0" y1="130.6" x2="70.0" y2="130.6" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="133.6" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">+5</text>
+<line x1="66.0" y1="94.9" x2="70.0" y2="94.9" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="97.9" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">+10</text>
+<line x1="66.0" y1="59.1" x2="70.0" y2="59.1" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="62.1" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">+15</text>
+<line x1="70.0" y1="52.0" x2="70.0" y2="252.0" stroke="#1f2937" stroke-width="1"/>
+<line x1="70.0" y1="252.0" x2="630.0" y2="252.0" stroke="#1f2937" stroke-width="1"/>
+<text x="62.0" y="44.0" font-size="9" text-anchor="end" fill="#6b7280" font-weight="normal">median A (%)</text>
+<rect x="95.3" y="106.0" width="40.0" height="60.2" fill="#6d28d9" stroke="none" stroke-width="1" rx="0"/>
+<text x="115.3" y="102.0" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+8.4</text>
+<rect x="143.3" y="64.6" width="40.0" height="101.7" fill="#9868e4" stroke="none" stroke-width="1" rx="0"/>
+<text x="163.3" y="60.6" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+14.2</text>
+<rect x="191.3" y="128.7" width="40.0" height="37.5" fill="#bd9eed" stroke="none" stroke-width="1" rx="0"/>
+<text x="211.3" y="124.7" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+5.3</text>
+<text x="163.3" y="280.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">Immune (6)</text>
+<rect x="282.0" y="166.3" width="40.0" height="70.7" fill="#c2410c" stroke="none" stroke-width="1" rx="0"/>
+<text x="302.0" y="247.0" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-9.9</text>
+<rect x="330.0" y="166.3" width="40.0" height="39.6" fill="#d47a54" stroke="none" stroke-width="1" rx="0"/>
+<text x="350.0" y="215.9" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-5.5</text>
+<rect x="378.0" y="166.3" width="40.0" height="17.2" fill="#e3a991" stroke="none" stroke-width="1" rx="0"/>
+<text x="398.0" y="193.4" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-2.4</text>
+<text x="350.0" y="280.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">Inflammation (11)</text>
+<rect x="468.7" y="163.6" width="40.0" height="2.6" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="488.7" y="159.6" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+0.4</text>
+<rect x="516.7" y="156.7" width="40.0" height="9.6" fill="#6083e3" stroke="none" stroke-width="1" rx="0"/>
+<text x="536.7" y="152.7" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+1.3</text>
+<rect x="564.7" y="166.3" width="40.0" height="10.5" fill="#99afed" stroke="none" stroke-width="1" rx="0"/>
+<text x="584.7" y="186.8" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-1.5</text>
+<text x="536.7" y="280.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">Metabolism (32)</text>
+<rect x="96.0" y="37.0" width="10.0" height="10.0" fill="#0f172a" stroke="none" stroke-width="1" rx="2"/>
+<text x="110.0" y="46.0" font-size="8.8" text-anchor="start" fill="#6b7280" font-weight="normal">TCGA-LUAD (primary)</text>
+<rect x="214.0" y="37.0" width="10.0" height="10.0" fill="#475569" stroke="none" stroke-width="1" rx="2"/>
+<text x="228.0" y="46.0" font-size="8.8" text-anchor="start" fill="#6b7280" font-weight="normal">GSE68465 (external)</text>
+<rect x="332.0" y="37.0" width="10.0" height="10.0" fill="#94a3b8" stroke="none" stroke-width="1" rx="2"/>
+<text x="346.0" y="46.0" font-size="8.8" text-anchor="start" fill="#6b7280" font-weight="normal">GSE31210 (external)</text>
+<text x="350.0" y="298.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">Ordering immune &gt; metabolism ≈ inflammation reproduces in all three cohorts; per-signature attenuation does not (ρ = −0.014 / +0.006).</text>
+<text x="350.0" y="311.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">TCGA-LUAD: OS, n = 482/177. GSE68465: n = 439/235. GSE31210: n = 226/35. Stratum medians of A; SIG26 not scoreable externally (metabolism n = 31).</text>
+</g></svg>

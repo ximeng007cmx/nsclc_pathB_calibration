@@ -1,0 +1,109 @@
+已知：纳入 13 / 排除 6 / 已抽取 19；第一波候选池 87
+第二波去重后 538 条
+排除已知 + 2020 起 + 有 PMCID 后：431 条（其中第一波候选池内 25 条，真正新增 406 条）
+取摘要：431 篇 →
+拿到摘要 431 篇
+
+三条件全中且摘要含 2–15 个基因符号（Tier A，最可能满足 I4）：99
+  PMC11745784 2025 n=15 cue=17 gene                The landscape of immunogenic cell death-related genes predicts t
+  PMC10864718 2024 n=12 cue=                       Meta-analysis of microarray data to determine gene indicators in
+  PMC11797571 2023 n=11 cue=13 gene                Comprehensive analysis of resistance mechanisms to EGFR-TKIs and
+  PMC9047773 2022 n=11 cue=                       Prognostic Implication of Energy Metabolism-Related Gene Signatu
+  PMC8806683 2021 n=11 cue=12 gene                Development of a gene signature associated with iron metabolism 
+  PMC13190771 2026 n=10 cue=                       Lipid metabolism-related gene expression predicts prognostic out
+  PMC10619909 2023 n=10 cue=                       Applying machine learning algorithms to develop a survival predi
+  PMC8531531 2021 n=10 cue=12 gene                FDX1 can Impact the Prognosis and Mediate the Metabolism of Lung
+  PMC10618427 2023 n= 9 cue=11-gene                A prognostic model of drug tolerant persister-related genes in l
+  PMC10603348 2023 n= 9 cue=                       Identification of tumor-intrinsic drivers of immune exclusion in
+  PMC11671776 2024 n= 8 cue=two Gene               Multi-omics analysis-based clinical and functional significance 
+  PMC10800788 2023 n= 8 cue=10-gene                A novel gene signature related to focal adhesions for distinguis
+  PMC10476855 2023 n= 8 cue=                       Lysosome-related genes: A new prognostic marker for lung adenoca
+  PMC8381737 2021 n= 8 cue=15-gene                Ferroptosis-Related Genes in Lung Adenocarcinoma: Prognostic Sig
+  PMC13633477 2026 n= 7 cue=nine-gene              Identification of a Novel Subtype-Derived Prognostic Signature B
+  PMC13358790 2026 n= 7 cue=9-gene                 Integrated hypoxia and metabolic gene signature to predict clini
+  PMC12505621 2025 n= 7 cue=9-gene                 A novel disulfidptosis-related mRNA signature predicts prognosis
+  PMC12101037 2025 n= 7 cue=                       Characteristics of folic acid metabolism-related genes unveil pr
+  PMC11876514 2025 n= 7 cue=                       Single cell transcriptomic analysis reveals tumor immune infiltr
+  PMC10788202 2024 n= 7 cue=                       Inflammatory response signature score model for predicting immun
+  PMC9926575 2023 n= 7 cue=Nine gene              Identification of four metabolic subtypes and key prognostic mar
+  PMC7066120 2020 n= 7 cue=                       Integrated Analysis of the Functions and Prognostic Values of RN
+  PMC7486793 2020 n= 7 cue=5 gene                 A Novel Risk Model Based on Autophagy Pathway Related Genes for 
+  PMC12816179 2025 n= 6 cue=eight-gene             Integration of single cell and bulk transcriptomic analyses iden
+  PMC12688223 2025 n= 6 cue=8-gene                 Construction and validation of an oxidative phosphorylation-rela
+  PMC11570572 2024 n= 6 cue=                       Construction of a novel lipid drop-mitochondria-associated genet
+  PMC11283104 2024 n= 6 cue=eight gene             Single cell transcriptomic analysis reveals tumor immune infiltr
+  PMC8034925 2021 n= 6 cue=eight-gene             Establishment and validation of an eight-gene metabolic-related 
+  PMC7646164 2020 n= 6 cue=                       Establishment of the Prognostic Index Reflecting Tumor Immune Mi
+  PMC13559616 2026 n= 5 cue=                       A model of cellular proliferation and mitochondrial biogenesis p
+  PMC12290164 2025 n= 5 cue=Eight hub gene         Shared blood gene signature in lung adenocarcinoma and microbial
+  PMC12752188 2025 n= 5 cue=seven gene             Molecular subtyping and a seven-gene immune signature reveal het
+  PMC12643885 2025 n= 5 cue=                       A metabolic-radioimmune signature predicts therapy response and 
+  PMC12273309 2025 n= 5 cue=seven gene             Single-cell RNA sequencing technology was employed to construct 
+  PMC10292873 2023 n= 5 cue=seven gene             Development of cancer-associated fibroblast-related gene signatu
+  PMC10597940 2023 n= 5 cue=                       A risk score model based on lipid metabolism-related genes could
+  PMC7429590 2020 n= 5 cue=                       Identification of pathology-specific regulators of m<sup>6</sup>
+  PMC13414110 2026 n= 4 cue=                       Bioinformatics-based identification of glycolysis-related signat
+  PMC13559650 2026 n= 4 cue=six-gene               Development and internal validation of a six-gene prognostic mod
+  PMC11726977 2025 n= 4 cue=                       The systematic analysis of genes related to butyrate metabolism 
+  PMC11847877 2025 n= 4 cue=                       A prognostic signature of Glutathione metabolism-associated long
+  PMC12595263 2025 n= 4 cue=144 gene               Exploring the Glycolytic Mechanisms in "Driver Gene-Negative" Lu
+  PMC12622665 2025 n= 4 cue=Six gene               Identification and validation of a diagnostic and prognostic mod
+  PMC12043920 2025 n= 4 cue=                       Identifying pyroptosis-related prognostic genes in the co-occurr
+  PMC11225160 2024 n= 4 cue=                       Identification of a combined hypoxia and lactate metabolism prog
+  PMC10281056 2023 n= 4 cue=                       Network pharmacology and bioinformatics analysis identifies pote
+  PMC10373868 2023 n= 4 cue=                       Clinical application of common inflammatory and nutritional indi
+  PMC8845143 2022 n= 4 cue=                       Understanding the Critical Role of Glycolysis-Related lncRNAs in
+  PMC8971721 2022 n= 4 cue=                       Association of Polymorphisms in Inflammation Genes With the Prog
+  PMC9492411 2022 n= 4 cue=                       Comprehensive Exploration of M2 Macrophages and Its Related Gene
+  PMC9459509 2022 n= 4 cue=                       A novel pyroptosis related genes signature for predicting progno
+  PMC8028741 2021 n= 4 cue=six-gene               Identification and Validation of a Tumor Microenvironment-Relate
+  PMC7557101 2020 n= 4 cue=6 hub gene             Lipid metabolism gene-wide profile and survival signature of lun
+  PMC7718790 2020 n= 4 cue=six-gene               Identification of a six-gene metabolic signature predicting over
+  PMC13214216 2026 n= 3 cue=                       Exploring and experimental validation of SLC7A11 and ferroptosis
+  PMC13513166 2026 n= 3 cue=                       17β-Estradiol Modulates Cancer Cell-Fibroblast Communication via
+  PMC13073725 2026 n= 3 cue=five-gene              Identification of a Prognostic Gene Signature for Chemoresistanc
+  PMC12851720 2026 n= 3 cue=7-gene                 Propionate metabolism-related molecular subtypes and prognostic 
+  PMC13261843 2026 n= 3 cue=five-gene              Multiomic and functional validation of ACSL3, a regulator of fat
+  PMC11963273 2025 n= 3 cue=five-gene              Integrative analysis of a novel signature incorporating metaboli
+  PMC12474791 2025 n= 3 cue=                       A new prognostic model for lung adenocarcinoma according propion
+  PMC12098254 2025 n= 3 cue=                       Construction of lung adenocarcinoma subtype and prognosis model 
+  PMC11439862 2024 n= 3 cue=                       Exploring a new signature for lung adenocarcinoma: analyzing cup
+  PMC11404934 2024 n= 3 cue=                       An abnormal metabolism-related gene, ALG3, is a potential diagno
+  PMC9784226 2022 n= 3 cue=five gene              Characterization of the fatty acid metabolism-related genes in l
+  PMC9174756 2022 n= 3 cue=5-gene                 Predicting Differences in Treatment Response and Survival Time o
+  PMC9262104 2022 n= 3 cue=14 hub gene            Insight of a Metabolic Prognostic Model to Identify Tumor Enviro
+  PMC9315097 2022 n= 3 cue=two gene               Nitrogen Metabolism Disorder Accelerates Occurrence and Developm
+  PMC9382191 2022 n= 3 cue=                       Novel GIRlncRNA Signature for Predicting the Clinical Outcome an
+  PMC9396642 2022 n= 3 cue=five gene              A novel metabolic-immune related signature predicts prognosis an
+  PMC8841483 2022 n= 3 cue=                       A novel signature based on autophagy-related lncRNA for prognost
+  PMC8330534 2021 n= 3 cue=2 gene                 A novel recurrence-associated metabolic prognostic model for ris
+  PMC8254945 2021 n= 3 cue=                       Characterization of a ferroptosis and iron-metabolism related ln
+  PMC8209576 2021 n= 3 cue=                       Identification of a glycolysis-related gene signature associated
+  PMC8419226 2021 n= 3 cue=                       Clinical Significance and Immunologic Landscape of a Five-IL(R)-
+  PMC7778529 2021 n= 3 cue=46 gene                Prognostic implication of glycolysis related gene signature in n
+  PMC7335383 2020 n= 3 cue=5-gene                 Identification of a 5-Gene Metabolic Signature for Predicting Pr
+  PMC13543433 2026 n= 2 cue=                       Differential predictive value of inflammation- and coagulation-b
+  PMC13032429 2026 n= 2 cue=Four gene              Prognostic and immunological roles of ammonia-induced cell death
+  PMC12955334 2026 n= 2 cue=four-gene              Multi-omics analysis and experiments validate the tumor-suppress
+  PMC13397370 2026 n= 2 cue=4 gene                 ANLN: A New Hub in Glutamine Metabolism of Lung Adenocarcinoma b
+  PMC12859070 2026 n= 2 cue=four-gene              ‌PPIA regulates fatty acid and glutamine metabolism in lung aden
+  PMC11987467 2025 n= 2 cue=                       A novel mitochondrial quality regulation gene signature for anti
+  PMC12069423 2025 n= 2 cue=76 gene                Revealing roles of PANoptosis-related genes in prognosis and mol
+  PMC11874940 2025 n= 2 cue=three gene             A nicotinamide metabolism-related gene signature for predicting 
+  PMC11850292 2025 n= 2 cue=                       A Novel DNA Repair-Gene Model to Predict Responses to Immunother
+  PMC11341317 2024 n= 2 cue=377 gene               The prognostic and clinical value of genes associate with immuni
+  PMC11422451 2024 n= 2 cue=                       Clinical signature and associated immune metabolism of NLRP1 in 
+  PMC11084143 2024 n= 2 cue=                       Choline metabolism reprogramming mediates an immunosuppressive m
+  PMC11382126 2024 n= 2 cue=                       IGFBP1 promotes the proliferation and migration of lung adenocar
+  PMC9023759 2022 n= 2 cue=                       Identification of Fatty Acid Metabolism-Related lncRNAs as Bioma
+  PMC9664164 2022 n= 2 cue=                       Prognostic signature of lipid metabolism associated LncRNAs pred
+  PMC9114646 2022 n= 2 cue=19 gene                A Four-Gene Prognostic Signature Based on the TEAD4 Differential
+  PMC9602971 2022 n= 2 cue=four gene              A Metabolism-Related Gene Prognostic Index for Prediction of Res
+  PMC8034940 2021 n= 2 cue=                       Predicting lung adenocarcinoma prognosis with a novel risk scori
+  PMC8476909 2021 n= 2 cue=                       Transcriptome Analyses Identify a Metabolic Gene Signature Indic
+  PMC8361602 2021 n= 2 cue=4 gene                 A Novel Integrated Metabolism-Immunity Gene Expression Model Pre
+  PMC7720456 2020 n= 2 cue=four-gene              Identification of a four-gene panel predicting overall survival 
+  PMC7520091 2020 n= 2 cue=                       A model of twenty-three metabolic-related genes predicting overa
+三条件全中但摘要无列表（Tier B，需查全文）：194
+
+-> work/candidates_wave2_screened.csv（431 行）

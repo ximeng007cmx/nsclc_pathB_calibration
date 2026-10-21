@@ -1,0 +1,26 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+同号: 38   其中收缩(|b3|<|b1|): 17   其中放大: 21   异号: 3 
+收缩的按分层: inflammation=1  metabolism=16 
+
+   rho_bin     n med_att med_db n_shrink n_grow n_flip
+    <fctr> <int>   <num>  <num>    <int>  <int>  <int>
+1:    high    14    -1.5  0.039        4      7      3
+2:     low    14    -3.0  0.007        5      9      0
+3:     mid    13     0.4 -0.002        8      5      0
+
+== 只看 M1 显著者（n= 26 ）==
+中位 A = 0.37 %   收缩: 14  放大: 12  异号: 0  |db|中位: 0.012 
+   sig_id   wave      stratum beta_M1 beta_M3     A    q_M3
+   <char> <char>       <char>   <num>   <num> <num>   <num>
+1:  SIG05     W1 inflammation   0.194   0.348 -79.2 1.1e-04
+2:  SIG02     W1 inflammation  -0.180  -0.140  22.0 1.9e-01
+3:  SIG27     W2   metabolism   0.233   0.276 -18.4 4.0e-04
+4:  SIG36     W2   metabolism   0.204   0.234 -15.0 3.1e-03
+5:  SIG15     W2   metabolism   0.493   0.543 -10.1 3.9e-09
+6:  SIG07     W1 inflammation  -0.368  -0.404  -9.9 3.1e-04
+7:  SIG17     W2   metabolism   0.332   0.363  -9.3 1.4e-05
+8:  SIG13     W1   metabolism  -0.145  -0.132   8.9 1.1e-01

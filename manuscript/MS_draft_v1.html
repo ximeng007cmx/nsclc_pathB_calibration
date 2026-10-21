@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MS_draft_v1 (revision 07) — Immune and stromal content does not explain …</title>
+<style>
+  body { font-family: "Times New Roman", Times, serif; font-size: 12.5pt; line-height: 1.55;
+         color: #1a1a1a; background: #ffffff; margin: 0; }
+  .page { max-width: 880px; margin: 0 auto; padding: 48px 56px 80px; }
+  h1 { font-size: 17pt; line-height: 1.35; margin: 0 0 6px; }
+  h2 { font-size: 14pt; border-bottom: 1px solid #999; padding-bottom: 3px; margin-top: 34px; }
+  h3 { font-size: 12.5pt; margin-top: 24px; }
+  blockquote { margin: 10px 0; padding: 8px 14px; border-left: 3px solid #b8b8b8;
+               background: #f6f6f6; font-size: 10.5pt; color: #444; }
+  blockquote p { margin: 3px 0; }
+  .meta { color: #555; font-size: 10.5pt; margin-bottom: 22px; }
+  table { border-collapse: collapse; font-size: 9.5pt; margin: 12px 0; width: 100%; }
+  th, td { border: 1px solid #bbb; padding: 3px 6px; text-align: left; vertical-align: top; }
+  th { background: #efefef; }
+  .tblscroll { overflow-x: auto; margin: 8px 0 20px; }
+  .figbox { margin: 20px 0 6px; text-align: center; }
+  .figbox svg { max-width: 100%; height: auto; }
+  .figcap { font-size: 10.5pt; color: #333; margin: 0 0 26px; }
+  .figcap p { margin: 4px 0; }
+  .appendix h2 { margin-top: 46px; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 30px 0; }
+  code { font-family: Consolas, monospace; font-size: 0.9em; background: #f2f2f2; padding: 0 3px; }
+  @page { size: A4; margin: 18mm 16mm; }
+  @media print {
+    body { font-size: 10.5pt; }
+    .page { max-width: none; padding: 0; }
+    h2 { margin-top: 22px; }
+    .figbox { margin: 12px 0 4px; }
+    .figcap { margin: 0 0 14px; font-size: 9pt; }
+    table { font-size: 7.5pt; }
+    th, td { padding: 2px 4px; }
+    .tblscroll { overflow: visible; }
+    blockquote { font-size: 9pt; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body><div class="page">
+<h1>Immune and stromal content does not explain the effect sizes of published inflammation- and metabolism-related prognostic signatures in non-small cell lung cancer: a calibration study of 49 signatures with positive and negative controls</h1>
+<p><strong>Draft v1 · 2026-10-21 · target journal: Cancer Medicine</strong></p>
+<blockquote>
+<p>Citation note: the text uses [n] numbering; the References list 9 methodological and data-source references; the 49 signature references are listed individually in Table 1 (with PMID/DOI).
+<strong>All 58 references passed dual-source verification (Europe PMC + CrossRef) on 2026-10-21</strong> (49 + 9, 0 issues);
+verification records in <code>references_verified.md</code> and <code>logs/refs_verify_49.log</code>; volume/issue/pages taken from EPMC core records, not from memory.
+One mis-quoted DOI corrected: the DOI for Liu 2018 is 10.1016/j.cell.2018.02.052 (the earlier record 10.1016/j.cell.2018.03.046 resolved to a different paper in the same journal).
+All values come from <code>results/*.tsv</code> (see the quick-reference table in §9 of <code>正文起草计划_B路线.md</code>); no value was transcribed by hand.</p>
+</blockquote>
+<hr />
+<h2>Abstract</h2>
+<p><strong>Background:</strong> Prognostic transcriptomic signatures for non-small cell lung cancer (NSCLC) are published continuously, and tumour microenvironment (TME) content is known to shape bulk expression. Whether immune and stromal content explains the effect sizes of published signatures has not been tested systematically with controls.</p>
+<p><strong>Methods:</strong> We assembled 49 published inflammation-related (n = 11), metabolism-related (n = 32) and immune-related (n = 6) prognostic signatures under rules fixed before analysis and locked by hash. In TCGA-LUAD (482 patients, 177 deaths) we fitted Cox models with the signature score, age, sex and stage (M1) and additionally ImmuneScore and StromalScore (M3), and quantified attenuation as A = 1 − β<sub>M3</sub>/β<sub>M1</sub>. Uncertainty was obtained by cluster bootstrap (5,000 resamples). We used three control axes and per-signature random gene panels (200 draws) as positive and negative controls, and replicated directionality in two independent cohorts (GSE68465, n = 439; GSE31210, n = 226) and across endpoints (progression-free interval, disease-specific survival).</p>
+<p><strong>Results:</strong> Median attenuation across the 49 signatures was −1.4% (95% CI −7.4% to +1.8%); 21 signatures shrank, 25 grew and 3 reversed direction, and among the 32 nominally significant signatures the split was 17:15. The lymphocyte control axis attenuated by 68.9% (P changed from 0.053 to 0.775), confirming power. Attenuation percentiles were compressed toward zero relative to random panels (median 0.440; Kolmogorov–Smirnov P = 0.001). Displacement magnitude tracked signature–ImmuneScore correlation (partial ρ = 0.373, P = 0.009) whereas its sign did not (ρ = −0.125, P = 0.391). The three-stratum ordering (immune &gt; metabolism ≈ inflammation) reproduced in both external cohorts and across endpoints.</p>
+<p><strong>Conclusions:</strong> Immune and stromal content is not an explanatory variable for the effect sizes of published NSCLC signatures; published signatures attenuate even less than random gene panels. Signature studies should report TME-adjusted effect sizes rather than treat TME content as a confounder to be removed.</p>
+<p><strong>Keywords:</strong> non-small cell lung cancer; prognostic signature; tumour microenvironment; ESTIMATE; calibration; reproducibility</p>
+<hr />
+<h2>1. Introduction</h2>
+<p>Bulk transcriptomic prognostic signatures for NSCLC continue to appear at a high rate, and a substantial fraction of them are anchored to inflammation or to metabolic reprogramming. In parallel, the composition of the tumour microenvironment (TME; the fraction of immune and stromal cells within a specimen) is itself associated with outcome and is a major determinant of bulk expression profiles [1]. Because signature scores and TME estimates are often strongly correlated, any association between a published signature and survival can be decomposed into a component carried by the signature itself and a component shared with TME content. Which component dominates has direct consequences: if TME content explains most of the association, a signature is largely a surrogate for an already measurable quantity; if it explains little, the signature carries information that TME estimates do not.</p>
+<p>Most signature publications do not report this decomposition. The omission is not incidental. Removing TME content from a signature's effect is a strong test, and the result is unfavourable in a way that is difficult to publish: reviewers reasonably ask whether the correction has any power at all, and without a positive control the answer cannot be given. Studies that do adjust for TME content tend to pool immune-anchored and metabolism-anchored signatures into a single estimate, which is itself problematic: an immune-anchored signature is expected to attenuate strongly after adjustment because it is, by construction, a proxy for immune content. Mixing such signatures into a pooled estimate inflates attenuation for the whole set, a form of predictive confounding rather than a circularity, but one that produces the same practical error.</p>
+<p>Here we report a calibration study rather than a new signature. We assembled 49 published inflammation-, metabolism- and immune-related prognostic signatures under rules fixed before analysis, quantified how much each signature's effect size changed after adjustment for tumour purity and immune/stromal content, and surrounded that estimate with positive and negative controls, a random-panel null distribution, two independent external cohorts and two additional survival endpoints. Our question is narrow and deliberately so: not whether published signatures are valid, but whether immune and stromal content explains their effect sizes.</p>
+<hr />
+<h2>2. Methods</h2>
+<h3>2.1 Signature identification and the three-stratum framework</h3>
+<p>Signatures were collected in four waves, and every step is reported at the level of individual records so that the funnel closes exactly.</p>
+<p>Wave 1 (W1) comprised 13 signatures identified in a preregistered search.</p>
+<p>Wave 2 (W2) expanded the metabolism stratum with six Europe PMC queries restricted to 2020 onward, anchored on amino acid, cholesterol, glycolysis, glutamine and energy metabolism: 767 records, 538 after de-duplication, 431 after applying the eligibility filter (PMCID present, absent from the existing list), 99 retained as tier A on the basis of a readable gene list in the abstract, and 62 sent to full-text extraction. Of these 62, 28 were included, 26 were excluded with an individually recorded reason, and 8 were never scored: six because the full text yielded no verifiable gene list and two because the record could not be retrieved (HTTP 500).</p>
+<p>Wave 3 (W3) targeted the inflammation stratum with eight inflammation-specific queries: 1,139 hits, of which 851 were retrieved because one query returned 788 hits and the API returned only the first 500; 605 new candidates; 74 retained as tier A; 20 excluded because the title anchored an immune construct and 6 because the construct lay outside inflammation; 48 sent to full-text extraction. These 48 partition exactly: 2 included; 6 excluded with individually recorded reasons, three of which had a verifiable gene list and three of which failed the stated-count check as well as the construct check; 4 that had a verifiable list but no documented inflammation or chemokine provenance; and 36 that yielded no scorable record (25 without a verifiable gene list, 4 without a stated gene count, 5 with a count mismatch, 2 unretrievable). Only 16 of the 48 carried documentary evidence that the candidate pool derived from an inflammation or chemokine gene set, and only 9 produced a verifiable list with a matching stated count, which is why the stratum is small.</p>
+<p>Wave 4 (W4) re-examined the 20 immune-anchored candidates that the construct rule had excluded from the main analysis, 16 of which had a verifiable gene list; 6 were included as a separate immune stratum and 10 excluded with recorded reasons.</p>
+<p>Two rules not present in the original eligibility criteria were introduced in W2 and are disclosed here. First, signatures whose title anchored an explicitly immune-related construct (immune-related genes, immune-related signature, immune checkpoint) were <strong>not</strong> admitted to the main analysis; in W4 these were adjudicated separately as the immune stratum rather than discarded, because adjusting an immune signature for immune content is expected to attenuate it by construction and pooling such signatures with metabolism signatures would bias the pooled estimate. Second, signatures whose construct fell outside inflammation and nutrition/metabolism (ferroptosis, cuproptosis, disulfidptosis, pyroptosis, autophagy, m6A, hypoxia, ECM/CAF, lysosome, drug tolerance, DNA repair) were excluded regardless of statistical performance.</p>
+<p>The final set comprised 49 signatures: 11 inflammation-related, 32 metabolism-related and 6 immune-related (W1 13, W2 28, W3 2, W4 6; Fig 1). The registry, the four amendment documents and the SHA-256 hashes of each wave are provided as supplementary material. Every candidate that entered the analysis has a registry row, every exclusion has a recorded reason, and every record that could not be scored is listed with its extraction status. No signature was removed on the basis of its result.</p>
+<h3>2.2 Cohorts</h3>
+<p>The primary cohort was TCGA lung adenocarcinoma (LUAD). Expression (log2 FPKM, Entrez-mapped to gene symbols) was combined with TCGA-CDR clinical data [2] and ESTIMATE scores [1]. The analysis set comprised 482 patients with 177 deaths after requiring non-missing age, sex, stage and (for M3) ImmuneScore and StromalScore.</p>
+<p>Two independent cohorts were used for directional replication: GSE68465 (Director's Challenge, LUAD, HG-U133A; 12,545 genes; 439 patients with complete covariate data, 235 deaths) and GSE31210 (Japanese LUAD, stages IA–II, HG-U133 Plus 2; 16,504 genes; 226 patients with complete data, 35 deaths; age unavailable), both obtained through ArrayExpress mirrors of the GEO series [7–9]. A histology check used TCGA lung squamous cell carcinoma (LUSC; 482 patients, 209 deaths).</p>
+<h3>2.3 Signature scoring</h3>
+<p>For each signature, genes present on the expression platform were selected and z-scored across samples; the score was the mean of the z-scored values across genes, standardised across samples. Signatures with fewer than two available genes were not scored. Gene coverage was recorded for every signature–cohort pair.</p>
+<h3>2.4 Adjustment models</h3>
+<p>Four nested Cox proportional hazards models were fitted for overall survival: M0, signature score alone; M1, score + age + sex + stage (early vs late); M2, M1 + tumour purity; M3, M1 + ImmuneScore + StromalScore. Because purity and the ESTIMATE scores were collinear (Spearman ρ = −1.000) and the M2 and M3 signature coefficients were nearly identical (r = 0.998), M2 carried no independent information; the primary contrast was therefore M1 versus M3, and M2 results are reported in supplementary material only. Proportional hazards were checked with scaled Schoenfeld residuals.</p>
+<h3>2.5 Attenuation estimator and its validity boundary</h3>
+<p>Attenuation was defined on the log-hazard scale as A = 1 − β<sub>M3</sub>/β<sub>M1</sub>, so that A &gt; 0 indicates shrinkage after adjustment, A &lt; 0 indicates enlargement, and A &gt; 1 or A &lt; 0 with |A| &gt; 100% indicates that β<sub>M1</sub> was close to zero and the ratio is numerically unstable. Nine signatures met the |A| &gt; 100% criterion; all had a non-significant M1 coefficient. For this reason every summary is reported twice: over all signatures, and over the subset with a nominally significant M1 coefficient (P &lt; 0.05), the only subset in which the ratio is interpretable. The latter subset is labelled exploratory throughout.</p>
+<h3>2.6 Uncertainty and multiplicity</h3>
+<p>Confidence intervals for medians were obtained by cluster bootstrap over signatures (5,000 resamples, seed 20261020) rather than over patients, because the unit of inference is the signature. Differences between strata were bootstrapped with the same scheme. Benjamini–Hochberg correction was applied across all 49 signatures for each model, so that q values reflect the full set.</p>
+<h3>2.7 Control axes and the random-panel null</h3>
+<p>Three control axes were scored with the same pipeline: a lymphocyte/cytotoxic axis (16 genes, expected to be a strong proxy for ImmuneScore), a neutrophil axis (16 genes) and a nutrition/liver-derived axis (16 genes, expected to be unrelated to immune content). For each of the 49 signatures, 200 random gene panels of identical size were drawn from the expressed transcriptome, the full M1→M3 pipeline was re-run on each panel, and the observed attenuation was placed in the resulting distribution as a percentile. Deviation from uniformity was assessed by Kolmogorov–Smirnov distance against U(0,1); because the 49 percentiles derive from the same patient sample and are therefore not independent, the associated P value is reported as descriptive only.</p>
+<h3>2.8 External directional replication</h3>
+<p>The full pipeline (same genes, same scoring, same M1 and M3, same estimator) was re-run in GSE68465 and GSE31210. Because the ESTIMATE package was not obtainable at the time of analysis, stromal and immune scores in these cohorts were recomputed from the 141-gene stromal and 141-gene immune signatures published with the original method [1], using single-sample GSEA as implemented in the GSVA package [3,4]. A linear rescaling of a covariate does not change the coefficient of the signature in a Cox model, so the attenuation ratio is invariant to this substitution; only the absolute scale of the scores differs from the official implementation. Age was available in GSE68465 but not in GSE31210 (all 226 records missing), so the GSE31210 M1 model omitted age; one signature (SIG26) had no gene present on either array platform and therefore no external value. This analysis was post hoc and is labelled as such.</p>
+<h3>2.9 Endpoint sensitivity and histology check</h3>
+<p>Overall survival was the primary endpoint. Progression-free interval (PFI) and disease-specific survival (DSS) were analysed with identical models in 482 and 447 patients respectively. The full pipeline was also re-run in TCGA-LUSC to ask whether the directionality was histology-specific; this analysis was post hoc and its interpretation is restricted as described in Results.</p>
+<h3>2.10 Software</h3>
+<p>Analyses used R 4.6.1 (survival, data.table, GSVA) and Python 3.13 for reporting. Every number in this manuscript is generated by scripts that read the result tables directly; no value was transcribed by hand. Scripts, registries and hash records are provided as supplementary material.</p>
+<hr />
+<h2>3. Results</h2>
+<h3>3.1 The signature set, and why the inflammation stratum is small</h3>
+<p>The 49 included signatures contributed 11 inflammation, 32 metabolism and 6 immune signatures. The inflammation stratum proved resistant to expansion: eight inflammation-specific queries produced 1,139 hits, 851 retrieved records, 605 new candidates and 74 with a readable gene list, but only 16 had documentary evidence that the candidate pool derived from an inflammation or chemokine gene set, and 2 survived manual adjudication. The structural reason is that, in the NSCLC signature literature, inflammation is almost always published as <em>immune-related</em>: of the 74 tier-A candidates, 20 were excluded because their titles anchored an immune construct, and 16 of those 20 nevertheless contained a usable gene list. Inflammation as a construct has been absorbed by the immune construct in this literature, which is precisely why immune confounding is easily mistaken for an inflammation effect.</p>
+<h3>3.2 Main result: no systematic direction</h3>
+<p>Across the 49 signatures, median attenuation was −1.4% (95% CI −7.4% to +1.8%). Direction was close to balanced: 21 signatures shrank, 25 grew and 3 reversed sign. Restricting to the 32 signatures with a nominally significant unadjusted coefficient, the split was 17 shrinking versus 15 growing (exact two-sided binomial P = 0.86). Adjustment therefore had no systematic direction. The same picture holds at the level of false discovery: 31 signatures were significant at q &lt; 0.05 before adjustment and 31 after, with two losses and two gains. The widely expected pattern of a class-wide loss of significance did not occur, which argues against the "unmasking" narrative in which published signatures are predominantly TME artefacts (Fig 2).</p>
+<h3>3.3 The control axes confirm that the pipeline has power</h3>
+<p>The lymphocyte axis correlated with ImmuneScore at ρ = 0.859 and attenuated by 68.9% after adjustment (P changed from 0.053 to 0.775): the same correction that leaves the 49 published signatures essentially unchanged abolishes a known immune proxy. The nutrition/liver-derived axis, which is unrelated to immune content (ρ = −0.098), attenuated by only 15.3%. The neutrophil axis had a near-zero unadjusted coefficient (β<sub>M1</sub> = 0.002, P = 0.976) and its attenuation (−5,831%) is a ratio artefact; it is listed but not interpreted (Fig 3b). The contrast between axes indicates that the pipeline detects confounding where confounding exists. A post hoc cross-check against ten alternative immune-deconvolution tools in the same cohort was concordant: the lymphocyte axis correlated significantly and positively with all ten (median Spearman ρ = 0.69) and the neutrophil axis with all ten (median ρ = 0.28), whereas the nutrition/liver-derived axis showed the weakest and least consistent association (median ρ = 0.16, 7 of 10 tools positive and significant); the control pattern is therefore not an artefact of the ESTIMATE implementation [5,6].</p>
+<h3>3.4 Published signatures attenuate less than random gene panels</h3>
+<p>For each signature, 200 random panels of matching size were passed through the same pipeline. The observed attenuation percentiles were not uniformly distributed but compressed toward the middle (median 0.440; 9 below 0.20, 37 between 0.20 and 0.80, 3 at or above 0.80; Kolmogorov–Smirnov D = 0.267, P = 0.001). In other words, the published signatures moved <em>less</em> under adjustment than randomly drawn gene sets did (Fig 3a). The three signatures in the upper tail (SIG01, SIG03, SIG26) all had non-significant unadjusted coefficients (P &gt; 0.6), so their large attenuation values are ratio artefacts rather than evidence of strong confounding. Two caveats apply and are stated in the figure: the percentiles derive from a single patient sample and are not independent, so the P value is descriptive; and the dispersion of the random-panel distribution is itself large: a small random panel can appear to shrink or grow dramatically.</p>
+<h3>3.5 Displacement magnitude tracks correlation; its direction does not</h3>
+<p>The preregistered hypothesis was that attenuation would increase with the correlation between a signature and ImmuneScore. The data support this for magnitude but not for direction: |Δβ| correlated with |ρ| at 0.445, remained associated after controlling for |β<sub>M1</sub>| (partial ρ = 0.373, P = 0.009), while the signed attenuation was unrelated to ρ (ρ = −0.125, P = 0.391). The correlation between |Δβ| and |β<sub>M1</sub>| was negative (−0.355), excluding the trivial explanation that large effects move more. Adjustment therefore pushes effect sizes by an amount proportional to how strongly a signature tracks immune content, but pushes them in inconsistent directions. This is why the correct statement is not "adjustment weakens signatures" but "adjustment moves signatures according to their immune correlation, in either direction".</p>
+<h3>3.6 Three strata, and two preregistered predictions</h3>
+<p>Two directional predictions were registered before analysis. P1 anticipated greater attenuation in the inflammation stratum than in the metabolism stratum, on the grounds that inflammation signatures correlate more strongly with ImmuneScore (median |ρ| 0.482 vs 0.146). P1 was not supported and in fact ran in the opposite direction: the difference (inflammation minus metabolism) was −10.3% (95% CI −109.6% to +22.5%). P2 anticipated greater attenuation in the immune stratum than in either other stratum. The point estimates were in the predicted direction (immune minus inflammation +18.3%, 95% CI −75.0% to +118.8%; immune minus metabolism +8.1%, 95% CI −83.8% to +21.8%), but both intervals included zero, so P2 is not confirmed. The immune stratum itself (6 signatures) had median attenuation +8.4% (95% CI −84.8% to +20.5%), with 4 of 6 signatures attenuating, consistent in direction with the positive control but with an interval too wide to support inference at n = 6.</p>
+<h3>3.7 Directionality replicates externally, but only at the level of strata</h3>
+<p>In GSE68465 the immune stratum attenuated by 14.2% (4 of 6 signatures) and in GSE31210 by 5.3% (4 of 6); the inflammation stratum was negative in both (−5.5% and −2.4%) and the metabolism stratum was near zero (+1.3% and −1.5%). The ordering immune &gt; metabolism ≈ inflammation therefore reproduced in all three cohorts (Fig 4). Individual values, however, did not: the Spearman correlation between a signature's attenuation in TCGA and in GSE68465 was −0.014, and in GSE31210 0.006. The reproducible unit is the stratum-level pattern, not the per-signature number, which is consistent with most per-signature ratios being noise-dominated.</p>
+<h3>3.8 Endpoint sensitivity</h3>
+<p>Re-running the pipeline with PFI and DSS gave median attenuation of +0.3% (95% CI −4.0% to +2.4%) and +2.0% (95% CI −2.1% to +5.6%), against −1.3% for overall survival in the identical endpoint pipeline; counting reversals separately, the direction split was 24 shrinking, 22 growing and 3 reversing for PFI and 25, 21 and 3 for DSS, and the three-stratum ordering was identical across endpoints (immune +8.5%, +6.6%, +19.7%; metabolism near zero; inflammation −9.9%, −11.1%, −0.8%). Attenuation values correlated across endpoints (ρ = 0.418 for PFI vs OS, 0.639 for DSS vs OS) but not across cohorts, indicating that the variation in A is driven mainly by the cohort rather than by the endpoint.</p>
+<h3>3.9 Histology check: the denominator fails in LUSC</h3>
+<p>In TCGA-LUSC (482 patients, 209 deaths) none of the 49 signatures reached significance at q &lt; 0.05 and only five had a nominally significant unadjusted coefficient, with a Spearman correlation of −0.17 between the unadjusted coefficients in LUAD and LUSC. Because the denominator of A approaches zero in this cohort, the attenuation ratio is not defined and the cohort cannot be used for a directional test. Its direction counts (24 shrinking, 18 growing, 7 reversed) are reported as a side observation only. This is a limitation of the signature set's transportability, not evidence against the primary finding: the primary analysis concerns how much an existing effect changes, and requires that an effect exist.</p>
+<hr />
+<h2>4. Discussion</h2>
+<h3>4.1 Principal finding</h3>
+<p>In 49 published NSCLC signatures spanning inflammation, metabolism and immune constructs, adjustment for tumour purity and immune/stromal content changed effect sizes by a median of −1.4%, with a direction split close to 1:1 and no class-wide loss of significance. The same adjustment abolished a known immune proxy, so the null result is not a power failure. Immune and stromal content, in other words, is not the variable that explains why these signatures carry prognostic information.</p>
+<h3>4.2 Published signatures attenuate less than random panels</h3>
+<p>The most informative result of this study is not the median but the distribution. Random gene panels of matched size, pushed through the same pipeline, produced a wide spread of apparent attenuation, with frequent large apparent shrinkage or growth. The published signatures occupied the middle of that distribution more densely than chance would predict. Two readings are compatible with this. The favourable reading is that published signatures are not arbitrary gene lists: they behave more stably under adjustment than random sets, as expected if their association with outcome is partly independent of TME content. The methodological reading is that a single signature's attenuation carries little information on its own, because the sampling variability of the ratio is large; only the aggregate, and specifically the direction split, is interpretable. Both readings argue against the practice of judging a signature by whether it "survives" TME adjustment in a single cohort.</p>
+<h3>4.3 The three-stratum picture, and why the inflammation stratum is thin</h3>
+<p>The three-stratum ordering (immune signatures attenuating most, metabolism signatures not at all, inflammation signatures in between and slightly negative) reproduced in both external cohorts and across all three endpoints, although no single contrast reached significance and the immune stratum has only six members. The ordering is stable across cohorts even though per-signature values correlate at approximately zero; stratum-level behaviour is therefore a property of the construct, whereas per-signature attenuation is a property of the cohort.</p>
+<p>The inflammation stratum could not be expanded beyond 11 signatures, and the reason is informative rather than incidental. In this literature, inflammation is nearly always published as an immune construct: four-fifths of the inflammation-specific candidates that the construct rule excluded (16 of 20) carried a usable gene list but an immune title. Any study that anchors on "inflammation signatures" is therefore, in practice, sampling immune signatures, which is exactly the mechanism by which immune confounding is misattributed to inflammation.</p>
+<h3>4.4 Relation to previous work</h3>
+<p>Our results are consistent with, but distinct from, the literature on signature reproducibility. That literature documents that many published signatures do not validate in independent cohorts; we did not test validation and our data do not speak to it directly. What we tested is whether one specific, measurable quantity, TME content, accounts for the effect sizes that published signatures do report, and the answer is that it accounts for very little. The two findings are compatible: a signature can be non-reproducible across cohorts and still not be explained by TME content. Our histology check illustrates the distinction concretely: in LUSC the signatures largely failed to show an effect at all, which is a transportability problem, not an attenuation problem.</p>
+<h3>4.5 Implications and limitations</h3>
+<p>The practical implication is a reporting one. Because attenuation magnitude tracks the signature–ImmuneScore correlation while its direction does not, reporting a single adjusted hazard ratio without the unadjusted one, or reporting only the adjusted one, discards exactly the information that distinguishes a TME-driven signature from an independent one. We suggest that signature studies report the unadjusted and TME-adjusted coefficients together, and state the direction of change.</p>
+<p>Several limitations bound these conclusions. The primary cohort is a single TCGA cohort; the external cohorts replicate directionality but not per-signature values, and both are array-based with partial gene coverage. The post hoc components (signature expansion, external replication, endpoint sensitivity and the histology check) are labelled as such, and the expansion rules, although fixed before analysis, were written after the first wave of results was known. The signature pool is also bounded by what the searches could retrieve: one inflammation-specific query returned 788 hits of which the API exposed only the first 500, and 48 records that reached full-text extraction could not be converted into a scoreable signature (8 in W2; in W3, 36 that yielded no scorable record plus 4 with no documented pool provenance) for the reasons itemised in Methods. The inflammation stratum may therefore be incomplete: a limitation on the completeness of the construct, not on the estimates for the signatures that were included. The immune stratum contains six signatures, so its interval is wide by construction. The attenuation ratio is undefined when the unadjusted coefficient is near zero, which affects nine signatures and one control axis; summaries are therefore given both over all signatures and over the nominally significant subset. Purity and the ESTIMATE scores are collinear, so the purity model adds nothing and is relegated to supplementary material. Finally, the percentile analysis derives from a single patient sample and its P values are descriptive. These limitations qualify the precision of the estimates, not the direction of the conclusion.</p>
+<hr />
+<h2>5. Conclusion</h2>
+<p>Across 49 published NSCLC prognostic signatures, adjustment for immune and stromal content produced no systematic change in effect size, while the same adjustment abolished a known immune proxy. Immune and stromal content is therefore not an explanatory variable for these signatures, and published signatures attenuate even less than random gene panels. Signature studies should report TME-adjusted effect sizes alongside unadjusted ones and state the direction of change, rather than treating TME content as a confounder presumed to inflate their results.</p>
+<hr />
+<h2>References</h2>
+<blockquote>
+<p>All references (9 in-text methodological/data-source references + 49 signature references) passed dual-source verification (Europe PMC + CrossRef) on 2026-10-21, 0 issues; itemised records in <code>references_verified.md</code>; the signature references are also listed in Table 1.</p>
+</blockquote>
+<ol>
+<li>Yoshihara K, Shahmoradgoli M, Martínez E, Vegesna R, Kim H, Torres-Garcia W, et al. Inferring tumour purity and stromal and immune cell admixture from expression data. Nat Commun;4:2612. PMID 24113773. doi:10.1038/ncomms3612. <strong>[verified]</strong></li>
+<li>Liu J, Lichtenberg T, Hoadley KA, Poisson LM, Lazar AJ, Cherniack AD, et al. An Integrated TCGA Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics. Cell;173(2):400-416.e11. PMID 29625055. doi:10.1016/j.cell.2018.02.052. <strong>[verified; DOI corrected, the earlier record 10.1016/j.cell.2018.03.046 was a mis-quote]</strong></li>
+<li>Barbie DA, Tamayo P, Boehm JS, Kim SY, Moody SE, Dunn IF, et al. Systematic RNA interference reveals that oncogenic KRAS-driven cancers require TBK1. Nature;462(7269):108-112. PMID 19847166. doi:10.1038/nature08460. <strong>[verified]</strong></li>
+<li>Hänzelmann S, Castelo R, Guinney J. GSVA: gene set variation analysis for microarray and RNA-seq data. BMC Bioinformatics;14:7. PMID 23323831. doi:10.1186/1471-2105-14-7. <strong>[verified]</strong></li>
+<li>Becht E, Giraldo NA, Lacroix L, Buttard B, Elarouci N, Petitprez F, et al. Estimating the population abundance of tissue-infiltrating immune and stromal cell populations using gene expression. Genome Biol;17(1):218. PMID 27765066. doi:10.1186/s13059-016-1070-5. <strong>[verified]</strong></li>
+<li>Aran D, Hu Z, Butte AJ. xCell: digitally portraying the tissue cellular heterogeneity landscape. Genome Biol;18(1):220. PMID 29141660. doi:10.1186/s13059-017-1349-1. <strong>[verified]</strong></li>
+<li>Director's Challenge Consortium for the Molecular Classification of Lung Adenocarcinoma, Shedden K, Taylor JM, Enkemann SA, Tsao MS, Yeatman TJ, et al. Gene expression-based survival prediction in lung adenocarcinoma: a multi-site, blinded validation study. Nat Med;14(8):822-827. PMID 18641660. doi:10.1038/nm.1790. <strong>[verified]</strong></li>
+<li>Okayama H, Kohno T, Ishii Y, Shimada Y, Shiraishi K, Iwakawa R, et al. Identification of genes upregulated in ALK-positive and EGFR/KRAS/ALK-negative lung adenocarcinomas. Cancer Res;72(1):100-111. PMID 22080568. doi:10.1158/0008-5472.can-11-1403. <strong>[verified]</strong></li>
+<li>Athar A, Füllgrabe A, George N, Iqbal H, Huerta L, Ali A, et al. ArrayExpress update - from bulk to single-cell expression data. Nucleic Acids Res;47(D1):D711-D715. PMID 30357387. doi:10.1093/nar/gky964. <strong>[verified]</strong></li>
+</ol>
+<p>The 49 source references for SIG01–SIG49: PMID/DOI for each are given in Table 1 and <code>references_verified.md</code> (generated automatically from the four wave registries; all verified).</p>
+<hr />
+<h2>Figures and tables</h2>
+<ul>
+<li><strong>Fig 1</strong> (<code>figures/Fig1_flow.svg</code>) Four-wave signature inclusion flow: the funnel closes level by level, including the W3 retrieval truncation (788→500) and the disposition of the unscored records</li>
+<li><strong>Fig 2</strong> (<code>figures/Fig2_forest.svg</code>) M1→M3 forest plot of the 49 signatures (three stratum colours; extracted from the project report, legend anglicised, xmlns added)</li>
+<li><strong>Fig 3</strong> (<code>figures/Fig3_null_controls.svg</code>) a: random-panel percentile distribution (median 0.440, KS D = 0.267, P = 0.001); b: three control axes (lymphocyte 68.9%, nutrition 15.3%, neutrophil −5,831% ratio artefact)</li>
+<li><strong>Fig 4</strong> (<code>figures/Fig4_cohorts_strata.svg</code>) Median A by three cohorts × three strata (immune &gt; metabolism ≈ inflammation reproduced in all three)</li>
+<li>
+<p>Captions: <code>manuscript/figure_captions.md</code> (English)</p>
+</li>
+<li>
+<p><strong>Table 1</strong> (<code>tables.xlsx</code> / <code>tables.md</code>) List of the 49 signatures (SIG/PMID/DOI/construct/wave/gene count/pool provenance): generated from the registries; all PMID/DOI verified</p>
+</li>
+<li><strong>Table 2</strong> (<code>tables.xlsx</code> / <code>tables.md</code>) Multi-calibre summary (ALL/W1–W4/three strata, with bootstrap CIs): generated</li>
+<li><strong>Table 3</strong> (<code>tables.xlsx</code> / <code>tables.md</code>) External re-estimation and endpoint sensitivity summary: generated</li>
+<li><strong>Supplementary</strong> per-signature full-field table, exclusion list, LUSC check table, low-coverage list</li>
+</ul>
+<div class="appendix">
+<h2>Appendix A. Figures</h2>
+<div class="figbox"><div class="figbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" width="680" role="img" aria-label="Fig 1 inclusion flow">
+<rect width="680" height="500" fill="#ffffff"/>
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="none"/><line x1="0" y1="0" x2="0" y2="6" stroke="#d4a72c" stroke-width="2"/></pattern></defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#1f2937">
+<text x="93.0" y="26.0" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="bold">Wave 1 (pilot)</text>
+<text x="265.0" y="26.0" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="bold">Wave 2 (metabolism)</text>
+<text x="437.0" y="26.0" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="bold">Wave 3 (inflammation)</text>
+<text x="609.0" y="26.0" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="bold">Wave 4 (immune)</text>
+<rect x="14.0" y="40.0" width="158.0" height="40.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="93.0" y="53.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">13 signatures</text>
+<text x="93.0" y="64.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">preregistered search</text>
+<line x1="93.0" y1="80.0" x2="93.0" y2="94.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="93.0,94.0 89.5,88.0 96.5,88.0" fill="#6b7280"/>
+<rect x="14.0" y="94.0" width="158.0" height="30.0" fill="#fee2e2" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="93.0" y="107.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">6 excluded</text>
+<text x="93.0" y="118.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">(recorded separately)</text>
+<text x="93.0" y="146.0" font-size="8.2" text-anchor="middle" fill="#6b7280" font-weight="normal">pilot set only; 87 candidates</text>
+<text x="93.0" y="157.0" font-size="8.2" text-anchor="middle" fill="#6b7280" font-weight="normal">screened in wave 1</text>
+<rect x="186.0" y="40.0" width="158.0" height="26.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="265.0" y="56.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">767 records (6 queries, all retrieved)</text>
+<line x1="265.0" y1="66.0" x2="265.0" y2="78.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="265.0,78.0 261.5,72.0 268.5,72.0" fill="#6b7280"/>
+<rect x="186.0" y="78.0" width="158.0" height="24.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="265.0" y="93.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">538 after de-duplication</text>
+<line x1="265.0" y1="102.0" x2="265.0" y2="114.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="265.0,114.0 261.5,108.0 268.5,108.0" fill="#6b7280"/>
+<rect x="186.0" y="114.0" width="158.0" height="24.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="265.0" y="129.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">431 after eligibility filter</text>
+<line x1="265.0" y1="138.0" x2="265.0" y2="150.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="265.0,150.0 261.5,144.0 268.5,144.0" fill="#6b7280"/>
+<rect x="186.0" y="150.0" width="158.0" height="24.0" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="265.0" y="165.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">99 tier A (abstract gene list)</text>
+<line x1="265.0" y1="174.0" x2="265.0" y2="186.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="265.0,186.0 261.5,180.0 268.5,180.0" fill="#6b7280"/>
+<rect x="186.0" y="186.0" width="158.0" height="24.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="265.0" y="201.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">62 to full-text extraction</text>
+<line x1="265.0" y1="210.0" x2="265.0" y2="224.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="265.0,224.0 261.5,218.0 268.5,218.0" fill="#6b7280"/>
+<rect x="186.0" y="224.0" width="158.0" height="56.0" fill="#dbeafe" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="265.0" y="237.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">28 included</text>
+<text x="265.0" y="248.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">26 excluded (reason per record)</text>
+<text x="265.0" y="260.2" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">8 not scored: 6 no list,</text>
+<text x="265.0" y="271.8" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">2 not retrievable</text>
+<rect x="358.0" y="40.0" width="158.0" height="42.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="437.0" y="53.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">1,139 hits (8 queries)</text>
+<text x="437.0" y="64.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">851 retrieved</text>
+<text x="437.0" y="76.2" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">(Q6: 788 hits, API cap 500)</text>
+<line x1="437.0" y1="82.0" x2="437.0" y2="94.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="437.0,94.0 433.5,88.0 440.5,88.0" fill="#6b7280"/>
+<rect x="358.0" y="94.0" width="158.0" height="24.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="437.0" y="109.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">605 new candidates</text>
+<line x1="437.0" y1="118.0" x2="437.0" y2="130.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="437.0,130.0 433.5,124.0 440.5,124.0" fill="#6b7280"/>
+<rect x="358.0" y="130.0" width="158.0" height="24.0" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="437.0" y="145.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">74 tier A</text>
+<line x1="437.0" y1="154.0" x2="437.0" y2="166.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="437.0,166.0 433.5,160.0 440.5,160.0" fill="#6b7280"/>
+<rect x="358.0" y="166.0" width="158.0" height="40.0" fill="#fee2e2" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="437.0" y="179.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">26 excluded at rule stage:</text>
+<text x="437.0" y="190.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">20 immune-anchored (CIRC),</text>
+<text x="437.0" y="202.2" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">6 outside construct (I3-OUT)</text>
+<line x1="437.0" y1="206.0" x2="437.0" y2="218.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="437.0,218.0 433.5,212.0 440.5,212.0" fill="#6b7280"/>
+<rect x="358.0" y="218.0" width="158.0" height="24.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="437.0" y="233.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">48 to full-text extraction</text>
+<line x1="437.0" y1="242.0" x2="437.0" y2="256.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="437.0,256.0 433.5,250.0 440.5,250.0" fill="#6b7280"/>
+<rect x="358.0" y="256.0" width="158.0" height="68.0" fill="#dbeafe" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="437.0" y="269.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">2 included</text>
+<text x="437.0" y="280.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">6 excluded (reason per record)</text>
+<text x="437.0" y="292.2" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">4 verifiable list, no pool evidence</text>
+<text x="437.0" y="303.8" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">36 not scorable (25/4/5/2)</text>
+<rect x="530.0" y="40.0" width="158.0" height="40.0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="609.0" y="53.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">20 candidates excluded by</text>
+<text x="609.0" y="64.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">the immune-construct rule</text>
+<text x="609.0" y="76.2" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">(re-examined, no new search)</text>
+<line x1="609.0" y1="80.0" x2="609.0" y2="92.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="609.0,92.0 605.5,86.0 612.5,86.0" fill="#6b7280"/>
+<rect x="530.0" y="92.0" width="158.0" height="24.0" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="609.0" y="107.4" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">16 with a verifiable gene list</text>
+<line x1="609.0" y1="116.0" x2="609.0" y2="128.0" stroke="#6b7280" stroke-width="1"/>
+<polygon points="609.0,128.0 605.5,122.0 612.5,122.0" fill="#6b7280"/>
+<rect x="530.0" y="128.0" width="158.0" height="52.0" fill="#dbeafe" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<text x="609.0" y="141.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">6 included</text>
+<text x="609.0" y="152.6" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">10 excluded (reason per record)</text>
+<text x="609.0" y="164.2" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">adjudicated before any</text>
+<text x="609.0" y="175.8" font-size="9.0" text-anchor="middle" fill="#6b7280" font-weight="normal">immune-stratum result</text>
+<rect x="14.0" y="376.0" width="652.0" height="34.0" fill="#f8fafc" stroke="#6b7280" stroke-width="1" rx="3"/>
+<text x="340.0" y="390.0" font-size="11.5" text-anchor="middle" fill="#1f2937" font-weight="bold">Final set: 49 signatures</text>
+<text x="340.0" y="404.0" font-size="9.2" text-anchor="middle" fill="#6b7280" font-weight="normal">11 inflammation-related + 32 metabolism-related + 6 immune-related   (W1 13 · W2 28 · W3 2 · W4 6)</text>
+<text x="340.0" y="428.0" font-size="8.8" text-anchor="middle" fill="#6b7280" font-weight="normal">Every exclusion has a recorded reason; every unscored record is listed with its extraction status.</text>
+<text x="340.0" y="441.0" font-size="8.2" text-anchor="middle" fill="#9aa3ad" font-weight="normal">All numbers read directly from the registries, screening tables and extraction logs (amendment 06).</text>
+<rect x="14.0" y="458.0" width="12.0" height="12.0" fill="#c2410c" stroke="none" stroke-width="1" rx="2"/>
+<text x="31.0" y="468.0" font-size="9.4" text-anchor="start" fill="#6b7280" font-weight="normal">inflammation (11)</text>
+<rect x="164.0" y="458.0" width="12.0" height="12.0" fill="#1d4ed8" stroke="none" stroke-width="1" rx="2"/>
+<text x="181.0" y="468.0" font-size="9.4" text-anchor="start" fill="#6b7280" font-weight="normal">metabolism (32)</text>
+<rect x="314.0" y="458.0" width="12.0" height="12.0" fill="#6d28d9" stroke="none" stroke-width="1" rx="2"/>
+<text x="331.0" y="468.0" font-size="9.4" text-anchor="start" fill="#6b7280" font-weight="normal">immune (6)</text>
+</g></svg></div></div><div class="figcap"><p><strong>Fig 1. Identification of the 49 signatures.</strong> Signatures were collected in four waves under rules fixed before
+analysis (amendments 01–04). Boxes give the number of records at each step; every exclusion carries an individually
+recorded reason and every record that could not be scored is listed with its extraction status. In Wave 3 one query
+returned 788 hits of which the API exposed only the first 500, so 851 of 1,139 hits were screened; this is disclosed
+as a limitation rather than repaired post hoc. Stratum colours are used consistently in Figs 2 and 4.</p></div><div class="figbox"><div class="figbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 443" width="680" role="img" aria-label="Effect-size displacement of 49 signatures from M1 to M3"><rect x="0" y="0" width="680" height="443" fill="#ffffff"/>
+<line x1="292.4" y1="20" x2="292.4" y2="400.6" stroke="#c3ccd6" stroke-dasharray="3 3"/>
+<text x="292.4" y="15" font-size="9.5" fill="#6b7684" text-anchor="middle">0</text>
+<text x="6" y="36.6" font-size="7.2" fill="#5b6673">SIG11</text>
+<line x1="390.0" y1="34.0" x2="391.3" y2="34.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="390.0" cy="34.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="391.3" cy="34.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="44.0" font-size="7.2" fill="#5b6673">SIG12</text>
+<line x1="195.1" y1="41.4" x2="198.3" y2="41.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="195.1" cy="41.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="198.3" cy="41.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="51.4" font-size="7.2" fill="#5b6673">SIG07</text>
+<line x1="198.5" y1="48.8" x2="189.2" y2="48.8" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="198.5" cy="48.8" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="189.2" cy="48.8" r="2.2" fill="#c2410c"/>
+<text x="6" y="58.8" font-size="7.2" fill="#5b6673">SIG10</text>
+<line x1="382.6" y1="56.2" x2="384.8" y2="56.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="382.6" cy="56.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="384.8" cy="56.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="66.2" font-size="7.2" fill="#5b6673">SIG08</text>
+<line x1="377.6" y1="63.6" x2="380.7" y2="63.6" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="377.6" cy="63.6" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="380.7" cy="63.6" r="2.2" fill="#c2410c"/>
+<text x="6" y="73.6" font-size="7.2" fill="#5b6673">SIG05</text>
+<line x1="341.9" y1="71.0" x2="381.1" y2="71.0" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="341.9" cy="71.0" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="381.1" cy="71.0" r="2.2" fill="#c2410c"/>
+<text x="6" y="81.0" font-size="7.2" fill="#5b6673">SIG02</text>
+<line x1="246.4" y1="78.4" x2="256.5" y2="78.4" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="246.4" cy="78.4" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="256.5" cy="78.4" r="2.2" fill="#c2410c"/>
+<text x="6" y="88.4" font-size="7.2" fill="#5b6673">SIG13</text>
+<line x1="255.3" y1="85.8" x2="258.6" y2="85.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="255.3" cy="85.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="258.6" cy="85.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="95.8" font-size="7.2" fill="#5b6673">SIG04</text>
+<line x1="318.7" y1="93.2" x2="360.4" y2="93.2" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="318.7" cy="93.2" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="360.4" cy="93.2" r="2.2" fill="#c2410c"/>
+<text x="6" y="103.2" font-size="7.2" fill="#5b6673">SIG09</text>
+<line x1="297.7" y1="100.6" x2="307.2" y2="100.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="297.7" cy="100.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="307.2" cy="100.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="110.6" font-size="7.2" fill="#5b6673">SIG06</text>
+<line x1="297.0" y1="108.0" x2="306.7" y2="108.0" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="297.0" cy="108.0" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="306.7" cy="108.0" r="2.2" fill="#c2410c"/>
+<text x="6" y="118.0" font-size="7.2" fill="#5b6673">SIG03</text>
+<line x1="288.5" y1="115.4" x2="328.9" y2="115.4" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="288.5" cy="115.4" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="328.9" cy="115.4" r="2.2" fill="#c2410c"/>
+<text x="6" y="125.4" font-size="7.2" fill="#5b6673">SIG01</text>
+<line x1="289.3" y1="122.8" x2="328.2" y2="122.8" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="289.3" cy="122.8" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="328.2" cy="122.8" r="2.2" fill="#c2410c"/>
+<text x="6" y="132.8" font-size="7.2" fill="#5b6673">SIG34</text>
+<line x1="434.7" y1="130.2" x2="434.1" y2="130.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="434.7" cy="130.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="434.1" cy="130.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="140.2" font-size="7.2" fill="#5b6673">SIG15</text>
+<line x1="418.2" y1="137.6" x2="430.9" y2="137.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="418.2" cy="137.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="430.9" cy="137.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="147.6" font-size="7.2" fill="#5b6673">SIG38</text>
+<line x1="416.4" y1="145.0" x2="425.5" y2="145.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="416.4" cy="145.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="425.5" cy="145.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="155.0" font-size="7.2" fill="#5b6673">SIG24</text>
+<line x1="412.9" y1="152.4" x2="418.2" y2="152.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="412.9" cy="152.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="418.2" cy="152.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="162.4" font-size="7.2" fill="#5b6673">SIG28</text>
+<line x1="412.9" y1="159.8" x2="409.7" y2="159.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="412.9" cy="159.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="409.7" cy="159.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="169.8" font-size="7.2" fill="#5b6673">SIG39</text>
+<line x1="408.3" y1="167.2" x2="403.2" y2="167.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="408.3" cy="167.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="403.2" cy="167.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="177.2" font-size="7.2" fill="#5b6673">SIG35</text>
+<line x1="407.7" y1="174.6" x2="405.1" y2="174.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="407.7" cy="174.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="405.1" cy="174.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="184.6" font-size="7.2" fill="#5b6673">SIG21</text>
+<line x1="407.7" y1="182.0" x2="407.2" y2="182.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="407.7" cy="182.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="407.2" cy="182.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="192.0" font-size="7.2" fill="#5b6673">SIG41</text>
+<line x1="399.2" y1="189.4" x2="398.6" y2="189.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="399.2" cy="189.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="398.6" cy="189.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="199.4" font-size="7.2" fill="#5b6673">SIG25</text>
+<line x1="394.4" y1="196.8" x2="391.8" y2="196.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="394.4" cy="196.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="391.8" cy="196.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="206.8" font-size="7.2" fill="#5b6673">SIG29</text>
+<line x1="378.7" y1="204.2" x2="377.1" y2="204.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="378.7" cy="204.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="377.1" cy="204.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="214.2" font-size="7.2" fill="#5b6673">SIG17</text>
+<line x1="377.1" y1="211.6" x2="385.0" y2="211.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="377.1" cy="211.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="385.0" cy="211.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="221.6" font-size="7.2" fill="#5b6673">SIG22</text>
+<line x1="374.8" y1="219.0" x2="374.5" y2="219.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="374.8" cy="219.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="374.5" cy="219.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="229.0" font-size="7.2" fill="#5b6673">SIG23</text>
+<line x1="368.0" y1="226.4" x2="367.6" y2="226.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="368.0" cy="226.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="367.6" cy="226.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="236.4" font-size="7.2" fill="#5b6673">SIG18</text>
+<line x1="225.2" y1="233.8" x2="222.9" y2="233.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="225.2" cy="233.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="222.9" cy="233.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="243.8" font-size="7.2" fill="#5b6673">SIG27</text>
+<line x1="351.9" y1="241.2" x2="362.8" y2="241.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="351.9" cy="241.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="362.8" cy="241.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="251.2" font-size="7.2" fill="#5b6673">SIG36</text>
+<line x1="344.3" y1="248.6" x2="352.1" y2="248.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="344.3" cy="248.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="352.1" cy="248.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="258.6" font-size="7.2" fill="#5b6673">SIG40</text>
+<line x1="343.8" y1="256.0" x2="341.1" y2="256.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="343.8" cy="256.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="341.1" cy="256.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="266.0" font-size="7.2" fill="#5b6673">SIG16</text>
+<line x1="328.0" y1="263.4" x2="327.2" y2="263.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="328.0" cy="263.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="327.2" cy="263.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="273.4" font-size="7.2" fill="#5b6673">SIG37</text>
+<line x1="319.0" y1="270.8" x2="320.7" y2="270.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="319.0" cy="270.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="320.7" cy="270.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="280.8" font-size="7.2" fill="#5b6673">SIG32</text>
+<line x1="315.3" y1="278.2" x2="340.3" y2="278.2" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="315.3" cy="278.2" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="340.3" cy="278.2" r="2.2" fill="#c2410c"/>
+<text x="6" y="288.2" font-size="7.2" fill="#5b6673">SIG20</text>
+<line x1="269.7" y1="285.6" x2="270.9" y2="285.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="269.7" cy="285.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="270.9" cy="285.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="295.6" font-size="7.2" fill="#5b6673">SIG30</text>
+<line x1="270.9" y1="293.0" x2="267.0" y2="293.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="270.9" cy="293.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="267.0" cy="293.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="303.0" font-size="7.2" fill="#5b6673">SIG19</text>
+<line x1="307.8" y1="300.4" x2="310.9" y2="300.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="307.8" cy="300.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="310.9" cy="300.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="310.4" font-size="7.2" fill="#5b6673">SIG33</text>
+<line x1="306.5" y1="307.8" x2="305.7" y2="307.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="306.5" cy="307.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="305.7" cy="307.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="317.8" font-size="7.2" fill="#5b6673">SIG14</text>
+<line x1="301.8" y1="315.2" x2="307.2" y2="315.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="301.8" cy="315.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="307.2" cy="315.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="325.2" font-size="7.2" fill="#5b6673">SIG26</text>
+<line x1="283.6" y1="322.6" x2="294.9" y2="322.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="283.6" cy="322.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="294.9" cy="322.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="332.6" font-size="7.2" fill="#5b6673">SIG31</text>
+<line x1="291.5" y1="330.0" x2="280.6" y2="330.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="291.5" cy="330.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="280.6" cy="330.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="340.0" font-size="7.2" fill="#5b6673">SIG42</text>
+<line x1="209.4" y1="337.4" x2="165.3" y2="337.4" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="209.4" cy="337.4" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="165.3" cy="337.4" r="2.2" fill="#c2410c"/>
+<text x="6" y="347.4" font-size="7.2" fill="#5b6673">SIG43</text>
+<line x1="347.6" y1="344.8" x2="350.7" y2="344.8" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="347.6" cy="344.8" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="350.7" cy="344.8" r="2.2" fill="#c2410c"/>
+<text x="6" y="354.8" font-size="7.2" fill="#5b6673">SIG45</text>
+<line x1="372.8" y1="352.2" x2="371.6" y2="352.2" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="372.8" cy="352.2" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="371.6" cy="352.2" r="2.2" fill="#6d28d9"/>
+<text x="6" y="362.2" font-size="7.2" fill="#5b6673">SIG48</text>
+<line x1="356.3" y1="359.6" x2="377.1" y2="359.6" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="356.3" cy="359.6" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="377.1" cy="359.6" r="2.2" fill="#6d28d9"/>
+<text x="6" y="369.6" font-size="7.2" fill="#5b6673">SIG46</text>
+<line x1="344.4" y1="367.0" x2="336.5" y2="367.0" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="344.4" cy="367.0" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="336.5" cy="367.0" r="2.2" fill="#6d28d9"/>
+<text x="6" y="377.0" font-size="7.2" fill="#5b6673">SIG49</text>
+<line x1="247.9" y1="374.4" x2="258.3" y2="374.4" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="247.9" cy="374.4" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="258.3" cy="374.4" r="2.2" fill="#6d28d9"/>
+<text x="6" y="384.4" font-size="7.2" fill="#5b6673">SIG44</text>
+<line x1="324.3" y1="381.8" x2="318.7" y2="381.8" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="324.3" cy="381.8" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="318.7" cy="381.8" r="2.2" fill="#6d28d9"/>
+<text x="6" y="391.8" font-size="7.2" fill="#5b6673">SIG47</text>
+<line x1="297.5" y1="389.2" x2="304.5" y2="389.2" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="297.5" cy="389.2" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="304.5" cy="389.2" r="2.2" fill="#6d28d9"/>
+<text x="150" y="421" font-size="9.5" fill="#6b7684">log-HR per SD (open: M1, filled: M3)</text>
+<circle cx="390" cy="417" r="2.4" fill="#c2410c"/><text x="398" y="421" font-size="9" fill="#6b7684">Inflammation (11)</text>
+<circle cx="476" cy="417" r="2.4" fill="#1d4ed8"/><text x="484" y="421" font-size="9" fill="#6b7684">Metabolism (32)</text>
+<circle cx="562" cy="417" r="2.4" fill="#6d28d9"/><text x="570" y="421" font-size="9" fill="#6b7684">Immune (6)</text>
+</svg></div></div><div class="figcap"><p><strong>Fig 2. Effect-size displacement from M1 to M3 for the 49 signatures.</strong> Each row is one signature; lines connect
+the unadjusted (open circle) and adjusted (filled circle) log-hazard ratio per SD of the signature score in
+TCGA-LUAD (n = 482, 177 deaths). Orange-red: inflammation stratum (11); blue: metabolism stratum (32); purple:
+immune stratum (6). Nine signatures with |A| &gt; 100% (all with a non-significant M1 coefficient) and three with a
+direction reversal are retained and shown as plotted; the ratio is interpretable only in the 32 signatures with a
+nominally significant M1 coefficient.</p></div><div class="figbox"><div class="figbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" role="img" aria-label="Fig 3 null distribution and control axes">
+<rect width="680" height="320" fill="#ffffff"/>
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="none"/><line x1="0" y1="0" x2="0" y2="6" stroke="#d4a72c" stroke-width="2"/></pattern></defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#1f2937">
+<text x="14.0" y="24.0" font-size="12" text-anchor="start" fill="#1f2937" font-weight="bold">a</text>
+<text x="30.0" y="24.0" font-size="10" text-anchor="start" fill="#1f2937" font-weight="bold">Attenuation percentile vs 200 matched random panels</text>
+<rect x="65.0" y="151.5" width="23.0" height="90.5" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="76.5" y="147.5" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">6</text>
+<rect x="90.0" y="196.8" width="23.0" height="45.2" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="101.5" y="192.8" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">3</text>
+<rect x="115.0" y="196.8" width="23.0" height="45.2" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="126.5" y="192.8" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">3</text>
+<rect x="140.0" y="136.5" width="23.0" height="105.5" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="151.5" y="132.5" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">7</text>
+<rect x="165.0" y="46.0" width="23.0" height="196.0" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="176.5" y="42.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">13</text>
+<rect x="190.0" y="91.2" width="23.0" height="150.8" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="201.5" y="87.2" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">10</text>
+<rect x="215.0" y="226.9" width="23.0" height="15.1" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="226.5" y="222.9" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">1</text>
+<rect x="240.0" y="196.8" width="23.0" height="45.2" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="251.5" y="192.8" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">3</text>
+<rect x="265.0" y="242.0" width="23.0" height="0.0" fill="#eef2f7" stroke="none" stroke-width="1" rx="0"/>
+<rect x="290.0" y="196.8" width="23.0" height="45.2" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="301.5" y="192.8" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">3</text>
+<rect x="64.0" y="46.0" width="250.0" height="196.0" fill="none" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<line x1="64.0" y1="242.0" x2="64.0" y2="246.0" stroke="#6b7280" stroke-width="1"/>
+<text x="64.0" y="257.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">0.0</text>
+<line x1="114.0" y1="242.0" x2="114.0" y2="246.0" stroke="#6b7280" stroke-width="1"/>
+<text x="114.0" y="257.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">0.2</text>
+<line x1="164.0" y1="242.0" x2="164.0" y2="246.0" stroke="#6b7280" stroke-width="1"/>
+<text x="164.0" y="257.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">0.4</text>
+<line x1="214.0" y1="242.0" x2="214.0" y2="246.0" stroke="#6b7280" stroke-width="1"/>
+<text x="214.0" y="257.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">0.6</text>
+<line x1="264.0" y1="242.0" x2="264.0" y2="246.0" stroke="#6b7280" stroke-width="1"/>
+<text x="264.0" y="257.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">0.8</text>
+<line x1="314.0" y1="242.0" x2="314.0" y2="246.0" stroke="#6b7280" stroke-width="1"/>
+<text x="314.0" y="257.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">1.0</text>
+<text x="189.0" y="272.0" font-size="8.8" text-anchor="middle" fill="#6b7280" font-weight="normal">percentile of the observed attenuation in its random-panel null</text>
+<line x1="174.0" y1="46.0" x2="174.0" y2="242.0" stroke="#111827" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="168.0" y="60.0" font-size="9" text-anchor="end" fill="#1f2937" font-weight="bold" stroke="#ffffff" stroke-width="3" paint-order="stroke">median 0.440</text>
+<line x1="64.0" y1="144.0" x2="314.0" y2="144.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="320.0" y="144.0" font-size="8.4" text-anchor="start" fill="#94a3b8" font-weight="normal">uniform</text>
+<text x="58.0" y="54.0" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">N</text>
+<text x="189.0" y="286.0" font-size="8.4" text-anchor="middle" fill="#6b7280" font-weight="normal">9 below 0.20 · 37 between · 3 at or above 0.80 (SIG01/03/26, all M1 non-significant)</text>
+<text x="189.0" y="299.0" font-size="8.4" text-anchor="middle" fill="#6b7280" font-weight="normal">KS D = 0.267, P = 0.001 (descriptive; percentiles are not independent)</text>
+<text x="352.0" y="24.0" font-size="12" text-anchor="start" fill="#1f2937" font-weight="bold">b</text>
+<text x="368.0" y="24.0" font-size="10" text-anchor="start" fill="#1f2937" font-weight="bold">Control axes through the same pipeline</text>
+<line x1="525.0" y1="58.0" x2="525.0" y2="218.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="400.0" y="68.0" font-size="9.4" text-anchor="start" fill="#1f2937" font-weight="bold">Lymphocyte / cytotoxic</text>
+<text x="400.0" y="79.0" font-size="8.2" text-anchor="start" fill="#6b7280" font-weight="normal">expected immune proxy · ρ with ImmuneScore = +0.859</text>
+<line x1="400.0" y1="100.0" x2="650.0" y2="100.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="525.0" y="86.0" width="86.1" height="12.0" fill="#6d28d9" stroke="none" stroke-width="1" rx="0"/>
+<text x="616.1" y="95.0" font-size="9" text-anchor="start" fill="#1f2937" font-weight="bold">+68.9%</text>
+<text x="400.0" y="128.0" font-size="9.4" text-anchor="start" fill="#1f2937" font-weight="bold">Nutrition / liver-derived</text>
+<text x="400.0" y="139.0" font-size="8.2" text-anchor="start" fill="#6b7280" font-weight="normal">expected unrelated · ρ with ImmuneScore = -0.098</text>
+<line x1="400.0" y1="160.0" x2="650.0" y2="160.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="525.0" y="146.0" width="19.2" height="12.0" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="549.2" y="155.0" font-size="9" text-anchor="start" fill="#1f2937" font-weight="bold">+15.3%</text>
+<text x="400.0" y="188.0" font-size="9.4" text-anchor="start" fill="#1f2937" font-weight="bold">Neutrophil</text>
+<text x="400.0" y="199.0" font-size="8.2" text-anchor="start" fill="#6b7280" font-weight="normal">βM1 ≈ 0 (ratio artefact) · ρ with ImmuneScore = +0.548</text>
+<line x1="400.0" y1="220.0" x2="650.0" y2="220.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="525.0" y="206.0" width="125.0" height="12.0" fill="#f1f5f9" stroke="none" stroke-width="1" rx="0"/>
+<rect x="525.0" y="206.0" width="125.0" height="12.0" fill="url(#hatch)"/>
+<text x="400.0" y="215.0" font-size="8.6" text-anchor="start" fill="#92400e" font-weight="bold" stroke="#ffffff" stroke-width="3" paint-order="stroke">A = −5,831%</text>
+<text x="525.0" y="232.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">0%</text>
+<text x="650.0" y="232.0" font-size="8.2" text-anchor="end" fill="#6b7280" font-weight="normal">A → +100% (shrinkage)</text>
+<text x="400.0" y="232.0" font-size="8.2" text-anchor="start" fill="#6b7280" font-weight="normal">← A (enlargement)</text>
+<text x="400.0" y="252.0" font-size="8.4" text-anchor="start" fill="#6b7280" font-weight="normal">Each axis: 16 genes, scored and adjusted exactly like a signature.</text>
+<text x="400.0" y="264.0" font-size="8.4" text-anchor="start" fill="#6b7280" font-weight="normal">Lymphocyte (ρ = 0.859) −68.9%; nutrition (ρ = −0.098) −15.3%.</text>
+</g></svg></div></div><div class="figcap"><p><strong>Fig 3. The random-panel null and the control axes.</strong> <strong>(a)</strong> For each signature, 200 random gene panels of
+matching size were drawn from the expressed transcriptome and pushed through the full M1→M3 pipeline; the observed
+attenuation was placed in the resulting distribution as a percentile. The 49 percentiles compress toward the middle
+(median 0.440; 9 below 0.20, 37 between 0.20 and 0.80, 3 at or above 0.80; Kolmogorov–Smirnov D = 0.267,
+P = 0.001). The P value is descriptive: the percentiles derive from one patient sample and are not independent.
+<strong>(b)</strong> The three control axes, scored and adjusted exactly like a signature. The lymphocyte/cytotoxic axis
+(ρ = 0.859 with ImmuneScore) attenuates by 68.9% (P 0.053 → 0.775), showing that the pipeline detects confounding
+where confounding exists; the nutrition/liver-derived axis (ρ = −0.098) attenuates by 15.3%; the neutrophil axis
+has a near-zero unadjusted coefficient (β = 0.002, P = 0.976), so its attenuation ratio (−5,831%) is a numerical
+artefact and is not interpreted.</p></div><div class="figbox"><div class="figbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" role="img" aria-label="Fig 4 stratum medians across cohorts">
+<rect width="680" height="340" fill="#ffffff"/>
+<g font-family="Helvetica, Arial, sans-serif" fill="#1f2937">
+<rect x="70.0" y="52.0" width="560.0" height="200.0" fill="#fbfdff" stroke="#94a3b8" stroke-width="1" rx="3"/>
+<line x1="70.0" y1="166.3" x2="630.0" y2="166.3" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="66.0" y1="237.7" x2="70.0" y2="237.7" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="240.7" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">-10</text>
+<line x1="66.0" y1="202.0" x2="70.0" y2="202.0" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="205.0" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">-5</text>
+<line x1="66.0" y1="166.3" x2="70.0" y2="166.3" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="169.3" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">0</text>
+<line x1="66.0" y1="130.6" x2="70.0" y2="130.6" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="133.6" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">+5</text>
+<line x1="66.0" y1="94.9" x2="70.0" y2="94.9" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="97.9" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">+10</text>
+<line x1="66.0" y1="59.1" x2="70.0" y2="59.1" stroke="#6b7280" stroke-width="1"/>
+<text x="63.0" y="62.1" font-size="8.6" text-anchor="end" fill="#6b7280" font-weight="normal">+15</text>
+<line x1="70.0" y1="52.0" x2="70.0" y2="252.0" stroke="#1f2937" stroke-width="1"/>
+<line x1="70.0" y1="252.0" x2="630.0" y2="252.0" stroke="#1f2937" stroke-width="1"/>
+<text x="62.0" y="44.0" font-size="9" text-anchor="end" fill="#6b7280" font-weight="normal">median A (%)</text>
+<rect x="95.3" y="106.0" width="40.0" height="60.2" fill="#6d28d9" stroke="none" stroke-width="1" rx="0"/>
+<text x="115.3" y="102.0" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+8.4</text>
+<rect x="143.3" y="64.6" width="40.0" height="101.7" fill="#9868e4" stroke="none" stroke-width="1" rx="0"/>
+<text x="163.3" y="60.6" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+14.2</text>
+<rect x="191.3" y="128.7" width="40.0" height="37.5" fill="#bd9eed" stroke="none" stroke-width="1" rx="0"/>
+<text x="211.3" y="124.7" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+5.3</text>
+<text x="163.3" y="280.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">Immune (6)</text>
+<rect x="282.0" y="166.3" width="40.0" height="70.7" fill="#c2410c" stroke="none" stroke-width="1" rx="0"/>
+<text x="302.0" y="247.0" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-9.9</text>
+<rect x="330.0" y="166.3" width="40.0" height="39.6" fill="#d47a54" stroke="none" stroke-width="1" rx="0"/>
+<text x="350.0" y="215.9" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-5.5</text>
+<rect x="378.0" y="166.3" width="40.0" height="17.2" fill="#e3a991" stroke="none" stroke-width="1" rx="0"/>
+<text x="398.0" y="193.4" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-2.4</text>
+<text x="350.0" y="280.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">Inflammation (11)</text>
+<rect x="468.7" y="163.6" width="40.0" height="2.6" fill="#1d4ed8" stroke="none" stroke-width="1" rx="0"/>
+<text x="488.7" y="159.6" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+0.4</text>
+<rect x="516.7" y="156.7" width="40.0" height="9.6" fill="#6083e3" stroke="none" stroke-width="1" rx="0"/>
+<text x="536.7" y="152.7" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">+1.3</text>
+<rect x="564.7" y="166.3" width="40.0" height="10.5" fill="#99afed" stroke="none" stroke-width="1" rx="0"/>
+<text x="584.7" y="186.8" font-size="8.6" text-anchor="middle" fill="#1f2937" font-weight="normal">-1.5</text>
+<text x="536.7" y="280.0" font-size="9.6" text-anchor="middle" fill="#1f2937" font-weight="bold">Metabolism (32)</text>
+<rect x="96.0" y="37.0" width="10.0" height="10.0" fill="#0f172a" stroke="none" stroke-width="1" rx="2"/>
+<text x="110.0" y="46.0" font-size="8.8" text-anchor="start" fill="#6b7280" font-weight="normal">TCGA-LUAD (primary)</text>
+<rect x="214.0" y="37.0" width="10.0" height="10.0" fill="#475569" stroke="none" stroke-width="1" rx="2"/>
+<text x="228.0" y="46.0" font-size="8.8" text-anchor="start" fill="#6b7280" font-weight="normal">GSE68465 (external)</text>
+<rect x="332.0" y="37.0" width="10.0" height="10.0" fill="#94a3b8" stroke="none" stroke-width="1" rx="2"/>
+<text x="346.0" y="46.0" font-size="8.8" text-anchor="start" fill="#6b7280" font-weight="normal">GSE31210 (external)</text>
+<text x="350.0" y="298.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">Ordering immune &gt; metabolism ≈ inflammation reproduces in all three cohorts; per-signature attenuation does not (ρ = −0.014 / +0.006).</text>
+<text x="350.0" y="311.0" font-size="8.6" text-anchor="middle" fill="#6b7280" font-weight="normal">TCGA-LUAD: OS, n = 482/177. GSE68465: n = 439/235. GSE31210: n = 226/35. Stratum medians of A; SIG26 not scoreable externally (metabolism n = 31).</text>
+</g></svg></div></div><div class="figcap"><p><strong>Fig 4. Stratum-level medians reproduce across cohorts; per-signature values do not.</strong> Median attenuation by
+stratum in TCGA-LUAD (OS; dark) and the two external cohorts (GSE68465, GSE31210; lighter shades of the same hue).
+The ordering immune &gt; metabolism ≈ inflammation reproduces in all three cohorts, whereas the per-signature
+attenuation values correlate at approximately zero across cohorts (Spearman ρ = −0.014 and +0.006; n = 48 pairs,
+SIG26 having no gene on either array platform). One signature (SIG26) is not scoreable externally, so the external
+metabolism stratum contains 31 signatures.</p></div>
+<h2>Appendix B. Tables</h2>
+<div class="tblscroll">
+<table>
+<thead>
+<tr>
+<th>SIG</th>
+<th>Wave</th>
+<th>Stratum</th>
+<th>Journal</th>
+<th>Year</th>
+<th>PMID</th>
+<th>DOI</th>
+<th>Genes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SIG01</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Dis Markers</td>
+<td>2021</td>
+<td>34580602</td>
+<td>10.1155/2021/9568057</td>
+<td>9</td>
+</tr>
+<tr>
+<td>SIG02</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Front Genet</td>
+<td>2021</td>
+<td>35069695</td>
+<td>10.3389/fgene.2021.798131</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG03</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Front Mol Biosci</td>
+<td>2022</td>
+<td>35372503</td>
+<td>10.3389/fmolb.2022.822739</td>
+<td>7</td>
+</tr>
+<tr>
+<td>SIG04</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Sci Rep</td>
+<td>2022</td>
+<td>35710585</td>
+<td>10.1038/s41598-022-14323-6</td>
+<td>11</td>
+</tr>
+<tr>
+<td>SIG05</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Sci Rep</td>
+<td>2022</td>
+<td>36042374</td>
+<td>10.1038/s41598-022-19105-8</td>
+<td>8</td>
+</tr>
+<tr>
+<td>SIG06</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Cancer Med</td>
+<td>2023</td>
+<td>36056909</td>
+<td>10.1002/cam4.5190</td>
+<td>2</td>
+</tr>
+<tr>
+<td>SIG07</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Clin Transl Oncol</td>
+<td>2025</td>
+<td>40053252</td>
+<td>10.1007/s12094-025-03861-w</td>
+<td>2</td>
+</tr>
+<tr>
+<td>SIG08</td>
+<td>1</td>
+<td>inflammation</td>
+<td>Cancer Med</td>
+<td>2026</td>
+<td>42760759</td>
+<td>10.1002/cam4.72255</td>
+<td>7</td>
+</tr>
+<tr>
+<td>SIG09</td>
+<td>1</td>
+<td>metabolism</td>
+<td>Front Genet</td>
+<td>2022</td>
+<td>35615380</td>
+<td>10.3389/fgene.2022.860677</td>
+<td>10</td>
+</tr>
+<tr>
+<td>SIG10</td>
+<td>1</td>
+<td>metabolism</td>
+<td>Front Immunol</td>
+<td>2024</td>
+<td>39478862</td>
+<td>10.3389/fimmu.2024.1456719</td>
+<td>10</td>
+</tr>
+<tr>
+<td>SIG11</td>
+<td>1</td>
+<td>metabolism</td>
+<td>Front Immunol</td>
+<td>2022</td>
+<td>35222371</td>
+<td>10.3389/fimmu.2022.783495</td>
+<td>12</td>
+</tr>
+<tr>
+<td>SIG12</td>
+<td>1</td>
+<td>metabolism</td>
+<td>Genes (Basel)</td>
+<td>2026</td>
+<td>42650107</td>
+<td>10.3390/genes17080914</td>
+<td>6</td>
+</tr>
+<tr>
+<td>SIG13</td>
+<td>1</td>
+<td>metabolism</td>
+<td>RNA Biol</td>
+<td>2026</td>
+<td>42003422</td>
+<td>10.1080/15476286.2026.2662721</td>
+<td>7</td>
+</tr>
+<tr>
+<td>SIG14</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Front Oncol</td>
+<td>2022</td>
+<td>35494074</td>
+<td>10.3389/fonc.2022.867470</td>
+<td>13</td>
+</tr>
+<tr>
+<td>SIG15</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Bioengineered</td>
+<td>2021</td>
+<td>34323652</td>
+<td>10.1080/21655979.2021.1954840</td>
+<td>12</td>
+</tr>
+<tr>
+<td>SIG16</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Transl Cancer Res</td>
+<td>2026</td>
+<td>42180928</td>
+<td>10.21037/tcr-2025-1-2665</td>
+<td>12</td>
+</tr>
+<tr>
+<td>SIG17</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Lung Cancer Manag</td>
+<td>2025</td>
+<td>41343408</td>
+<td>10.1080/17581966.2025.2597179</td>
+<td>8</td>
+</tr>
+<tr>
+<td>SIG18</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Aging (Albany NY)</td>
+<td>2021</td>
+<td>33619235</td>
+<td>10.18632/aging.202681</td>
+<td>8</td>
+</tr>
+<tr>
+<td>SIG19</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Transl Cancer Res</td>
+<td>2026</td>
+<td>42724461</td>
+<td>10.21037/tcr-2026-0696</td>
+<td>6</td>
+</tr>
+<tr>
+<td>SIG20</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Lipids Health Dis</td>
+<td>2020</td>
+<td>33050938</td>
+<td>10.1186/s12944-020-01390-9</td>
+<td>6</td>
+</tr>
+<tr>
+<td>SIG21</td>
+<td>2</td>
+<td>metabolism</td>
+<td>PeerJ</td>
+<td>2020</td>
+<td>33344071</td>
+<td>10.7717/peerj.10320</td>
+<td>6</td>
+</tr>
+<tr>
+<td>SIG22</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Int J Mol Sci</td>
+<td>2026</td>
+<td>41977253</td>
+<td>10.3390/ijms27073065</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG23</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Respir Res</td>
+<td>2026</td>
+<td>41998631</td>
+<td>10.1186/s12931-026-03671-w</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG24</td>
+<td>2</td>
+<td>metabolism</td>
+<td>BMC Cancer</td>
+<td>2025</td>
+<td>40170009</td>
+<td>10.1186/s12885-025-13984-6</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG25</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Front Genet</td>
+<td>2022</td>
+<td>35692818</td>
+<td>10.3389/fgene.2022.828543</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG26</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Hum Genomics</td>
+<td>2026</td>
+<td>41634895</td>
+<td>10.1186/s40246-026-00916-z</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SIG27</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Sci Rep</td>
+<td>2026</td>
+<td>41491011</td>
+<td>10.1038/s41598-025-34313-8</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SIG28</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Front Pharmacol</td>
+<td>2023</td>
+<td>37920207</td>
+<td>10.3389/fphar.2023.1260742</td>
+<td>12</td>
+</tr>
+<tr>
+<td>SIG29</td>
+<td>2</td>
+<td>metabolism</td>
+<td>BMC Pulm Med</td>
+<td>2025</td>
+<td>40405133</td>
+<td>10.1186/s12890-025-03694-x</td>
+<td>9</td>
+</tr>
+<tr>
+<td>SIG30</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Discov Oncol</td>
+<td>2025</td>
+<td>40405049</td>
+<td>10.1007/s12672-025-02613-0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG31</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Medicine (Baltimore)</td>
+<td>2024</td>
+<td>39287231</td>
+<td>10.1097/md.0000000000038746</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG32</td>
+<td>2</td>
+<td>inflammation</td>
+<td>Front Immunol</td>
+<td>2021</td>
+<td>34497605</td>
+<td>10.3389/fimmu.2021.693062</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG33</td>
+<td>2</td>
+<td>metabolism</td>
+<td>J Transl Med</td>
+<td>2024</td>
+<td>38730286</td>
+<td>10.1186/s12967-024-05242-3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SIG34</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Front Pharmacol</td>
+<td>2021</td>
+<td>34393804</td>
+<td>10.3389/fphar.2021.728368</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SIG35</td>
+<td>2</td>
+<td>metabolism</td>
+<td>BMC Cancer</td>
+<td>2025</td>
+<td>39806313</td>
+<td>10.1186/s12885-024-13409-w</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG36</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Discov Oncol</td>
+<td>2025</td>
+<td>41003841</td>
+<td>10.1007/s12672-025-03540-w</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG37</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Front Immunol</td>
+<td>2022</td>
+<td>35812404</td>
+<td>10.3389/fimmu.2022.872910</td>
+<td>13</td>
+</tr>
+<tr>
+<td>SIG38</td>
+<td>2</td>
+<td>metabolism</td>
+<td>J Cancer</td>
+<td>2021</td>
+<td>33403045</td>
+<td>10.7150/jca.50274</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG39</td>
+<td>2</td>
+<td>metabolism</td>
+<td>J Oncol</td>
+<td>2020</td>
+<td>32684932</td>
+<td>10.1155/2020/5310793</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SIG40</td>
+<td>2</td>
+<td>metabolism</td>
+<td>Oncol Res</td>
+<td>2026</td>
+<td>42500572</td>
+<td>10.32604/or.2026.079515</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SIG41</td>
+<td>2</td>
+<td>metabolism</td>
+<td>J Cancer</td>
+<td>2020</td>
+<td>33193873</td>
+<td>10.7150/jca.49266</td>
+<td>8</td>
+</tr>
+<tr>
+<td>SIG42</td>
+<td>3</td>
+<td>inflammation</td>
+<td>J Inflamm Res</td>
+<td>2025</td>
+<td>41017970</td>
+<td>10.2147/jir.s537256</td>
+<td>7</td>
+</tr>
+<tr>
+<td>SIG43</td>
+<td>3</td>
+<td>inflammation</td>
+<td>Medicine (Baltimore)</td>
+<td>2022</td>
+<td>36254009</td>
+<td>10.1097/md.0000000000030982</td>
+<td>7</td>
+</tr>
+<tr>
+<td>SIG44</td>
+<td>4</td>
+<td>immune</td>
+<td>Front Immunol</td>
+<td>2025</td>
+<td>41562084</td>
+<td>10.3389/fimmu.2025.1724319</td>
+<td>8</td>
+</tr>
+<tr>
+<td>SIG45</td>
+<td>4</td>
+<td>immune</td>
+<td>Front Mol Biosci</td>
+<td>2021</td>
+<td>34109216</td>
+<td>10.3389/fmolb.2021.679031</td>
+<td>8</td>
+</tr>
+<tr>
+<td>SIG46</td>
+<td>4</td>
+<td>immune</td>
+<td>Int J Gen Med</td>
+<td>2021</td>
+<td>34876838</td>
+<td>10.2147/ijgm.s341175</td>
+<td>6</td>
+</tr>
+<tr>
+<td>SIG47</td>
+<td>4</td>
+<td>immune</td>
+<td>Front Genet</td>
+<td>2020</td>
+<td>33005178</td>
+<td>10.3389/fgene.2020.00978</td>
+<td>7</td>
+</tr>
+<tr>
+<td>SIG48</td>
+<td>4</td>
+<td>immune</td>
+<td>Front Mol Biosci</td>
+<td>2022</td>
+<td>35647031</td>
+<td>10.3389/fmolb.2022.807622</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SIG49</td>
+<td>4</td>
+<td>immune</td>
+<td>Oncoimmunology</td>
+<td>2020</td>
+<td>33457102</td>
+<td>10.1080/2162402x.2020.1824641</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2>Table 2. Attenuation summaries by set (TCGA-LUAD, OS, M1→M3)</h2>
+<p>Median A over all signatures and over the ratio-valid subset (nominally significant M1 coefficient); CIs from 5,000 cluster bootstraps over signatures (seed 20261020).</p>
+<table>
+<thead>
+<tr>
+<th>Set</th>
+<th>n</th>
+<th>Median A, %</th>
+<th>95% CI</th>
+<th>n valid</th>
+<th>Median A (valid), %</th>
+<th>95% CI</th>
+<th>|A|&gt;100%</th>
+<th>Flip</th>
+<th>FDR M1/M3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All signatures</td>
+<td>49</td>
+<td>-1.4</td>
+<td>[-7.4, +1.8]</td>
+<td>32</td>
+<td>+0.4</td>
+<td>[-4.3, +1.8]</td>
+<td>9</td>
+<td>3</td>
+<td>31 / 31</td>
+</tr>
+<tr>
+<td>Wave 1</td>
+<td>13</td>
+<td>-2.5</td>
+<td>[-79.2, +8.9]</td>
+<td>8</td>
+<td>-1.9</td>
+<td>[-9.9, +8.9]</td>
+<td>5</td>
+<td>2</td>
+<td>7 / 7</td>
+</tr>
+<tr>
+<td>Wave 2</td>
+<td>28</td>
+<td>+0.4</td>
+<td>[-8.3, +2.0]</td>
+<td>18</td>
+<td>+0.4</td>
+<td>[-5.8, +2.1]</td>
+<td>3</td>
+<td>1</td>
+<td>18 / 19</td>
+</tr>
+<tr>
+<td>Wave 3</td>
+<td>2</td>
+<td>-29.4</td>
+<td>—</td>
+<td>2</td>
+<td>-29.4</td>
+<td>—</td>
+<td>0</td>
+<td>0</td>
+<td>2 / 2</td>
+</tr>
+<tr>
+<td>Wave 4</td>
+<td>6</td>
+<td>+8.4</td>
+<td>[-84.8, +20.5]</td>
+<td>4</td>
+<td>+8.4</td>
+<td>[-32.5, +23.5]</td>
+<td>1</td>
+<td>0</td>
+<td>4 / 3</td>
+</tr>
+<tr>
+<td>Inflammation stratum</td>
+<td>11</td>
+<td>-9.9</td>
+<td>[-109.2, +22.0]</td>
+<td>6</td>
+<td>-7.8</td>
+<td>[-66.1, +9.2]</td>
+<td>5</td>
+<td>2</td>
+<td>6 / 7</td>
+</tr>
+<tr>
+<td>Metabolism stratum</td>
+<td>32</td>
+<td>+0.4</td>
+<td>[-5.8, +2.0]</td>
+<td>22</td>
+<td>+0.4</td>
+<td>[-3.4, +2.2]</td>
+<td>3</td>
+<td>1</td>
+<td>21 / 21</td>
+</tr>
+<tr>
+<td>Immune stratum</td>
+<td>6</td>
+<td>+8.4</td>
+<td>[-84.8, +20.5]</td>
+<td>4</td>
+<td>+8.4</td>
+<td>[-32.5, +23.5]</td>
+<td>1</td>
+<td>0</td>
+<td>4 / 3</td>
+</tr>
+</tbody>
+</table>
+<h2>Table 3. External directional replication and endpoint sensitivity</h2>
+<p><strong>A. Stratum medians of A (%) by cohort.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Cohort</th>
+<th>Stratum</th>
+<th>n</th>
+<th>Median A, %</th>
+<th>A&gt;0</th>
+<th>A&lt;0</th>
+<th>TCGA-LUAD median A, %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GSE68465 (n = 439, 235 events)</td>
+<td>Immune (6)</td>
+<td>6</td>
+<td>+14.2</td>
+<td>4</td>
+<td>2</td>
+<td>+8.4</td>
+</tr>
+<tr>
+<td>GSE68465 (n = 439, 235 events)</td>
+<td>Inflammation (11)</td>
+<td>11</td>
+<td>-5.5</td>
+<td>3</td>
+<td>8</td>
+<td>-9.9</td>
+</tr>
+<tr>
+<td>GSE68465 (n = 439, 235 events)</td>
+<td>Metabolism (31*)</td>
+<td>31</td>
+<td>+1.3</td>
+<td>17</td>
+<td>14</td>
+<td>+0.4</td>
+</tr>
+<tr>
+<td>GSE31210 (n = 226, 35 events)</td>
+<td>Immune (6)</td>
+<td>6</td>
+<td>+5.3</td>
+<td>4</td>
+<td>2</td>
+<td>+8.4</td>
+</tr>
+<tr>
+<td>GSE31210 (n = 226, 35 events)</td>
+<td>Inflammation (11)</td>
+<td>11</td>
+<td>-2.4</td>
+<td>5</td>
+<td>6</td>
+<td>-9.9</td>
+</tr>
+<tr>
+<td>GSE31210 (n = 226, 35 events)</td>
+<td>Metabolism (31*)</td>
+<td>31</td>
+<td>-1.5</td>
+<td>14</td>
+<td>17</td>
+<td>+0.4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B. Endpoint sensitivity (all 49 signatures).</strong></p>
+<table>
+<thead>
+<tr>
+<th>Endpoint</th>
+<th>Median A, %</th>
+<th>95% CI</th>
+<th>Shrink / Grow / Flip</th>
+<th>FDR M1/M3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Overall survival (n = 482, 177 events)</td>
+<td>-1.3</td>
+<td>[-7.4, +1.9]</td>
+<td>21 / 25 / 3</td>
+<td>31 / 31</td>
+</tr>
+<tr>
+<td>Progression-free interval (n = 482, 197 events)</td>
+<td>+0.3</td>
+<td>[-4.0, +2.4]</td>
+<td>24 / 22 / 3</td>
+<td>23 / 25</td>
+</tr>
+<tr>
+<td>Disease-specific survival (n = 447, 107 events)</td>
+<td>+2.0</td>
+<td>[-2.1, +5.6]</td>
+<td>25 / 21 / 3</td>
+<td>26 / 24</td>
+</tr>
+</tbody>
+</table>
+<p>Per-signature A across cohorts: ρ(TCGA, GSE68465) = -0.014, ρ(TCGA, GSE31210) = +0.006 (n = 48; SIG26 unscoreable externally, hence metabolism n = 31*). Across endpoints: ρ(OS, PFI) = +0.418, ρ(OS, DSS) = +0.639.</p>
+<p>Direction counts exclude reversals (3 per endpoint); FDR columns give q&lt;0.05 counts before/after adjustment.</p>
+</div>
+</div>
+</div></body></html>

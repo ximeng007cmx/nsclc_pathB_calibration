@@ -1,0 +1,108 @@
+locked_at=2026-10-20T20:35+08:00
+signature_registry.csv sha256=0926114b6ee1f6739af07a03d4080c0d420807bd5ab9b9857ea6dfc3fda08e83
+00_criteria_preregistered.md sha256=b61b17287669ec0897f81d5ef19932529c9f327dc9db8beda025dc6c35ced034
+n_included=13 n_excluded=6
+
+--- expansion wave (2026-10-20 21:45) ---
+amendment  01_amendment_expansion_to20.md  sha256 73f15ee221e853ff05251f61a38c359af7cabb59a698f5c717e14445d7e828bb
+registry   signature_registry_expansion.csv sha256 02386a554ba9d11221dbf918f2e8a9ce4c0a356e080e89dd98564c0c295bf6a8
+excluded   signature_registry_expansion_excluded.csv sha256 2eaaeb6912c9f7739f81a06f835236720d4933a01cff005ae1a88dc0e0ee9b0e
+n_included 28  n_excluded 26
+
+--- inflammation wave 3 (2026-10-20 22:05) ---
+amendment  02_amendment_inflammation_wave3.md sha256 628285193a323b0d8fd22f9e50dc26f8974546b4e54f8664300518a536149800
+registry   signature_registry_expansion_w3.csv sha256 222165f80e4805e09250f7b08c0f83e0a4cf77ebed7a13af4527c6f38d00677f
+n_included 2  n_excluded 6
+
+--- immune stratum wave 4 (2026-10-20 22:35) ---
+amendment  03_amendment_immune_stratum.md sha256 69ed34649689b16940eeefdfc508cc201adec3d2588ae1e95736f7e3a22bc0ed
+registry   signature_registry_expansion_w4.csv sha256 fc4352eaaf9f659b9524099df3a321c86fe50df08489f48acb5d9c429689cd29
+n_included 6  n_excluded 10
+2026-10-20 22:40  阶段四（49 签名）
+  - R/21_controls_all.R 重跑于 49 签名（logs/18_controls_49sig.log，EXIT=0）
+  - results/control_axes_all.tsv、attenuation_pctile_all.tsv、null_random_panels_all.tsv 已更新
+  - 报告 tools/22_make_report_stage4.py -> 报告_阶段4_免疫分层49签名_2026-10-20.html（53,056 B）
+  - 43 签名旧报告已删除（可由 tools/12 重现）
+2026-10-20 23:20  外部复算预览（未预注册，用户待定是否纳入论文）
+  - R/22_external_m1m3.R：GSE68465（439 例）+ GSE31210（226 例）M1→M3 复算
+  - ESTIMATE 官方签名集取自 Yoshihara 2013 Nat Commun Suppl Data 1（work/estimate_ext/ESM_488.xlsx，141+141）
+  - results/external_m1m3_long.tsv（98 行）、external_m1m3_summary.tsv、external_vs_tcga_rho.tsv
+  - SIG26 两队列无外部值（4 基因全不在 Affy 芯片）；GSE31210 无 age（SDRF 全 missing）
+  - 报告 tools/23_make_external_preview.py -> 报告_外部复算预览_GSE68465_GSE31210_2026-10-20.html（9,509 B）
+2026-10-21 06:40  用户决定：外部复算纳入论文
+  - tools/22_make_report_stage4.py 增补"五之二、外部方向性复算"章节（数据从 external_m1m3_*.tsv 直读）
+  - 主张增第五条支撑句（外部复现排序、非数值）；Limitations 增至七条（外部 post-hoc、协变量不一致、平台覆盖）
+  - 报告更新：报告_阶段4_免疫分层49签名_2026-10-20.html（57,937 B，2026-10-21 生成）
+2026-10-21 11:05  LUSC 跨组织学复算（修订 04，post-hoc）
+  - R/23_lusc_calibration.R：TCGA-LUSC 482 例/209 事件，同一 M1/M3 与估计量
+  - results/attenuation_lusc49.tsv（49 行）、summary_lusc49.tsv、control_axes_lusc.tsv
+  - 关键发现：LUSC 中 49 签名 FDR 显著 0 个（仅 5 个名义），β_M1 跨队列 Spearman = −0.174
+  - 判定：字面满足 R1 但实质不可判读（无信号队列，规则外情形），只报事实不判读方向
+  - 报告 tools/24_make_lusc_preview.py -> 报告_LUSC复算_2026-10-21.html（8,380 B）
+2026-10-21 14:20  LUSC 按"选项 1"收口（补充材料 + Limitations，不升格）
+  - 22_make_report_stage4.py：五之二节末加 LUSC 一段（分母失效论证 + 方向计数旁证）；Limitations 增至八条
+  - 主报告重生成：报告_阶段4_免疫分层49签名_2026-10-20.html（59,193 B）
+  - 正文起草计划同步：Results 3.7 降为补充材料一句、红线新增第 7 条（禁写"复现失败"）
+2026-10-21 14:45  ④⑤⑥⑦ 四项加固完成
+  - ④ 修订 05（05_amendment_endpoints.md）+ R/24_endpoint_sensitivity.R：OS/PFI/DSS 三终点
+    OS 482/177 −1.3%；PFI 482/197 +0.3%；DSS 447/107 +2.0%；方向 24:25 / 27:22 / 28:21；三层排序三终点相同（E1 成立）
+    ρ(OS,PFI)=0.418 (P=0.003)、ρ(OS,DSS)=0.639 (P<0.0001)
+  - ⑤ M2 降级写入 Limitations 第 5 条（"已正式执行"，att_purity 只进补充）
+  - ⑥ 报告五节引 pathA 10 工具交叉（淋巴 0.69/10:10 显著，中性粒 0.28，营养 0.16）
+  - ⑦ 一之四节加多重性披露（Bonferroni α=0.017，结论不变）
+  - 报告 63,574 B；主张增至六条支撑句（新增终点稳健性）
+2026-10-21 15:05  正文数字勾稽与更正（修订 06，纯更正、不新增分析）
+  - 触发：起草计划第 12 节第 6 步；工具 tools/25_reconcile_manuscript.py（rev2）
+  - 勾稽范围：146 项（含漏斗闭合与注册表行数），结果 results/manuscript_reconciliation.tsv（6,339 B）
+  - 判定：63 项首轮 MISMATCH 中 19 项为勾稽脚本自身口径错（单位/中位数/口径），7 项为正文真实错误
+  - 真实错误与更正（详见 06_amendment_numbers.md）：
+    ① M2/M3 r=0.999 → 0.998（0.999 是 13 签名预试验值，误带入 49 集）
+    ② 零分布 KS P=0.002 → 0.001（与 22 号脚本 ks_p=0.0014、报告 P≈0.001 对齐）
+    ③ W2 漏斗不闭合：62 = 28 纳入 + 26 排除 + 8 未打分（6 NO_LIST + 2 FETCH_FAIL）
+    ④ W3 "8 有池证据" → 16；48 条分区：2 纳入 + 6 排除 + 36 不可打分 + 4 无池证据
+    ⑤ W3 检索截断未披露：W3Q6 hitCount=788 但只取回 500，1,139 命中实取回 851（缺 288）
+    ⑥ 3.8 方向计数口径与 3.2 不一致（含反转 27:22/28:21 → 非反转 24/22/3、25/21/3）
+    ⑦ 4.3 "two-thirds" 与 3.1 "16 of 20" 矛盾 → four-fifths
+  - 对结论影响：无。不触及任何估计量、CI、P 值方向或分层排序
+  - 主报告同步重生成（仅第 477 行 r=0.999→0.998 及其来源说明），diff 4 行
+  - 哈希：06_amendment_numbers.md 9b7847ddcf9df2ef / manuscript/MS_draft_v1.md 1d1d3701a87932cd
+          tools/25_reconcile_manuscript.py f7b7ada6eb8d8036 / results/manuscript_reconciliation.tsv 7720a6dc8b70d1ee
+  - 终判：146 项 = 145 对 + 1 人工核对（Limitations 截断披露项，非数值）
+  - 未做：未补检 W3 未取回的 288 条（结果已知后补检会变成结果驱动，违反 01 号修订 2.4）
+2026-10-21 17:20  投稿图 Fig 1–4 完成（tools/26_make_figures.py）
+  - Fig1_flow.svg：四波纳入漏斗，全部数字脚本直读（注册表/筛选表/抽取 JSON/日志）并 assert；
+    W2 767→538→431→99→62→28+26+8；W3 1,139 命中(实取 851, Q6 截断 788→500)→605→74→(CIRC 20+I3-OUT 6)
+    →48→2+6+4+36；W4 20→16→6+10；终集 49 = 11+32+6
+  - Fig2_forest.svg：自主报告提取森林图；补 xmlns（独立 svg 必需）+白底；图例 4 处中文→英文，assert 无中文残留
+  - Fig3_null_controls.svg：a) 49 百分位直方图（bin 计数 6/3/3/7/13/10/1/3/0/3 与 9/37/3 断言一致；
+    中位 0.440，KS D=0.267 P=0.001 脚本重算）；b) 三对照轴（淋巴 68.9%、营养 15.3%、中性粒 −5,831% 截断+斜纹标注）
+  - Fig4_cohorts_strata.svg：三队列×三分层中位 A，与正文 3.6/3.7 的 9 个数值逐一 assert；
+    配色与 Fig2 一致（免疫紫/炎症橙红/代谢蓝），SIG26 外部不可评分注记
+  - 目检：Edge 无头渲染 4 张 PNG 逐张查看；修正 3 处文字重叠（Fig3 面板 b 重排、median 标注加白晕、Fig2 图例缩短）
+  - manuscript/figure_captions.md：四图英文图注；正文加 5 处图号引用（3.1/3.2/3.4×2/3.7）
+  - 哈希：26_make_figures.py 2f1493efc5e8f810 / Fig1 13b7ff784fbf1beb / Fig2 825ec89677937943
+          Fig3 837018a6606145eb / Fig4 e48a7a7043c80dd5 / figure_captions.md e54bac864c8e475b / MS_draft_v1.md 0dc06df77724876b
+2026-10-21 18:05  Table 1–3 + 全部文献双源核验（tools/27_make_tables.py + epmc_search.py verify）
+  - Table 1（49 行，注册表直读）：SIG/波次/分层/期刊/年/PMID/DOI/基因数（xlsx 另含全题名+池来源证据）
+  - Table 2（8 口径）：summary_all.tsv 直读，median A 双口径 + bootstrap CI + FDR 计数；ALL −1.4% 断言锁定
+  - Table 3（外部+终点）：6 行队列×分层 + 3 行终点；ρ(队列) −0.014/+0.006、ρ(终点) 0.418/0.639 脚本重算并断言
+  - 输出 manuscript/tables.xlsx（3 sheets）+ tables.md（可粘贴）
+  - 文献核验：epmc_search.py verify（EPMC lite PMID 归属 + CrossRef DOI 存在）
+    · 49 条签名文献：DOI 双源一致 49 / 问题 0（logs/refs_verify_49.log；输入 work/refs_49_to_verify.csv）
+    · 9 条方法学/数据来源：GSVA(23323831)、Barbie ssGSEA(19847166)、MCP-counter(27765066)、xCell(29141660)、
+      Shedden GSE68465(18641660)、Okayama GSE31210(22080568)、ArrayExpress(30357387)、Yoshihara(24113773)、Liu(29625055)
+      ——全部双源一致 9 / 问题 0；候选均经 EPMC 检索取得，非凭记忆
+  - ⚠ 错引更正：Liu 2018（TCGA-CDR）DOI 10.1016/j.cell.2018.03.046 → 10.1016/j.cell.2018.02.052
+    （原 DOI 在 EPMC/CrossRef 解析到同刊另一文 PMID 29625047；PMID 29625055 与卷期页不变）
+    pathA 等同源记录需同步更正
+  - 正文更新：References 换为 9 条实引；正文内 [待核验] 全部清除；3.3 增 10 工具交叉验证句（数字直读 pathA tsv）；
+    头部说明改为"58 条已核验"
+  - 哈希：tables.md e38325a86d096e64 / tables.xlsx 247b49f10687dcf1 / references_verified.md 2120554534bf72a7
+          MS_draft_v1.md d0711d03a3641be3
+[2026-10-21 18:5x] 修订07 投稿前评审修正（C1+M1-M4）
+- 触发: manuscript/review_presubmission_2026-10-21.md (1C/4M/6m)
+- C1: 3.2 二项检验 P≈1 更正为精确 P=0.86; 新增 tools/28_binomial_test.py + results/binomial_direction.tsv (70c27bcf922c78f1)
+- M1: 正文 em-dash 19+3 处清零; M2: 中文残留全英化(仅留真实文件名); M3: 口语化3处; M4: (P 0.053 to 0.775)→P changed from 0.053 to 0.775 ×2; 顺带 rules out→argues against
+- 修订文件: 07_amendment_review_fixes.md (3c45909633ce70b6)
+- MS_draft_v1.md: d0711d03a3641be3 -> 67dc50ec12860396
+- 验收: em-dash=0; CJK=8(文件名); 勾稽重跑 146 项=145对+1人工核对

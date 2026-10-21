@@ -1,0 +1,17 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+n = 13 
+lo  (<0.20)      : 4  -> SIG04 SIG05 SIG06 SIG09 
+mid (0.20-0.80)  : 7  -> SIG02 SIG07 SIG08 SIG10 SIG11 SIG12 SIG13 
+hi  (>=0.80)     : 2  -> SIG01 SIG03 
+mid 0.39-0.57    : 6 
+Warning message:
+In ks.test.default(p$pctile, "punif", 0, 1) :
+  ties should not be present for the one-sample Kolmogorov-Smirnov test
+
+KS vs U(0,1): D = 0.199  exact P = 0.681 
+mean pctile = 0.443   median = 0.42 
+binom: #pctile<0.5 = 8 of 13; exact two-sided P = 0.581 

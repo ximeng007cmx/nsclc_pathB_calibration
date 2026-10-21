@@ -1,0 +1,37 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+完整病例 n=481，事件 177；签名 49 个
+              axis n_genes  rho_immune      beta_M1       p_M1     beta_M3
+            <char>   <int>       <num>        <num>      <num>       <num>
+1:      lymphocyte      16  0.85936705 -0.151455192 0.05261138 -0.04712579
+2:      neutrophil      16  0.54848367  0.002285155 0.97562746  0.13553405
+3: nutrition_liver      16 -0.09806787  0.112661178 0.19867561  0.09537879
+        p_M3 attenuation
+       <num>       <num>
+1: 0.7747635   0.6888467
+2: 0.1349284 -58.3106594
+3: 0.3066350   0.1534015
+零分布完成，用时 2.6 分钟
+
+=== 百分位是否服从 U(0,1) ===
+ALL  n=49  mean=0.429 median=0.440  KS D=0.267 P=0.002  |  <0.20:9  0.20-0.80:37  >=0.80:3
+W1   n=13  mean=0.443 median=0.420  KS D=0.199 P=0.681  |  <0.20:4  0.20-0.80:7  >=0.80:2
+W2   n=28  mean=0.423 median=0.448  KS D=0.374 P=0.001  |  <0.20:3  0.20-0.80:24  >=0.80:1
+W3   n= 2  mean=0.275 median=0.275  KS D=0.595 P=0.328  |  <0.20:1  0.20-0.80:1  >=0.80:0
+
+=== 按分层 ===
+inflammation  n=11  mean=0.395  KS D=0.310 P=0.196  >=0.80:2
+metabolism    n=32  mean=0.432  KS D=0.379 P=0.000  >=0.80:1
+immune        n= 6  mean=0.473  KS D=0.295 P=0.673  >=0.80:0
+
+=== 高百分位（>=0.80）明细 ===
+Key: <sig_id>
+   sig_id   wave      stratum  att_real pctile      p_M1      q_M3 null_median
+   <char> <char>       <char>     <num>  <num>     <num>     <num>       <num>
+1:  SIG01     W1 inflammation 12.815041  0.990 0.8742379 0.2488710 0.037816184
+2:  SIG03     W1 inflammation 10.385430  0.995 0.8432752 0.2488710 0.005703489
+3:  SIG26     W2   metabolism  1.293659  0.930 0.6638324 0.9026894 0.018406144
+[21] 完成

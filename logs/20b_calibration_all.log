@@ -1,0 +1,91 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+签名总数 43（W1 13 / W2 28；炎症 11 / 代谢 32）
+  SIG01  W1 inflammation  9 g cov=1.00  bM1=-0.012 (P=0.874)  bM3=+0.140  A=+1281.5%
+  SIG02  W1 inflammation  5 g cov=1.00  bM1=-0.180 (P=0.0263)  bM3=-0.140  A=+22.0%
+  SIG03  W1 inflammation  7 g cov=1.00  bM1=-0.015 (P=0.843)  bM3=+0.143  A=+1038.5%
+  SIG04  W1 inflammation 11 g cov=1.00  bM1=+0.103 (P=0.168)  bM3=+0.266  A=-158.3%
+  SIG05  W1 inflammation  8 g cov=1.00  bM1=+0.194 (P=0.00899)  bM3=+0.348  A=-79.2%
+  SIG06  W1 inflammation  2 g cov=1.00  bM1=+0.018 (P=0.803)  bM3=+0.056  A=-206.7%
+  SIG07  W1 inflammation  2 g cov=1.00  bM1=-0.368 (P=3.86e-05)  bM3=-0.404  A=-9.9%
+  SIG08  W1 inflammation  7 g cov=1.00  bM1=+0.334 (P=1.07e-05)  bM3=+0.346  A=-3.6%
+  SIG09  W1 metabolism   10 g cov=1.00  bM1=+0.021 (P=0.782)  bM3=+0.058  A=-179.4%
+  SIG10  W1 metabolism   10 g cov=0.90  bM1=+0.353 (P=2.03e-06)  bM3=+0.362  A=-2.5%
+  SIG11  W1 metabolism   12 g cov=1.00  bM1=+0.382 (P=1.47e-06)  bM3=+0.388  A=-1.4%
+  SIG12  W1 metabolism    6 g cov=1.00  bM1=-0.381 (P=2.03e-05)  bM3=-0.368  A=+3.3%
+  SIG13  W1 metabolism    7 g cov=1.00  bM1=-0.145 (P=0.0496)  bM3=-0.132  A=+8.9%
+  SIG14  W2 metabolism   13 g cov=1.00  bM1=+0.037 (P=0.648)  bM3=+0.058  A=-57.5%
+  SIG15  W2 metabolism   12 g cov=1.00  bM1=+0.493 (P=3.86e-09)  bM3=+0.543  A=-10.1%
+  SIG16  W2 metabolism   12 g cov=1.00  bM1=+0.140 (P=0.0621)  bM3=+0.137  A=+2.1%
+  SIG17  W2 metabolism    8 g cov=1.00  bM1=+0.332 (P=2.96e-05)  bM3=+0.363  A=-9.3%
+  SIG18  W2 metabolism    8 g cov=1.00  bM1=-0.263 (P=0.00117)  bM3=-0.272  A=-3.4%
+  SIG19  W2 metabolism    6 g cov=1.00  bM1=+0.060 (P=0.434)  bM3=+0.073  A=-20.1%
+  SIG20  W2 metabolism    6 g cov=1.00  bM1=-0.089 (P=0.266)  bM3=-0.084  A=+5.6%
+  SIG21  W2 metabolism    6 g cov=1.00  bM1=+0.452 (P=1.09e-07)  bM3=+0.450  A=+0.5%
+  SIG22  W2 metabolism    5 g cov=1.00  bM1=+0.323 (P=3.45e-05)  bM3=+0.322  A=+0.4%
+  SIG23  W2 metabolism    5 g cov=1.00  bM1=+0.296 (P=2.6e-06)  bM3=+0.295  A=+0.5%
+  SIG24  W2 metabolism    5 g cov=1.00  bM1=+0.472 (P=1.23e-09)  bM3=+0.493  A=-4.3%
+  SIG25  W2 metabolism    5 g cov=1.00  bM1=+0.400 (P=5.16e-07)  bM3=+0.389  A=+2.6%
+  SIG26  W2 metabolism    4 g cov=1.00  bM1=-0.034 (P=0.664)  bM3=+0.010  A=+129.4%
+  SIG27  W2 metabolism    4 g cov=1.00  bM1=+0.233 (P=0.000995)  bM3=+0.276  A=-18.4%
+  SIG28  W2 metabolism   12 g cov=1.00  bM1=+0.472 (P=2.1e-08)  bM3=+0.460  A=+2.6%
+  SIG29  W2 metabolism    9 g cov=1.00  bM1=+0.338 (P=2.03e-05)  bM3=+0.332  A=+1.8%
+  SIG30  W2 metabolism    5 g cov=1.00  bM1=-0.084 (P=0.332)  bM3=-0.099  A=-18.3%
+  SIG31  W2 metabolism    5 g cov=1.00  bM1=-0.003 (P=0.965)  bM3=-0.046  A=-1299.3%
+  SIG32  W2 inflammation  5 g cov=1.00  bM1=+0.090 (P=0.212)  bM3=+0.188  A=-109.2%
+  SIG33  W2 metabolism    4 g cov=1.00  bM1=+0.056 (P=0.45)  bM3=+0.052  A=+5.7%
+  SIG34  W2 metabolism    4 g cov=1.00  bM1=+0.558 (P=1.02e-10)  bM3=+0.555  A=+0.4%
+  SIG35  W2 metabolism    5 g cov=1.00  bM1=+0.452 (P=9.82e-11)  bM3=+0.442  A=+2.3%
+  SIG36  W2 metabolism    5 g cov=1.00  bM1=+0.204 (P=0.00673)  bM3=+0.234  A=-15.0%
+  SIG37  W2 metabolism   13 g cov=1.00  bM1=+0.104 (P=0.184)  bM3=+0.111  A=-6.4%
+  SIG38  W2 metabolism    5 g cov=1.00  bM1=+0.486 (P=2.87e-09)  bM3=+0.522  A=-7.4%
+  SIG39  W2 metabolism    5 g cov=1.00  bM1=+0.454 (P=1.35e-08)  bM3=+0.434  A=+4.4%
+  SIG40  W2 metabolism    4 g cov=0.75  bM1=+0.202 (P=0.00468)  bM3=+0.191  A=+5.2%
+  SIG41  W2 metabolism    8 g cov=1.00  bM1=+0.419 (P=1.02e-07)  bM3=+0.416  A=+0.6%
+  SIG42  W3 inflammation  7 g cov=1.00  bM1=-0.325 (P=8.32e-05)  bM3=-0.498  A=-53.1%
+  SIG43  W3 inflammation  7 g cov=1.00  bM1=+0.216 (P=0.00814)  bM3=+0.229  A=-5.7%
+
+[P1] 炎症 - 代谢 中位衰减差 = -10.3% (95% CI -109.6 到 22.5)
+                set     n n_ratio_valid     median_A          lo          hi
+             <char> <int>         <int>        <num>       <num>       <num>
+ 1:             ALL    43            28   -2.5061476   -7.354568   0.5720094
+ 2:              W1    13             8   -2.5061476  -79.162933   8.8761762
+ 3:              W2    28            18    0.3695134   -8.317864   1.9541195
+ 4:              W3     2             2  -29.4019609          NA          NA
+ 5:    inflammation    11             6   -9.9034188 -109.244650  21.9620847
+ 6:      metabolism    32            22    0.3695134   -5.842127   1.9541195
+ 7: W1-inflammation     8             4   -6.7449684 -158.257996 638.9587865
+ 8:   W1-metabolism     5             4   -1.3792246 -179.364093   8.8761762
+ 9: W2-inflammation     1             0 -109.2446498          NA          NA
+10:   W2-metabolism    27            18    0.3760676   -7.354568   2.0601190
+11: W3-inflammation     2             2  -29.4019609          NA          NA
+    median_A_valid   lo_valid  hi_valid n_abs_gt100 n_dir_flip n_FDR_M1
+             <num>      <num>     <num>       <int>      <int>    <int>
+ 1:     -0.5081327  -5.029150  1.173420           8          3       27
+ 2:     -1.9426861  -9.903419  8.876176           5          2        7
+ 3:      0.4186008  -5.842127  2.068623           3          1       18
+ 4:    -29.4019609         NA        NA           0          0        2
+ 5:     -7.8160163 -66.119121  9.187783           5          2        6
+ 6:      0.4186008  -3.415169  2.207156           3          1       21
+ 7:     -6.7449684 -79.162933 21.962085           4          2        4
+ 8:      0.9636944  -2.506148  8.876176           1          0        3
+ 9:             NA         NA        NA           1          0        0
+10:      0.4186008  -5.842127  2.068623           2          1       18
+11:    -29.4019609         NA        NA           0          0        2
+    n_FDR_M3 median_abs_dbeta
+       <int>            <num>
+ 1:       28       0.01287230
+ 2:        7       0.03727687
+ 3:       19       0.01131948
+ 4:        2       0.09246638
+ 5:        7       0.09805421
+ 6:       21       0.01131948
+ 7:        4       0.09586863
+ 8:        3       0.01259281
+ 9:        1       0.09805421
+10:       18       0.01047704
+11:        2       0.09246638
+[20] 完成

@@ -1,0 +1,142 @@
+[
+ {
+  "pmcid": "PMC12813068",
+  "status": "OK",
+  "n": 8,
+  "genes": "PSMD1,ANGPTL4,LTBP3,MIF,NFATC3,NR1D2,PLXNB3,SP1",
+  "title": "Identification of immune-related prognostic biomarkers in lung squamous cell carcinoma microenvironment."
+ },
+ {
+  "pmcid": "PMC12491262",
+  "status": "NO_LIST",
+  "n": 0,
+  "genes": "",
+  "title": "Interpretable artificial intelligence based on immunoregulation-related genes predicts prognosis and immunotherapy response in lung adenocarcinoma."
+ },
+ {
+  "pmcid": "PMC13313863",
+  "status": "MISMATCH",
+  "n": 4,
+  "genes": "BIRC5,CBLC,S100P,LGR4",
+  "title": "Identification of an immune-related genes signature in lung adenocarcinoma to predict survival and response to immune checkpoint inhibitors."
+ },
+ {
+  "pmcid": "PMC8182055",
+  "status": "OK",
+  "n": 8,
+  "genes": "IKBKB,LTBR,MIF,PPARD,PPIA,PSME3,S100A6,SEMA4B",
+  "title": "Identification and Validation of Immune-Related Gene Signature for Predicting Lymph Node Metastasis and Prognosis in Lung Adenocarcinoma."
+ },
+ {
+  "pmcid": "PMC8643179",
+  "status": "OK",
+  "n": 6,
+  "genes": "SREBF2,GP2,BMX,NR1H4,DDX41,GOPC",
+  "title": "Identification of an Innate Immune-Related Prognostic Signature in Early-Stage Lung Squamous Cell Carcinoma."
+ },
+ {
+  "pmcid": "PMC7485220",
+  "status": "OK",
+  "n": 7,
+  "genes": "RELA,NFKB1,SP1,VDR,FOS,PPARG,STAT3",
+  "title": "Development of an Immune-Related Risk Signature for Predicting Prognosis in Lung Squamous Cell Carcinoma."
+ },
+ {
+  "pmcid": "PMC7368195",
+  "status": "NO_STATED_N",
+  "n": 8,
+  "genes": "S100A16,FGF2,IGKV4-1,CX3CR1,INHA,ANGPTL4,TNFRSF11A,VIPR1",
+  "title": "Identification of Prognostic Immune-Related Genes by Integrating mRNA Expression and Methylation in Lung Adenocarcinoma."
+ },
+ {
+  "pmcid": "PMC9136055",
+  "status": "OK",
+  "n": 4,
+  "genes": "DDX56,CTSL,ZC3H12D,PSMC5",
+  "title": "Immune-Related RNA-Binding Protein-Based Signature With Predictive and Prognostic Implications in Patients With Lung Adenocarcinoma."
+ },
+ {
+  "pmcid": "PMC7493716",
+  "status": "MISMATCH",
+  "n": 9,
+  "genes": "GCGR,HTR3A,AMH,VGF,SEMA3B,NRTN,ENG,ACVRL1,NR4A1",
+  "title": "Identification of a Prognostic Model Based on Immune-Related Genes of Lung Squamous Cell Carcinoma."
+ },
+ {
+  "pmcid": "PMC7372779",
+  "status": "MISMATCH",
+  "n": 11,
+  "genes": "BTLA,CD27,CD40LG,CD40,CD70,TNFRSF18,TNFRSF4,TNFRSF9,TNFSF14,TNFSF4,TNFSF9",
+  "title": "Establishment of the prognostic index of lung squamous cell carcinoma based on immunogenomic landscape analysis."
+ },
+ {
+  "pmcid": "PMC11094586",
+  "status": "NO_STATED_N",
+  "n": 6,
+  "genes": "S100A16,FURIN,FGF2,LGR4,TNFRSF11A,VIPR1",
+  "title": "Construction of an immune-related gene prognostic model with experimental validation and analysis of immune cell infiltration in lung adenocarcinoma."
+ },
+ {
+  "pmcid": "PMC8554550",
+  "status": "MISMATCH",
+  "n": 4,
+  "genes": "HR,CXCL17,CCL20,CCR2",
+  "title": "Systematic Analyses of a Chemokine Family-Based Risk Model Predicting Clinical Outcome and Immunotherapy Response in Lung Adenocarcinoma."
+ },
+ {
+  "pmcid": "PMC8222816",
+  "status": "MISMATCH",
+  "n": 11,
+  "genes": "STMN1,RAP1A,FLT3,HSPA8,FGF9,EFNA5,IRAK1,RAC3,DUSP10,ANGPT2,PGF",
+  "title": "MAPK-RAP1A Signaling Enriched in Hepatocellular Carcinoma Is Associated With Favorable Tumor-Infiltrating Immune Cells and Clinical Prognosis."
+ },
+ {
+  "pmcid": "PMC7795632",
+  "status": "MISMATCH",
+  "n": 6,
+  "genes": "HAVCR2,TIGIT,LAG3,PDCD1,CXCL13,LYN",
+  "title": "Immunogenomic Gene Signature of Cell-Death Associated Genes with Prognostic Implications in Lung Cancer."
+ },
+ {
+  "pmcid": "PMC12083170",
+  "status": "NO_LIST",
+  "n": 0,
+  "genes": "",
+  "title": "A novel model for predicting immunotherapy response and prognosis in NSCLC patients."
+ },
+ {
+  "pmcid": "PMC11289435",
+  "status": "NO_LIST",
+  "n": 0,
+  "genes": "",
+  "title": "Predictive value of inflammation and nutritional index in immunotherapy for stage IV non-small cell lung cancer and model construction."
+ },
+ {
+  "pmcid": "PMC11745784",
+  "status": "MISMATCH",
+  "n": 14,
+  "genes": "AIRE,APOH,CDKN2A,CEACAM4,COL4A3,DBH,F10,FGFR4,MMP1,PGLYRP1,SCGB2A2,SLC9A3,UGT2B17,VIP",
+  "title": "The landscape of immunogenic cell death-related genes predicts the overall survival and immune infiltration status of non-small-cell lung carcinoma."
+ },
+ {
+  "pmcid": "PMC10930070",
+  "status": "FETCH_FAIL",
+  "n": 0,
+  "genes": "",
+  "title": "Role of ALOX5 in non-small cell lung cancer: A potential therapeutic target associated with immune cell infiltration."
+ },
+ {
+  "pmcid": "PMC8317604",
+  "status": "NO_STATED_N",
+  "n": 6,
+  "genes": "CXCL9,CXCL10,CCL5,IFNG,IL12A,TNFRSF18",
+  "title": "Prognosis of Non-small-cell Lung Cancer Patients With Lipid Metabolism Pathway Alternations to Immunotherapy."
+ },
+ {
+  "pmcid": "PMC7781839",
+  "status": "OK",
+  "n": 5,
+  "genes": "CD40LG,TNFRSF6B,TNFSF13,TNFRSF13C,TNFRSF19",
+  "title": "Identification of a costimulatory molecule-based signature for predicting prognosis risk and immunotherapy response in patients with lung adenocarcinoma."
+ }
+]

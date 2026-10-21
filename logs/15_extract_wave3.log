@@ -1,0 +1,73 @@
+待抽取 48 篇（INCL 47，REVIEW 1）
+
+  1 PMC12752188    stated=7    got= 7 OK           INF=n  MS4A1,EXO1,CPS1,ZNF750,S100P,NT5E,KCNN4
+  2 PMC8212041     stated=8    got= 8 OK           INF=n  ACVR1B,BIRC5,NR2E1,INSR,TGFA,BMP7,CD28,NUDT6
+  3 PMC10412467    stated=None got= 0 NO_LIST      INF=n  
+  4 PMC12475510    stated=7    got= 7 OK           INF=Y  CCR2,CCR4,CCR6,XCR1,CCL20,CXCL17,XCL2
+  5 PMC12187644    stated=None got= 4 NO_STATED_N  INF=Y  MFI2,GREB1L,SPRR1B,LIPK
+  6 PMC13504365    stated=1    got= 8 MISMATCH     INF=n  CD53,HLA-DMA,ITGAX,MYO1F,NCKAP1L,PTPRC,RENBP,TNFAIP8L2
+  7 PMC8912942     stated=None got= 0 NO_LIST      INF=n  
+  8 PMC9575749     stated=7    got= 7 OK           INF=Y  SHC1,PRKCD,VEGFC,RPS6KA1,CAT,CDC25C,GPI
+  9 PMC10800788    stated=10   got=13 MISMATCH     INF=Y  ITGA3,VAV2,FLNC,FLT4,HGF,ITGB6,THBS1,MYL2,ITGB1,CCND2,PPP1
+ 10 PMC10992915    FETCH_FAIL
+ 11 PMC8916235     stated=11   got=11 OK           INF=n  IL3RA,MAGEH1,CCR2,ACP5,TGFBI,CHRNA6,KSR1,GIMAP6,CD80,IL16,
+ 12 PMC8980838     stated=None got= 0 NO_LIST      INF=n  
+ 13 PMC7802904     stated=6    got= 4 MISMATCH     INF=Y  FOXN4,KLHL4,FAM83F,CCR2
+ 14 PMC9861565     stated=1    got= 0 NO_LIST      INF=n  
+ 15 PMC13067001    stated=24   got=21 MISMATCH     INF=n  PLK1,TGFBI,JAG1,MMP3,SERPINE1,ANLN,AHNAK2,GJB3,LOXL2,SPP1,
+ 16 PMC12572471    stated=8    got= 8 OK           INF=n  IGFBP1,TUBB,PLEK2,CNTNAP2,CPS1,EREG,CENPE,HBEGF
+ 17 PMC12781256    FETCH_FAIL
+ 18 PMC12541842    stated=4    got= 4 OK           INF=Y  C3,PSMD11,G3BP1,TRIB2
+ 19 PMC10393998    stated=18   got= 0 NO_LIST      INF=n  
+ 20 PMC8411151     stated=None got= 0 NO_LIST      INF=Y  
+ 21 PMC13178423    stated=None got= 0 NO_LIST      INF=n  
+ 22 PMC11477896    stated=None got= 0 NO_LIST      INF=Y  
+ 23 PMC12318335    stated=None got= 0 NO_LIST      INF=n  
+ 24 PMC12545137    stated=None got= 0 NO_LIST      INF=n  
+ 25 PMC11970426    stated=None got= 0 NO_LIST      INF=n  
+ 26 PMC11965416    stated=None got= 0 NO_LIST      INF=n  
+ 27 PMC12891129    stated=None got= 0 NO_LIST      INF=Y  
+ 28 PMC11954219    stated=None got= 0 NO_LIST      INF=n  
+ 29 PMC11379031    stated=None got= 0 NO_LIST      INF=Y  
+ 30 PMC11433300    stated=2    got= 3 MISMATCH     INF=n  BLM,BLM,EPO
+ 31 PMC11507556    stated=None got= 0 NO_LIST      INF=n  
+ 32 PMC11780879    stated=None got= 0 NO_LIST      INF=n  
+ 33 PMC8931357     stated=None got= 0 NO_LIST      INF=n  
+ 34 PMC10178222    stated=None got= 0 NO_LIST      INF=n  
+ 35 PMC10212685    stated=None got=11 NO_STATED_N  INF=n  AK2,BTK,DMD,DSG2,EIF2AK3,PIK3CG,PRKCD,RFXAP,ANLN,MYO1E,OSG
+ 36 PMC10716534    stated=None got= 1 NO_STATED_N  INF=n  TNF
+ 37 PMC10491477    stated=2    got= 3 MISMATCH     INF=n  CCL3,CCL11,CXCL2
+ 38 PMC11986665    stated=7    got= 0 NO_LIST      INF=n  
+ 39 PMC11602480    stated=None got= 5 NO_STATED_N  INF=n  VIPR1,NEK2,HMGA1,FERMT1,TNS4
+ 40 PMC11899737    stated=None got= 0 NO_LIST      INF=Y  
+ 41 PMC11985211    stated=6    got= 6 OK           INF=Y  FEN1,MCM5,POLD2,MCM4,SSBP1,POLE4
+ 42 PMC12000956    stated=None got= 0 NO_LIST      INF=n  
+ 43 PMC9840027     stated=None got= 0 NO_LIST      INF=Y  
+ 44 PMC8445607     stated=25   got= 0 NO_LIST      INF=Y  
+ 45 PMC12170686    stated=None got= 3 NO_STATED_N  INF=n  DNMT1,DNMT3A,DNMT3B
+ 46 PMC9469139     stated=None got= 0 NO_LIST      INF=Y  
+ 47 PMC9484176     stated=2    got=15 MISMATCH     INF=n  ADM,GNAI3,CD69,IL7R,DCBLD2,ITGA5,RIPK2,NMI,SLC11A2,PVR,RNF
+ 48 PMC10319060    stated=12   got=12 OK           INF=Y  ADAMTS8,CD36,DPYSL2,FABP4,FGFR4,HBA2,OCIAD2,PARP1,PLEKHH2,
+
+=== 汇总 ===
+  NO_LIST      INF=False  17
+  NO_LIST      INF=True  8
+  OK           INF=True  5
+  MISMATCH     INF=False  5
+  OK           INF=False  4
+  NO_STATED_N  INF=False  4
+  MISMATCH     INF=True  2
+  FETCH_FAIL   INF=None  2
+  NO_STATED_N  INF=True  1
+
+INF 通过且列表可抽（待人工定稿）：8
+  PMC12475510 2025 OK           n= 7 Identifying Chemokine System-Related Phenotype to Predict Immune F
+  PMC12187644 2025 NO_STATED_N  n= 4 Risk scoring model for lung adenocarcinoma based on PD-L1 related 
+  PMC9575749 2022 OK           n= 7 A novel gene signature derived from the CXC subfamily of chemokine
+  PMC10800788 2023 MISMATCH     n=13 A novel gene signature related to focal adhesions for distinguishi
+  PMC7802904 2021 MISMATCH     n= 4 Identification of Four Genes as Prognosis Signatures in Lung Adeno
+  PMC12541842 2025 OK           n= 4 Osimertinib resistance-based immune prognostic related gene signat
+  PMC11985211 2025 OK           n= 6 The identification and prediction of lung adenocarcinoma prognosis
+  PMC10319060 2023 OK           n=12 Comprehensive analysis to identify a novel diagnostic marker of lu
+
+-> work/extraction_wave3.json（48 条）

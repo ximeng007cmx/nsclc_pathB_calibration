@@ -1,0 +1,30 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+[10] 读取数据 …
+     LUAD n=500（事件 182）；LUSC n=491（事件 211）
+     SIG01  9 genes  cov=1.00  M1 β=-0.012  M3 β=0.140  衰减=1281.5%
+     SIG02  5 genes  cov=1.00  M1 β=-0.180  M3 β=-0.140  衰减=22.0%
+     SIG03  7 genes  cov=1.00  M1 β=-0.015  M3 β=0.143  衰减=1038.5%
+     SIG04 11 genes  cov=1.00  M1 β=0.103  M3 β=0.266  衰减=-158.3%
+     SIG05  8 genes  cov=1.00  M1 β=0.194  M3 β=0.348  衰减=-79.2%
+     SIG06  2 genes  cov=1.00  M1 β=0.018  M3 β=0.056  衰减=-206.7%
+     SIG07  2 genes  cov=1.00  M1 β=-0.368  M3 β=-0.404  衰减=-9.9%
+     SIG08  7 genes  cov=1.00  M1 β=0.334  M3 β=0.346  衰减=-3.6%
+     SIG09 10 genes  cov=1.00  M1 β=0.021  M3 β=0.058  衰减=-179.4%
+     SIG10 10 genes  cov=0.90  M1 β=0.353  M3 β=0.362  衰减=-2.5%
+     SIG11 12 genes  cov=1.00  M1 β=0.382  M3 β=0.388  衰减=-1.4%
+     SIG12  6 genes  cov=1.00  M1 β=-0.381  M3 β=-0.368  衰减=3.3%
+     SIG13  7 genes  cov=1.00  M1 β=-0.145  M3 β=-0.132  衰减=8.9%
+        endpoint n_signatures median_attenuation median_attenuation_purity_only
+          <char>        <int>              <num>                          <num>
+1: TCGA-LUAD, OS           13        -0.02506148                    -0.03493189
+   n_FDR_sig_M1 n_FDR_sig_M3 n_lost_significance dose_response_rho
+          <int>        <int>               <int>             <num>
+1:            7            7                   0         0.3846154
+   dose_response_p median_rho_immune median_rho_purity
+             <num>             <num>             <num>
+1:       0.1955023         0.3944023        -0.3630648
+[10] 完成

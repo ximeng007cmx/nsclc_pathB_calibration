@@ -1,0 +1,13 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+[00] 读取 pa_data.rds …
+     expr_log: 58581 基因 × 1011 样本
+     基因名示例: RP11-368I23.2, RP11-167B3.1, RP11-742D12.2, RAB4B, AC104071.1
+     surv_luad: 559 行，列 = patient,sample,project,cancer_type,gender,stage,vital_status,OS_time,OS,DSS_time,DSS,PFI_time,PFI,age,time,status,stage_late
+     surv_lusc: 541 行，列 = patient,sample,project,cancer_type,gender,stage,vital_status,OS_time,OS,DSS_time,DSS,PFI_time,PFI,age,time,status,stage_late
+     ESTIMATE 匹配表: 1011 行；matched=TRUE 1010 行
+     队列映射: LUAD 559 / LUSC 541；在表达矩阵内 991
+[00] 完成

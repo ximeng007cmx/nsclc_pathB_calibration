@@ -1,0 +1,450 @@
+
+====================================================================================================
+A_OK  n=17
+====================================================================================================
+
+PMC9047773  PMID 35494074  2022  Front Oncol
+  Prognostic Implication of Energy Metabolism-Related Gene Signatures in Lung Adenocarcinoma
+  rule=I3-metabolism  stated=13  got=13  status=OK  i6=True
+  GENES: AGER;AHSG;ALDH2;CIDEC;CYP17A1;FBP1;GNB3;GZMB;IGFBP1;SORD;SOX2;TRH;TYMS
+  stated-evidence: body: 13-gene
+  list-evidence  : nomogram was used to predict the survival probability of LUAD based on a risk model.ResultsWe constructed a prognostic signature comprising 13 EM-related genes (AGER, AHSG, ALDH2, CIDEC, CYP17A1, FBP1, GNB3, GZMB, IGFBP1, SORD, SOX2, TRH and TYMS). The Kaplan–Meier curves validated the 
+
+PMC8806683  PMID 34323652  2021  Bioengineered
+  Development of a gene signature associated with iron metabolism in lung adenocarcinoma
+  rule=I3-metabolism  stated=12  got=12  status=OK  i6=True
+  GENES: HAVCR1;SPN;GAPDH;ANGPTL4;PRSS3;KRT8;LDHA;HMMR;SLC2A1;CYP24A1;LOXL2;TIMP1
+  stated-evidence: abstract: 12-gene
+  list-evidence  : was constructed by the Cox regression model of the Least Absolute Shrinkage and Selection Operator (LASSO). We constructed a prediction signature with 12 genes (HAVCR1, SPN, GAPDH, ANGPTL4, PRSS3, KRT8, LDHA, HMMR, SLC2A1, CYP24A1, LOXL2, TIMP1), and patients were split into high and 
+
+PMC13190771  PMID 42180928  2026  Transl Cancer Res
+  Lipid metabolism-related gene expression predicts prognostic outcomes in lung adenocarcinoma
+  rule=I3-metabolism  stated=12  got=12  status=OK  i6=True
+  GENES: HILPDA;ACHE;PPARD;ETNK1;ST3GAL2;NCOA2;HACD1;MBTPS2;UGT8;LPIN2;SPHK2;AKR1C4
+  stated-evidence: body: twelve-gene
+  list-evidence  :  in vitro assays, including Cell Counting Kit-8 (CCK-8), wound healing and apoptosis.ResultsA prognostic signature comprising 12 lipid metabolism-related genes (HILPDA, ACHE, PPARD, ETNK1, ST3GAL2, NCOA2, HACD1, MBTPS2, UGT8, LPIN2, SPHK2, and AKR1C4) was successfully established. Based on 
+
+PMC7066120  PMID 32194639  2020  Front Genet
+  Integrated Analysis of the Functions and Prognostic Values of RNA Binding Proteins in Lung Squamous Cell Carcinoma
+  rule=I3-unclear  stated=9  got=9  status=OK  i6=True
+  GENES: A1CF;EIF2B5;LSM1;LSM7;MBNL2;RSRC1;TRMU;TTF2;ZCCHC5
+  stated-evidence: body: nine-gene
+  list-evidence  : sses, RNA processing, RNA modification, regulation of translation, the TGF-beta signaling pathway, and the Toll-like receptor signaling pathway. Nine RBP genes (A1CF, EIF2B5, LSM1, LSM7, MBNL2, RSRC1, TRMU, TTF2, and ZCCHC5) were identified as prognosis-associated
+
+PMC12816179  PMID 41567189  2025  Front Immunol
+  Integration of single cell and bulk transcriptomic analyses identifies FAM189A2 as a key prognostic gene in lung cancer
+  rule=I3-unclear  stated=8  got=8  status=OK  i6=True
+  GENES: LAMA5;ACTB;B4GALT1;KLF5;KRT18;FAM189A2;SLC34A2;S100A11
+  stated-evidence: body: eight-gene
+  list-evidence  : e associated with worse overall survival, whereas Module 15, preferentially active in the GPRC5A+ state, was linked to better outcomes. An eight−gene signature (LAMA5, ACTB, B4GALT1, KLF5, KRT18, FAM189A2, SLC34A2, S100A11) robustly stratified patients into high−
+
+PMC12688223  PMID 41343408  2025  Lung Cancer Manag
+  Construction and validation of an oxidative phosphorylation-related gene signature in lung squamous cell carcinoma patients
+  rule=I3-metabolism  stated=8  got=8  status=OK  i6=True
+  GENES: LTBP1;MFGE8;ACTN1;CD59;CDC25C;SAAL1;SFXN4;PTTG1
+  stated-evidence: abstract: 8-gene
+  list-evidence  : sets, we developed an OXPHOS-related prognostic signature via ssGSEA, differential analysis, and LASSO-Cox regression.ResultsAn 8-gene OXPHOS-related signature (LTBP1, MFGE8, ACTN1, CD59, CDC25C, SAAL1, SFXN4, PTTG1) was identified. High-risk patients exhi
+
+PMC11283104  PMID 39071697  2024  Heliyon
+  Single cell transcriptomic analysis reveals tumor immune infiltration by NK cells gene signature in lung adenocarcinoma
+  rule=I3-unclear  stated=8  got=8  status=OK  i6=True
+  GENES: SPON2;PLEKHG3;CAMK2N1;RAB27B;CTBP2;EFHD2;GOLM1;PLOD1
+  stated-evidence: body: eight-gene
+  list-evidence  : examined two major NK cell groups, NK1 and NK2, comparing the expression profiles of 422 differentially expressed NK signature genes. We identified eight genes (SPON2, PLEKHG3, CAMK2N1, RAB27B, CTBP2, EFHD2, GOLM1, and PLOD1) that distinguish NK1 from NK2 cells. A 
+
+PMC8034925  PMID 33619235  2021  Aging (Albany NY)
+  Establishment and validation of an eight-gene metabolic–related prognostic signature model for lung adenocarcinoma
+  rule=I3-metabolism  stated=8  got=8  status=OK  i6=True
+  GENES: PLAUR;F2;UGT2B17;GNG7;IDO2;ST3GAL6;PIK3CG;GLS2
+  stated-evidence: title: eight-gene
+  list-evidence  : e the roles of these key molecules and to determine the genes that exhibited the greatest importance on the survival outcomes. A signature model of eight genes (PLAUR, F2, UGT2B17, GNG7, IDO2, ST3GAL6, PIK3CG, and GLS2) was constructed based on the LASSO regr
+
+PMC13559650  PMID 42724461  2026  Transl Cancer Res
+  Development and internal validation of a six-gene prognostic model based on galactose metabolism for overall survival in lung adenocarcinoma
+  rule=I3-metabolism  stated=6  got=6  status=OK  i6=True
+  GENES: GALT;GANC;PGM1;GALM;B4GALT1;PGM2
+  stated-evidence: title: six-gene
+  list-evidence  :  Associations between the model and immune infiltration, immunotherapy responsiveness, and tumor stemness were also analyzed.ResultsA six-gene prognostic model (GALT, GANC, PGM1, GALM, B4GALT1, PGM2) was developed. The model showed good di
+
+PMC7557101  PMID 33050938  2020  Lipids Health Dis
+  Lipid metabolism gene-wide profile and survival signature of lung adenocarcinoma
+  rule=I3-metabolism  stated=6  got=6  status=OK  i6=True
+  GENES: CYP2C9;DGAT1;UGT1A6;INS;HPGDS;LPL
+  stated-evidence: abstract: 6 hub
+  list-evidence  : d on the Cox regression model, a nomogram was built to predict the prognosis of TCGA-LUAD patients, using mRNA expression of the six survival-related hub genes (CYP2C9, DGAT1, UGT1A6, INS, HPGDS, and LPL) (Fig. 4a). The concordance index of the
+
+PMC7718790  PMID 33344071  2020  PeerJ
+  Identification of a six-gene metabolic signature predicting overall survival for patients with lung adenocarcinoma
+  rule=I3-metabolism  stated=6  got=6  status=OK  i6=True
+  GENES: PFKP;PKM;TPI1;LDHA;PTGES;TYMS
+  stated-evidence: title: six-gene
+  list-evidence  : aplan–Meier survival analysis, Cox proportional hazards model, and receiver operating characteristic analysis were used.ResultsThe six-gene molecular signature (PFKP, PKM, TPI1, LDHA, PTGES, and TYMS) from the DEGs was constructed to predic
+
+PMC13073725  PMID 41977253  2026  Int J Mol Sci
+  Identification of a Prognostic Gene Signature for Chemoresistance Prediction in Lung Adenocarcinoma by Screening Mitochondrial Metabolism Gene Sets
+  rule=I3-metabolism  stated=5  got=5  status=OK  i6=True
+  GENES: YWHAZ;HSPD1;NOTCH3;PGK1;PPARG
+  stated-evidence: abstract: five-gene
+  list-evidence  : D) treatment and is associated with mitochondrial metabolism. Using publicly available LUAD transcriptome data, we established a five-gene prognostic signature (YWHAZ, HSPD1, NOTCH3, PGK1, and PPARG) for LUAD through differential gene expr
+
+PMC13261843  PMID 41998631  2026  Respir Res
+  Multiomic and functional validation of ACSL3, a regulator of fatty acid metabolism, as a lymph node metastasis-associated gene in lung adenocarcinoma
+  rule=I3-metabolism  stated=5  got=5  status=OK  i6=True
+  GENES: ACSL3;MCAT;NDUFAB1;OLAH;ACSL4
+  stated-evidence: abstract: five-gene
+  list-evidence  : istry, and functional assays were performed to alidate the role of ACSL3 in LUAD malignancy and lymphangiogenesis.ResultsA five-gene FAM-related risk signature (ACSL3, MCAT, NDUFAB1, OLAH, ACSL4) was identified. The derived FScore stra
+
+PMC11963273  PMID 40170009  2025  BMC Cancer
+  Integrative analysis of a novel signature incorporating metabolism and stemness-related genes for risk stratification and assessing clinical outcomes 
+  rule=I3-metabolism  stated=5  got=5  status=OK  i6=True
+  GENES: S100P;GPX2;PRC1;ARNTL2;RGS20
+  stated-evidence: abstract: five-gene
+  list-evidence  : = 1489). By performing multivariate Cox regression analysis, we pinpointed an optimal gene signature comprising five metabolism-stemness-related DEGs (msrDEGs) (S100P, GPX2, PRC1, ARNTL2, and RGS20), along with their respective coefficien
+
+PMC9174756  PMID 35692818  2022  Front Genet
+  Predicting Differences in Treatment Response and Survival Time of Lung Adenocarcinoma Patients Based on a Prognostic Risk Model of Glycolysis-Related 
+  rule=I3-metabolism  stated=5  got=5  status=OK  i6=True
+  GENES: FKBP4;HMMR;B4GALT1;SLC2A1;STC1
+  stated-evidence: abstract: 5-gene
+  list-evidence  : ibution, immune-related molecules, and drug susceptibility were assessed for their relationship with the risk score. Results: We constructed a 5-gene signature (FKBP4, HMMR, B4GALT1, SLC2A1, STC1) capable of dividing patients into two r
+
+PMC12955334  PMID 41634895  2026  Hum Genomics
+  Multi-omics analysis and experiments validate the tumor-suppressive role of mitochondrial lipid metabolism gene ACSM5 in lung adenocarcinoma and its i
+  rule=I3-metabolism  stated=4  got=4  status=OK  i6=True
+  GENES: ACSL4;ACSS3;CHPT1;ACSM5
+  stated-evidence: abstract: four-gene
+  list-evidence  : enes in the genome as background. First, the cBioPortal website was used to display the structural variations, gene mutations, and CNVs of the four model genes (ACSL4, ACSS3, CHPT1, and ACSM5) in the TCGA database. Figure S4A illust
+
+PMC12859070  PMID 41491011  2026  Sci Rep
+  ‌PPIA regulates fatty acid and glutamine metabolism in lung adenocarcinoma based on multiomics prognostic model and experiment validation
+  rule=I3-metabolism  stated=4  got=4  status=OK  i6=True
+  GENES: ERCC1;KYNU;AKR1A1;PPIA
+  stated-evidence: abstract: four-gene
+  list-evidence  : ression. Integrative multi-omics analysis identified a fatty acid metabolism–related gene module associated with poor prognosis in LUAD. A four-gene risk model (ERCC1, KYNU, AKR1A1, and PPIA) demonstrated strong predictive power fo
+
+====================================================================================================
+B_NOSTATED  n=11
+====================================================================================================
+
+PMC10619909  PMID 37920207  2023  Front Pharmacol
+  Applying machine learning algorithms to develop a survival prediction model for lung adenocarcinoma based on genes related to fatty acid metabolism
+  rule=I3-metabolism  stated=None  got=12  status=NO_STATED_N  i6=True
+  GENES: SLC2A1;PKP2;FAM83A;TCN1;MS4A1;CLIC6;UBE2S;RRM2;CDC45;IGF2BP1;ANGPTL4;CD109
+  stated-evidence: not stated
+  list-evidence  : orable prognosis, followed by the C2 subtype, and the C3 subtype had the worst prognosis. The C3 subtype had lower immune infiltration. A total of 12 key genes (SLC2A1, PKP2, FAM83A, TCN1, MS4A1, CLIC6, UBE2S, RRM2, CDC45, IGF2BP1, ANGPTL4, and CD109) were screened and used to develop a Ris
+
+PMC12101037  PMID 40405133  2025  BMC Pulm Med
+  Characteristics of folic acid metabolism-related genes unveil prognosis and treatment strategy in lung adenocarcinoma
+  rule=I3-metabolism  stated=None  got=9  status=NO_STATED_N  i6=True
+  GENES: ANLN;PLK1;DLGAP5;PRC1;CYP4B1;MKI67;KIF23;BIRC5;TK1
+  stated-evidence: not stated
+  list-evidence  : vels of prognostic genes were validated across datasets using the Wilcoxon-test.ResultsThe study identified seventy-seven common DEGs and nine prognostic genes (ANLN, PLK1, DLGAP5, PRC1, CYP4B1, MKI67, KIF23, BIRC5, TK1). The risk model could effectively predi
+
+PMC11876514  PMID 40029500  2025  Discov Oncol
+  Single cell transcriptomic analysis reveals tumor immune infiltration by macrophage cells gene signature in lung adenocarcinoma
+  rule=I3-inflammation  stated=None  got=9  status=NO_STATED_N  i6=True
+  GENES: FOSL1;ZNF697;ADM;UBE2S;TICAM1;S100P;BIRC3;TLE1;DEFB1
+  stated-evidence: not stated
+  list-evidence  : nalysis using differential expression genes (DEGs) derived from pro- and anti-inflammatory macrophage cells. Risk score model including nine TAMs-related genes (FOSL1, ZNF697, ADM, UBE2S, TICAM1, S100P, BIRC3, TLE1, and DEFB1) were obtained for prognosis constructio
+
+PMC10788202  PMID 38226313  2024  Comput Struct Biotechnol J
+  Inflammatory response signature score model for predicting immunotherapy response and pan-cancer prognosis
+  rule=I3-inflammation  stated=None  got=8  status=NO_STATED_N  i6=True
+  GENES: IL21;EXT1;ICAM4;IFNG;LPAR1;NOX4;TAPBP;TTBK1
+  stated-evidence: not stated
+  list-evidence  : formula
+
+PMC9926575  PMID 36782138  2023  BMC Cancer
+  Identification of four metabolic subtypes and key prognostic markers in lung adenocarcinoma based on glycolytic and glutaminolytic pathways
+  rule=I3-metabolism  stated=None  got=9  status=NO_STATED_N  i6=True
+  GENES: CXCL8;CNR1;AGER;ALB;S100A7;SLC2A1;TH;SPP1;LEP
+  stated-evidence: not stated
+  list-evidence  : D metabolic subtypes, glycolytic, glutaminolytic, mixed and quiescent types. The glycolytic type had a worse prognosis than the glutaminolytic type. Nine genes (CXCL8, CNR1, AGER, ALB, S100A7, SLC2A1, TH, SPP1, LEP) were identified as hub genes driving th
+
+PMC9459509  PMID 36093538  2022  Transl Cancer Res
+  A novel pyroptosis related genes signature for predicting prognosis and estimating tumor immune microenvironment in lung adenocarcinoma
+  rule=I3-inflammation  stated=None  got=6  status=NO_STATED_N  i6=True
+  GENES: NLRC4;NLRP1;NLRP3;NOD1;PLCG1;BAK1
+  stated-evidence: not stated
+  list-evidence  : sk score with patients’ clinical features, tumor mutational burden (TMB) as well as tumor microenvironment (TME) was also investigated.ResultsA total of 5 PRGs (NLRC4, NLRP1, NLRP3, NOD1, PLCG1, and BAK1) was used to establish the risk prognost
+
+PMC12098254  PMID 40405049  2025  Discov Oncol
+  Construction of lung adenocarcinoma subtype and prognosis model based on fatty acid metabolism-related genes
+  rule=I3-metabolism  stated=None  got=3  status=NO_STATED_N  i6=True
+  GENES: PGC;ADH7;RPS4Y1
+  stated-evidence: not stated
+  list-evidence  : The DEGs between the different subtypes were associated mainly with amino acid metabolic pathways. In addition, among the 46 DEGs between subtypes, 5 key FAMGs (SCGB3 A2, PGC, ADH7, RPS4Y1, and KRT6 A) were identified as the best prognostic 
+
+PMC11404934  PMID 39287231  2024  Medicine (Baltimore)
+  An abnormal metabolism-related gene, ALG3, is a potential diagnostic and prognostic biomarker for lung adenocarcinoma
+  rule=I3-metabolism  stated=None  got=5  status=NO_STATED_N  i6=True
+  GENES: ALG3;COL7A1;KL;MST1;SLC52A1
+  stated-evidence: not stated
+  list-evidence  : o the prognosis of LUAD, this study is the first time to use them in combination to predict the survival rate of LUAD.In this study, 5 prognostic related genes (ALG3, COL7A1, KL, MST1, and SLC52A1) were used to establish a LUAD polygenic
+
+PMC8419226  PMID 34497605  2021  Front Immunol
+  Clinical Significance and Immunologic Landscape of a Five-IL(R)-Based Signature in Lung Adenocarcinoma
+  rule=I3-inflammation  stated=None  got=5  status=NO_STATED_N  i6=True
+  GENES: IL7R;IL5RA;IL20RB;IL11;IL22RA1
+  stated-evidence: not stated
+  list-evidence  : eanwhile, the prognostic value was compared between this IL(R)-based signature and different immunotherapy markers. A signature based on five identified IL(R)s (IL7R, IL5RA, IL20RB, IL11, IL22RA1) was constructed using the TCGA dataset 
+
+PMC11084143  PMID 38730286  2024  J Transl Med
+  Choline metabolism reprogramming mediates an immunosuppressive microenvironment in non-small cell lung cancer (NSCLC) by promoting tumor-associated ma
+  rule=I3-inflammation  stated=None  got=4  status=NO_STATED_N  i6=True
+  GENES: MTHFD1;PDGFB;PIK3R3;CHKB
+  stated-evidence: not stated
+  list-evidence  :  on the significant variables from the multivariate Cox analysis performed well in discrimination and calibration. Secondly, 4 choline metabolism-related genes (MTHFD1, PDGFB, PIK3R3, CHKB) were screened and developed a risk sign
+
+PMC8361602  PMID 34393804  2021  Front Pharmacol
+  A Novel Integrated Metabolism-Immunity Gene Expression Model Predicts the Prognosis of Lung Adenocarcinoma Patients
+  rule=I3-metabolism  stated=None  got=4  status=NO_STATED_N  i6=True
+  GENES: TYMS;NME4;LDHA;SMOX
+  stated-evidence: not stated
+  list-evidence  : rt by immunohistochemistry and an optimized model of the metabolic-immune protein risk score (MIPRS) was constructed.Results: The MGRS model comprising 4 genes (TYMS, NME4, LDHA, and SMOX) was developed to classify patients into
+
+====================================================================================================
+C_MISMATCH  n=26
+====================================================================================================
+
+PMC10864718  PMID 38351531  2024  Cancer Rep (Hoboken)
+  Meta‐analysis of microarray data to determine gene indicators involved in cisplatin resistance in non‐small cell lung cancer
+  rule=I3-unclear  stated=1  got=7  status=MISMATCH  i6=True
+  GENES: TUBB2B;TUBA3D;MAPK7;TUBAL3;ADCY1;TUBB4A;MAP2K5
+  stated-evidence: body: 1 mRNA
+  list-evidence  :  backbone biosynthesis, GnRH signaling pathway, and glycosylphosphatidylinositol (GPI)‐anchor biosynthesis. Our analysis revealed that seven dysregulated genes (TUBB2B, TUBA3D, MAPK7, TUBAL3, ADCY1, TUBB4A, and MAP2K5) are potentially implicated in the gap j
+
+PMC8531531  PMID 34690780  2021  Front Pharmacol
+  FDX1 can Impact the Prognosis and Mediate the Metabolism of Lung Adenocarcinoma
+  rule=I3-metabolism  stated=12  got=11  status=MISMATCH  i6=True
+  GENES: FDX1;LOXL2;ASPH;GLRX2;ALDH2;CYCS;AKR1A1;MAOB;RDH16;CYBB;CYB5A
+  stated-evidence: body: 12-gene
+  list-evidence  : f FDX1 through flow cytometry, molecular biological methods, and liquid chromatography–tandem mass spectrometry/mass spectrometry (LC–MS/MS). Results: 12 genes (FDX1, FDX2, LOXL2, ASPH, GLRX2, ALDH2, CYCS, AKR1A1, MAOB, RDH16, CYBB, and CYB5A) were selected to build the risk signatu
+
+PMC13633477  PMID 42829577  2026  Int J Genomics
+  Identification of a Novel Subtype‐Derived Prognostic Signature Based on Nucleotide Metabolism‐Related Molecular Classification for Predicting Lung Ade
+  rule=I3-metabolism  stated=3  got=6  status=MISMATCH  i6=True
+  GENES: MKI67;TGFBI;CDCA5;BARX1;PTTG1;SEMA3C
+  stated-evidence: body: three gene
+  list-evidence  : formula
+
+PMC7646164  PMID 33193873  2020  J Cancer
+  Establishment of the Prognostic Index Reflecting Tumor Immune Microenvironment of Lung Adenocarcinoma Based on Metabolism-Related Genes
+  rule=I3-metabolism  stated=5  got=8  status=MISMATCH  i6=True
+  GENES: TYMS;ALDH2;PKM;GNPNAT1;LDHA;ENTPD2;NT5E;MAOB
+  stated-evidence: body: 5 gene
+  list-evidence  : s, we built a metabolism-based prognostic index. With the consequences of LASSO regression analysis, the prognostic indexes based on 8 metabolism-related genes (TYMS, ALDH2, PKM, GNPNAT1, LDHA, ENTPD2, NT5E, MAOB) were established. Patients with high-ri
+
+PMC12290164  PMID 40707667  2025  Discov Oncol
+  Shared blood gene signature in lung adenocarcinoma and microbial lung infections: a bioinformatic analysis and in silico validation
+  rule=I3-unclear  stated=10  got=5  status=MISMATCH  i6=True
+  GENES: FLT3LG;RPL13;RPL14;RPL22;RPS4X
+  stated-evidence: abstract: 10 hub
+  list-evidence  : ibiting insignificant differential expression between lung cancer and lung infection—comprising three upregulated (BCL6, CD163, S100A12) and five downregulated (FLT3LG, RPL13, RPL14, RPL22, RPS4X) genes—underwent linear regression analy
+
+PMC13414110  PMID 42528570  2026  Front Oncol
+  Bioinformatics-based identification of glycolysis-related signatures associated with drug resistance and prognosis in lung adenocarcinoma
+  rule=I3-metabolism  stated=28  got=6  status=MISMATCH  i6=True
+  GENES: WNT3A;VIPR1;ADRB2;SPRY1;PDGFB;RXFP1
+  stated-evidence: body: 28 gene
+  list-evidence  : aph of tumor volume over time, and panel H is a line graph of body weight changes over time for A549 and A549/DDP groups.Through literature research, six genes (WNT3A, VIPR1, ADRB2, SPRY1, PDGFB, and RXFP1) related to lung cancer and the regulati
+
+PMC11726977  PMID 39806313  2025  BMC Cancer
+  The systematic analysis of genes related to butyrate metabolism suggests that CDKN3 could serve as a promising therapeutic target for lung adenocarcin
+  rule=I3-metabolism  stated=1  got=5  status=MISMATCH  i6=True
+  GENES: CPS1;ABCC2;CDKN3;SLC2A1;IGFBP1
+  stated-evidence: body: one gene
+  list-evidence  : date the significant biological roles of a gene signature related to butyrate metabolism in predicting the prognosis of patients with LUAD. Notably, 5 BMR-DEGs (CPS1, ABCC2, CDKN3, SLC2A1, and IGFBP1) were identified as individual prognosti
+
+PMC12595263  PMID 41210694  2025  J Cancer
+  Exploring the Glycolytic Mechanisms in “Driver Gene-Negative” Lung Adenocarcinoma (LUAD): A Single-Cell RNA Sequencing Approach to Identify the MIF-HI
+  rule=I3-metabolism  stated=2  got=6  status=MISMATCH  i6=True
+  GENES: ANKZF1;GPR87;KIF2A;LCT;MIF;SDHC
+  stated-evidence: body: two-gene
+  list-evidence  : athway in driver gene-negative LUAD. Differential expression analysis identified 144 genes associated with the glycolysis pathway. Six glycolysis-related genes (ANKZF1, GPR87, KIF2A, LCT, MIF, SDHC) were identified associated with poor pr
+
+PMC10281056  PMID 37347115  2023  Front Endocrinol (Lausanne)
+  Network pharmacology and bioinformatics analysis identifies potential therapeutic targets of Naringenin against COVID-19/LUSC
+  rule=I3-unclear  stated=13  got=8  status=MISMATCH  i6=True
+  GENES: BAD;CYP1A1;ESRRA;LRRC27;MMP9;NOS1;PDE5A;SREBF1
+  stated-evidence: body: thirteen-gene
+  list-evidence  : ing the model were identified using multifactorial Cox regression analysis, and forest plots were drawn ( Figure 4C ). Those involved in the model construction (BAD, CYP1A1, ESRRA, LRRC27, MMP9, NOS1, PDE5A, and SREBF1) with risk coefficients greater than 1 w
+
+PMC8028741  PMID 33860055  2021  Biomed Res Int
+  Identification and Validation of a Tumor Microenvironment-Related Gene Signature for Prognostic Prediction in Advanced-Stage Non-Small-Cell Lung Cance
+  rule=I3-unclear  stated=6  got=5  status=MISMATCH  i6=True
+  GENES: CD200;CHI3L2;CNTN1;CTSL;SLC52A1
+  stated-evidence: abstract: six-gene
+  list-evidence  : scores in TME by using the ESTIMATE algorithm, resulting in immune scores were positively correlated with OS time. The TMERG risk score model involving 6 genes (CD200, CHI3L2, CNTN1, CTSL, FYB1, and SLC52A1) was constructed and validated. Compared
+
+PMC13513166  PMID 42653487  2026  Int J Mol Sci
+  17β-Estradiol Modulates Cancer Cell–Fibroblast Communication via Autophagy-Mediated Extracellular Vesicle Secretion and Promotes Poor Prognosis in Non
+  rule=I3-inflammation  stated=2  got=5  status=MISMATCH  i6=True
+  GENES: ATG7;ATG9A;MAP1LC3B;TRIM16;RAB8A
+  stated-evidence: body: 2 gene
+  list-evidence  : ntly worse OS compared to the MIX-LOW group (p = 0.019, log-rank test). (C) Boxplot displaying the distribution of the score of a secretory autophagy signature (ATG7, ATG9A, MAP1LC3B, TRIM16, RAB8A and SEC22B genes) in the MIX-HIGH and MIX-LOW groups with
+
+PMC12851720  PMID 41578551  2026  Medicine (Baltimore)
+  Propionate metabolism-related molecular subtypes and prognostic signature in lung adenocarcinoma
+  rule=I3-inflammation  stated=7  got=5  status=MISMATCH  i6=True
+  GENES: SLC2A1;SLC16A1;IL1A;AHSG;ALOX15
+  stated-evidence: abstract: 7-gene
+  list-evidence  : AD.In this study, 7 prognostic genes linked to LUAD were identified. Expression analysis from both the training and validation sets revealed 5 prognostic genes (SLC2A1, SLC16A1, IL1A, AHSG, and ALOX15) exhibiting consistent trends and signif
+
+PMC12474791  PMID 41003841  2025  Discov Oncol
+  A new prognostic model for lung adenocarcinoma according propionate metabolism related genes: a comprehensive bioinformatic study
+  rule=I3-metabolism  stated=7  got=5  status=MISMATCH  i6=True
+  GENES: LDHA;KYNU;SLC2A1;CFTR;MAOB
+  stated-evidence: body: 7-gene
+  list-evidence  : ediction.ResultsA total of 166 DE-PMRGs were identified by intersecting 4,403 DEGs with 531 PMRGs. A risk model was constructed using five characteristic genes (LDHA, KYNU, SLC2A1, CFTR, MAOB) via univariate Cox and LASSO analyses. 
+
+PMC9784226  PMID 36564744  2022  BMC Pulm Med
+  Characterization of the fatty acid metabolism-related genes in lung adenocarcinoma to guide clinical therapy
+  rule=I3-metabolism  stated=9  got=7  status=MISMATCH  i6=True
+  GENES: ACSBG1;DPEP2;ALDH2;HPGDS;CA4;PTGDS;CYP4B1
+  stated-evidence: body: nine-gene
+  list-evidence  : sion analysis was of 67 DEGs involved in fatty acid metabolism was performed. We obtained 11 genes related to prognosis (p < 0.05). Among the 11 genes, 7 genes (ACSBG1, DPEP2, ALDH2, HPGDS, CA4, PTGDS, and CYP4B1) were negatively related to prognosis be
+
+PMC9262104  PMID 35812404  2022  Front Immunol
+  Insight of a Metabolic Prognostic Model to Identify Tumor Environment and Drug Vulnerability for Lung Adenocarcinoma
+  rule=I3-metabolism  stated=14  got=13  status=MISMATCH  i6=True
+  GENES: DTYMK;GCDH;HEMK1;NEU1;NNT;NT5C3A;POLR3G;PPOX;SMS;TKFC;TRDMT1;UAP1;WARS2
+  stated-evidence: abstract: 14 hub
+  list-evidence  : sis indicated that best prognostic model was contributed when log (lambda) was between -4 and -5, and the Metabolism Score was calculated based on 14 hub genes (DTYMK, GCDH, HEMK1, JMJD7.PLA2G4B, NEU1, NNT, NT5C3A, POLR3G, PPOX, SMS, TKFC, TRDMT1, UAP1 and WARS2) ( Supplementary Table S7 ; Figures 2
+
+PMC9315097  PMID 35903696  2022  Front Oncol
+  Nitrogen Metabolism Disorder Accelerates Occurrence and Development of Lung Adenocarcinoma: A Bioinformatic Analysis and In Vitro Experiments
+  rule=I3-metabolism  stated=2  got=14  status=MISMATCH  i6=True
+  GENES: HMGA2;RHOV;PRSS3;KCNF1;FAM83A;CDH17;IGFBP1;IGF2BP1;FBN2;ABCC2;DNER;MAPK4;HOXD8;KYNU
+  stated-evidence: abstract: two gene
+  list-evidence  : formula
+
+PMC8330534  PMID 33856140  2021  Cancer Biol Med
+  A novel recurrence-associated metabolic prognostic model for risk stratification and therapeutic response prediction in patients with stage I lung ade
+  rule=I3-metabolism  stated=2  got=6  status=MISMATCH  i6=True
+  GENES: TP53;KRAS;EGFR;KEAP1;PIK3CA;PTEN
+  stated-evidence: abstract: 2 gene
+  list-evidence  : tional programs activated by alterations in oncogenes or tumor suppressor genes16. Many commonly-mutated genes associated with LUAD regulate metabolic programs (e.g., TP53, KRAS, EGFR, KEAP1, and PIK3CA, PTEN)17. Specific driver mutations are associ
+
+PMC8209576  PMID 33991070  2021  Cancer Med
+  Identification of a glycolysis‐related gene signature associated with clinical outcome for patients with lung squamous cell carcinoma
+  rule=I3-metabolism  stated=6  got=5  status=MISMATCH  i6=True
+  GENES: HKDC1;AGL;ALDH7A1;SLC16A3;MIOX
+  stated-evidence: body: six gene
+  list-evidence  : sis (GSEA). The glycolysis‐related gene signature was established using the Cox regression analysis.ResultsWe developed five glycolysis‐related genes signature (HKDC1, AGL, ALDH7A1, SLC16A3, and MIOX) to calculate each patient's risk score.
+
+PMC7778529  PMID 33403045  2021  J Cancer
+  Prognostic implication of glycolysis related gene signature in non-small cell lung cancer
+  rule=I3-metabolism  stated=1  got=5  status=MISMATCH  i6=True
+  GENES: PKP2;LDHA;HMMR;COL5A1;B3GNT3
+  stated-evidence: body: 1 Gene
+  list-evidence  : ycolysis-related genes were obtained from Gene Set Enrichment Analysis (GSEA) and 46 genes were significantly associated with overall survival (OS). Five genes (PKP2, LDHA, HMMR, COL5A1 and B3GNT3) were eventually identified to calculate
+
+PMC7335383  PMID 32684932  2020  J Oncol
+  Identification of a 5-Gene Metabolic Signature for Predicting Prognosis Based on an Integrated Analysis of Tumor Microenvironment in Lung Adenocarcino
+  rule=I3-metabolism  stated=5  got=4  status=MISMATCH  i6=True
+  GENES: LPGAT1;TYMS;LDHA;PTGES
+  stated-evidence: title: 5-Gene
+  list-evidence  : r Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) database. Based on the extracted metabolic-related genes, a novel 5-gene metabolic prognostic signature (including GNPNAT1, LPGAT1, TYMS, LDHA, and PTGES) was constructed by univariate Cox regre
+
+PMC13397370  PMID 42500572  2026  Oncol Res
+  ANLN: A New Hub in Glutamine Metabolism of Lung Adenocarcinoma by scRNA-Seq and Machine Learning
+  rule=I3-metabolism  stated=4  got=3  status=MISMATCH  i6=True
+  GENES: ANLN;MEST;WDR76
+  stated-evidence: body: four-gene
+  list-evidence  : ove the function of ANLN. Results: Glutamine metabolism activity and increased cell-cell communication were observed in mast cells. A gene signature of 4 genes (ANLN, CIP2A, MEST, WDR76) divided the patients into high-risk and
+
+PMC11987467  PMID 40211263  2025  Cancer Cell Int
+  A novel mitochondrial quality regulation gene signature for anticipating prognosis, TME, and therapeutic response in LUAD by multi-omics analysis and 
+  rule=I3-unclear  stated=2  got=4  status=MISMATCH  i6=True
+  GENES: STRAP;SHCBP1;PKP2;CRTAC1
+  stated-evidence: body: two gene
+  list-evidence  : sion was measured using RT-qPCR, immunohistochemistry, single-cell sequencing, HPA data, and UNCAN data.ResultsWe created a concise risk model using four MQRGs (STRAP, SHCBP1, PKP2, and CRTAC1) to forecast overall survival in LUAD pa
+
+PMC11341317  PMID 39183890  2024  Heliyon
+  The prognostic and clinical value of genes associate with immunity and amino acid Metabolism in Lung Adenocarcinoma
+  rule=I3-metabolism  stated=17  got=3  status=MISMATCH  i6=True
+  GENES: PLK1;RRM2;TRIP13
+  stated-evidence: abstract: 17 hub
+  list-evidence  : icance of the expression level differences (P < 0.05 is considered statistically significant). From the chart, we can observe consistent results for four genes (PLK1, RRM2, TRIP13, and HHMR) in the merged dataset compared to the T
+
+PMC8034940  PMID 33619234  2021  Aging (Albany NY)
+  Predicting lung adenocarcinoma prognosis with a novel risk scoring based on platelet-related gene expression
+  rule=I3-unclear  stated=8  got=7  status=MISMATCH  i6=True
+  GENES: CCNA2;PCDH7;HAS2;P2RX1;PFKP;ENTPD2;TIMP1
+  stated-evidence: body: eight gene
+  list-evidence  : ystems for predicting LUAD’s OS. After a comprehensive analysis, 188 genes were selected as the final specific genes. Finally, eight prognostic gene signatures (PRS: RAB27B, CCNA2, PCDH7, HAS2, P2RX1, PFKP, ENTPD2 and TIMP1) were constructed by COX multivariate re
+
+PMC7720456  PMID 33287749  2020  BMC Cancer
+  Identification of a four-gene panel predicting overall survival for lung adenocarcinoma
+  rule=I3-unclear  stated=4  got=5  status=MISMATCH  i6=True
+  GENES: CSTB;MTHFR;DAGLA;MMP10;GYS2
+  stated-evidence: title: four-gene
+  list-evidence  : , the combination of multiple biomarkers and large sample analysis is more promising. For example, Liu et al. established a six-gene signature prognostic model (including CSE1L, CSTB, MTHFR, DAGLA, MMP10, and GYS2) using data from The Cancer Genome Atlas
+
+PMC7520091  PMID 33024640  2020  PeerJ
+  A model of twenty-three metabolic-related genes predicting overall survival for lung adenocarcinoma
+  rule=I3-metabolism  stated=3  got=23  status=MISMATCH  i6=False
+  GENES: AKR1A1;NT5E;PTGIS;GMPS;MBOAT1;ADCY9;B4GALT1;MAOB;INPP4B;NEU1;ALDOA;ENTPD2;GNPNAT1;GSTA3;PKM;HK3;ALDH2;AK2;LDHA;CHPT1;SMS;CTPS2;TYMS
+  stated-evidence: body: three gene
+  list-evidence  : ly associated with OS in LUAD patients, 42 high-risk genes, and 17 low-risk genes (Fig. 3, Table S8). Finally, lasso-penalized Cox analysis identified 23 genes (AKR1A1, NT5E, PTGIS, GMPS, MBOAT1, ADCY9, B4GALT1, MAOB, INPP4B, NEU1, ALDOA, ENTPD2, GNPNAT1, GSTA3, PKM, HK3, ALDH2, AK2, LDHA, CHPT1, SM
+
+====================================================================================================
+D_FAIL  n=8
+====================================================================================================
+
+PMC11797571  PMID 37532906  None  None
+  Comprehensive analysis of resistance mechanisms to EGFR-TKIs and establishment and validation of prognostic model.
+  rule=I3-unclear  stated=None  got=None  status=FETCH_FAIL  i6=None
+  GENES: 
+  stated-evidence: None
+  list-evidence  : 
+
+PMC11570572  PMID 39551861  2024  Discov Oncol
+  Construction of a novel lipid drop-mitochondria-associated genetic profile for predicting the survival and prognosis of lung adenocarcinoma
+  rule=I3-metabolism  stated=None  got=0  status=NO_LIST  i6=False
+  GENES: 
+  stated-evidence: not stated
+  list-evidence  : 
+
+PMC7429590  PMID 32849929  None  None
+  Identification of pathology-specific regulators of m<sup>6</sup>A RNA modification to optimize lung cancer management in the context of predictive, pr
+  rule=I3-unclear  stated=None  got=None  status=FETCH_FAIL  i6=None
+  GENES: 
+  stated-evidence: None
+  list-evidence  : 
+
+PMC10373868  PMID 37521341  2023  Front Med (Lausanne)
+  Clinical application of common inflammatory and nutritional indicators before treatment in prognosis evaluation of non-small cell lung cancer: a retro
+  rule=I3-inflammation  stated=None  got=0  status=NO_LIST  i6=False
+  GENES: 
+  stated-evidence: not stated
+  list-evidence  : 
+
+PMC8971721  PMID 35372081  2022  Front Oncol
+  Association of Polymorphisms in Inflammation Genes With the Prognosis of Advanced Non-Small Cell Lung Cancer Patients Receiving Epidermal Growth Facto
+  rule=I3-inflammation  stated=None  got=0  status=NO_LIST  i6=False
+  GENES: 
+  stated-evidence: not stated
+  list-evidence  : 
+
+PMC9492411  PMID 36157235  2022  J Oncol
+  Comprehensive Exploration of M2 Macrophages and Its Related Genes for Predicting Clinical Outcomes and Drug Sensitivity in Lung Squamous Cell Carcinom
+  rule=I3-inflammation  stated=None  got=0  status=NO_LIST  i6=False
+  GENES: 
+  stated-evidence: not stated
+  list-evidence  : 
+
+PMC13543433  PMID 42304312  2026  BMC Cancer
+  Differential predictive value of inflammation- and coagulation-based composite biomarkers for venous thromboembolism and mortality in patients with NS
+  rule=I3-inflammation  stated=None  got=0  status=NO_LIST  i6=False
+  GENES: 
+  stated-evidence: not stated
+  list-evidence  : 
+
+PMC11422451  PMID 39318060  2024  J Cell Mol Med
+  Clinical signature and associated immune metabolism of NLRP1 in pan‐cancer
+  rule=I3-metabolism  stated=None  got=0  status=NO_LIST  i6=False
+  GENES: 
+  stated-evidence: not stated
+  list-evidence  : 

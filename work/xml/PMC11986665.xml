@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="zh" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">3417</journal-id><journal-id journal-id-type="pmc-domain">cjlc</journal-id><journal-title-group><journal-title>Chinese Journal of Lung Cancer</journal-title><abbrev-journal-title>Zhongguo Fei Ai Za Zhi</abbrev-journal-title></journal-title-group><publisher><publisher-name>Editorial office of Chinese Journal of Lung Cancer</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11986665</article-id><article-id pub-id-type="pmcaid">11986665</article-id><article-id pub-id-type="pmcaiid">11986665</article-id><article-id pub-id-type="pmid">40210478</article-id><article-id pub-id-type="doi">10.3779/j.issn.1009-3419.2025.102.09</article-id><title-group><article-title>NSCLC中TRAF家族蛋白的表达和预后以及功能综合分析</article-title><trans-title-group xml:lang="en"><trans-title xml:lang="en">Comprehensive Analysis of the Expression, Prognosis and Function of TRAF Family Proteins in NSCLC</trans-title></trans-title-group></title-group><contrib-group content-type="author"><contrib><name name-style="western" xml:lang="en"><surname>WANG</surname><given-names initials="Y">Yixuan</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref rid="equal1" ref-type="author-notes">g</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>CHEN</surname><given-names initials="Q">Qiang</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref><xref rid="equal1" ref-type="author-notes">g</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>FAN</surname><given-names initials="Y">Yaguang</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>TU</surname><given-names initials="S">Shuqi</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>ZHANG</surname><given-names initials="Y">Yang</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>ZHANG</surname><given-names initials="X">Xiuwen</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>PAN</surname><given-names initials="H">Hongli</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref rid="cor1" ref-type="author-notes">✉</xref><xref rid="cor4" ref-type="author-notes">✉</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>ZHOU</surname><given-names initials="X">Xuexia</given-names></name><xref ref-type="aff" rid="aff3">3</xref><xref rid="cor2" ref-type="author-notes">✉</xref><xref rid="cor5" ref-type="author-notes">✉</xref></contrib><contrib><name name-style="western" xml:lang="en"><surname>LI</surname><given-names initials="X">Xuebing</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref rid="cor3" ref-type="author-notes">✉</xref><xref rid="cor6" ref-type="author-notes">✉</xref></contrib></contrib-group><aff id="aff1" xml:lang="en"><sup>1</sup>Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, China</aff><aff id="aff2" xml:lang="en"><sup>2</sup>Department of Respiratory and Critical Medicine, Tianjin Chest Hospital, Tianjin 300222, China</aff><aff id="aff3" xml:lang="en"><sup>3</sup>Tianjin Key Laboratory of Injuries, Variations and Regeneration of the Nervous System, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Tianjin 300052, China</aff><author-notes><fn id="cor1"><label>✉</label><p>潘红丽，E-mail: <email>panhongli@tmu.edu.cn</email>；</p></fn><fn id="cor2"><label>✉</label><p>周雪霞，E-mail: <email>xxzhou@tmu.edu.cn</email>；</p></fn><fn id="cor3"><label>✉</label><p>李雪冰，E-mail: <email>xbli@tmu.edu.cn</email></p></fn><fn id="cor4" xml:lang="en"><label>✉</label><p>Hongli PAN, E-mail: <email>panhongli@tmu.edu.cn</email>;</p></fn><fn id="cor5" xml:lang="en"><label>✉</label><p>Xuexia ZHOU, E-mail: <email>xxzhou@tmu.edu.cn</email>;</p></fn><fn id="cor6" xml:lang="en"><label>✉</label><p>Xuebing LI, E-mail: <email>xbli@tmu.edu.cn</email></p></fn><fn id="equal1"><label>g</label><p id="com1">王逸璇和陈嫱为共同第一作者</p></fn><fn id="equal2" xml:lang="en"><label>#</label><p id="equalid1">Yixuan WANG and Qiang CHEN contributed equally to this study.</p></fn><fn id="fn3"><p><bold>Author contributions:</bold> Wang YX, Chen Q, Pan HL, Zhou XX and Li XB conceived and designed the study. Wang YX and Chen Q performed the experiments and analyzed the data. Fan YG and Li XB contributed analysis tools. Tu SQ, Zhang Y and Zhang XW provided critical inputs on design, analysis and interpretation of the study. All the authors had access to the data. All authors read and approved the final manuscript as submitted.</p></fn></author-notes><pub-date><day>20</day><month>3</month><year>2025</year></pub-date><volume>28</volume><issue>3</issue><fpage>183</fpage><page-range>183–194</page-range><pub-history><event event-type="pmc-release"><date><day>12</day><month>4</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>版权所有 © 2025《中国肺癌杂志》编辑部</copyright-statement><copyright-statement>Copyright © 2025, Chinese Journal of Lung Cancer.</copyright-statement><license><license-p>This is an open access article distributed in accordance with the terms of the Creative Commons Attribution (CC BY 3.0) License. See: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/3.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/3.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="zgfazz-28-3-183.pdf" content-type="pmc-pdf"><?cloudpmc-path c5da/11986665/147cf1889f51/zgfazz-28-3-183.pdf?><?cloudpmc-bucket app?><?size 20409140?></self-uri><abstract id="abstract1"><title>Abstract</title><sec id="sec1" disp-level="2"><title>背景与目的</title><p id="p00010">肺癌是目前世界上发病率和死亡率较高的恶性肿瘤之一。然而，肺癌进展的确切机制仍不清楚。肿瘤坏死因子受体相关因子（tumor necrosis factor receptor associated factor, TRAF）家族成员是胞质接头蛋白，既行使接头蛋白的功能又具有泛素连接酶活性，可调控多种受体信号途径，进而激活核因子κB（nuclear factor kappa-B, NF-κB）、有丝分裂原活化蛋白激酶（mitogen-activated protein kinase, MAPK）和干扰素调节因子（interferon regulatory factor, IRF）信号。本研究旨在探讨TRAFs在不同组织和癌症类型中的表达以及在非小细胞肺癌（non-small cell lung cancer, NSCLC）中的mRNA表达、蛋白表达、预后意义及功能富集分析，为NSCLC的诊断和治疗提供新策略。</p></sec><sec id="sec2" disp-level="2"><title>方法</title><p id="p00015">利用基因型组织表达数据库的RNA测序数据集分析TRAF家族成员在不同人体组织中的表达水平；利用癌细胞百科全书数据库中的RNA测序数据集分析TRAF家族成员在不同类型癌症细胞系中的表达水平；利用癌症基因组图谱（The Cancer Genome Atlas, TCGA）数据库的RNA测序数据集分析人类不同类型癌症中TRAF家族成员的mRNA表达水平；利用人类蛋白质图谱数据库中的免疫组化数据分析NSCLC包括肺腺癌和肺鳞癌中的TRAF家族成员的蛋白表达水平；利用Kaplan-Meier Plotter中的NSCLC患者的生存数据集，通过对数秩检验评估TRAF家族成员的表达与预后生存的相关性；利用TCGA数据库中NSCLC患者的RNA测序数据集对TRAF家族成员相关基因进行基因本体论功能注释分析和京都基因与基因组百科全书通路富集分析；利用基于TCGA数据库的RNA测序数据集，通过ESTIMATE对TRAF家族成员的表达水平与肿瘤免疫微环境进行相关性分析。</p></sec><sec id="sec3" disp-level="2"><title>结果</title><p id="p00020">TRAF家族成员呈现显著的组织表达特异性，TRAF2、TRAF3、TRAF6和TRAF7广泛表达于多种组织，而TRAF1、TRAF4和TRAF5则在个别组织中表达受限；TRAF家族成员的表达在不同类型癌症细胞系中具有高度特异性；在肺腺癌和肺鳞癌组织的mRNA数据中，TRAF2、TRAF4、TRAF5和TRAF7的表达均上调，TRAF6的表达均下调，TRAF1仅在肺腺癌中上调，而TRAF3仅在肺鳞癌中上调；除TRAF3、TRAF4和TRAF7外，其他TRAF蛋白在肺腺癌和肺鳞癌组织中的免疫组化染色显著加深；TRAF2、TRAF4和TRAF7的表达与肺癌患者的总生存期呈负相关，TRAF3、TRAF5和TRAF6的表达与肺癌患者的总生存期呈正相关，而TRAF1的表达与肺癌患者的总生存期无明显相关性；TRAF家族成员差异性调控NF-κB、免疫应答、细胞黏附及RNA剪接相关的等多条信号通路；TRAF家族成员的表达水平与肿瘤免疫微环境中的免疫细胞浸润和基质细胞含量密切相关，且不同成员之间的相关性表现出正负差异。</p></sec><sec id="sec4" disp-level="2"><title>结论</title><p id="p00025">TRAF家族成员在不同组织和癌症类型中表现出特异性差异表达，NSCLC中多数TRAF家族成员在mRNA和蛋白水平表达上调，其中，高表达的TRAF2、TRAF4和TRAF7提示预后不良，TRAF家族成员参与炎症、免疫、黏附及代谢等多条通路，并影响肿瘤免疫微环境。</p></sec><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> 肺肿瘤, 肿瘤坏死因子, 肿瘤坏死因子受体相关因子, 预后, 功能</p></sec></abstract><trans-abstract id="trans-abstract1" xml:lang="en"><title>Abstract</title><sec id="sec5" disp-level="2"><title>Background and objective</title><p id="p00030">Currently, lung cancer is one of the malignant tumors with a high morbidity and mortality all over the world. However, the exact mechanisms underlying lung cancer progression remain unclear. The tumor necrosis factor receptor associated factor (TRAF) family members are cytoplasmic adaptor proteins, which function as both adaptor proteins and ubiquitin ligases to regulate diverse receptor signalings, leading to the activation of nuclear factor kappa-B (NF-κB), mitogen-activated protein kinase (MAPK) and interferon regulatory factor (IRF) signaling. The aim of this study was to investigate the expression of TRAFs in different tissues and cancer types, as well as its mRNA expression, protein expression, prognostic significance and functional enrichment analysis in non-small cell lung cancer (NSCLC), in order to provide new strategies for the diagnosis and treatment of NSCLC.</p></sec><sec id="sec6" disp-level="2"><title>Methods</title><p id="p00035">RNA sequencing data from the The Genotype-Tissue Expression database was used to analyze the expression patterns of TRAF family members in different human tissues. RNA sequencing data from the Cancer Cell Line Encyclopedia database was used to analyze the expression patterns of TRAF family members in different types of cancer cell lines. RNA sequencing data from the The Cancer Genome Atlas (TCGA) database was used to analyze the mRNA levels of TRAF family members across different types of human cancers. Immunohistochemistry (IHC) analyses from HPA database were used to analyze the TRAF protein levels in NSCLC [lung adenocarcinoma (LUAD) and lung squamous carcinoma (LUSC)]. Overall survival analysis was performed by Log-rank test using original data from Kaplan-Meier Plotter database to evaluate the correlation between TRAF expressions and prognosis. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyses were performed on the TRAF family-related genes using RNA sequencing data from the TCGA database for NSCLC. The correlation between the expression levels of TRAF family members and the tumor immune microenvironment was analyzed using the ESTIMATE algorithm based on RNA sequencing data from the TCGA database.</p></sec><sec id="sec7" disp-level="2"><title>Results</title><p id="p00040">The TRAF family members exhibited significant tissue-specific expression heterogeneity. TRAF2, TRAF3, TRAF6 and TRAF7 were widely expressed in most tissues, while the expressions of TRAF1, TRAF4 and TRAF5 were restricted to specific tissues. The expressions of TRAF family members were highly specific among different types of cancer cell lines. In mRNA database of LUAD and LUSC, the expressions of TRAF2, TRAF4, TRAF5 and TRAF7 were significantly upregulated; while TRAF6 did the opposite; moveover, TRAF1 and TRAF3 only displayed a significant upregulation in LUAD and LUSC, respectively. Except for TRAF3, TRAF4 and TRAF7, other TRAF proteins displayed an obviously deeper IHC staining in LUAD and LUSC tissues compared with normal tissues. Additionally, patients with higher expression levels of TRAF2, TRAF4 and TRAF7 had shorter overall survival; while patients with higher expression levels of TRAF3, TRAF5 and TRAF6 had significantly longer overall survival; however, no significant difference had been observed between TRAF1 expression and the overall survival. TRAF family members differentially regulated multiple pathways, including NF-κB, immune response, cell adhesion and RNA splicing. The expression levels of TRAF family members were closely associated with immune cell infiltration and stromal cell content in the tumor immune microenvironment, with varying positive and negative correlations among different members.</p></sec><sec id="sec8" disp-level="2"><title>Conclusion</title><p id="p00045">TRAF family members exhibit highly specific expression differences across different tissues and cancer types. Most TRAF proteins exhibit upregulation at both mRNA and protein levels in NSCLC, whereas, only upregulated expressions of TRAF2, TRAF4 and TRAF7 predict worse prognosis. The TRAF family members regulate processes such as inflammation, immunity, adhesion and splicing, and influence the tumor immune microenvironment.</p></sec><sec id="kwd-group2" xml:lang="en" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> Lung neoplasms, Tumor necrosis factor, Tumor necrosis factor receptor associated factor, Prognosis, Function</p></sec></trans-abstract><custom-meta-group><custom-meta><meta-name>language</meta-name><meta-value>Chinese</meta-value></custom-meta><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2025 Jan 15.</p></sec></notes></front><body><p id="p00050">肺癌是全球第二常见的原发性恶性肿瘤，是一种侵袭性极强的恶性肿瘤。其中，非小细胞肺癌（non-small cell lung cancer, NSCLC）是肺癌中最常见的病理类型，约80%的肺癌都是NSCLC<sup>[<xref rid="b1" ref-type="bibr">1</xref>]</sup>。针对NSCLC，医务人员在早期筛查、诊断、手术、放疗、化疗、分子靶向治疗和免疫治疗等方面做出了巨大的努力。但由于NSCLC极高的发病率和死亡率及较差的预后，其死亡人数在全球癌症相关疾病中位居前列<sup>[<xref rid="b2" ref-type="bibr">2</xref>]</sup>。因此，研究NSCLC恶性进展的分子机制，寻找与NSCLC发生发展相关的驱动基因至关重要。</p><p id="p00055">肿瘤坏死因子（tumor necrosis factor, TNF）超家族由一组分泌型或膜结合型配体组成，而TNF受体（TNF receptor, TNFR）超家族则由其受体组成。这些受体发挥多种广泛的生理功能，包括发育、分化、细胞凋亡和免疫系统调节<sup>[<xref rid="b3" ref-type="bibr">3</xref>]</sup>。TNFR相关因子（TNFR associated factor, TRAF）蛋白便是这类胞内转接蛋白，可直接与细胞表面受体的胞内区结构域结合，介导胞内信号级联的激活<sup>[<xref rid="b4" ref-type="bibr">4</xref>]</sup>。迄今为止，已经在哺乳动物体内发现了7种不同的TRAF蛋白（TRAF1-7）<sup>[<xref rid="b5" ref-type="bibr">5</xref>]</sup>。</p><p id="p00060">TRAFs是一个由细胞因子介导信号传递的接头蛋白家族，有一个相对保守的结构域，是多种细胞表面受体的接头蛋白，可调节多种胞内反应<sup>[<xref rid="b6" ref-type="bibr">6</xref>]</sup>。除TRAF7的C端为酪氨酸-天冬氨酸基元（Trp-Asp 40, WD40）重复序列外，其他TRAF蛋白的C端都有保守的TRAF结构域。TRAF结构域又分为两部分：TRAF-N结构域和TRAF-C结构域。TRAF-N区域有助于TRAF蛋白的寡聚化。TRAF-C区域不仅介导寡聚化，还介导与TNFR蛋白及其他胞质因子的相互作用<sup>[<xref rid="b7" ref-type="bibr">7</xref>]</sup>。除了TRAF1，其他所有TRAF蛋白的N端都含有一个保守的环指结构域和多个相邻的锌指结构域<sup>[<xref rid="b8" ref-type="bibr">8</xref>]</sup>。</p><p id="p00065">TRAF蛋白通过多种信号途径，参与调控重要生物学过程，如细胞增殖、分化、存活和应激反应等<sup>[<xref rid="b9" ref-type="bibr">9</xref>,<xref rid="b10" ref-type="bibr">10</xref>]</sup>。TRAF1和TRAF2可调控激活核因子κB（nuclear factor kappa-B, NF-κB）和c-Jun氨基末端激酶（c-Jun N-terminal kinase, JNK）通路，但缺陷表型差异显著：TRAF1缺陷导致动脉粥样硬化、TNF高敏和T细胞功能障碍；而TRAF2缺陷则引起早夭、严重侏儒症、TNF高敏和干扰素无应答。TRAF3可调控视黄酸诱导基因I样受体（retinoic-acid inducible gene I-like receptor, RLR）和Toll样受体（Toll-like receptor, TLR）通路，缺陷表现为围产期及新生儿存活率低、严重侏儒、免疫器官萎缩伴T细胞功能障碍和外周血白细胞减少。TRAF4缺陷导致围产期存活率下降、呼吸系统畸形及神经管-骨骼发育异常，可能与转化生长因子-β（transforming growth factor-β, TGF-β）通路失调有关。TRAF5通过NF-κB及分化簇27（cluster of differentiation 27, CD27）和CD40通路调控B细胞应答、辅助T细胞1型/2型（helper T cell 1/2, Th1/Th2）分化和淋巴细胞活化。TRAF6作为多通路枢纽，激活NF-κB/JNK/p38并调控CD40/白细胞介素-1（interleukin-1, IL-1）/脂多糖（lipopolysaccharide, LPS）信号，其缺陷引发早夭、骨硬化症、牙发育异常、脾淋巴结肿大及系统性炎症反应，伴IL-1/LPS信号缺陷。TRAF7兼具有丝裂原活化蛋白激酶（mitogen-activated protein kinase, MAPK）激活、TLR调控及NF-κB抑制功能，目前尚未见基因缺陷表型报道<sup>[<xref rid="b5" ref-type="bibr">5</xref>,<xref rid="b11" ref-type="bibr">11</xref>,<xref rid="b12" ref-type="bibr">12</xref>]</sup>。</p><p id="p00070">本研究将利用多个公共数据库的高通量数据，分析TRAF家族蛋白在正常组织和肺癌患者组织及细胞系中的表达，并对其相关基因进行基因本体论（Gene Ontology, GO）功能注释分析和京都基因与基因组百科全书（Kyoto Encyclopedia of Genes and Genomes, KEGG）通路富集分析，评估TRAF家族蛋白与肺癌患者生存预后及免疫微环境的相关性，为NSCLC的诊疗提供新策略和新靶点。</p><sec id="s1" disp-level="1"><title>1 材料与方法</title><sec id="s1.1" disp-level="2"><title>1.1 基因型组织表达数据库（The Genotype-Tissue Expression, GTEx）数据的收集和分析</title><p id="p00075">GTEx数据库是一个庞大的基因表达数据集，它提供了人体不同组织中基因表达水平的全面信息。本研究基于GTEx数据库的RNA测序数据，涵盖多组织样本转录组信息，数据经每百万次读数（counts per million, CPM）标准化和对数转换以优化分布。采用R软件（v4.0.0+）进行差异表达分析及可视化，使用ggplot2、ggprism和ggpubr数据包构建图表。TRAF家族基因的组织间表达差异通过One-way ANOVA进行评估。</p></sec><sec id="s1.2" disp-level="2"><title>1.2 癌细胞百科全书数据库（Cancer Cell Line Encyclopedia, CCLE）数据的收集和分析</title><p id="p00080">本研究利用CCLE数据库中的RNA测序数据分析TRAF家族在不同类型癌症细胞系中的表达模式。从CCLE数据库下载基因表达矩阵和样本注释信息，将基因表达数据与样本注释信息通过癌症依赖性图谱（The Cancer Dependency Map, DepMap）数据库的ID进行配对，并按照癌症类型进行分组。所有癌症类型按照基因表达中位数进行排序。以上分析采用R软件进行（v4.0.0+以上），并用tidyverse和ggplot2数据包进行可视化及统计分析。</p></sec><sec id="s1.3" disp-level="2"><title>1.3 癌症基因组图谱（The Cancer Genome Atlas, TCGA）数据的收集与分析</title><p id="p00085">TCGA数据库收录了33种癌症类型中超过20,000种原发性癌症组织样本的测序数据。本研究通过TCGA数据库中每百万次转录本（transcripts per million, TPM）格式的RNA测序数据分析，将不同类型肿瘤组织与正常组织作比较，分析TRAF家族成员在人多种类型恶性肿瘤中的mRNA表达差异。用于分析的目标分子靶点包括：TRAF1（ENSG00000056558.11）、TRAF2（ENSG00000056555.13）、TRAF3（ENSG00000072778.12）、TRAF4（ENSG00000183476.9）、TRAF5（ENSG00000005075.12）、TRAF6（ENSG00000175104.14）及TRAF7（ENSG00000168313.15）。数据进行对数变换后，通过Wilcoxon秩和检验分析统计学差异。同时，为了筛选TRAF家族蛋白参与细胞功能调控的主要过程和主要通路，我们计算了TRAF家族成员与全基因组基因的Spearman相关系数，并筛选与每个TRAF基因显著相关的基因集（|ρ|&gt;0.4，校正后P&lt;0.05，Benjaminiand-Hochberg法校正），随后对这些基因集分别进行GO功能注释分析和KEGG通路富集分析。GO分析包含分子功能（molecular function, MF）、生物过程（biological process, BP）和细胞组分（cellular component, CC）三个层面。富集采用超几何检验。以上分析采用R软件进行（v4.2.1），并用ggplot2、stats、car和clusterProfiler数据包进行可视化及统计分析。</p></sec><sec id="s1.4" disp-level="2"><title>1.4 人类蛋白质图谱数据库（The Human Protein Atlas, HPA）数据的收集与分析</title><p id="p00090">HPA数据库中使用了大量的高质量抗体及免疫组织化学（immunohistochemistry, IHC）技术来检测和定位人类蛋白质在组织、细胞和器官中的表达。本研究通过HPA数据库分析，将肺腺癌（lung adenocarcinoma, LUAD）组织、肺鳞癌（lung squamous carcinoma, LUSC）组织与正常组织作比较，分析TRAF家族成员在人多种类型恶性肿瘤中的蛋白表达差异。</p></sec><sec id="s1.5" disp-level="2"><title>1.5 卡普兰-梅尔绘图者数据库（Kaplan-Meier Plotter, KM plotter）数据的收集与分析</title><p id="p00095">KM plotter数据库是一种基于生物标志物评估的在线荟萃分析工具，它能基于大型样本数据集来评估不同生物标志物的表达对不同类型癌症患者生存的影响。Kaplan-Meier生存分析则通常用于估计特定时间点上的生存率，评估单一因素对生存期的影响。本研究通过KM plotter数据库分析TRAF1-7的表达高低对肺癌患者总生存期（overall survival, OS）的影响，将P&lt;0.05视为差异具有统计学意义。</p></sec><sec id="s1.6" disp-level="2"><title>1.6 TRAFs表达与肿瘤免疫微环境的相关性分析</title><p id="p00100">本研究从TCGA数据库获取标准化的基因表达数据，采用肿瘤免疫评估法（Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data, ESTIMATE）评估每个样本的免疫细胞浸润水平（免疫评分）和基质细胞含量（基质评分），数据预处理涵盖标准化及缺失值剔除，并使用Spearman等级相关分析评估TRAF家族成员的表达水平与免疫评分和基质评分之间的相关性，计算相关系数（ρ）和统计显著性（P值）。采用R软件（v4.4.0）进行数据处理和统计分析，使用ggplot2数据包绘制散点图，并通过线性回归拟合展示表达量与评分之间的总体趋势。所有统计分析的显著性水平设定为P&lt;0.05。</p></sec></sec><sec id="s2" disp-level="1"><title>2 结果</title><sec id="s2.1" disp-level="2"><title>2.1 TRAFs在不同人体组织中的表达水平分析</title><p id="p00105">为了了解TRAFs在不同人体组织中的表达模式，使用R语言对GTEx数据库中的RNA测序数据进行了分析（附<xref rid="F1" ref-type="fig">图1</xref>，<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.lungca.org/files/2025s15_supp1.pdf" ext-link-type="uri">http://www.lungca.org/files/2025s15_supp1.pdf</ext-link>）。结果显示，TRAF家族成员在各组织中的分布情况存在差异。TRAF2、TRAF3、TRAF6和TRAF7广泛表达于几乎所有组织和器官。相比之下，TRAF1在骨髓、肌肉和胰腺中的表达较低，TRAF4则在心脏和肌肉中表达较少，TRAF5在肝脏、心脏和肌肉中的表达较低。</p><fig id="F1" position="float"><?disp-level 3?><label>图1</label><caption><title>根据TCGA数据库的数据，分析TRAF1-7 mRNA 在多种人类癌症（包括NSCLC：LUAD和LUSC）中肿瘤组织与正常组织的表达情况。Y轴以log2(TPM+1)表示TRAF1-7的表达水平。蓝色箱体和红色箱体分别代表正常组织和肿瘤组织。A：TRAF1；B：TRAF2；C：TRAF3；D：TRAF4；E：TRAF5；F：TRAF6；G：TRAF7。*：P&lt;0.05；**：P&lt;0.01；***：P&lt;0.001。</title></caption><alt-text>Fig 1</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="img_1.jpg"><?cloudpmc-path blobs/c5da/11986665/35252115596f/img_1.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2815?><?original-width 1448?><?scaled-height 1408?><?scaled-width 724?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="img_1.gif"><?cloudpmc-path blobs/c5da/11986665/a163a96f0878/img_1.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="s2.2" disp-level="2"><title>2.2 TRAFs在不同类型癌症细胞系中的表达谱分析</title><p id="p00110">为探讨TRAF家族成员在不同类型癌症细胞系中的表达模式，对CCLE数据库中的RNA数据进行了分析，不同TRAF基因在各类型癌症细胞系中存在显著的表达差异。TRAF1在淋巴瘤细胞中表达最高，TRAF2在肝癌细胞中表达最显著，TRAF3在肾上腺癌细胞中呈高表达，TRAF4在乳腺癌细胞表达最高，TRAF5在眼癌细胞中表达最显著，TRAF6在白血病中表达最显著，TRAF7在肾上腺癌细胞中表达水平较高（附<xref rid="F2" ref-type="fig">图2</xref>，<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.lungca.org/files/2025s15_supp2.pdf" ext-link-type="uri">http://www.lungca.org/files/2025s15_supp2.pdf</ext-link>）。这些结果提示TRAF家族成员的表达在不同类型癌症细胞系中具有高度特异性，进一步分析其在癌组织与正常组织中的差异表达，将有助于揭示其在肿瘤发生中的潜在作用。</p><fig id="F2" position="float"><?disp-level 3?><label>图2</label><caption><title>利用HPA数据库中的IHC分析TRAF1-7在正常肺组织和NSCLC组织（包括LUAD和LUSC）中的蛋白表达。</title></caption><alt-text>Fig 2</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="img_2.jpg"><?cloudpmc-path blobs/c5da/11986665/5bafb67856f2/img_2.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 587?><?original-width 1270?><?scaled-height 294?><?scaled-width 635?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="img_2.gif"><?cloudpmc-path blobs/c5da/11986665/afdeea3cfc1d/img_2.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="s2.3" disp-level="2"><title>2.3 TRAFs在不同类型癌症组织中的mRNA表达变化</title><p id="p00115">为了解TRAF家族成员在人类各类癌症中的表达情况，我们通过TCGA数据库中的RNA测序数据分析，将不同类型肿瘤组织与正常组织作比较，利用R语言分析TRAF家族成员在人多种类型恶性肿瘤中的mRNA表达差异。如<xref rid="F1" ref-type="fig">图1</xref>所示，与正常组织相比，TRAF家族成员在大多数人类癌症中表达上调。特别地，TRAF1-7在某些类型的人类癌症中同时上调，其中包括胆管癌（cholangio carcinoma, CHOL）、肝细胞癌（liver hepatocellular carcinoma, LIHC）和胃腺癌（stomach adenocarcinoma, STAD）（P&lt;0.001）。在LUAD和LUSC组织的mRNA数据中，TRAF2、TRAF4、TRAF5和TRAF7均表达上调（P&lt;0.001），TRAF6表达下调（P&lt;0.01），TRAF1仅在LUAD中表达上调（P&lt;0.001），TRAF3仅在LUSC中表达上调（P&lt;0.001），以上结果表明，TRAF家族成员在NSCLC中具有潜在的促癌功能。</p></sec><sec id="s2.4" disp-level="2"><title>2.4 TRAFs在NSCLC中的蛋白表达变化</title><p id="p00120">当涉及到基因表达时，生物体内的蛋白水平和mRNA水平往往不一致。接下来，利用HPA数据库分析了NSCLC（LUAD和LUSC）中的TRAF蛋白表达水平。如<xref rid="F2" ref-type="fig">图2</xref>所示，利用该数据库高质量抗体的IHC分析，结果发现TRAF家族成员大多在NSCLC组织中上调。将LUAD组织、LUSC组织与正常组织作比较发现，除TRAF3、TRAF4和TRAF7外，其他TRAF蛋白在LUAD和LUSC组织中的IHC染色显著加深，表明在NSCLC组织中的表达增加。值得注意的是，TRAF6的蛋白上调与TRAF6的mRNA下调并不一致，这表明TRAF6可能发生转录后调控和翻译后修饰。综上，TRAF家族成员在mRNA水平和蛋白质水平的表达上调，表明其对NSCLC的恶性进展至关重要。</p></sec><sec id="s2.5" disp-level="2"><title>2.5 TRAFs在肺癌预后生存中的意义</title><p id="p00125">在初步证实了TRAF家族成员的上调表达与NSCLC诊断的关联性后，进一步了解其上调是否与NSCLC的预后有关。我们利用KM Plotter数据库中的生存数据，通过对数秩检验进行了Kaplan-Meier生存率分析。如<xref rid="F3" ref-type="fig">图3</xref>所示，TRAF2、TRAF4和TRAF7高表达患者的OS短于低表达患者（P&lt;0.05）；TRAF3、TRAF5和TRAF6高表达患者的OS显著长于低表达患者（P&lt;0.001）；而TRAF1高表达患者的OS与低表达患者之间无明显差异（P&gt;0.06）。以上结果表明，TRAF2、TRAF4和TRAF7表达较高的患者预后较差；而TRAF3、TRAF5和TRAF6表达较高的患者预后较好。</p><fig id="F3" position="float"><?disp-level 3?><label>图3</label><caption><title>TRAF1-7在NSCLC患者中的预后生存意义。A：使用KM Plotter在线数据库生存分析工具对TCGA中的患者数据进行总生存期分析；B：生存分析中的各参数和P值。**：P&lt;0.01；***：P&lt;0.001。</title></caption><alt-text>Fig 3</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="img_3.jpg"><?cloudpmc-path blobs/c5da/11986665/1c32057023ea/img_3.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 573?><?original-width 1270?><?scaled-height 287?><?scaled-width 635?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="img_3.gif"><?cloudpmc-path blobs/c5da/11986665/dd8e28d69529/img_3.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="s2.6" disp-level="2"><title>2.6 TRAFs的GO功能注释分析和KEGG通路富集分析</title><p id="p00130">TRAF家族成员在NSCLC中的表达差异与预后相关性差异均提示，该家族可能通过调控多条不同功能的通路参与NSCLC的发生发展。为进一步推断可能的调控机制，对TCGA数据库中NSCLC肿瘤组织的RNA测序数据进行GO功能注释分析和KEGG通路富集分析，结果如<xref rid="F4" ref-type="fig">图4</xref>和<xref rid="F5" ref-type="fig">图5</xref>所示，TRAF1主要富集于免疫相关通路，包括细胞因子信号传导、T细胞分化及白细胞介导的免疫相关过程。TRAF2主要关联神经退行性疾病，参与赖氨酸降解、转录调控及组蛋白甲基化等表观遗传修饰过程。TRAF3参与病毒应答、激素信号转导，同时涉及GTP酶信号传导、DNA修复和核质转运等基础细胞功能。TRAF4关联神经退行性疾病，富集于细胞维持过程相关通路，并参与RNA剪接、核糖核蛋白复合物生成及线粒体组织等RNA代谢相关过程。TRAF5主要参与RNA剪接调控，富集于剪接体复合物及细胞骨架相关过程。TRAF6介导细胞运输和信号转导，显著富集于内吞、自噬、囊泡运输及GTP酶信号传导等通路。TRAF7主要富集于神经退行性疾病和细菌感染相关通路，同时富集于核糖核蛋白复合物生成、RNA剪接及蛋白质定位等细胞过程。以上结果提示，TRAF家族成员在RNA剪接、免疫调控、细胞生长及代谢等生物学过程中具有广泛而重要的功能。</p><fig id="F4" position="float"><?disp-level 3?><label>图4</label><caption><title>根据TCGA数据库中的RNA测序数据，对TRAF家族成员相关基因进行GO功能注释分析。A：TRAF1；B：TRAF2；C：TRAF3；D：TRAF4；E：TRAF5；F：TRAF6；G：TRAF7。</title></caption><alt-text>Fig 4</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="img_4.jpg"><?cloudpmc-path blobs/c5da/11986665/d856bf4700d2/img_4.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1567?><?original-width 1271?><?scaled-height 783?><?scaled-width 635?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="img_4.gif"><?cloudpmc-path blobs/c5da/11986665/120f52de7dac/img_4.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="F5" position="float"><?disp-level 3?><label>图5</label><caption><title>根据TCGA数据库中的RNA测序数据，对TRAFs家族成员相关基因进行KEGG通路富集分析。A：TRAF1；B：TRAF2；C：TRAF3；D：TRAF4；E：TRAF5；F：TRAF6；G：TRAF7。</title></caption><alt-text>Fig 5</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="img_5.jpg"><?cloudpmc-path blobs/c5da/11986665/bd543b0ab57c/img_5.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1565?><?original-width 1271?><?scaled-height 782?><?scaled-width 635?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="img_5.gif"><?cloudpmc-path blobs/c5da/11986665/db07e51286e3/img_5.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="s2.7" disp-level="2"><title>2.7 TRAFs与肿瘤免疫微环境的相关性分析</title><p id="p00140">在初步探讨了TRAF家族成员广泛参与免疫调节相关信号通路的基础上，我们进一步分析了其与肿瘤免疫微环境的关系，利用ESTIMATE算法分析TCGA数据库的RNA测序数据，以评估每个样本的免疫细胞浸润水平和基质细胞含量，并通过Spearman等级相关分析评估其与TRAF家族成员表达水平的相关性。如<xref rid="F6" ref-type="fig">图6</xref>所示，TRAF1、TRAF3和TRAF5的表达与免疫评分及基质评分呈正相关，TRAF2、TRAF4和TRAF7的表达则与之呈负相关，TRAF6的表达与免疫评分的相关性不显著，但与基质评分呈正相关。以上结果表明，TRAF家族成员的表达与肿瘤免疫微环境密切相关。</p><fig id="F6" position="float"><?disp-level 3?><label>图6</label><caption><title>通过ESTIMATE算法对TRAFs家族成员的表达水平与肿瘤免疫微环境进行相关性分析。A：TRAF1；B：TRAF2；C：TRAF3；D：TRAF4；E：TRAF5；F：TRAF6；G：TRAF7。</title></caption><alt-text>Fig 6</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="img_6.jpg"><?cloudpmc-path blobs/c5da/11986665/0129d68d6855/img_6.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1273?><?original-width 1268?><?scaled-height 637?><?scaled-width 634?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="img_6.gif"><?cloudpmc-path blobs/c5da/11986665/76259a2bb59d/img_6.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="s3" disp-level="1"><title>3 讨论</title><p id="p00145">肺癌是全球癌症相关死亡的主要原因，其死亡人数在全球癌症相关疾病中位居前列<sup>[<xref rid="b1" ref-type="bibr">1</xref>]</sup>。其中NSCLC是肺恶性肿瘤的主要病理类型之一，其恶性程度极高<sup>[<xref rid="b2" ref-type="bibr">2</xref>]</sup>。因此，对于肺癌恶性进展的机制研究十分迫切，这将为肺癌分子靶向治疗的靶点选择和策略优化提供重要线索。</p><p id="p00150">有研究<sup>[<xref rid="b9" ref-type="bibr">9</xref>,<xref rid="b10" ref-type="bibr">10</xref>]</sup>表明，TRAFs参与多种的信号通路以调控重要生物过程，且许多TRAFs参与的信号途径与癌症发病机制密切关联。本研究系统分析了TRAFs在正常组织、不同类型癌症细胞系及NSCLC组织中的表达模式及其与预后的关系，探讨了TRAFs参与调控的信号通路，并评估了其与肿瘤免疫微环境的相关性。本研究发现，TRAFs在正常组织中呈现显著的组织特异性分布：TRAF2、TRAF3、TRAF6及TRAF7广泛表达于多种组织，而TRAF1、TRAF4和TRAF5则表现出组织特异性表达，提示其功能可能受微环境调控。不仅如此，在不同类型癌症细胞系中，TRAFs家族成员的表达也呈现高度癌种依赖性，如TRAF1在淋巴瘤、TRAF2在肝癌、TRAF4在乳腺癌及TRAF6在白血病中表达最高，暗示其可能作为特定癌症的潜在分子标志物。</p><p id="p00155">值得注意的是，在NSCLC中，TRAF2和TRAF5的mRNA及蛋白水平均显著上调，且与患者预后密切相关。其中，TRAF2、TRAF4和TRAF7的高表达与生存期缩短有关，而TRAF3、TRAF5和TRAF6的高表达提示预后改善，其mRNA和蛋白水平的表达与患者预后并不完全一致，这更加提示TRAFs可能具有极其复杂的调控机制和多样的生物学功能。有研究<sup>[<xref rid="b13" ref-type="bibr">13</xref>,<xref rid="b14" ref-type="bibr">14</xref>]</sup>表明，TRAF1在NSCLC中显著上调，并与较差的OS相关，功能实验发现了其促进细胞增殖、侵袭、分化等方面的致癌功能。TRAF2参与细胞增殖、转移、血管生成和放疗抵抗等过程<sup>[<xref rid="b15" ref-type="bibr">15</xref>,<xref rid="b16" ref-type="bibr">⇓</xref>,<xref rid="b17" ref-type="bibr">⇓</xref>-<xref rid="b18" ref-type="bibr">18</xref>]</sup>。然而，TRAF3的作用存在争议，有研究<sup>[<xref rid="b19" ref-type="bibr">19</xref>,<xref rid="b20" ref-type="bibr">20</xref>]</sup>指出其在NSCLC中表达下调，抑制细胞增殖和迁移，也有研究<sup>[<xref rid="b21" ref-type="bibr">21</xref>]</sup>发现其表达上调并促进自噬以发挥致癌作用。TRAF4在NSCLC中的过表达已被多个研究小组广泛认可，有研究<sup>[<xref rid="b22" ref-type="bibr">22</xref>,<xref rid="b23" ref-type="bibr">⇓</xref>,<xref rid="b24" ref-type="bibr">⇓</xref>-<xref rid="b25" ref-type="bibr">25</xref>]</sup>显示其促进细胞增殖、侵袭、上皮间充质转化和放疗抵抗。2024年Zhou等<sup>[<xref rid="b26" ref-type="bibr">26</xref>]</sup>研究发现TRAF5在LUAD组织中表达显著降低，其低表达与预后不良相关，上调TRAF5的表达可抑制细胞活力、迁移和侵袭，并诱导凋亡。TRAF6被报道在NSCLC中表达上调，促进细胞增殖、侵袭、迁移和抗药性<sup>[<xref rid="b27" ref-type="bibr">27</xref>,<xref rid="b28" ref-type="bibr">⇓</xref>-<xref rid="b29" ref-type="bibr">29</xref>]</sup>，但也有研究<sup>[<xref rid="b30" ref-type="bibr">30</xref>]</sup>报道其表达下调并抑制肿瘤进展，值得注意的是，TRAF6的蛋白水平升高与mRNA表达下调形成显著矛盾，暗示其可能通过泛素化或磷酸化等转录后调控和翻译后修饰机制参与功能调控，这为解析TRAF6在肿瘤中的功能争议提供了新视角。目前，关于TRAF7在NSCLC中的作用尚缺乏报道，需要在未来进一步探索，但是结合TRAF7区别于其他家族成员的C端结构，及其在NSCLC中的表达上调、与患者预后以及相关的功能富集分析和肿瘤免疫微环境的相关性，我们有理由相信，TRAF7极有可能是NSCLC治疗干预的潜在靶点。</p><p id="p00160">综上所述，TRAFs家族成员在NSCLC的发生、发展及转移过程中发挥了重要作用，主要通过影响细胞存活、增殖、侵袭、迁移、炎症反应、放射抗性及耐药性等多个方面来调控肺癌的恶性进展。尽管目前对TRAFs蛋白如何影响NSCLC的具体机制仍未完全阐明，但越来越多的研究表明，它们可能成为肺癌治疗的新靶点，并为探索新的治疗策略提供了重要依据。</p><p id="p00165">然而，本研究仍然存在一定的局限性。首先，TRAFs家族成员的表达调控及其具体功能机制仍需进一步深入探讨，尤其是TRAF6的转录后调控和翻译后修饰在NSCLC中的作用尚不明确，该调控和修饰如何影响下游信号通路仍有待研究。其次，本研究主要依赖公共数据库进行回顾性分析，尽管这些数据为研究提供了重要参考，但可能存在批次效应、数据偏倚及样本代表性不足等问题，会影响分析结果的可靠性：例如，TRAF2和TRAF5生存分析的部分曲线中存在少量交叉，这表明高低表达组间在不同时间段内的生存率有所差异。这可能是由于公共数据库的数据局限性造成的，如样本量过小或某一组阳性例数过少等，也可能存在其他混杂因素，如性别和年龄等。因此，后续研究需要结合前瞻性临床队列研究，并开展多变量分析，以提高数据的准确性和临床相关性。最后，仍需体内外功能实验来进一步验证TRAFs家族成员在NSCLC发生发展中的具体功能，以明确其作为治疗靶点的可行性和有效性。未来，通过更精准的分子机制研究和临床验证，有望进一步挖掘TRAFs家族蛋白在NSCLC中的潜在应用价值，为个性化治疗提供新的思路。</p></sec><sec id="fn-group1" sec-type="fn-group" disp-level="1"><title>Footnotes</title><fn-group><fn id="fn4"><p><bold>Competing interests:</bold> The authors declare that thay have no competing interests.</p></fn></fn-group></sec><sec id="_ci93_" xml:lang="zh" sec-type="contrib-info" disp-level="1"><title>Contributor Information</title><p>Hongli PAN, Email: panhongli@tmu.edu.cn.</p><p>Xuexia ZHOU, Email: xxzhou@tmu.edu.cn.</p><p>Xuebing LI, Email: xbli@tmu.edu.cn.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>参 考 文 献</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="b1"><label>1.</label><mixed-citation><named-content content-type="citation-string">
+Bray F,
+Laversanne M,
+Sung H,
+et al.
+. 
+Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries.
+CA Cancer J Clin,
+2024,
+74(3): 229-263. doi: 10.3322/caac.21834
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3322/caac.21834"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38572751"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=CA Cancer J Clin&amp;title=Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries&amp;author=F Bray&amp;author=M Laversanne&amp;author=H Sung&amp;volume=74&amp;issue=3&amp;publication_year=2024&amp;pages=229-263&amp;pmid=38572751&amp;doi=10.3322/caac.21834&amp;"/></mixed-citation></ref><ref id="b2"><label>2.</label><mixed-citation><named-content content-type="citation-string">
+Wakelee H,
+Kelly K,
+Edelman MJ.
+. 
+50 years of progress in the systemic therapy of non-small cell lung cancer.
+Am Soc Clin Oncol Educ Book,
+2014: 177-189. doi: 10.14694/EdBook_AM.2014.34.177
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.14694/EdBook_AM.2014.34.177"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5600272"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24857075"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Am Soc Clin Oncol Educ Book&amp;title=50 years of progress in the systemic therapy of non-small cell lung cancer&amp;author=H Wakelee&amp;author=K Kelly&amp;author=MJ Edelman&amp;publication_year=2014&amp;pages=177-189&amp;pmid=24857075&amp;doi=10.14694/EdBook_AM.2014.34.177&amp;"/></mixed-citation></ref><ref id="b3"><label>3.</label><mixed-citation><named-content content-type="citation-string">
+Locksley RM,
+Killeen N,
+Lenardo MJ.
+. 
+The TNF and TNF receptor superfamilies: integrating mammalian biology.
+Cell,
+2001,
+104(4): 487-501. doi: 10.1016/s0092-8674(01)00237-9
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/s0092-8674(01)00237-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11239407"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell&amp;title=The TNF and TNF receptor superfamilies: integrating mammalian biology&amp;author=RM Locksley&amp;author=N Killeen&amp;author=MJ Lenardo&amp;volume=104&amp;issue=4&amp;publication_year=2001&amp;pages=487-501&amp;pmid=11239407&amp;doi=10.1016/s0092-8674(01)00237-9&amp;"/></mixed-citation></ref><ref id="b4"><label>4.</label><mixed-citation><named-content content-type="citation-string">
+Elmore S.
+. 
+Apoptosis: a review of programmed cell death.
+Toxicol Pathol,
+2007,
+35(4): 495-516. doi: 10.1080/01926230701320337
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1080/01926230701320337"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2117903"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17562483"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Toxicol Pathol&amp;title=Apoptosis: a review of programmed cell death&amp;author=S Elmore&amp;volume=35&amp;issue=4&amp;publication_year=2007&amp;pages=495-516&amp;pmid=17562483&amp;doi=10.1080/01926230701320337&amp;"/></mixed-citation></ref><ref id="b5"><label>5.</label><mixed-citation><named-content content-type="citation-string">
+Zotti T,
+Vito P,
+Stilo R.
+. 
+The seventh ring: exploring TRAF7 functions.
+J Cell Physiol,
+2012,
+227(3): 1280-1284. doi: 10.1002/jcp.24011
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcp.24011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22105767"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Cell Physiol&amp;title=The seventh ring: exploring TRAF7 functions&amp;author=T Zotti&amp;author=P Vito&amp;author=R Stilo&amp;volume=227&amp;issue=3&amp;publication_year=2012&amp;pages=1280-1284&amp;pmid=22105767&amp;doi=10.1002/jcp.24011&amp;"/></mixed-citation></ref><ref id="b6"><label>6.</label><mixed-citation><named-content content-type="citation-string">
+Arch RH,
+Gedrich RW,
+Thompson CB.
+. 
+Tumor necrosis factor receptor-associated factors (TRAFs)--a family of adapter proteins that regulates life and death.
+Genes Dev,
+1998,
+12(18): 2821-2830. doi: 10.1101/gad.12.18.2821
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1101/gad.12.18.2821"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9744859"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genes Dev&amp;title=Tumor necrosis factor receptor-associated factors (TRAFs)--a family of adapter proteins that regulates life and death&amp;author=RH Arch&amp;author=RW Gedrich&amp;author=CB Thompson&amp;volume=12&amp;issue=18&amp;publication_year=1998&amp;pages=2821-2830&amp;pmid=9744859&amp;doi=10.1101/gad.12.18.2821&amp;"/></mixed-citation></ref><ref id="b7"><label>7.</label><mixed-citation><named-content content-type="citation-string">
+Takeuchi M,
+Rothe M,
+Goeddel DV.
+. 
+Anatomy of TRAF2. Distinct domains for nuclear factor-kappaB activation and association with tumor necrosis factor signaling proteins.
+J Biol Chem,
+1996,
+271(33): 19935-19942. doi: 10.1074/jbc.271.33.19935
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.271.33.19935"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8702708"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Biol Chem&amp;title=Anatomy of TRAF2. Distinct domains for nuclear factor-kappaB activation and association with tumor necrosis factor signaling proteins&amp;author=M Takeuchi&amp;author=M Rothe&amp;author=DV Goeddel&amp;volume=271&amp;issue=33&amp;publication_year=1996&amp;pages=19935-19942&amp;pmid=8702708&amp;doi=10.1074/jbc.271.33.19935&amp;"/></mixed-citation></ref><ref id="b8"><label>8.</label><mixed-citation><named-content content-type="citation-string">
+Ha H,
+Han D,
+Choi Y.
+. 
+TRAF-mediated TNFR-family signaling.
+Curr Protoc Immunol,
+2009,
+Chapter 11: 11.19D.11-11.19D.19. doi: 10.1002/0471142735.im1109ds87
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/0471142735.im1109ds87"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19918944"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr Protoc Immunol&amp;title=TRAF-mediated TNFR-family signaling&amp;author=H Ha&amp;author=D Han&amp;author=Y Choi&amp;volume=Chapter 11&amp;publication_year=2009&amp;pmid=19918944&amp;doi=10.1002/0471142735.im1109ds87&amp;"/></mixed-citation></ref><ref id="b9"><label>9.</label><mixed-citation><named-content content-type="citation-string">
+Zhu S,
+Jin J,
+Gokhale S,
+et al.
+. 
+Genetic alterations of TRAF proteins in human cancers.
+Front Immunol,
+2018,
+9: 2111. doi: 10.3389/fimmu.2018.02111
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fimmu.2018.02111"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6158389"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30294322"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front Immunol&amp;title=Genetic alterations of TRAF proteins in human cancers&amp;author=S Zhu&amp;author=J Jin&amp;author=S Gokhale&amp;volume=9&amp;publication_year=2018&amp;pages=2111&amp;pmid=30294322&amp;doi=10.3389/fimmu.2018.02111&amp;"/></mixed-citation></ref><ref id="b10"><label>10.</label><mixed-citation><named-content content-type="citation-string">
+Bishop GA,
+Abdul-Sater AA,
+Watts TH.
+. 
+Editorial: TRAF proteins in health and disease.
+Front Immunol,
+2019,
+10: 326. doi: 10.3389/fimmu.2019.00326
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fimmu.2019.00326"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6400096"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30863413"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front Immunol&amp;title=Editorial: TRAF proteins in health and disease&amp;author=GA Bishop&amp;author=AA Abdul-Sater&amp;author=TH Watts&amp;volume=10&amp;publication_year=2019&amp;pages=326&amp;pmid=30863413&amp;doi=10.3389/fimmu.2019.00326&amp;"/></mixed-citation></ref><ref id="b11"><label>11.</label><mixed-citation><named-content content-type="citation-string">
+Chung JY,
+Park YC,
+Ye H,
+et al.
+. 
+All TRAFs are not created equal: common and distinct molecular mechanisms of TRAF-mediated signal transduction.
+J Cell Sci,
+2002,
+115(Pt 4): 679-688. doi: 10.1242/jcs.115.4.679
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1242/jcs.115.4.679"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11865024"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Cell Sci&amp;title=All TRAFs are not created equal: common and distinct molecular mechanisms of TRAF-mediated signal transduction&amp;author=JY Chung&amp;author=YC Park&amp;author=H Ye&amp;volume=115&amp;issue=Pt 4&amp;publication_year=2002&amp;pages=679-688&amp;pmid=11865024&amp;doi=10.1242/jcs.115.4.679&amp;"/></mixed-citation></ref><ref id="b12"><label>12.</label><mixed-citation><named-content content-type="citation-string">
+Sajjad N,
+Mir MM,
+Khan J,
+et al.
+. 
+Recognition of TRAIP with TRAFs: Current understanding and associated diseases.
+Int J Biochem Cell Biol,
+2019,
+115: 105589. doi: 10.1016/j.biocel.2019.105589
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.biocel.2019.105589"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31442608"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Int J Biochem Cell Biol&amp;title=Recognition of TRAIP with TRAFs: Current understanding and associated diseases&amp;author=N Sajjad&amp;author=MM Mir&amp;author=J Khan&amp;volume=115&amp;publication_year=2019&amp;pages=105589&amp;pmid=31442608&amp;doi=10.1016/j.biocel.2019.105589&amp;"/></mixed-citation></ref><ref id="b13"><label>13.</label><mixed-citation><named-content content-type="citation-string">
+Wen X,
+Wang B,
+Feng T,
+et al.
+. 
+TNF receptor-associated factor 1 as a biomarker for assessment of non-small cell lung cancer metastasis and overall survival.
+Clin Respir J,
+2018,
+12(7): 2197-2203. doi: 10.1111/crj.12789
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/crj.12789"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29528567"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin Respir J&amp;title=TNF receptor-associated factor 1 as a biomarker for assessment of non-small cell lung cancer metastasis and overall survival&amp;author=X Wen&amp;author=B Wang&amp;author=T Feng&amp;volume=12&amp;issue=7&amp;publication_year=2018&amp;pages=2197-2203&amp;pmid=29528567&amp;doi=10.1111/crj.12789&amp;"/></mixed-citation></ref><ref id="b14"><label>14.</label><mixed-citation><named-content content-type="citation-string">
+Wang Q,
+Gao G,
+Zhang T,
+et al. 
+. 
+TRAF1 is critical for regulating the BRAF/MEK/ERK pathway in non-small cell lung carcinogenesis.
+Cancer Res,
+2018,
+78(14): 3982-3994. doi: 10.1158/0008-5472.CAN-18-0429
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/0008-5472.CAN-18-0429"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6050072"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29748372"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Res&amp;title=TRAF1 is critical for regulating the BRAF/MEK/ERK pathway in non-small cell lung carcinogenesis&amp;author=Q Wang&amp;author=G Gao&amp;author=T Zhang&amp;volume=78&amp;issue=14&amp;publication_year=2018&amp;pages=3982-3994&amp;pmid=29748372&amp;doi=10.1158/0008-5472.CAN-18-0429&amp;"/></mixed-citation></ref><ref id="b15"><label>15.</label><mixed-citation><named-content content-type="citation-string">
+Zheng M,
+Morgan-Lappe SE,
+Yang J,
+et al.
+. 
+Growth inhibition and radiosensitization of glioblastoma and lung cancer cells by small interfering RNA silencing of tumor necrosis factor receptor-associated factor 2.
+Cancer Res,
+2008,
+68(18): 7570-7578. doi: 10.1158/0008-5472.CAN-08-0632
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/0008-5472.CAN-08-0632"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2597026"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18794145"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Res&amp;title=Growth inhibition and radiosensitization of glioblastoma and lung cancer cells by small interfering RNA silencing of tumor necrosis factor receptor-associated factor 2&amp;author=M Zheng&amp;author=SE Morgan-Lappe&amp;author=J Yang&amp;volume=68&amp;issue=18&amp;publication_year=2008&amp;pages=7570-7578&amp;pmid=18794145&amp;doi=10.1158/0008-5472.CAN-08-0632&amp;"/></mixed-citation></ref><ref id="b16"><label>16.</label><mixed-citation><named-content content-type="citation-string">
+Zhang YS,
+Chen T,
+Cai YJ,
+et al.
+. 
+MicroRNA-647 promotes the therapeutic effectiveness of argon-helium cryoablation and inhibits cell proliferation through targeting TRAF2 via the NF-κB signaling pathway in non-small cell lung cancer.
+Onco Targets Ther,
+2018,
+11: 6777-6784. doi: 10.2147/OTT.S159337
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2147/OTT.S159337"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6188019"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30349310"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Onco Targets Ther&amp;title=MicroRNA-647 promotes the therapeutic effectiveness of argon-helium cryoablation and inhibits cell proliferation through targeting TRAF2 via the NF-κB signaling pathway in non-small cell lung cancer&amp;author=YS Zhang&amp;author=T Chen&amp;author=YJ Cai&amp;volume=11&amp;publication_year=2018&amp;pages=6777-6784&amp;pmid=30349310&amp;doi=10.2147/OTT.S159337&amp;"/></mixed-citation></ref><ref id="b17"><label>17.</label><mixed-citation><named-content content-type="citation-string">
+Li Y,
+Deng L,
+Zhao X,
+et al. 
+. 
+Tripartite motif-containing 37 (TRIM37) promotes the aggressiveness of non-small-cell lung cancer cells by activating the NF-κB pathway.
+J Pathol,
+2018,
+246(3): 366-378. doi: 10.1002/path.5144
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/path.5144"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30043491"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Pathol&amp;title=Tripartite motif-containing 37 (TRIM37) promotes the aggressiveness of non-small-cell lung cancer cells by activating the NF-κB pathway&amp;author=Y Li&amp;author=L Deng&amp;author=X Zhao&amp;volume=246&amp;issue=3&amp;publication_year=2018&amp;pages=366-378&amp;pmid=30043491&amp;doi=10.1002/path.5144&amp;"/></mixed-citation></ref><ref id="b18"><label>18.</label><mixed-citation><named-content content-type="citation-string">
+Dumétier B,
+Zadoroznyj A,
+Berthelet J,
+et al.
+. 
+cIAP1/TRAF 2 interplay promotes tumor growth through the activation of STAT3.
+Oncogene,
+2023,
+42(3): 198-208. doi: 10.1038/s41388-022-02544-y
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41388-022-02544-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36400972"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Oncogene&amp;title=cIAP1/TRAF 2 interplay promotes tumor growth through the activation of STAT3&amp;author=B Dumétier&amp;author=A Zadoroznyj&amp;author=J Berthelet&amp;volume=42&amp;issue=3&amp;publication_year=2023&amp;pages=198-208&amp;pmid=36400972&amp;doi=10.1038/s41388-022-02544-y&amp;"/></mixed-citation></ref><ref id="b19"><label>19.</label><mixed-citation><named-content content-type="citation-string">
+Du X,
+Wang S,
+Liu X,
+et al.
+. 
+MiR-1307-5p targeting TRAF 3 upregulates the MAPK/NF-κB pathway and promotes lung adenocarcinoma proliferation.
+Cancer Cell Int,
+2020,
+20: 502. doi: 10.1186/s12935-020-01595-z
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12935-020-01595-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7552495"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33061854"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Cell Int&amp;title=MiR-1307-5p targeting TRAF 3 upregulates the MAPK/NF-κB pathway and promotes lung adenocarcinoma proliferation&amp;author=X Du&amp;author=S Wang&amp;author=X Liu&amp;volume=20&amp;publication_year=2020&amp;pages=502&amp;pmid=33061854&amp;doi=10.1186/s12935-020-01595-z&amp;"/></mixed-citation></ref><ref id="b20"><label>20.</label><mixed-citation><named-content content-type="citation-string">
+Zhang B,
+Yang C,
+Wang R,
+et al.
+. 
+OTUD7B suppresses Smac mimetic-induced lung cancer cell invasion and migration via deubiquitinating TRAF3.
+J Exp Clin Cancer Res,
+2020,
+39(1): 244. doi: 10.1186/s13046-020-01751-3
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s13046-020-01751-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7667862"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33198776"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Exp Clin Cancer Res&amp;title=OTUD7B suppresses Smac mimetic-induced lung cancer cell invasion and migration via deubiquitinating TRAF3&amp;author=B Zhang&amp;author=C Yang&amp;author=R Wang&amp;volume=39&amp;issue=1&amp;publication_year=2020&amp;pages=244&amp;pmid=33198776&amp;doi=10.1186/s13046-020-01751-3&amp;"/></mixed-citation></ref><ref id="b21"><label>21.</label><mixed-citation><named-content content-type="citation-string">
+Newman AC,
+Kemp AJ,
+Drabsch Y,
+et al.
+. 
+Autophagy acts through TRAF3 and RELB to regulate gene expression via antagonism of SMAD proteins.
+Nat Commun,
+2017,
+8(1): 1537. doi: 10.1038/s41467-017-00859-z
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-017-00859-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5691083"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29146913"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat Commun&amp;title=Autophagy acts through TRAF3 and RELB to regulate gene expression via antagonism of SMAD proteins&amp;author=AC Newman&amp;author=AJ Kemp&amp;author=Y Drabsch&amp;volume=8&amp;issue=1&amp;publication_year=2017&amp;pages=1537&amp;pmid=29146913&amp;doi=10.1038/s41467-017-00859-z&amp;"/></mixed-citation></ref><ref id="b22"><label>22.</label><mixed-citation><named-content content-type="citation-string">
+Li W,
+Peng C,
+Lee MH,
+et al. 
+. 
+TRAF4 is a critical molecule for Akt activation in lung cancer.
+Cancer Res,
+2013,
+73(23): 6938-6950. doi: 10.1158/0008-5472.CAN-13-0913
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/0008-5472.CAN-13-0913"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3856436"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24154876"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Res&amp;title=TRAF4 is a critical molecule for Akt activation in lung cancer&amp;author=W Li&amp;author=C Peng&amp;author=MH Lee&amp;volume=73&amp;issue=23&amp;publication_year=2013&amp;pages=6938-6950&amp;pmid=24154876&amp;doi=10.1158/0008-5472.CAN-13-0913&amp;"/></mixed-citation></ref><ref id="b23"><label>23.</label><mixed-citation><named-content content-type="citation-string">
+Kim E,
+Kim W,
+Lee S,
+et al. 
+. 
+TRAF4 promotes lung cancer aggressiveness by modulating tumor microenvironment in normal fibroblasts.
+Sci Rep,
+2017,
+7(1): 8923. doi: 10.1038/s41598-017-09447-z
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-017-09447-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5566719"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28827764"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci Rep&amp;title=TRAF4 promotes lung cancer aggressiveness by modulating tumor microenvironment in normal fibroblasts&amp;author=E Kim&amp;author=W Kim&amp;author=S Lee&amp;volume=7&amp;issue=1&amp;publication_year=2017&amp;pages=8923&amp;pmid=28827764&amp;doi=10.1038/s41598-017-09447-z&amp;"/></mixed-citation></ref><ref id="b24"><label>24.</label><mixed-citation><named-content content-type="citation-string">
+Chang YC,
+Yang YF,
+Chiou J,
+et al.
+. 
+Nonenzymatic function of Aldolase A downregulates miR-145 to promote the Oct4/DUSP4/TRAF 4 axis and the acquisition of lung cancer stemness.
+Cell Death Dis,
+2020,
+11(3): 195. doi: 10.1038/s41419-020-2387-2
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41419-020-2387-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7080828"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32188842"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Death Dis&amp;title=Nonenzymatic function of Aldolase A downregulates miR-145 to promote the Oct4/DUSP4/TRAF 4 axis and the acquisition of lung cancer stemness&amp;author=YC Chang&amp;author=YF Yang&amp;author=J Chiou&amp;volume=11&amp;issue=3&amp;publication_year=2020&amp;pages=195&amp;pmid=32188842&amp;doi=10.1038/s41419-020-2387-2&amp;"/></mixed-citation></ref><ref id="b25"><label>25.</label><mixed-citation><named-content content-type="citation-string">
+Yan Z,
+Yang Q,
+Xue M,
+et al.
+. 
+YY1-induced lncRNA ZFPM2-AS 1 facilitates cell proliferation and invasion in small cell lung cancer via upregulating of TRAF4.
+Cancer Cell Int,
+2020,
+20: 108. doi: 10.1186/s12935-020-1157-7
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12935-020-1157-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7126398"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32280300"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Cell Int&amp;title=YY1-induced lncRNA ZFPM2-AS 1 facilitates cell proliferation and invasion in small cell lung cancer via upregulating of TRAF4&amp;author=Z Yan&amp;author=Q Yang&amp;author=M Xue&amp;volume=20&amp;publication_year=2020&amp;pages=108&amp;pmid=32280300&amp;doi=10.1186/s12935-020-1157-7&amp;"/></mixed-citation></ref><ref id="b26"><label>26.</label><mixed-citation><named-content content-type="citation-string">
+Zhou YF,
+Li JT,
+Zheng QL,
+et al.
+. 
+METTL3-mediated m<sup>6</sup>A methylation of TRAF 5 inhibits lung adenocarcinoma cell metastasis via activation of the PI3K/AKT/NF-κB signaling pathway.
+Kaohsiung J Med Sci,
+2024,
+40(2): 150-160. doi: 10.1002/kjm2.12791
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/kjm2.12791"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11895569"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38088510"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Kaohsiung J Med Sci&amp;title=METTL3-mediated m6A methylation of TRAF 5 inhibits lung adenocarcinoma cell metastasis via activation of the PI3K/AKT/NF-κB signaling pathway&amp;author=YF Zhou&amp;author=JT Li&amp;author=QL Zheng&amp;volume=40&amp;issue=2&amp;publication_year=2024&amp;pages=150-160&amp;pmid=38088510&amp;doi=10.1002/kjm2.12791&amp;"/></mixed-citation></ref><ref id="b27"><label>27.</label><mixed-citation><named-content content-type="citation-string">
+Starczynowski DT,
+Lockwood WW,
+Deléhouzée S,
+et al. 
+. 
+TRAF6 is an amplified oncogene bridging the RAS and NF-κB pathways in human lung cancer.
+J Clin Invest,
+2011,
+121(10): 4095-4105. doi: 10.1172/JCI58818
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1172/JCI58818"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3195480"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21911935"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Clin Invest&amp;title=TRAF6 is an amplified oncogene bridging the RAS and NF-κB pathways in human lung cancer&amp;author=DT Starczynowski&amp;author=WW Lockwood&amp;author=S Deléhouzée&amp;volume=121&amp;issue=10&amp;publication_year=2011&amp;pages=4095-4105&amp;pmid=21911935&amp;doi=10.1172/JCI58818&amp;"/></mixed-citation></ref><ref id="b28"><label>28.</label><mixed-citation><named-content content-type="citation-string">
+Liu H,
+Zhang T,
+Ye J,
+et al.
+. 
+TNF receptor-associated factor 6 in advanced non-small cell lung cancer: clinical and prognostic implications.
+J Cancer Res Clin Oncol,
+2012,
+138(11): 1853-1863. doi: 10.1007/s00432-012-1255-6
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00432-012-1255-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11824509"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22736025"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J Cancer Res Clin Oncol&amp;title=TNF receptor-associated factor 6 in advanced non-small cell lung cancer: clinical and prognostic implications&amp;author=H Liu&amp;author=T Zhang&amp;author=J Ye&amp;volume=138&amp;issue=11&amp;publication_year=2012&amp;pages=1853-1863&amp;pmid=22736025&amp;doi=10.1007/s00432-012-1255-6&amp;"/></mixed-citation></ref><ref id="b29"><label>29.</label><mixed-citation><named-content content-type="citation-string">
+Zhang XL,
+Dang YW,
+Li P,
+et al.
+. 
+Expression of tumor necrosis factor receptor-associated factor 6 in lung cancer tissues.
+Asian Pac J Cancer Prev,
+2014,
+15(24): 10591-10596. doi: 10.7314/apjcp.2014.15.24.10591
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.7314/apjcp.2014.15.24.10591"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25605144"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Asian Pac J Cancer Prev&amp;title=Expression of tumor necrosis factor receptor-associated factor 6 in lung cancer tissues&amp;author=XL Zhang&amp;author=YW Dang&amp;author=P Li&amp;volume=15&amp;issue=24&amp;publication_year=2014&amp;pages=10591-10596&amp;pmid=25605144&amp;doi=10.7314/apjcp.2014.15.24.10591&amp;"/></mixed-citation></ref><ref id="b30"><label>30.</label><mixed-citation><named-content content-type="citation-string">
+Liu X,
+Liu B,
+Li R,
+et al.
+. 
+miR-146a-5p plays an oncogenic role in NSCLC via suppression of TRAF6.
+Front Cell Dev Biol,
+2020,
+8: 847. doi: 10.3389/fcell.2020.00847
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fcell.2020.00847"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7493784"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33015045"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front Cell Dev Biol&amp;title=miR-146a-5p plays an oncogenic role in NSCLC via suppression of TRAF6&amp;author=X Liu&amp;author=B Liu&amp;author=R Li&amp;volume=8&amp;publication_year=2020&amp;pages=847&amp;pmid=33015045&amp;doi=10.3389/fcell.2020.00847&amp;"/></mixed-citation></ref></ref-list></sec></sec></body></article>

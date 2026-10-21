@@ -1,0 +1,2 @@
+comparison	n	k_shrink	k_grow	test	method	p_value
+direction split among 32 nominally significant signatures (M1 P<0.05), TCGA-LUAD, M1 vs M3 attenuation sign	32	17	15	exact binomial two-sided vs p=0.5	R binom.test convention (sum of pmf <= pmf(observed))	0.8601

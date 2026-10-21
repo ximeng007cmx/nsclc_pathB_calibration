@@ -1,0 +1,21 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+== 相关矩阵（Spearman）==
+              adb    ab1   arho att_immune n_genes
+adb         1.000 -0.374  0.419     -0.308  -0.037
+ab1        -0.374  1.000 -0.352      0.119  -0.004
+arho        0.419 -0.352  1.000      0.074  -0.119
+att_immune -0.308  0.119  0.074      1.000  -0.067
+n_genes    -0.037 -0.004 -0.119     -0.067   1.000
+
+== 偏相关：|dbeta| vs |rho| 控制 |beta_M1| ==
+r(|db|,|rho|)=0.419  r(|db|,|bM1|)=-0.374  r(|rho|,|bM1|)=-0.352
+偏相关=0.331  t=2.16  P=0.0368 (df=38)
+
+== 位移方向：是否朝 0 靠拢 ==
+保持同号（不反转）: 38 / 41 
+Error: object 'beta_M3' not found
+Execution halted

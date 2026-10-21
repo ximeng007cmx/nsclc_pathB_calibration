@@ -1,0 +1,46 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+== FDR 转移 ==
+M1 显著 -> M3 失去： 1 
+   sig_id   wave      stratum       p_M1      q_M1      q_M3   att
+   <char> <char>       <char>      <num>     <num>     <num> <num>
+1:  SIG02     W1 inflammation 0.02628939 0.0431146 0.1923281    22
+
+M1 不显著 -> M3 获得： 2 
+   sig_id   wave      stratum      p_M1      q_M1        q_M3    att
+   <char> <char>       <char>     <num>     <num>       <num>  <num>
+1:  SIG04     W1 inflammation 0.1682309 0.2463380 0.008532145 -158.3
+2:  SIG32     W2 inflammation 0.2122231 0.2900382 0.031641859 -109.2
+
+== 方向反转 ==
+   sig_id   wave      stratum beta_M1 beta_M3  p_M3
+   <char> <char>       <char>   <num>   <num> <num>
+1:  SIG01     W1 inflammation  -0.012   0.140 0.184
+2:  SIG03     W1 inflammation  -0.015   0.143 0.188
+3:  SIG26     W2   metabolism  -0.034   0.010 0.903
+
+== H3 剂量-反应（衰减 vs rho_immune）==
+ALL  n=41  rho(A)=-0.051 P=0.753 | rho(|dbeta|)=0.626 P=0.000
+W1   n=13  rho(A)=0.385 P=0.196 | rho(|dbeta|)=0.758 P=0.004
+W2   n=28  rho(A)=-0.241 P=0.215 | rho(|dbeta|)=0.442 P=0.019
+
+== 各波次 |beta_M1| 与 |dbeta| 分布 ==
+     wave     n med_abs_bM1 med_abs_db max_abs_db n_abs_db_gt_0.1
+   <char> <int>       <num>      <num>      <num>           <int>
+1:     W1    13        0.18      0.037      0.163               4
+2:     W2    28        0.28      0.011      0.098               0
+
+== 15 个最不稳的（|A|>100%）==
+   sig_id   wave      stratum beta_M1 beta_M3     A  p_M1
+   <char> <char>       <char>   <num>   <num> <num> <num>
+1:  SIG01     W1 inflammation  -0.012   0.140  1282 0.874
+2:  SIG03     W1 inflammation  -0.015   0.143  1039 0.843
+3:  SIG04     W1 inflammation   0.103   0.266  -158 0.168
+4:  SIG06     W1 inflammation   0.018   0.056  -207 0.803
+5:  SIG09     W1   metabolism   0.021   0.058  -179 0.782
+6:  SIG26     W2   metabolism  -0.034   0.010   129 0.664
+7:  SIG31     W2   metabolism  -0.003  -0.046 -1299 0.965
+8:  SIG32     W2 inflammation   0.090   0.188  -109 0.212

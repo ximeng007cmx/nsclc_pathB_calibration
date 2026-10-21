@@ -1,0 +1,10 @@
+纳入 28 条；排除 26 条
+基因全集覆盖不足者： [('SIG40', 'PMC13397370', 4, 3)]
+
+分层： {'metabolism': 27, 'inflammation': 1}
+验证方式： {'body_enumerated': 6, 'abstract': 13, 'evidence_sentence': 8, 'title+body': 1}
+
+sha256 registry = 02386a554ba9d11221dbf918f2e8a9ce4c0a356e080e89dd98564c0c295bf6a8
+sha256 excluded = 2eaaeb6912c9f7739f81a06f835236720d4933a01cff005ae1a88dc0e0ee9b0e
+-> D:/WorkBuddy_Y02/out_ali_directions/pathB/signature_registry_expansion.csv
+-> D:/WorkBuddy_Y02/out_ali_directions/pathB/signature_registry_expansion_excluded.csv

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>方案 B · 阶段一报告：预注册假设被数据推翻，但得到一个更强的结果（2026-10-20）</title>
+<style>
+:root{--ink:#1b1f24;--ink2:#3d4650;--muted:#6b7684;--line:#e2e6ec;--bg:#fff;--soft:#f6f8fa;--soft2:#eef2f7;
+--accent:#1f5fa8;--accent-soft:#e8f0fa;--ok:#1a7f52;--ok-soft:#e6f4ec;--warn:#a35a00;--warn-soft:#fdf1df;--bad:#a52222;--bad-soft:#fbe9e9;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI","Microsoft YaHei","PingFang SC",-apple-system,sans-serif;font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:44px 30px 90px}
+h1{font-size:26px;line-height:1.4;margin:0 0 6px;letter-spacing:-.2px}
+.sub{color:var(--muted);font-size:13.5px;margin-bottom:26px}
+h2{font-size:20px;margin:44px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+h3{font-size:16.5px;margin:26px 0 8px}
+h4{font-size:14.5px;margin:18px 0 6px;color:var(--ink2)}
+p{margin:9px 0}
+code{background:var(--soft2);padding:1px 5px;border-radius:4px;font-size:12.5px;font-family:Consolas,"Courier New",monospace}
+table{border-collapse:collapse;width:100%;margin:12px 0 18px;font-size:13.3px}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-weight:600;color:var(--ink2)}
+tbody tr:nth-child(even){background:#fbfcfd}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.lead{background:var(--soft);border-left:4px solid var(--accent);padding:16px 20px;margin:18px 0;border-radius:0 6px 6px 0}
+.lead p{margin:6px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:14px;margin:18px 0}
+.card{border:1px solid var(--line);border-radius:8px;padding:14px 16px;background:#fff}
+.card .k{font-size:12px;color:var(--muted);letter-spacing:.4px}
+.card .v{font-size:21px;font-weight:650;margin:2px 0;font-variant-numeric:tabular-nums}
+.card .n{font-size:12.5px;color:var(--muted);line-height:1.55}
+.badge{display:inline-block;padding:1px 8px;border-radius:11px;font-size:12px;font-weight:600;white-space:nowrap}
+.b-ok{background:var(--ok-soft);color:var(--ok)}.b-warn{background:var(--warn-soft);color:var(--warn)}
+.b-bad{background:var(--bad-soft);color:var(--bad)}.b-info{background:var(--accent-soft);color:var(--accent)}
+.note{font-size:12.8px;color:var(--muted)}
+blockquote{margin:14px 0;padding:10px 18px;border-left:3px solid var(--line);color:var(--ink2);background:#fbfcfd}
+ul,ol{margin:8px 0 8px 22px;padding:0}li{margin:5px 0}
+.figwrap{border:1px solid var(--line);border-radius:8px;padding:10px 12px 4px;margin:16px 0;background:#fff}
+.figcap{font-size:12.8px;color:var(--muted);margin:2px 0 8px}
+hr{border:0;border-top:1px solid var(--line);margin:30px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>方案 B · 阶段一报告</h1>
+<div class="sub">预注册假设被数据推翻；但拿到了一个更强的结果：<strong>校正方法确实有功效，而已发表签名并不因此崩塌</strong>。
+执行时间 2026-10-20 20:30–21:10 ｜ 预注册文件 <code>00_criteria_preregistered.md</code>（sha256 <code>b61b1728…</code>）｜
+签名登记表 <code>signature_registry.csv</code>（sha256 <code>0926114b…</code>，13 纳入 / 6 排除，跑结果前已锁定）</div>
+
+<div class="lead">
+<p><strong>一句话：</strong>我按预注册跑完了。H1（校正后中位衰减 &gt; 0）<strong>不成立</strong>——中位衰减 −2.5%（95% CI −79% 到 +9%），
+13 个签名里 FDR 显著的数量校正前后都是 <strong>7/13</strong>，一个没掉（进一个、出一个）。</p>
+<p><strong>但这不是"白跑"：</strong>同一套校正用在已知的免疫含量代理（淋巴细胞轴，与 ImmuneScore ρ=0.86）上，
+衰减 <strong>68.9%</strong>、P 从 0.053 变 0.775。方法有功效，结论才站得住——<strong>已发表的 NSCLC 炎症/代谢签名不是免疫含量的影子。</strong></p>
+<p>这比原计划的"揭穿型"结论更有价值，也更难被审稿人反驳：你手上有一个<strong>通过阳性对照验证的校准试验</strong>，而不是又一次"大家都虚高"的断言。</p>
+</div>
+
+<div class="cards">
+<div class="card"><div class="k">纳入 / 排除 签名</div><div class="v">13 / 6</div>
+<div class="n">6 篇因"基因列表仅在图中"或"正文自相矛盾"而排除，理由已登记</div></div>
+<div class="card"><div class="k">中位衰减（M1→M3）</div><div class="v">−2.5%</div>
+<div class="n">95% CI −79.2% 到 +8.9%（bootstrap 5,000 次）；负值=校正后反而更强。比值口径的适用边界见第二节</div></div>
+<div class="card"><div class="k">FDR 显著数（校正前→后）</div><div class="v">7 → 7</div>
+<div class="n">SIG02 掉出、SIG04 进入——个体有位移，整类不掉</div></div>
+<div class="card"><div class="k">阳性对照衰减</div><div class="v">68.9%</div>
+<div class="n">淋巴细胞轴 P 0.053→0.775，证明方法不是"橡皮图章"</div></div>
+</div>
+
+<h2>一、预注册的判定结果</h2>
+<table>
+<thead><tr><th style="width:8%">假设</th><th style="width:44%">预注册内容</th><th style="width:12%">结果</th><th>判读</th></tr></thead>
+<tbody>
+<tr><td>H1</td><td>衰减比例 A 的中位数 &gt; 0</td><td><span class="badge b-bad">不成立</span></td>
+<td>中位 −2.5%；方向与假设相反（校正后略强）。限定到 M1 显著的 8 个签名后为 −1.9%（exploratory），结论不变</td></tr>
+<tr><td>H2</td><td>校正后至少一部分签名失去 FDR 显著性</td><td><span class="badge b-bad">不成立</span></td>
+<td>7/13 → 7/13；个体层面 SIG02 失去（q 0.049→0.197）、SIG04 获得（0.243→0.009）</td></tr>
+<tr><td>H3</td><td>衰减幅度与"签名×ImmuneScore 相关"正相关</td><td><span class="badge b-warn">未证实</span></td>
+<td>ρ=0.385，P=0.196，n=13；功效不足，只能报"不确定"。改用 |位移| 对 |ρ| 亦不稳健（SIG07 例外）</td></tr>
+<tr><td>—</td><td>（预注册未含，事后补充）校正方法的阳性对照</td><td><span class="badge b-ok">通过</span></td>
+<td>淋巴细胞轴衰减 68.9% 且失去显著性 → 方法本身有能力检出"免疫代理"</td></tr>
+</tbody>
+</table>
+<p class="note">按纪律：H1/H2 不成立就写成不成立，不改口径、不换终点重跑。事后补充的阳性对照明确标注为"post hoc"，并作为方法学证据而非主假设。</p>
+
+<h2>二、主结果（TCGA-LUAD，OS，n=500／182 事件）</h2>
+<table>
+<thead><tr><th>签名</th><th>分层</th><th class="num">基因数</th><th class="num">ρ(分, Immune)</th>
+<th class="num">β<sub>M1</sub></th><th class="num">β<sub>M3</sub></th><th class="num">衰减</th><th class="num">q<sub>M1</sub></th><th class="num">q<sub>M3</sub></th></tr></thead>
+<tbody>
+<tr><td>SIG01</td><td>炎症</td><td class="num">9</td><td class="num">0.636</td><td class="num">−0.012</td><td class="num">0.140</td><td class="num">1281.5%*</td><td class="num">0.874</td><td class="num">0.222</td></tr>
+<tr><td>SIG02</td><td>炎症</td><td class="num">5</td><td class="num">0.533</td><td class="num">−0.180</td><td class="num">−0.140</td><td class="num">22.0%</td><td class="num">0.049</td><td class="num">0.197</td></tr>
+<tr><td>SIG03</td><td>炎症</td><td class="num">7</td><td class="num">0.628</td><td class="num">−0.015</td><td class="num">0.143</td><td class="num">1038.5%*</td><td class="num">0.874</td><td class="num">0.222</td></tr>
+<tr><td>SIG04</td><td>炎症</td><td class="num">11</td><td class="num">0.482</td><td class="num">0.103</td><td class="num">0.266</td><td class="num">−158.3%</td><td class="num">0.243</td><td class="num">0.009</td></tr>
+<tr><td>SIG05</td><td>炎症</td><td class="num">8</td><td class="num">0.395</td><td class="num">0.194</td><td class="num">0.348</td><td class="num">−79.2%</td><td class="num">0.020</td><td class="num">0.0002</td></tr>
+<tr><td>SIG06</td><td>炎症</td><td class="num">2</td><td class="num">0.281</td><td class="num">0.018</td><td class="num">0.056</td><td class="num">−206.7%</td><td class="num">0.874</td><td class="num">0.473</td></tr>
+<tr><td>SIG07</td><td>炎症</td><td class="num">2</td><td class="num">0.621</td><td class="num">−0.368</td><td class="num">−0.404</td><td class="num">−9.9%</td><td class="num">0.0001</td><td class="num">0.0003</td></tr>
+<tr><td>SIG08</td><td>炎症</td><td class="num">7</td><td class="num">−0.062</td><td class="num">0.334</td><td class="num">0.346</td><td class="num">−3.6%</td><td class="num">&lt;1e−4</td><td class="num">&lt;1e−4</td></tr>
+<tr><td>SIG09</td><td>代谢</td><td class="num">10</td><td class="num">0.126</td><td class="num">0.021</td><td class="num">0.058</td><td class="num">−179.4%</td><td class="num">0.874</td><td class="num">0.473</td></tr>
+<tr><td>SIG10</td><td>代谢</td><td class="num">10</td><td class="num">0.025</td><td class="num">0.353</td><td class="num">0.362</td><td class="num">−2.5%</td><td class="num">&lt;1e−4</td><td class="num">&lt;1e−4</td></tr>
+<tr><td>SIG11</td><td>代谢</td><td class="num">12</td><td class="num">−0.052</td><td class="num">0.382</td><td class="num">0.388</td><td class="num">−1.4%</td><td class="num">&lt;1e−4</td><td class="num">&lt;1e−4</td></tr>
+<tr><td>SIG12</td><td>代谢</td><td class="num">6</td><td class="num">0.394</td><td class="num">−0.381</td><td class="num">−0.368</td><td class="num">3.3%</td><td class="num">0.0001</td><td class="num">0.0002</td></tr>
+<tr><td>SIG13</td><td>代谢</td><td class="num">7</td><td class="num">0.234</td><td class="num">−0.145</td><td class="num">−0.132</td><td class="num">8.9%</td><td class="num">0.081</td><td class="num">0.126</td></tr>
+</tbody>
+</table>
+<p class="note">M1 = 签名分 + 年龄 + 性别 + 分期；M3 = M1 + ImmuneScore + StromalScore。β 为每 SD 的 log-HR。
+*SIG01/SIG03 的 β<sub>M1</sub>≈0（本身不预后），比值型衰减在此处无意义，只能作噪声解读——不要写进结论。</p>
+
+<div class="lead">
+<p><strong>主估计量的适用边界（这一条必须写进方法，否则审稿人一定会问）：</strong>
+A = 1 − β<sub>M3</sub>/β<sub>M1</sub> 是<strong>比值</strong>，当 β<sub>M1</sub> 接近 0 时会被机械放大。
+13 个签名里 5 个 |A|&gt;100%，<strong>全部是 M1 不显著者</strong>：SIG01（P=0.87，A=1281.5%）、SIG03（P=0.84，A=1038.5%）、
+SIG06（P=0.80，A=−206.7%）、SIG09（P=0.78，A=−179.4%）、SIG04（P=0.17，A=−158.3%）。
+所以另报一个<strong>标注为 exploratory</strong> 的子集——只保留 M1 名义 P&lt;0.05 的签名（n=8，比值在此才有定义）：
+中位 A = <strong>−1.9%</strong>（范围 −79.2% 到 +22.0%），|Δβ| 中位 <strong>0.013</strong>，
+<strong>7/8 的 |Δβ| &lt; 0.10</strong>；仅两条超出 ±20%——SIG05 校正后更强（−79.2%）、SIG02 减弱（+22.0%）；
+M3 中仍有 6/8 保持 FDR&lt;0.05。</p>
+<p>两个口径指向同一结论：<strong>校正不系统性地削弱这类签名</strong>。
+按预注册第 7 条，该子集为<strong>事后定义</strong>（原主分析固定为全部 13 个），已在
+<code>results/attenuation_signal_subset_exploratory.csv</code> 单独落盘并全部披露。</p>
+</div>
+
+<div class="figwrap">
+<svg viewBox="0 0 680 320" width="100%" role="img" aria-label="校正前后效应量位移">
+  <g stroke="#e2e6ec"><line x1="320" y1="24" x2="320" y2="292"/></g>
+  <text x="320" y="312" font-size="11" fill="#6b7684" text-anchor="middle">log-HR per SD（竖线=0）</text>
+  <!-- rows -->
+  <g stroke="#c9d0d8" stroke-width="1.6">
+    <line x1="99.0" y1="34" x2="106.6" y2="34"/><line x1="106.6" y1="53" x2="85.7" y2="53"/>
+    <line x1="215.6" y1="72" x2="238.8" y2="72"/><line x1="235.9" y1="91" x2="243.4" y2="91"/>
+    <line x1="311.3" y1="110" x2="402.9" y2="110"/><line x1="313.0" y1="129" x2="401.2" y2="129"/>
+    <line x1="330.4" y1="148" x2="352.5" y2="148"/><line x1="332.2" y1="167" x2="353.6" y2="167"/>
+    <line x1="379.7" y1="186" x2="474.3" y2="186"/><line x1="432.5" y1="205" x2="521.8" y2="205"/>
+    <line x1="513.7" y1="224" x2="520.7" y2="224"/><line x1="524.7" y1="243" x2="530.0" y2="243"/>
+    <line x1="541.6" y1="262" x2="545.0" y2="262"/>
+  </g>
+  <g fill="none" stroke="#1f5fa8" stroke-width="2"><line x1="232.4" y1="281" x2="292.7" y2="281"/></g>
+  <g fill="#fff" stroke="#6b7684" stroke-width="1.6">
+    <circle cx="99.0" cy="34" r="3.6"/><circle cx="106.6" cy="53" r="3.6"/><circle cx="215.6" cy="72" r="3.6"/>
+    <circle cx="235.9" cy="91" r="3.6"/><circle cx="311.3" cy="110" r="3.6"/><circle cx="313.0" cy="129" r="3.6"/>
+    <circle cx="330.4" cy="148" r="3.6"/><circle cx="332.2" cy="167" r="3.6"/><circle cx="379.7" cy="186" r="3.6"/>
+    <circle cx="432.5" cy="205" r="3.6"/><circle cx="513.7" cy="224" r="3.6"/><circle cx="524.7" cy="243" r="3.6"/>
+    <circle cx="541.6" cy="262" r="3.6"/>
+  </g>
+  <g fill="#1f5fa8">
+    <circle cx="106.6" cy="34" r="3.6"/><circle cx="85.7" cy="53" r="3.6"/><circle cx="238.8" cy="72" r="3.6"/>
+    <circle cx="243.4" cy="91" r="3.6"/><circle cx="402.9" cy="110" r="3.6"/><circle cx="401.2" cy="129" r="3.6"/>
+    <circle cx="352.5" cy="148" r="3.6"/><circle cx="353.6" cy="167" r="3.6"/><circle cx="474.3" cy="186" r="3.6"/>
+    <circle cx="521.8" cy="205" r="3.6"/><circle cx="520.7" cy="224" r="3.6"/><circle cx="530.0" cy="243" r="3.6"/>
+    <circle cx="545.0" cy="262" r="3.6"/><circle cx="292.7" cy="281" r="4.2"/>
+  </g>
+  <g font-size="11" fill="#3d4650">
+    <text x="30" y="38">SIG12</text><text x="30" y="57">SIG07</text><text x="30" y="76">SIG02</text>
+    <text x="30" y="95">SIG13</text><text x="30" y="114">SIG03</text><text x="30" y="133">SIG01</text>
+    <text x="30" y="152">SIG06</text><text x="30" y="171">SIG09</text><text x="30" y="190">SIG04</text>
+    <text x="30" y="209">SIG05</text><text x="30" y="228">SIG08</text><text x="30" y="247">SIG10</text>
+    <text x="30" y="266">SIG11</text>
+  </g>
+  <text x="30" y="285" font-size="11" fill="#1f5fa8" font-weight="600">阳性对照：淋巴轴</text>
+  <text x="300" y="285" font-size="10.5" fill="#1f5fa8">← 校正后明显向 0 靠拢（衰减 68.9%）</text>
+  <g font-size="10.5" fill="#6b7684">
+    <circle cx="600" cy="34" r="3.6" fill="#fff" stroke="#6b7684"/><text x="610" y="38">校正前</text>
+    <circle cx="600" cy="52" r="3.6" fill="#1f5fa8"/><text x="610" y="56">校正后</text>
+  </g>
+</svg>
+<div class="figcap">每个签名一条线：空心=校正前（M1），实心=校正后（M3）。已发表签名多为短距离、方向不一的位移；
+阳性对照（淋巴细胞轴）是唯一系统性向 0 靠拢的一条。</div>
+</div>
+
+<h2>三、为什么这个"零结果"可信：两类对照</h2>
+<table>
+<thead><tr><th style="width:26%">对照</th><th class="num" style="width:12%">ρ(分,Immune)</th><th class="num" style="width:14%">β<sub>M1</sub> (P)</th><th class="num" style="width:14%">β<sub>M3</sub> (P)</th><th class="num">衰减</th><th>含义</th></tr></thead>
+<tbody>
+<tr><td><strong>淋巴细胞轴</strong>（阳性对照）</td><td class="num">0.859</td><td class="num">−0.151 (0.053)</td><td class="num">−0.047 (0.775)</td><td class="num"><strong>68.9%</strong></td>
+<td>已知免疫代理 → 校正后确实崩；证明方法有功效</td></tr>
+<tr><td>中性粒细胞轴</td><td class="num">0.548</td><td class="num">0.002 (0.976)</td><td class="num">0.136 (0.135)</td><td class="num">n.a.*</td><td>本身不预后，比值无意义</td></tr>
+<tr><td>肝源性营养轴</td><td class="num">−0.098</td><td class="num">0.113 (0.199)</td><td class="num">0.095 (0.307)</td><td class="num">15.3%</td><td>与免疫几乎无关，位移小</td></tr>
+<tr><td>表达匹配随机面板（×200/签名）</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">中位 0.0–7.0%</td>
+<td>任意基因面板的衰减分布：中位≈0，95% 区间约 −3 到 +4（比值方差极大）</td></tr>
+</tbody>
+</table>
+<p class="note">*中性粒轴 β<sub>M1</sub>=0.002，比值型衰减会给出 −5831%，属数值不稳定，已不纳入解读。
+已发表签名的衰减在随机面板分布中的百分位<strong>铺满整个 0–1 区间，与均匀分布无差异</strong>
+（Kolmogorov–Smirnov 检验 D=0.199，P=0.68；均值 0.443、中位 0.42；13 个中 8 个低于 0.5，二项检验 P=0.58）：
+低段 4 个（SIG09 0.045、SIG04 0.055、SIG06 0.065、SIG05 0.13）、中段（0.20–0.80）7 个、高段 2 个（SIG01 0.99、SIG03 0.995）。
+即作为<strong>一类</strong>，它们的校正位移与"随便抓一组基因"无法区分。
+两个高段例外必须诚实标注：SIG01／SIG03 的位移确实大于 99% 的随机面板，但两者 β<sub>M1</sub>≈0（P=0.87／0.84），
+位移来自近零比值的放大（−0.012 → +0.14），<strong>不是真实的免疫混杂</strong>；正文应写成"2/13 位移超出随机面板，而这 2 个原效应为零"。</p>
+
+<h2>四、样本外：一个必须如实写的弱点</h2>
+<table>
+<thead><tr><th style="width:34%">队列</th><th class="num">n / 事件</th><th class="num">方向一致</th><th class="num">名义 P&lt;0.05</th><th class="num">FDR&lt;0.05</th><th class="num">中位基因覆盖</th></tr></thead>
+<tbody>
+<tr><td>GSE68465（LUAD，芯片）</td><td class="num">442 / 236</td><td class="num">5/13</td><td class="num">0/13</td><td class="num">0/13</td><td class="num">50%</td></tr>
+<tr><td>GSE31210（LUAD，芯片）</td><td class="num">226 / 35</td><td class="num">6/13</td><td class="num">3/13</td><td class="num">2/13</td><td class="num">50%</td></tr>
+<tr><td>TCGA-LUSC（不同组织学）</td><td class="num">491 / 211</td><td class="num">—</td><td class="num">—</td><td class="num">0/13</td><td class="num">100%</td></tr>
+</tbody>
+</table>
+<p><strong>怎么解释、以及不能怎么解释：</strong>方向一致率 5/13、6/13 接近随机，看起来像"不复现"。但两个芯片队列的<strong>中位基因覆盖率只有 50%</strong>——
+一半的基因在平台上测不到，等权分已经不是在测同一个东西。所以正确写法是"<strong>运输性未能证实，且受平台覆盖限制无法定论</strong>"，
+不能写成"签名是过拟合"。</p>
+
+<h2>五、论文主张需要改写（建议版）</h2>
+<div class="lead">
+<p><strong>原标题方向：</strong>"已发表签名有多少是纯度/免疫含量的影子" → <span class="badge b-bad">数据不支持</span></p>
+<p><strong>改写后：</strong>"<em>免疫含量不是已发表 NSCLC 炎症/代谢预后签名的解释：一项带阳性对照的校准研究</em>"
+（<em>Bulk immune content does not explain published inflammation- and metabolism-anchored prognostic signatures in NSCLC:
+a calibration study with positive and negative controls</em>）</p>
+</div>
+<p><strong>三条支撑句（都能拿数字顶住）：</strong></p>
+<ol>
+<li><strong>方法有功效。</strong>同一校正用在已知免疫代理（淋巴细胞轴，ρ=0.86）上，衰减 69%、显著性消失；用在 13 个已发表签名上，中位衰减 −2.5%（95% CI −79% 到 +9%）。</li>
+<li><strong>不是"换名重发"。</strong>13 个签名的校正位移整体与表达匹配随机面板无法区分（百分位在 0–1 上近似均匀，KS P=0.68；仅 2/13 超出第 99 百分位，且这 2 个原效应≈0），说明其预后信息不在免疫/基质含量这条轴上。</li>
+<li><strong>个体层面仍有位移。</strong>SIG02 校正后失去 FDR 显著性（q 0.049→0.197），SIG04 反而获得（0.243→0.009）——所以结论不是"校正没必要"，而是"校正应按签名逐个体做，不能整类下判断"。</li>
+</ol>
+<p><strong>目标刊（按改写后的形态）：</strong>J Transl Med / Brief Bioinform / BMC Medical Research Methodology / Comput Struct Biotechnol J。
+理由：这是"方法 + 系统评估"，不是发现型生物学；投纯生物刊会被问"新生物学在哪"。</p>
+
+<h2>六、必须写进 Limitations 的四条</h2>
+<ol>
+<li><strong>打分口径：</strong>主分析用等权 z 均值（预注册），只有 2 个签名有符号明确的原文系数（SIG05、SIG11）。加权后效应量明显更大（SIG05：β 0.194→0.673），但<strong>衰减结论不变</strong>（加权后 0.7% 与 −3.4%）。</li>
+<li><strong>基因覆盖：</strong>外部队列中位覆盖 50%（芯片），样本外检验因此不具决定性。</li>
+<li><strong>签名数量与选择：</strong>13 个；6 篇因基因列表在图中/正文矛盾被排除——这会带来选择偏倚，须列出全部排除项与理由（已在 <code>signature_registry_excluded.csv</code>）。</li>
+<li><strong>校正模型：</strong>ESTIMATE 的 purity 与 ESTIMATE 分数近乎完全负相关（ρ=−1.000），实测 β<sub>M2</sub> 与 β<sub>M3</sub> 的 Pearson <strong>r=0.999</strong>、两个衰减量的 Spearman ρ=0.967，故 M2 与 M3 <strong>不是独立证据</strong>，应删 M2 或降为补充；Cox 的 HR 不可折叠（non-collapsibility）也会造成位移，我们的线性近似（预测位移 vs 观测位移，ρ=0.10，P=0.75）无法解释——这一条要么补方法学段落，要么删掉 M2。</li>
+</ol>
+
+<h2>七、下一步（等你点头）</h2>
+<table>
+<thead><tr><th style="width:6%">#</th><th style="width:44%">动作</th><th>为什么必须先做</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>确认改写后的主张</strong>（第五节那句话）</td><td>主张定了，图与摘要才能一次写对；现在的数据支持"不是免疫影子"，不支持"签名虚高"</td></tr>
+<tr><td>2</td><td>补第 14 个签名的加权版本 + 把 M2（纯度）与 M3（免疫/基质）拆成两张表</td><td>现在 purity 与 ESTIMATE 共线，M2 的信息量其实已被 M3 覆盖，必须讲清楚</td></tr>
+<tr><td>3</td><td>把"阳性对照 + 随机面板"做成主图（Fig. 2），forest 图做主图（Fig. 1）</td><td>审稿人信不信这篇，全看这两张图能不能一眼看懂"方法有功效、结论是零"</td></tr>
+<tr><td>4</td><td>再补一批签名（目标 20 个）：把 6 篇排除项里的 2 篇（列表在补充材料的）用 PDF/图注人工抠出来</td><td>13 个偏少；20 个能让"中位衰减"的 CI 收窄到 ±10% 以内</td></tr>
+</tbody>
+</table>
+
+<hr>
+<p class="note">全部数字来自本机实算：<code>results/attenuation_luad.tsv</code>、<code>cox_models_luad.tsv</code>、<code>control_axes.tsv</code>、
+<code>null_summary.tsv</code>、<code>external_vs_tcga.tsv</code>、<code>headline_numbers.tsv</code>、
+<code>attenuation_empirical_pctile.tsv</code>、<code>attenuation_signal_subset_exploratory.csv</code>；日志在 <code>logs/10–17</code>。
+预注册与分析脚本：<code>00_criteria_preregistered.md</code>、<code>R/10–15</code>。报告生成：白泽 · 2026-10-20。</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Derived render outputs are kept in the repo; nothing else excluded.
+# pa_data.rds and raw external arrays live outside this repository (pathA).

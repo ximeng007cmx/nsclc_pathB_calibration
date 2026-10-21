@@ -1,0 +1,27 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+== 全 13 个（预注册主分析）==
+median A = -2.5 %   range -206.7 to 1281.5 
+|A|>100% 的: 5 -> SIG01 SIG03 SIG04 SIG06 SIG09 
+方向反转(M1 与 M3 异号): 2 -> SIG01 SIG03 
+
+== 探索性子集：M1 名义 P<0.05（比值估计量可定义）==
+n = 8  sigs: SIG02 SIG05 SIG07 SIG08 SIG10 SIG11 SIG12 SIG13 
+median A = -1.9 %   range -79.2 to 22 
+|Δβ| = |β_M3-β_M1| 中位 = 0.013  |Δβ|<0.10 的: 7 / 8 
+衰减>10% 的: 1 / 8  衰减<-10% 的: 1 / 8 
+M1 显著 -> M3 仍 FDR<0.05: 6 / 8 
+
+== 主分析 13 个里 M1 名义不显著者（比值不稳定来源）==
+SIG01 betaM1=-0.012 P=0.874 A=1282%
+SIG03 betaM1=-0.015 P=0.843 A=1039%
+SIG04 betaM1=0.103 P=0.168 A=-158%
+SIG06 betaM1=0.018 P=0.803 A=-207%
+SIG09 betaM1=0.021 P=0.782 A=-179% 
+
+== M2 vs M3 共线性检查 ==
+att_purity 与 att_immune 的 Spearman rho = 0.967 
+betaM2 与 betaM3 的 Pearson r = 0.999 

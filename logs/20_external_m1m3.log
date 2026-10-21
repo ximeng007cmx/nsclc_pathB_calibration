@@ -1,0 +1,33 @@
+== 22_external_m1m3.R ==
+签名注册： 49 个（ W1:13 W2:28 W3:2 W4:6 ）
+ESTIMATE 签名集：stromal 141 / immune 141 基因
+
+GSE68465: 12545 基因 x 439 样本（235 事件）；stage late=163 early=276
+ESTIMATE: stromal 中位 1，immune 中位 0（ES x 量级，与官方差常数倍，不影响 A）
+
+GSE31210: 16504 基因 x 226 样本（35 事件）；stage late=58 early=168
+ESTIMATE: stromal 中位 1，immune 中位 0（ES x 量级，与官方差常数倍，不影响 A）
+
+逐行输出： 98 行
+     cohort      stratum     n    median_A n_pos n_neg n_valid median_A_valid
+     <char>       <char> <int>       <num> <int> <int>   <int>          <num>
+1: GSE68465 inflammation    11 -0.05544030     3     8       2             NA
+2: GSE68465   metabolism    31  0.01344774    17    14       3     0.03902461
+3: GSE68465       immune     6  0.14236536     4     2       0             NA
+4: GSE31210 inflammation    11 -0.02402184     5     6       1             NA
+5: GSE31210   metabolism    31 -0.01472949    14    17       5    -0.01472949
+6: GSE31210       immune     6  0.05256796     4     2       1             NA
+   n_sig_M1 n_sig_M3
+      <int>    <int>
+1:        2        2
+2:        3        3
+3:        0        0
+4:        1        2
+5:        5        6
+6:        1        1
+
+外部 A 与 TCGA A 的 Spearman：
+     cohort     n          rho         p
+     <char> <int>        <num>     <num>
+1: GSE68465    48 -0.013786366 0.9259024
+2: GSE31210    48  0.006079027 0.9674539

@@ -1,0 +1,6 @@
+﻿pmid,doi,title,authors,journal,year,volume,issue,pages,pubtype,oa,pmcid,cited,source,abstract
+41044684,10.1186/s13059-025-03784-3,xCell 2.0: robust algorithm for cell type proportion estimation predicts response to immune checkpoint blockade.,"Angel A, Naom L, Nabet-Levy S, Aran D.",Genome Biol,2025,26,1,335,research-article; journal article,Y,PMC12492622,23,MED,
+,10.1101/2024.09.06.611424,xCell 2.0: Robust Algorithm for cell type Proportion Estimation Predicts Response to Immune Checkpoint Blockade,"Angel A, Naom L, Nabet-Levy S, Aran D.",,2024,,,,preprint,N,,0,PPR,
+32124326,10.1007/978-1-0716-0327-7_19,Cell-Type Enrichment Analysis of Bulk Transcriptomes Using xCell.,Aran D.,Methods Mol Biol,2020,2120,,263-276,journal article,N,,133,MED,
+29141660,10.1186/s13059-017-1349-1,xCell: digitally portraying the tissue cellular heterogeneity landscape.,"Aran D, Hu Z, Butte AJ.",Genome Biol,2017,18,1,220,"research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",Y,PMC5688663,3811,MED,
+,10.1101/114165,xCell: Digitally portraying the tissue cellular heterogeneity landscape,"Aran D, Hu Z, Butte AJ.",,2017,,,,preprint,N,,5,PPR,

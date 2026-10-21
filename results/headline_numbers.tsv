@@ -1,0 +1,12 @@
+item	value
+median attenuation, all 13 (LUAD, M1->M3)	-2.5% (-79.2 to 8.9), n=13
+median attenuation, |beta_M1|>=0.10 subset	-2.5% (-79.2 to 8.9), n=9 [SIG02,SIG04,SIG05,SIG07,SIG08,SIG10,SIG11,SIG12,SIG13]
+median attenuation, TCGA-LUSC	8.1% (-2.8 to 75.2), n=13
+FDR<0.05 in M1 (LUAD)	7/13 (54%)
+FDR<0.05 in M3 (LUAD)	7/13 (54%)
+external GSE68465: same direction	5/13
+external GSE68465: P<0.05	0/13
+external GSE31210: same direction	6/13
+external GSE31210: P<0.05	3/13
+median gene coverage GSE68465	50%
+median gene coverage GSE31210	50%

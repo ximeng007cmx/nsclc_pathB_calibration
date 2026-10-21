@@ -1,0 +1,111 @@
+输入 Tier A 候选：99（Tier B/其余 332 条不进入本轮）
+
+EXCL   CIRC               PMC11745784    2025 n=15  The landscape of immunogenic cell death-related genes pred | 免疫相关签名：immunogenic cell death（循环论证）
+REVIEW I3-unclear         PMC10864718    2024 n=12  Meta-analysis of microarray data to determine gene indicat | 无炎症/代谢词根，需人工读摘要
+REVIEW I3-unclear         PMC11797571    2023 n=11  Comprehensive analysis of resistance mechanisms to EGFR-TK | 无炎症/代谢词根，需人工读摘要
+INCL   I3-metabolism      PMC9047773     2022 n=11  Prognostic Implication of Energy Metabolism-Related Gene S | Energy Metabolism
+INCL   I3-metabolism      PMC8806683     2021 n=11  Development of a gene signature associated with iron metab | iron metabolism
+INCL   I3-metabolism      PMC13190771    2026 n=10  Lipid metabolism-related gene expression predicts prognost | Lipid
+INCL   I3-metabolism      PMC10619909    2023 n=10  Applying machine learning algorithms to develop a survival | fatty acid
+INCL   I3-metabolism      PMC8531531     2021 n=10  FDX1 can Impact the Prognosis and Mediate the Metabolism o | Metabolism
+EXCL   I3                 PMC10618427    2023 n= 9  A prognostic model of drug tolerant persister-related gene | 构念外锚点：drug toleran（非炎症、非营养/代谢）
+EXCL   I3                 PMC10603348    2023 n= 9  Identification of tumor-intrinsic drivers of immune exclus | 构念外锚点：immune exclusion（非炎症、非营养/代谢）
+EXCL   CIRC               PMC11671776    2024 n= 8  Multi-omics analysis-based clinical and functional signifi | 免疫相关签名：immuno（循环论证）
+EXCL   I3                 PMC10800788    2023 n= 8  A novel gene signature related to focal adhesions for dist | 构念外锚点：focal adhesion（非炎症、非营养/代谢）
+EXCL   I3                 PMC10476855    2023 n= 8  Lysosome-related genes: A new prognostic marker for lung a | 构念外锚点：Lysosom（非炎症、非营养/代谢）
+EXCL   I3                 PMC8381737     2021 n= 8  Ferroptosis-Related Genes in Lung Adenocarcinoma: Prognost | 构念外锚点：Ferroptosis（非炎症、非营养/代谢）
+INCL   I3-metabolism      PMC13633477    2026 n= 7  Identification of a Novel Subtype-Derived Prognostic Signa | Metabolism
+EXCL   I3                 PMC13358790    2026 n= 7  Integrated hypoxia and metabolic gene signature to predict | 构念外锚点：hypoxia（非炎症、非营养/代谢）
+EXCL   I3                 PMC12505621    2025 n= 7  A novel disulfidptosis-related mRNA signature predicts pro | 构念外锚点：disulfidptosis（非炎症、非营养/代谢）
+INCL   I3-metabolism      PMC12101037    2025 n= 7  Characteristics of folic acid metabolism-related genes unv | folic acid
+INCL   I3-inflammation    PMC11876514    2025 n= 7  Single cell transcriptomic analysis reveals tumor immune i | macrophage
+INCL   I3-inflammation    PMC10788202    2024 n= 7  Inflammatory response signature score model for predicting | Inflammat
+INCL   I3-metabolism      PMC9926575     2023 n= 7  Identification of four metabolic subtypes and key prognost | metabolic
+REVIEW I3-unclear         PMC7066120     2020 n= 7  Integrated Analysis of the Functions and Prognostic Values | 无炎症/代谢词根，需人工读摘要
+EXCL   I3                 PMC7486793     2020 n= 7  A Novel Risk Model Based on Autophagy Pathway Related Gene | 构念外锚点：Autophagy（非炎症、非营养/代谢）
+REVIEW I3-unclear         PMC12816179    2025 n= 6  Integration of single cell and bulk transcriptomic analyse | 无炎症/代谢词根，需人工读摘要
+INCL   I3-metabolism      PMC12688223    2025 n= 6  Construction and validation of an oxidative phosphorylatio | oxidative phosphorylation
+INCL   I3-metabolism      PMC11570572    2024 n= 6  Construction of a novel lipid drop-mitochondria-associated | lipid
+REVIEW I3-unclear         PMC11283104    2024 n= 6  Single cell transcriptomic analysis reveals tumor immune i | 无炎症/代谢词根，需人工读摘要
+INCL   I3-metabolism      PMC8034925     2021 n= 6  Establishment and validation of an eight-gene metabolic-re | metabolic
+INCL   I3-metabolism      PMC7646164     2020 n= 6  Establishment of the Prognostic Index Reflecting Tumor Imm | Metabolism
+EXCL   I3                 PMC13559616    2026 n= 5  A model of cellular proliferation and mitochondrial biogen | 构念外锚点：proliferation（非炎症、非营养/代谢）
+REVIEW I3-unclear         PMC12290164    2025 n= 5  Shared blood gene signature in lung adenocarcinoma and mic | 无炎症/代谢词根，需人工读摘要
+EXCL   CIRC               PMC12752188    2025 n= 5  Molecular subtyping and a seven-gene immune signature reve | 免疫相关签名：immune signature（循环论证）
+EXCL   CIRC               PMC12643885    2025 n= 5  A metabolic-radioimmune signature predicts therapy respons | 免疫相关签名：immune signature（循环论证）
+EXCL   I3                 PMC12273309    2025 n= 5  Single-cell RNA sequencing technology was employed to cons | 构念外锚点：pyroptosis（非炎症、非营养/代谢）
+EXCL   I3                 PMC10292873    2023 n= 5  Development of cancer-associated fibroblast-related gene s | 构念外锚点：fibroblast（非炎症、非营养/代谢）
+EXCL   CIRC               PMC10597940    2023 n= 5  A risk score model based on lipid metabolism-related genes | 免疫相关签名：immuno（循环论证）
+REVIEW I3-unclear         PMC7429590     2020 n= 5  Identification of pathology-specific regulators of m<sup>6 | 无炎症/代谢词根，需人工读摘要
+INCL   I3-metabolism      PMC13414110    2026 n= 4  Bioinformatics-based identification of glycolysis-related  | glycoly
+INCL   I3-metabolism      PMC13559650    2026 n= 4  Development and internal validation of a six-gene prognost | metabolism
+INCL   I3-metabolism      PMC11726977    2025 n= 4  The systematic analysis of genes related to butyrate metab | butyrate
+EXCL   E3                 PMC11847877    2025 n= 4  A prognostic signature of Glutathione metabolism-associate | 标题含非编码词：long non-coding
+INCL   I3-metabolism      PMC12595263    2025 n= 4  Exploring the Glycolytic Mechanisms in "Driver Gene-Negati | Glycoly
+EXCL   I3                 PMC12622665    2025 n= 4  Identification and validation of a diagnostic and prognost | 构念外锚点：fibroblast（非炎症、非营养/代谢）
+EXCL   I3                 PMC12043920    2025 n= 4  Identifying pyroptosis-related prognostic genes in the co- | 构念外锚点：pyroptosis（非炎症、非营养/代谢）
+EXCL   I3                 PMC11225160    2024 n= 4  Identification of a combined hypoxia and lactate metabolis | 构念外锚点：hypoxia（非炎症、非营养/代谢）
+REVIEW I3-unclear         PMC10281056    2023 n= 4  Network pharmacology and bioinformatics analysis identifie | 无炎症/代谢词根，需人工读摘要
+INCL   I3-inflammation    PMC10373868    2023 n= 4  Clinical application of common inflammatory and nutritiona | inflammat
+EXCL   E3                 PMC8845143     2022 n= 4  Understanding the Critical Role of Glycolysis-Related lncR | 标题含非编码词：lncRNA
+INCL   I3-inflammation    PMC8971721     2022 n= 4  Association of Polymorphisms in Inflammation Genes With th | Inflammat
+INCL   I3-inflammation    PMC9492411     2022 n= 4  Comprehensive Exploration of M2 Macrophages and Its Relate | Macrophage
+INCL   I3-inflammation    PMC9459509     2022 n= 4  A novel pyroptosis related genes signature for predicting  | NLRP3
+REVIEW I3-unclear         PMC8028741     2021 n= 4  Identification and Validation of a Tumor Microenvironment- | 无炎症/代谢词根，需人工读摘要
+INCL   I3-metabolism      PMC7557101     2020 n= 4  Lipid metabolism gene-wide profile and survival signature  | Lipid
+INCL   I3-metabolism      PMC7718790     2020 n= 4  Identification of a six-gene metabolic signature predictin | metabolic
+EXCL   I3                 PMC13214216    2026 n= 3  Exploring and experimental validation of SLC7A11 and ferro | 构念外锚点：ferroptosis（非炎症、非营养/代谢）
+INCL   I3-inflammation    PMC13513166    2026 n= 3  17β-Estradiol Modulates Cancer Cell-Fibroblast Communicati | IL-6
+INCL   I3-metabolism      PMC13073725    2026 n= 3  Identification of a Prognostic Gene Signature for Chemores | Metabolism
+INCL   I3-inflammation    PMC12851720    2026 n= 3  Propionate metabolism-related molecular subtypes and progn | IL1
+INCL   I3-metabolism      PMC13261843    2026 n= 3  Multiomic and functional validation of ACSL3, a regulator  | fatty acid
+INCL   I3-metabolism      PMC11963273    2025 n= 3  Integrative analysis of a novel signature incorporating me | metabolism
+INCL   I3-metabolism      PMC12474791    2025 n= 3  A new prognostic model for lung adenocarcinoma according p | propionate
+INCL   I3-metabolism      PMC12098254    2025 n= 3  Construction of lung adenocarcinoma subtype and prognosis  | fatty acid
+EXCL   I3                 PMC11439862    2024 n= 3  Exploring a new signature for lung adenocarcinoma: analyzi | 构念外锚点：cuproptosis（非炎症、非营养/代谢）
+INCL   I3-metabolism      PMC11404934    2024 n= 3  An abnormal metabolism-related gene, ALG3, is a potential  | metabolism
+INCL   I3-metabolism      PMC9784226     2022 n= 3  Characterization of the fatty acid metabolism-related gene | fatty acid
+INCL   I3-metabolism      PMC9174756     2022 n= 3  Predicting Differences in Treatment Response and Survival  | Glycoly
+INCL   I3-metabolism      PMC9262104     2022 n= 3  Insight of a Metabolic Prognostic Model to Identify Tumor  | Metabolic
+INCL   I3-metabolism      PMC9315097     2022 n= 3  Nitrogen Metabolism Disorder Accelerates Occurrence and De | Nitrogen Metabolism
+EXCL   E3                 PMC9382191     2022 n= 3  Novel GIRlncRNA Signature for Predicting the Clinical Outc | 标题含非编码词：lncRNA
+EXCL   CIRC               PMC9396642     2022 n= 3  A novel metabolic-immune related signature predicts progno | 免疫相关签名：immune related（循环论证）
+EXCL   E3                 PMC8841483     2022 n= 3  A novel signature based on autophagy-related lncRNA for pr | 标题含非编码词：lncRNA
+INCL   I3-metabolism      PMC8330534     2021 n= 3  A novel recurrence-associated metabolic prognostic model f | metabolic
+EXCL   E3                 PMC8254945     2021 n= 3  Characterization of a ferroptosis and iron-metabolism rela | 标题含非编码词：lncRNA
+INCL   I3-metabolism      PMC8209576     2021 n= 3  Identification of a glycolysis-related gene signature asso | glycoly
+INCL   I3-inflammation    PMC8419226     2021 n= 3  Clinical Significance and Immunologic Landscape of a Five- | IL5
+INCL   I3-metabolism      PMC7778529     2021 n= 3  Prognostic implication of glycolysis related gene signatur | glycoly
+INCL   I3-metabolism      PMC7335383     2020 n= 3  Identification of a 5-Gene Metabolic Signature for Predict | Metabolic
+INCL   I3-inflammation    PMC13543433    2026 n= 2  Differential predictive value of inflammation- and coagula | inflammat
+EXCL   CIRC               PMC13032429    2026 n= 2  Prognostic and immunological roles of ammonia-induced cell | 免疫相关签名：immuno（循环论证）
+INCL   I3-metabolism      PMC12955334    2026 n= 2  Multi-omics analysis and experiments validate the tumor-su | lipid
+INCL   I3-metabolism      PMC13397370    2026 n= 2  ANLN: A New Hub in Glutamine Metabolism of Lung Adenocarci | Glutamine
+INCL   I3-metabolism      PMC12859070    2026 n= 2  ‌PPIA regulates fatty acid and glutamine metabolism in lun | fatty acid
+REVIEW I3-unclear         PMC11987467    2025 n= 2  A novel mitochondrial quality regulation gene signature fo | 无炎症/代谢词根，需人工读摘要
+EXCL   I3                 PMC12069423    2025 n= 2  Revealing roles of PANoptosis-related genes in prognosis a | 构念外锚点：PANoptosis（非炎症、非营养/代谢）
+EXCL   CIRC               PMC11874940    2025 n= 2  A nicotinamide metabolism-related gene signature for predi | 免疫相关签名：immuno（循环论证）
+EXCL   I3                 PMC11850292    2025 n= 2  A Novel DNA Repair-Gene Model to Predict Responses to Immu | 构念外锚点：DNA Repair（非炎症、非营养/代谢）
+INCL   I3-metabolism      PMC11341317    2024 n= 2  The prognostic and clinical value of genes associate with  | amino acid
+INCL   I3-metabolism      PMC11422451    2024 n= 2  Clinical signature and associated immune metabolism of NLR | metabolism
+INCL   I3-inflammation    PMC11084143    2024 n= 2  Choline metabolism reprogramming mediates an immunosuppres | macrophage
+EXCL   I3                 PMC11382126    2024 n= 2  IGFBP1 promotes the proliferation and migration of lung ad | 构念外锚点：proliferation（非炎症、非营养/代谢）
+EXCL   E3                 PMC9023759     2022 n= 2  Identification of Fatty Acid Metabolism-Related lncRNAs as | 标题含非编码词：lncRNA
+EXCL   E3                 PMC9664164     2022 n= 2  Prognostic signature of lipid metabolism associated LncRNA | 标题含非编码词：LncRNA
+EXCL   I3                 PMC9114646     2022 n= 2  A Four-Gene Prognostic Signature Based on the TEAD4 Differ | 构念外锚点：TEAD4（非炎症、非营养/代谢）
+EXCL   CIRC               PMC9602971     2022 n= 2  A Metabolism-Related Gene Prognostic Index for Prediction  | 免疫相关签名：Immuno（循环论证）
+REVIEW I3-unclear         PMC8034940     2021 n= 2  Predicting lung adenocarcinoma prognosis with a novel risk | 无炎症/代谢词根，需人工读摘要
+EXCL   CIRC               PMC8476909     2021 n= 2  Transcriptome Analyses Identify a Metabolic Gene Signature | 免疫相关签名：Immuno（循环论证）
+INCL   I3-metabolism      PMC8361602     2021 n= 2  A Novel Integrated Metabolism-Immunity Gene Expression Mod | Metabolism
+REVIEW I3-unclear         PMC7720456     2020 n= 2  Identification of a four-gene panel predicting overall sur | 无炎症/代谢词根，需人工读摘要
+INCL   I3-metabolism      PMC7520091     2020 n= 2  A model of twenty-three metabolic-related genes predicting | metabolic
+
+=== 汇总 ===
+  INCL    I3-metabolism      39
+  EXCL    I3                 20
+  REVIEW  I3-unclear         12
+  INCL    I3-inflammation    11
+  EXCL    CIRC               10
+  EXCL    E3                 7
+
+-> work/wave2_rule_judgement.csv

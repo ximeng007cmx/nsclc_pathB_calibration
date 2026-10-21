@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 443" width="680" role="img" aria-label="Effect-size displacement of 49 signatures from M1 to M3"><rect x="0" y="0" width="680" height="443" fill="#ffffff"/>
+<line x1="292.4" y1="20" x2="292.4" y2="400.6" stroke="#c3ccd6" stroke-dasharray="3 3"/>
+<text x="292.4" y="15" font-size="9.5" fill="#6b7684" text-anchor="middle">0</text>
+<text x="6" y="36.6" font-size="7.2" fill="#5b6673">SIG11</text>
+<line x1="390.0" y1="34.0" x2="391.3" y2="34.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="390.0" cy="34.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="391.3" cy="34.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="44.0" font-size="7.2" fill="#5b6673">SIG12</text>
+<line x1="195.1" y1="41.4" x2="198.3" y2="41.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="195.1" cy="41.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="198.3" cy="41.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="51.4" font-size="7.2" fill="#5b6673">SIG07</text>
+<line x1="198.5" y1="48.8" x2="189.2" y2="48.8" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="198.5" cy="48.8" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="189.2" cy="48.8" r="2.2" fill="#c2410c"/>
+<text x="6" y="58.8" font-size="7.2" fill="#5b6673">SIG10</text>
+<line x1="382.6" y1="56.2" x2="384.8" y2="56.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="382.6" cy="56.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="384.8" cy="56.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="66.2" font-size="7.2" fill="#5b6673">SIG08</text>
+<line x1="377.6" y1="63.6" x2="380.7" y2="63.6" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="377.6" cy="63.6" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="380.7" cy="63.6" r="2.2" fill="#c2410c"/>
+<text x="6" y="73.6" font-size="7.2" fill="#5b6673">SIG05</text>
+<line x1="341.9" y1="71.0" x2="381.1" y2="71.0" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="341.9" cy="71.0" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="381.1" cy="71.0" r="2.2" fill="#c2410c"/>
+<text x="6" y="81.0" font-size="7.2" fill="#5b6673">SIG02</text>
+<line x1="246.4" y1="78.4" x2="256.5" y2="78.4" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="246.4" cy="78.4" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="256.5" cy="78.4" r="2.2" fill="#c2410c"/>
+<text x="6" y="88.4" font-size="7.2" fill="#5b6673">SIG13</text>
+<line x1="255.3" y1="85.8" x2="258.6" y2="85.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="255.3" cy="85.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="258.6" cy="85.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="95.8" font-size="7.2" fill="#5b6673">SIG04</text>
+<line x1="318.7" y1="93.2" x2="360.4" y2="93.2" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="318.7" cy="93.2" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="360.4" cy="93.2" r="2.2" fill="#c2410c"/>
+<text x="6" y="103.2" font-size="7.2" fill="#5b6673">SIG09</text>
+<line x1="297.7" y1="100.6" x2="307.2" y2="100.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="297.7" cy="100.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="307.2" cy="100.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="110.6" font-size="7.2" fill="#5b6673">SIG06</text>
+<line x1="297.0" y1="108.0" x2="306.7" y2="108.0" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="297.0" cy="108.0" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="306.7" cy="108.0" r="2.2" fill="#c2410c"/>
+<text x="6" y="118.0" font-size="7.2" fill="#5b6673">SIG03</text>
+<line x1="288.5" y1="115.4" x2="328.9" y2="115.4" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="288.5" cy="115.4" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="328.9" cy="115.4" r="2.2" fill="#c2410c"/>
+<text x="6" y="125.4" font-size="7.2" fill="#5b6673">SIG01</text>
+<line x1="289.3" y1="122.8" x2="328.2" y2="122.8" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="289.3" cy="122.8" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="328.2" cy="122.8" r="2.2" fill="#c2410c"/>
+<text x="6" y="132.8" font-size="7.2" fill="#5b6673">SIG34</text>
+<line x1="434.7" y1="130.2" x2="434.1" y2="130.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="434.7" cy="130.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="434.1" cy="130.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="140.2" font-size="7.2" fill="#5b6673">SIG15</text>
+<line x1="418.2" y1="137.6" x2="430.9" y2="137.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="418.2" cy="137.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="430.9" cy="137.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="147.6" font-size="7.2" fill="#5b6673">SIG38</text>
+<line x1="416.4" y1="145.0" x2="425.5" y2="145.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="416.4" cy="145.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="425.5" cy="145.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="155.0" font-size="7.2" fill="#5b6673">SIG24</text>
+<line x1="412.9" y1="152.4" x2="418.2" y2="152.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="412.9" cy="152.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="418.2" cy="152.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="162.4" font-size="7.2" fill="#5b6673">SIG28</text>
+<line x1="412.9" y1="159.8" x2="409.7" y2="159.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="412.9" cy="159.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="409.7" cy="159.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="169.8" font-size="7.2" fill="#5b6673">SIG39</text>
+<line x1="408.3" y1="167.2" x2="403.2" y2="167.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="408.3" cy="167.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="403.2" cy="167.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="177.2" font-size="7.2" fill="#5b6673">SIG35</text>
+<line x1="407.7" y1="174.6" x2="405.1" y2="174.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="407.7" cy="174.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="405.1" cy="174.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="184.6" font-size="7.2" fill="#5b6673">SIG21</text>
+<line x1="407.7" y1="182.0" x2="407.2" y2="182.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="407.7" cy="182.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="407.2" cy="182.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="192.0" font-size="7.2" fill="#5b6673">SIG41</text>
+<line x1="399.2" y1="189.4" x2="398.6" y2="189.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="399.2" cy="189.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="398.6" cy="189.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="199.4" font-size="7.2" fill="#5b6673">SIG25</text>
+<line x1="394.4" y1="196.8" x2="391.8" y2="196.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="394.4" cy="196.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="391.8" cy="196.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="206.8" font-size="7.2" fill="#5b6673">SIG29</text>
+<line x1="378.7" y1="204.2" x2="377.1" y2="204.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="378.7" cy="204.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="377.1" cy="204.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="214.2" font-size="7.2" fill="#5b6673">SIG17</text>
+<line x1="377.1" y1="211.6" x2="385.0" y2="211.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="377.1" cy="211.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="385.0" cy="211.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="221.6" font-size="7.2" fill="#5b6673">SIG22</text>
+<line x1="374.8" y1="219.0" x2="374.5" y2="219.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="374.8" cy="219.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="374.5" cy="219.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="229.0" font-size="7.2" fill="#5b6673">SIG23</text>
+<line x1="368.0" y1="226.4" x2="367.6" y2="226.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="368.0" cy="226.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="367.6" cy="226.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="236.4" font-size="7.2" fill="#5b6673">SIG18</text>
+<line x1="225.2" y1="233.8" x2="222.9" y2="233.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="225.2" cy="233.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="222.9" cy="233.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="243.8" font-size="7.2" fill="#5b6673">SIG27</text>
+<line x1="351.9" y1="241.2" x2="362.8" y2="241.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="351.9" cy="241.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="362.8" cy="241.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="251.2" font-size="7.2" fill="#5b6673">SIG36</text>
+<line x1="344.3" y1="248.6" x2="352.1" y2="248.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="344.3" cy="248.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="352.1" cy="248.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="258.6" font-size="7.2" fill="#5b6673">SIG40</text>
+<line x1="343.8" y1="256.0" x2="341.1" y2="256.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="343.8" cy="256.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="341.1" cy="256.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="266.0" font-size="7.2" fill="#5b6673">SIG16</text>
+<line x1="328.0" y1="263.4" x2="327.2" y2="263.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="328.0" cy="263.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="327.2" cy="263.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="273.4" font-size="7.2" fill="#5b6673">SIG37</text>
+<line x1="319.0" y1="270.8" x2="320.7" y2="270.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="319.0" cy="270.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="320.7" cy="270.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="280.8" font-size="7.2" fill="#5b6673">SIG32</text>
+<line x1="315.3" y1="278.2" x2="340.3" y2="278.2" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="315.3" cy="278.2" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="340.3" cy="278.2" r="2.2" fill="#c2410c"/>
+<text x="6" y="288.2" font-size="7.2" fill="#5b6673">SIG20</text>
+<line x1="269.7" y1="285.6" x2="270.9" y2="285.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="269.7" cy="285.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="270.9" cy="285.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="295.6" font-size="7.2" fill="#5b6673">SIG30</text>
+<line x1="270.9" y1="293.0" x2="267.0" y2="293.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="270.9" cy="293.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="267.0" cy="293.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="303.0" font-size="7.2" fill="#5b6673">SIG19</text>
+<line x1="307.8" y1="300.4" x2="310.9" y2="300.4" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="307.8" cy="300.4" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="310.9" cy="300.4" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="310.4" font-size="7.2" fill="#5b6673">SIG33</text>
+<line x1="306.5" y1="307.8" x2="305.7" y2="307.8" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="306.5" cy="307.8" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="305.7" cy="307.8" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="317.8" font-size="7.2" fill="#5b6673">SIG14</text>
+<line x1="301.8" y1="315.2" x2="307.2" y2="315.2" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="301.8" cy="315.2" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="307.2" cy="315.2" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="325.2" font-size="7.2" fill="#5b6673">SIG26</text>
+<line x1="283.6" y1="322.6" x2="294.9" y2="322.6" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="283.6" cy="322.6" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="294.9" cy="322.6" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="332.6" font-size="7.2" fill="#5b6673">SIG31</text>
+<line x1="291.5" y1="330.0" x2="280.6" y2="330.0" stroke="#1d4ed8" stroke-width="1.5" opacity="0.55"/>
+<circle cx="291.5" cy="330.0" r="2.2" fill="none" stroke="#1d4ed8" stroke-width="1.1"/>
+<circle cx="280.6" cy="330.0" r="2.2" fill="#1d4ed8"/>
+<text x="6" y="340.0" font-size="7.2" fill="#5b6673">SIG42</text>
+<line x1="209.4" y1="337.4" x2="165.3" y2="337.4" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="209.4" cy="337.4" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="165.3" cy="337.4" r="2.2" fill="#c2410c"/>
+<text x="6" y="347.4" font-size="7.2" fill="#5b6673">SIG43</text>
+<line x1="347.6" y1="344.8" x2="350.7" y2="344.8" stroke="#c2410c" stroke-width="1.5" opacity="0.55"/>
+<circle cx="347.6" cy="344.8" r="2.2" fill="none" stroke="#c2410c" stroke-width="1.1"/>
+<circle cx="350.7" cy="344.8" r="2.2" fill="#c2410c"/>
+<text x="6" y="354.8" font-size="7.2" fill="#5b6673">SIG45</text>
+<line x1="372.8" y1="352.2" x2="371.6" y2="352.2" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="372.8" cy="352.2" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="371.6" cy="352.2" r="2.2" fill="#6d28d9"/>
+<text x="6" y="362.2" font-size="7.2" fill="#5b6673">SIG48</text>
+<line x1="356.3" y1="359.6" x2="377.1" y2="359.6" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="356.3" cy="359.6" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="377.1" cy="359.6" r="2.2" fill="#6d28d9"/>
+<text x="6" y="369.6" font-size="7.2" fill="#5b6673">SIG46</text>
+<line x1="344.4" y1="367.0" x2="336.5" y2="367.0" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="344.4" cy="367.0" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="336.5" cy="367.0" r="2.2" fill="#6d28d9"/>
+<text x="6" y="377.0" font-size="7.2" fill="#5b6673">SIG49</text>
+<line x1="247.9" y1="374.4" x2="258.3" y2="374.4" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="247.9" cy="374.4" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="258.3" cy="374.4" r="2.2" fill="#6d28d9"/>
+<text x="6" y="384.4" font-size="7.2" fill="#5b6673">SIG44</text>
+<line x1="324.3" y1="381.8" x2="318.7" y2="381.8" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="324.3" cy="381.8" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="318.7" cy="381.8" r="2.2" fill="#6d28d9"/>
+<text x="6" y="391.8" font-size="7.2" fill="#5b6673">SIG47</text>
+<line x1="297.5" y1="389.2" x2="304.5" y2="389.2" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
+<circle cx="297.5" cy="389.2" r="2.2" fill="none" stroke="#6d28d9" stroke-width="1.1"/>
+<circle cx="304.5" cy="389.2" r="2.2" fill="#6d28d9"/>
+<text x="150" y="421" font-size="9.5" fill="#6b7684">log-HR per SD (open: M1, filled: M3)</text>
+<circle cx="390" cy="417" r="2.4" fill="#c2410c"/><text x="398" y="421" font-size="9" fill="#6b7684">Inflammation (11)</text>
+<circle cx="476" cy="417" r="2.4" fill="#1d4ed8"/><text x="484" y="421" font-size="9" fill="#6b7684">Metabolism (32)</text>
+<circle cx="562" cy="417" r="2.4" fill="#6d28d9"/><text x="570" y="421" font-size="9" fill="#6b7684">Immune (6)</text>
+</svg>

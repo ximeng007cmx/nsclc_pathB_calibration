@@ -1,0 +1,129 @@
+CIRC 候选 20 篇
+
+ 1 PMC12813068    stated=8    got= 8 OK           PSMD1,ANGPTL4,LTBP3,MIF,NFATC3,NR1D2,PLXNB3,SP1
+ 2 PMC12491262    stated=None got= 0 NO_LIST      
+ 3 PMC13313863    stated=1    got= 4 MISMATCH     BIRC5,CBLC,S100P,LGR4
+ 4 PMC8182055     stated=8    got= 8 OK           IKBKB,LTBR,MIF,PPARD,PPIA,PSME3,S100A6,SEMA4B
+ 5 PMC8643179     stated=6    got= 6 OK           SREBF2,GP2,BMX,NR1H4,DDX41,GOPC
+ 6 PMC7485220     stated=7    got= 7 OK           RELA,NFKB1,SP1,VDR,FOS,PPARG,STAT3
+ 7 PMC7368195     stated=None got= 8 NO_STATED_N  S100A16,FGF2,IGKV4-1,CX3CR1,INHA,ANGPTL4,TNFRSF11A,VIP
+ 8 PMC9136055     stated=4    got= 4 OK           DDX56,CTSL,ZC3H12D,PSMC5
+ 9 PMC7493716     stated=4    got= 9 MISMATCH     GCGR,HTR3A,AMH,VGF,SEMA3B,NRTN,ENG,ACVRL1,NR4A1
+10 PMC7372779     stated=6    got=11 MISMATCH     BTLA,CD27,CD40LG,CD40,CD70,TNFRSF18,TNFRSF4,TNFRSF9,TN
+11 PMC11094586    stated=None got= 6 NO_STATED_N  S100A16,FURIN,FGF2,LGR4,TNFRSF11A,VIPR1
+12 PMC8554550     stated=3    got= 4 MISMATCH     HR,CXCL17,CCL20,CCR2
+13 PMC8222816     stated=3    got=11 MISMATCH     STMN1,RAP1A,FLT3,HSPA8,FGF9,EFNA5,IRAK1,RAC3,DUSP10,AN
+14 PMC7795632     stated=21   got= 6 MISMATCH     HAVCR2,TIGIT,LAG3,PDCD1,CXCL13,LYN
+15 PMC12083170    stated=12   got= 0 NO_LIST      
+16 PMC11289435    stated=None got= 0 NO_LIST      
+17 PMC11745784    stated=17   got=14 MISMATCH     AIRE,APOH,CDKN2A,CEACAM4,COL4A3,DBH,F10,FGFR4,MMP1,PGL
+18 PMC10930070    FETCH_FAIL
+19 PMC8317604     stated=None got= 6 NO_STATED_N  CXCL9,CXCL10,CCL5,IFNG,IL12A,TNFRSF18
+20 PMC7781839     stated=5    got= 5 OK           CD40LG,TNFRSF6B,TNFSF13,TNFRSF13C,TNFRSF19
+
+=== 汇总 ===
+  MISMATCH     7
+  OK           6
+  NO_LIST      3
+  NO_STATED_N  3
+  FETCH_FAIL   1
+
+可抽且 2–15 基因：16
+
+PMC12813068  2025  Front Immunol
+  Identification of immune-related prognostic biomarkers in lung squamous cell carcinoma microenvironment
+  stated=8 got=8 OK
+  GENES: PSMD1;ANGPTL4;LTBP3;MIF;NFATC3;NR1D2;PLXNB3;SP1
+  池来源: FPKM data were log2-transformed and normalized across samples.2.2Immune-related gene selection and weighted gene co-expression network analysisIRGs were obtained from the ImmPort database (https://www.immport.org/).
+
+PMC13313863  2024  J Egypt Natl Canc Inst
+  Identification of an immune-related genes signature in lung adenocarcinoma to predict survival and response to immune checkpoint i
+  stated=1 got=4 MISMATCH
+  GENES: BIRC5;CBLC;S100P;LGR4
+  池来源: A Most significant enriched Gene ontology (GO) categories for the validated DE-IRGs.
+
+PMC8182055  2021  Front Mol Biosci
+  Identification and Validation of Immune-Related Gene Signature for Predicting Lymph Node Metastasis and Prognosis in Lung Adenocar
+  stated=8 got=8 OK
+  GENES: IKBKB;LTBR;MIF;PPARD;PPIA;PSME3;S100A6;SEMA4B
+  池来源: A total of 2498 IRGs data were obtained from the ImmPort database (Bhattacharya et al., 2018).
+
+PMC8643179  2021  Int J Gen Med
+  Identification of an Innate Immune-Related Prognostic Signature in Early-Stage Lung Squamous Cell Carcinoma
+  stated=6 got=6 OK
+  GENES: SREBF2;GP2;BMX;NR1H4;DDX41;GOPC
+  池来源: Methods Gene expression profiles and clinical data of early-stage LUSC patients were obtained from the Gene Expression Omnibus and The Cancer Genome Atlas databases and IRGs from the InnateDB database.
+
+PMC7485220  2020  Front Genet
+  Development of an Immune-Related Risk Signature for Predicting Prognosis in Lung Squamous Cell Carcinoma
+  stated=7 got=7 OK
+  GENES: RELA;NFKB1;SP1;VDR;FOS;PPARG;STAT3
+  池来源: To investigate the potential ability of TFs in regulating these clinically relevant IRGs, a total of 318 TFs were downloaded from Cistrome.
+
+PMC7368195  2020  Int J Genomics
+  Identification of Prognostic Immune-Related Genes by Integrating mRNA Expression and Methylation in Lung Adenocarcinoma
+  stated=None got=8 NO_STATED_N
+  GENES: S100A16;FGF2;IGKV4-1;CX3CR1;INHA;ANGPTL4;TNFRSF11A;VIPR1
+  池来源: Functional Annotation of the IRGsEnrichment analysis of the differential IRGs offered a biological understanding and identified 10 overrepresented biological processes in gene GO term functional enrichment (Figure 1(c)).
+
+PMC9136055  2022  Front Mol Biosci
+  Immune-Related RNA-Binding Protein-Based Signature With Predictive and Prognostic Implications in Patients With Lung Adenocarcinom
+  stated=4 got=4 OK
+  GENES: DDX56;CTSL;ZC3H12D;PSMC5
+  池来源: 1,793 unique IRGs were extracted from the Immunology Database and Analysis Portal (ImmPort) database (https://www.immport.org/home).Identification of Immune-Related RBPs With Prognosis SignificanceSignificant prognostic RBPs and IRGs in 497
+
+PMC7493716  2020  Front Oncol
+  Identification of a Prognostic Model Based on Immune-Related Genes of Lung Squamous Cell Carcinoma
+  stated=4 got=9 MISMATCH
+  GENES: GCGR;HTR3A;AMH;VGF;SEMA3B;NRTN;ENG;ACVRL1;NR4A1
+  池来源: Figure 3B shows the correlations between the top 30 statistically significant DEIRGs and corresponding GO terms.
+
+PMC7372779  2020  Cancer Cell Int
+  Establishment of the prognostic index of lung squamous cell carcinoma based on immunogenomic landscape analysis
+  stated=6 got=11 MISMATCH
+  GENES: BTLA;CD27;CD40LG;CD40;CD70;TNFRSF18;TNFRSF4;TNFRSF9;TNFSF14;TNFSF4;TNFSF9
+  池来源: Finally, the GOplot package was used to draw the bar chart of GO and circle diagram of KEGG.Univariate COX analysis and LASSO analysisTo get survival- and immune-related genes, we integrated the expression of IRGs with the OS of LUSC patien
+
+PMC11094586  2024  Oncol Lett
+  Construction of an immune-related gene prognostic model with experimental validation and analysis of immune cell infiltration in l
+  stated=None got=6 NO_STATED_N
+  GENES: S100A16;FURIN;FGF2;LGR4;TNFRSF11A;VIPR1
+  池来源: (C) Gene Ontology, (D) Kyoto Encyclopedia of Genes and Genomes, and (E) Gene Set Enrichment Analysis enrichment analysis.
+
+PMC8554550  2021  Cell Transplant
+  Systematic Analyses of a Chemokine Family-Based Risk Model Predicting Clinical Outcome and Immunotherapy Response in Lung Adenocar
+  stated=3 got=4 MISMATCH
+  GENES: HR;CXCL17;CCL20;CCR2
+  池来源: (b) and (c) GO and KEGG analyses of biological processes and pathways.Immune Landscape of the Chemokine Family-Based SignatureThe intimate association between chemokine family and immune-related signaling pathways inspired us to conduct an 
+
+PMC8222816  2021  Front Oncol
+  MAPK-RAP1A Signaling Enriched in Hepatocellular Carcinoma Is Associated With Favorable Tumor-Infiltrating Immune Cells and Clinica
+  stated=3 got=11 MISMATCH
+  GENES: STMN1;RAP1A;FLT3;HSPA8;FGF9;EFNA5;IRAK1;RAC3;DUSP10;ANGPT2;PGF
+  池来源: Gene sets with HCC were used to perform KEGG analyses.
+
+PMC7795632  2021  Cancers (Basel)
+  Immunogenomic Gene Signature of Cell-Death Associated Genes with Prognostic Implications in Lung Cancer
+  stated=21 got=6 MISMATCH
+  GENES: HAVCR2;TIGIT;LAG3;PDCD1;CXCL13;LYN
+  池来源: The KEGG dataset of autophagy (n = 34 genes), apoptosis (n = 86 genes) and GO gene list of necrosis (n = 49 genes) were downloaded.
+
+PMC11745784  2025  Heliyon
+  The landscape of immunogenic cell death-related genes predicts the overall survival and immune infiltration status of non-small-ce
+  stated=17 got=14 MISMATCH
+  GENES: AIRE;APOH;CDKN2A;CEACAM4;COL4A3;DBH;F10;FGFR4;MMP1;PGLYRP1;SCGB2A2;SLC9A3;UGT2B17;VIP
+  池来源: KEGG enrichment analysis further demonstated that these molecules interact with cytokines and signaling pathways such as PI3K-AKT (Fig.
+
+PMC8317604  2021  Front Genet
+  Prognosis of Non-small-cell Lung Cancer Patients With Lipid Metabolism Pathway Alternations to Immunotherapy
+  stated=None got=6 NO_STATED_N
+  GENES: CXCL9;CXCL10;CCL5;IFNG;IL12A;TNFRSF18
+  池来源: We downloaded eight DDR signaling pathway gene sets from MSigDB and merged these gene sets into one (the merged DDR pathway gene set).
+
+PMC7781839  2020  Oncoimmunology
+  Identification of a costimulatory molecule-based signature for predicting prognosis risk and immunotherapy response in patients wi
+  stated=5 got=5 OK
+  GENES: CD40LG;TNFRSF6B;TNFSF13;TNFRSF13C;TNFRSF19
+  池来源: (b and c) GO and KEGG analyses of the related genes.CMS-related immune cell infiltration and inflammatory activitiesTo further increase our understating of the CMS-related immune landscape, we first explored the relationship between CMS and
+
+-> work/extraction_wave4.json

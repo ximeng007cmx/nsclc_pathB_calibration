@@ -1,0 +1,2175 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="humu8948469" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Hum Mutat</journal-id><journal-id journal-id-type="iso-abbrev">Hum Mutat</journal-id><journal-id journal-id-type="pmc-domain-id">4659</journal-id><journal-id journal-id-type="pmc-domain">humu</journal-id><journal-id journal-id-type="nlm-id">9215429</journal-id><journal-id journal-id-type="publisher-id">HUMU</journal-id><journal-title-group><journal-title>Human Mutation</journal-title></journal-title-group><issn pub-type="ppub">1059-7794</issn><issn pub-type="epub">1098-1004</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13504365</article-id><article-id pub-id-type="pmcid-ver">PMC13504365.1</article-id><article-id pub-id-type="pmcaid">13504365</article-id><article-id pub-id-type="pmcaiid">13504365</article-id><article-id pub-id-type="pmid">42643623</article-id><article-id pub-id-type="doi">10.1155/humu/8948469</article-id><article-id pub-id-type="publisher-id">HUMU8948469</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Identification of PD‐1‐Related Genes as Prognostic Biomarkers in Lung Adenocarcinoma</article-title></title-group><contrib-group><contrib id="cr-0001" contrib-type="author"><name name-style="western"><surname>Jia</surname><given-names initials="B">Bin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3712-9225</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cr-0002" contrib-type="author"><name name-style="western"><surname>Gong</surname><given-names initials="T">Ting</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9839-9747</contrib-id><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0003" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="C">Chen</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4500-4761</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cr-0004" contrib-type="author"><name name-style="western"><surname>Sun</surname><given-names initials="B">Bingsheng</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0001-4932-4618</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="Z">Zhenfa</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9627-2590</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>zhangzhenfa@tmu.edu.cn</email></address></contrib></contrib-group><contrib-group><contrib id="cr-0006" contrib-type="editor"><name name-style="western"><surname>Saleem</surname><given-names initials="S">Suraiya</given-names></name><address><email>ssaleem@wiley.com</email></address></contrib></contrib-group><aff id="aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Lung Cancer Department</named-content>, <named-content content-type="organisation-division">Tianjin Medical University Cancer Institute and Hospital National Clinical Research Center for Cancer</named-content>, <named-content content-type="organisation-division">Key Laboratory of Cancer Prevention and Therapy</named-content>, <named-content content-type="organisation-division">Tianjin′s Clinical Research Center for Cancer</named-content>, <city>Tianjin</city>, <country>China</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://tmucih.com" ext-link-type="uri">tmucih.com</ext-link>
+</aff><aff id="aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Oncology</named-content>, <institution>Tianjin Medical University General Hospital</institution>, <city>Tianjin</city>, <country>China</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://tjmugh.com.cn" ext-link-type="uri">tjmugh.com.cn</ext-link>
+</aff><pub-date pub-type="epub"><day>25</day><month>8</month><year>2026</year></pub-date><pub-date pub-type="collection"><year>2026</year></pub-date><volume>2026</volume><issue-id pub-id-type="pmc-issue-id">503686</issue-id><elocation-id>8948469</elocation-id><history>
+<date date-type="rev-recd"><day>10</day><month>8</month><year>2026</year></date>
+<date date-type="received"><day>24</day><month>10</month><year>2025</year></date>
+<date date-type="accepted"><day>11</day><month>8</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>25</day><month>08</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>26</day><month>08</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-25 22:20:06.860"><day>25</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">Copyright © 2026 Bin Jia et al. Human Mutation published by John Wiley &amp; Sons Ltd.</copyright-statement><copyright-year>2026</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="HUMU-2026-8948469.pdf"><?pdf-name HUMU-2026-8948469.pdf?><?pdf-size 13888248?><?pdf-md5 3be47179f3d3acec560985cc63d30a19?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:917f/13504365/3be47179f3d3/HUMU-2026-8948469.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:HUMU-2026-8948469.pdf"/><abstract><sec id="sec-0001"><title>Background</title><p>The PD‐1/PD‐L1 axis plays a critical role in suppressing T‐cell activation and facilitating immune evasion in lung adenocarcinoma (LUAD). This study focused on PD‐1‐related genes to develop a robust prognostic prediction model for LUAD.</p></sec><sec id="sec-0002"><title>Methods</title><p>Immune scores were calculated using the ESTIMATE algorithm, and immune‐related gene modules were identified through WGCNA. Differentially expressed genes (DEGs) were identified between normal and tumor tissues, and between high and low PD‐1 expression groups, using the limma package. Univariate and multivariate Cox regression analyses were performed to construct a prognostic risk model, which was subsequently evaluated using time‐dependent ROC curve analysis with the timeROC package. Biomarker expression and function were validated in LUAD cells via western blot (WB), CCK‐8, wound healing, and Transwell assays. Functional enrichment analysis was conducted using the clusterProfiler package. The tumor microenvironment (TME) was characterized by integrating MCPcounter, ESTIMATE, and ssGSEA. Drug sensitivity was predicted using the pRRophetic R package.</p></sec><sec id="sec-0003"><title>Results</title><p>WGCNA showed that genes in the brown module were significantly positively correlated with the immune score, and these genes were predominantly enriched in biological processes such as neutrophil activation and cytokine activity. By intersecting the brown module genes, DEGs, and PD‐1‐related genes, we constructed a risk prognosis model comprising nine key genes (<italic toggle="yes">ADA2</italic>, <italic toggle="yes">CD53</italic>, <italic toggle="yes">HLA-DMA</italic>, <italic toggle="yes">ITGAX</italic>, <italic toggle="yes">MYO1F</italic>, <italic toggle="yes">NCKAP1L</italic>, <italic toggle="yes">PTPRC</italic>, <italic toggle="yes">RENBP</italic>, and <italic toggle="yes">TNFAIP8L2</italic>). The model demonstrated robust predictive performance, with high AUC values in time‐dependent ROC analysis. Patients within the high‐risk group exhibited a worse prognosis. Additionally, RiskScore for patients in the high‐risk group was closely associated with immune infiltration, immune checkpoint expression, and drug sensitivity. The low‐risk group exhibited higher levels of immune cell infiltration, including T cells, CD8<sup>+</sup> T cells, and B lineage cells. Furthermore, in vitro experiments have demonstrated that silencing the representative gene <italic toggle="yes">MYO1F</italic> significantly inhibited the migration and invasion of LUAD cells, whereas <italic toggle="yes">PTPRC</italic> knockdown promoted these capacities. Drug sensitivity analysis identified distinct candidate therapeutic agents for the high‐ and low‐risk groups.</p></sec><sec id="sec-0004"><title>Conclusion</title><p>In conclusion, this study developed a robust prognostic prediction model for LUAD, contributing to personalized therapeutic strategies.</p></sec></abstract><kwd-group><title>Keywords</title><kwd id="kwd-0001">drug sensitivity</kwd><kwd id="kwd-0002">immune cell infiltration</kwd><kwd id="kwd-0003">lung adenocarcinoma</kwd><kwd id="kwd-0004">migration and invasion</kwd><kwd id="kwd-0005"><italic toggle="yes">PD-1</italic></kwd><kwd id="kwd-0006">prognostic model</kwd></kwd-group><counts><fig-count count="13"/><table-count count="1"/><ref-count count="65"/><page-count count="20"/><word-count count="6910"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:25.08.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="humu8948469-cit-2001">
+<string-name name-style="western">
+<surname>Jia</surname>, <given-names>Bin</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gong</surname>, <given-names>Ting</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Chen</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sun</surname>, <given-names>Bingsheng</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Zhenfa</given-names>
+</string-name>, 
+<article-title>Identification of PD‐1‐Related Genes as Prognostic Biomarkers in Lung Adenocarcinoma</article-title>, 
+<source>Human Mutation</source>, <volume>2026</volume>, <elocation-id>8948469</elocation-id>, 20 pages, <year>2026</year>. 
+<pub-id pub-id-type="doi">10.1155/humu/8948469</pub-id>
+<pub-id pub-id-type="pmcid">PMC13504365</pub-id><pub-id pub-id-type="pmid">42643623</pub-id></mixed-citation>
+</p><fn-group><fn id="note-0001"><p>
+<bold>Guest Editor:</bold> Suraiya Saleem</p></fn></fn-group></notes></front><body><sec id="sec-0005"><title>1. Introduction</title><p>Lung adenocarcinoma (LUAD) is the most frequent histological subtype among non–small cell lung cancer (NSCLC) types, accounting for approximately 40% of all malignancies [<xref rid="bib-0001" ref-type="bibr">1</xref>–<xref rid="bib-0003" ref-type="bibr">3</xref>]. In 2023, lung cancer caused an estimated 2.04 million deaths worldwide, remaining the leading cause of cancer‐related mortality, and global cancer deaths are projected to reach 18.6 million by 2050 [<xref rid="bib-0004" ref-type="bibr">4</xref>]. The prognosis for LUAD patients remains poor, with a 5‐year survival rate below 20% [<xref rid="bib-0005" ref-type="bibr">5</xref>, <xref rid="bib-0006" ref-type="bibr">6</xref>]. Prolonged tobacco exposure is the leading etiological factor [<xref rid="bib-0007" ref-type="bibr">7</xref>]. Most patients are diagnosed at an advanced stage and typically receive conventional chemotherapy and radiotherapy, which are associated with limited efficacy and significant toxicity [<xref rid="bib-0008" ref-type="bibr">8</xref>]. In contrast, targeted therapies act specifically on cancer cells with minimal effects on normal cells [<xref rid="bib-0009" ref-type="bibr">9</xref>], suggesting that continuous exploration for new therapeutic targets is of crucial significance to further improve the treatment and the prognosis of LUAD patients [<xref rid="bib-0010" ref-type="bibr">10</xref>, <xref rid="bib-0011" ref-type="bibr">11</xref>].</p><p>PD‐1 is a pivotal immune checkpoint regulator that exerts its effects by suppressing both the innate and adaptive immune responses [<xref rid="bib-0012" ref-type="bibr">12</xref>]. Specifically, PD‐1 inhibits the activation and proliferation of T cells and the production of cytokines [<xref rid="bib-0013" ref-type="bibr">13</xref>]. Whereas increased tumor‐infiltrating T lymphocytes (TILs) are generally correlated with favorable clinical outcomes, cancer cells take advantage of the PD‐1 signaling pathway to escape immune surveillance, which represents a characteristic feature of malignant progression [<xref rid="bib-0014" ref-type="bibr">14</xref>]. Mechanistically, tumor cells overexpress PD‐L1, which binds to PD‐1 on T cells, inducing immune exhaustion and acquired resistance [<xref rid="bib-0015" ref-type="bibr">15</xref>]. The PD‐1/PD‐L1 axis has been clinically validated as a predictive biomarker in multiple malignancies [<xref rid="bib-0016" ref-type="bibr">16</xref>]. In LUAD, PD‐L1 immunohistochemical (IHC) staining of pathological specimens directly guides therapeutic decision‐making [<xref rid="bib-0017" ref-type="bibr">17</xref>]. ICIs targeting PD‐1 or PD‐L1 have significantly transformed LUAD treatment by rejuvenating exhausted T cells and re‐establishing antitumor immunity [<xref rid="bib-0018" ref-type="bibr">18</xref>]. Emerging evidence further supports their synergistic potential when combined with other modalities, such as antiangiogenic therapies, to overcome TME‐mediated immunosuppression [<xref rid="bib-0019" ref-type="bibr">19</xref>]. Consequently, establishing a prognostic model based on PD‐1‐related genes is urgently needed to guide individualized treatment for patients with LUAD [<xref rid="bib-0020" ref-type="bibr">20</xref>].</p><p>In this study, we constructed and validated a multigene prognostic model for LUAD based on PD‐1‐related genes and systematically explored its association with the tumor immune microenvironment and drug sensitivity. By integrating multidimensional immune information, this study provides novel molecular evidence for personalized prognostic assessment and optimized immunotherapy strategies in LUAD.</p></sec><sec id="sec-0006"><title>2. Material and Methods</title><sec id="sec-0007"><title>2.1. Data Gathering and Its Subsequent Processing</title><p>Gene expression data and clinical information of patients with LUAD were sourced from The Cancer Genome Atlas (TCGA) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://portal.gdc.cancer.gov" ext-link-type="uri">https://portal.gdc.cancer.gov</ext-link>) [<xref rid="bib-0021" ref-type="bibr">21</xref>] database as a training set. After excluding samples with missing survival data, 500 tumor and 59 normal samples were retained. RNA‐seq data were converted to FPKM format and log<sub>2</sub>‐transformed. Microarray datasets <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE30219">GSE30219</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE3141">GSE3141</ext-link> were downloaded from the Gene Expression Omnibus (GEO) as independent validation sets. Based on the annotation file, probes were transformed into gene symbols. After excluding normal tissue samples and those without clinical follow‐up information or overall survival (OS) data, 83 and 111 LUAD samples from the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE30219">GSE30219</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE3141">GSE3141</ext-link> datasets were retained for further analysis, respectively.</p></sec><sec id="sec-0008"><title>2.2. Immunological Signature Score Analysis</title><p>The immunological signature scores were calculated using ESTIMATE [<xref rid="bib-0022" ref-type="bibr">22</xref>]. In the TCGA cohort, patients were divided into PDCD1 high‐expression and low‐expression groups according to the median PDCD1 expression level. The limma package was used for differential expression analysis, with the screening thresholds set as |log2FC| &gt; log2(1.5) and adj.<italic toggle="yes">p</italic> &lt; 0.05.</p></sec><sec id="sec-0009"><title>2.3. WGCNA</title><p>WGCNA was performed using the WGCNA package [<xref rid="bib-0023" ref-type="bibr">23</xref>] to identify gene modules that were related to the ESTIMATE score. The soft threshold <italic toggle="yes">β</italic> was determined using the pickSoftThreshold function to ensure a scale‐free network topology. Hierarchical clustering was then conducted with minModuleSize = 60. Based on module–trait correlation analysis, genes in the modules closely related to the immune scores were obtained for subsequent analysis.</p></sec><sec id="sec-0010"><title>2.4. Enrichment Analysis</title><p>To analyze the genes within the selected module, the R package clusterProfiler [<xref rid="bib-0024" ref-type="bibr">24</xref>] was employed to perform GO and KEGG analyses.</p></sec><sec id="sec-0011"><title>2.5. Construction and Validation of a Risk Model</title><p>Using the limma package [<xref rid="bib-0025" ref-type="bibr">25</xref>], we identified DEGs between normal and tumor tissues under the screening criteria of |log2(FC)| &gt; log2(1.5) and <italic toggle="yes">p</italic> &lt; 0.05. The moderated <italic toggle="yes">t</italic>‐test based on empirical Bayesian correction was used to calculate the differential expression of genes, and the Benjamini–Hochberg method was applied for multiple testing correction to obtain the false discovery rate (FDR). Subsequently, to reduce candidate genes within the risk model, we performed univariate and multivariate Cox regression analysis using the survival package (Version 3.2‐7) [<xref rid="bib-0026" ref-type="bibr">26</xref>].</p><p>Based on the obtained biomarkers, the risk model was formulated as follows: RiskScore = <italic toggle="yes">Σ</italic>
+<italic toggle="yes">β</italic>
+<italic toggle="yes">i</italic> × Expi, where <italic toggle="yes">i</italic> is the index of each gene and <italic toggle="yes">β</italic> is the Cox regression coefficient of the gene. Based on the median RiskScore, patients were stratified into high‐risk and low‐risk groups. Survival differences were assessed by Kaplan–Meier (KM) survival analysis, and the model performance was evaluated according to the receiver operating characteristic (ROC) curve at 1, 3, and 5 years using the timeROC R package [<xref rid="bib-0027" ref-type="bibr">27</xref>]. This study constructed and validated the prognostic model with OS as the primary endpoint. Disease‐specific survival (DSS) served as a supplementary endpoint for robustness analysis only in the TCGA cohort. Specifically, DSS was defined as the time to tumor‐related death, whereas non–tumor‐related death and surviving patients were regarded as censored data.</p><p>The protein expression of the prognostic model genes was further validated using public proteomic databases. Specifically, based on the CPTAC‐LUAD proteomic data provided by the UALCAN platform (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ualcan.path.uab.edu/" ext-link-type="uri">https://ualcan.path.uab.edu/</ext-link>), we analyzed the differential protein expression of key genes between LUAD tumor tissues and normal tissues.</p></sec><sec id="sec-0012"><title>2.6. Analysis of the Tumor Immune Microenvironment</title><p>The MCPcounter package [<xref rid="bib-0028" ref-type="bibr">28</xref>] was used to calculate the scores of 10 types of immune cells. The ESTIMATE algorithm [<xref rid="bib-0022" ref-type="bibr">22</xref>] was used to assess the infiltration score of the overall immune TME. The ssGSEA function in the GSVA [<xref rid="bib-0029" ref-type="bibr">29</xref>] package was used to compute the scores of 28 distinct types of immune cells [<xref rid="bib-0030" ref-type="bibr">30</xref>].</p></sec><sec id="sec-0013"><title>2.7. Drug Sensitivity Analysis</title><p>The pRRophetic package [<xref rid="bib-0031" ref-type="bibr">31</xref>] was used to predict the sensitivity of patients in the TCGA‐LUAD cohort to commonly used chemotherapeutic drugs. The correlation between the IC<sub>50</sub> values of these drugs and the RiskScores was analyzed.</p></sec><sec id="sec-0014"><title>2.8. Cell Lines and Transfection</title><p>LUAD cell lines H2228 (BNCC340351) and A549 (BNCC337696) were purchased from Beina Biotechnology Co. Ltd., Xinyang, China. Human normal bronchial epithelial cell line BEAS‐2B (C5382, BDBio Co. Ltd., Hangzhou, China) was also obtained. All cell lines were authenticated by short tandem repeat analysis. H2228 cells, BEAS‐2B cells, and A549 cells were cultured in RPMI‐1640 medium (BNCC338360), Dulbecco′s Modified Eagle Medium (C5382‐500), and F‐12K medium (BNCC338550), respectively, each supplemented with 10% FBS. All the cells were cultured at 37°C in an environment containing 5% CO<sub>2</sub>.</p><p>For silencing the myosin 1F (<italic toggle="yes">MYO1F</italic>) expression in LUAD cells, the small interfering RNAs of <italic toggle="yes">MYO1F</italic> (si‐<italic toggle="yes">MYO1F</italic>#1: 5 <sup>′</sup> AGCAAATCTTTATCGAACTTACC 3 <sup>′</sup> and si‐<italic toggle="yes">MYO1F</italic>#2: 5 <sup>′</sup> CAGCATCAATCGGAACTTCGTCG 3 <sup>′</sup>) and si‐NC were ordered from RiboBio (Guangzhou, China). Following the manufacturer′s manual, LUAD cell lines (H2228 and A549) were transfected with siRNA using Lipofectamine 2000 Transfection Reagent (11668019, Invitrogen, Carlsbad, California, United States). The protein tyrosine phosphatase receptor Type C (<italic toggle="yes">PTPRC</italic>) overexpression plasmid was constructed using the pcDNA3.1 vector (V790‐20, Invitrogen, Carlsbad, California) by RiboBio Co. Ltd. (Guangzhou, China). Following the protocol, the constructed overexpression plasmid was transfected into oe‐<italic toggle="yes">PTPRC</italic> cells using Lipofectamine 2000 Reagent (Invitrogen) for a duration of 48 h.</p></sec><sec id="sec-0015"><title>2.9. Quantitative Reverse Transcription PCR (qRT‐PCR)</title><p>Total RNA of cells was extracted employing TRIzol reagent (R0016, Beyotime, Shanghai, China) and reverse‐transcribed into cDNA using BeyoRT II First Strand cDNA Synthesis Kit (D7168M, Beyotime, China). Thereafter, qRT‐PCR amplification was conducted using BeyoFast SYBR Green qPCR Mix (D7260, Beyotime, China) on a CG‐05 PCR System (Heal Force, Shanghai, China). See Table <xref rid="tbl-0001" ref-type="table">1</xref> for the primers used. The expression levels of genes were calculated using the 2<sup>−<italic toggle="yes">ΔΔ</italic>CT</sup> method, with <italic toggle="yes">GAPDH</italic> as an internal reference gene.</p><table-wrap position="float" id="tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Primer sequences utilized in this study.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><thead><tr><th align="left" rowspan="1" colspan="1">Gene</th><th align="center" rowspan="1" colspan="1">Forward primer</th><th align="center" rowspan="1" colspan="1">Reverse primer</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">ADA2</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CAGGAAGTAGCTCAGAAGTT 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CATCTCTTCTTCCAGATTTC 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">CD53</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> GCTATGCGAAAGCAAGACTGTGG 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> GTCAATCTGGCAGTTCAGGGTC 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">HLA_DMA</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> GTTCTGCGAGTGGATGATCCAG 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> TGTTGGGCTTGCCAAACTCCAG 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">ITGAX</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> GATGCTCAGAGATACTTCACGGC 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CCACACCATCACTTCTGCGTTC 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">MYO1F</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CTTTGCCCGAACCATCCAGAAG 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CCGACGAAGTTCCGATTGATGC 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">NCKAP1L</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> TCTGTGCTGAGCAGCGAAACCT 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> TGACTCTCAGCTCCTGGCTTGT 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">PTPRC</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CTTCAGTGGTCCCATTGTGGTG 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CCACTTTGTTCTCGGCTTCCAG 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">RENBP</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CCATGATGCTACTGAACCTGGTG 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CCTCTGACACATTCTCCAGCAC 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">TNFAIP8L2</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> GCTGCTAGAGTTGGTGGAACAC 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CTTGCCAAGGTGCTGAGTGAAG 3 <sup>′</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">GAPDH</italic>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> CTGGGCTACACTGAGCACC 3 <sup>′</sup>
+</td><td align="center" rowspan="1" colspan="1">5 <sup>′</sup> AAGTGGTCGTTGAGGGCAATG 3 <sup>′</sup>
+</td></tr></tbody></table></table-wrap></sec><sec id="sec-0016"><title>2.10. Cell Viability Experiment</title><p>The cell viability of H2228 and A549 cells transfected with si‐<italic toggle="yes">MYO1F</italic> and oe‐<italic toggle="yes">PTPRC</italic> was measured by the CCK‐8 assay. In brief, the transfected cells were added to a 96‐well plate at a density of 5 × 10<sup>3</sup> cells/well. Then, 10 <italic toggle="yes">μ</italic>L CCK‐8 reagent (C0038, Beyotime, China) was added to each well at 24, 48, and 72 h and incubated for 30 min. Finally, the absorbance value (OD 450 nm) was measured with a microplate reader (Synergy Neo2, Agilent, Santa Clara, California, United States).</p></sec><sec id="sec-0017"><title>2.11. Cell Migration and Invasion Assays</title><p>Cell migration of <italic toggle="yes">MYO1F</italic>‐silenced and <italic toggle="yes">PTPRC-</italic>overexpressed H2228 and A549 cells was assessed by wound healing assay. Specifically, the transfected cells (5 × 10<sup>4</sup> cells/well) were placed into a 6‐well plate containing appropriate complete medium at 37°C with 5% CO<sub>2</sub>. When a monolayer was formed, an artificial wound was created using a 100 <italic toggle="yes">μ</italic>L pipette tip. Subsequently, the cells were rinsed twice in phosphate‐buffered saline (PBS) and observed under an inverted microscope (CKX53, Olympus, Tokyo, Japan) to assess their migratory capacity.</p><p>Additionally, the cell invasion of <italic toggle="yes">MYO1F</italic>‐silenced and <italic toggle="yes">PTPRC</italic>‐overexpressed H2228 and A549 cells was measured by a Transwell assay. Briefly, the transfected cells were seeded into the upper Transwell chamber precoated with Matrigel. Meanwhile, the lower Transwell chamber contained complete culture medium. After incubation for 48 h, the invaded cells were fixed with 4% paraformaldehyde, stained with 0.1% crystal violet, and observed under the same microscope as above.</p></sec><sec id="sec-0018"><title>2.12. Western Blot (WB) Assay</title><p>WB analysis was performed to detect the protein expression levels of nine key genes and to verify the efficiency of <italic toggle="yes">MYO1F</italic> knockout and <italic toggle="yes">PTPRC</italic> overexpression. Total cellular protein was extracted using RIPA lysis buffer (Cat. No. 89901, Thermo Fisher Scientific, Waltham, Massachusetts, United States). The protein concentration was quantified with a BCA protein assay kit (Cat. No. GK10009, GlpBio, Montclair, California, United States) to standardize the loading amount. After protein extraction, samples were separated by SDS‐PAGE and transferred onto PVDF membranes (Cat. No. FFP32, Beyotime, Shanghai, China). The membranes were blocked with 5% skim milk for 2 h to eliminate nonspecific binding. Detailed information on all primary antibodies used in this study is listed in Supporting Information 3: Table <xref rid="sec-0040" ref-type="sec">S1</xref>. The membranes were incubated with primary antibodies overnight at 4°C, followed by incubation with goat antirabbit IgG H&amp;L (HRP) secondary antibody (dilution ratio, 1:2500; Cat. No. ab205718, Abcam, Cambridge, United Kingdom) for 1.5 h at room temperature. Protein bands were visualized using BeyoECL Plus chemiluminescence reagent (Cat. No. P0018S, Beyotime Biotechnology). The grayscale values of target bands were subsequently quantified and analyzed via ImageJ software (Version 1.8.0).</p></sec><sec id="sec-0019"><title>2.13. Statistical Tests</title><p>Data analysis was performed using R (Version 3.6.0) and GraphPad Prism (Version 8.0). For continuous variables, the Wilcoxon rank‐sum test was utilized to determine differences between two groups, and correlations were evaluated by Spearman′s rank correlation analysis. Survival differences among groups were compared using the log‐rank test. Welch′s <italic toggle="yes">t</italic>‐test was used for two‐group comparisons, whereas one or two‐way ANOVA was applied for three or more groups. All in vitro experiments were performed in triplicate. <italic toggle="yes">p</italic> &lt; 0.05 was considered statistically significant.</p></sec></sec><sec id="sec-0020"><title>3. Results</title><sec id="sec-0021"><title>3.1. Immunological Characteristics in LUAD</title><p>The estimate score, stromal score, and immune score in the tumor group were notably lower than in the adjacent nontumor tissues (Figure <xref rid="fig-0001" ref-type="fig">1</xref>A, <italic toggle="yes">p</italic> &lt; 0.0001). Patients were stratified into high and low immune score groups based on the median estimate score. It was found that patients with a high immune score demonstrated a more favorable prognosis (Figure <xref rid="fig-0001" ref-type="fig">1</xref>B, <italic toggle="yes">p</italic> &lt; 0.05). Additionally, PD‐1 expression was notably higher in the tumor group (Figure <xref rid="fig-0001" ref-type="fig">1</xref>C, <italic toggle="yes">p</italic> &lt; 0.0001). Differential analysis between the high‐ and low‐expression groups identified 395 upregulated genes and 30 downregulated genes (Figure <xref rid="fig-0001" ref-type="fig">1</xref>D; Supporting Information 4: Table <xref rid="sec-0040" ref-type="sec">S2</xref>). Further comparison revealed that PD‐1 expression was significantly higher in the low‐risk group than in the high‐risk group (Figure <xref rid="fig-0001" ref-type="fig">1</xref>E, <italic toggle="yes">p</italic> &lt; 0.0001).</p><fig-group position="float" id="fig-0001" content-type="Figure" orientation="portrait"><label>Figure 1</label><caption><p>Expressions of immune‐correlated parameters in the normal and tumor groups. (A) The expression of the immune score in normal and tumor groups ( <sup>∗∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.0001). (B) The prognosis for the groups with high and low immune scores. (C) PD‐1 gene level in normal and tumor groups. (D) Volcano plot showing the distribution of differentially expressed genes between PDCD1 high‐ and low‐expression groups stratified by the median PDCD1 expression in the TCGA cohort. (E) Comparison of PD‐1 expression between high‐ and low‐risk groups, with significantly elevated PD‐1 levels in the low‐risk group ( <sup>∗∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.0001).</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0001" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="HUMU-2026-8948469-g012.webp"><?image-name HUMU-2026-8948469-g012.webp?><?image-size 30124?><?image-md5 19ad045f9dda8f221d6f7a4ce2c08c68?><?image-image-server-status NEVER_LOAD?><?image-original-height 679?><?image-original-width 600?><?image-scaled-height 679?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/19ad045f9dda/HUMU-2026-8948469-g012.webp?><?thumb-name HUMU-2026-8948469-g012.gif?><?thumb-size 4048?><?thumb-md5 f3cf9db9fde5c5b4af47f0545b7de68b?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/f3cf9db9fde5/HUMU-2026-8948469-g012.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0002" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="HUMU-2026-8948469-g011.webp"><?image-name HUMU-2026-8948469-g011.webp?><?image-size 18194?><?image-md5 e8d3d72aba88182f056ef78e10f62d20?><?image-image-server-status NEVER_LOAD?><?image-original-height 524?><?image-original-width 600?><?image-scaled-height 524?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/e8d3d72aba88/HUMU-2026-8948469-g011.webp?><?thumb-name HUMU-2026-8948469-g011.gif?><?thumb-size 2908?><?thumb-md5 358af97b011a7e9cb09b47a827095451?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/358af97b011a/HUMU-2026-8948469-g011.gif?></graphic></fig></fig-group></sec><sec id="sec-0022"><title>3.2. Employing WGCNA to Identify Immune‐Associated Genes</title><p>WGCNA was conducted on the samples to cluster and screen coexpression modules. When the soft‐thresholding power <italic toggle="yes">β</italic> was 7, the scale‐free topology fit index first approached 0.90, indicating that the network was basically scale‐free. Meanwhile, the mean connectivity did not decrease significantly; therefore, <italic toggle="yes">β</italic> = 7 was determined as the optimal soft threshold (Figure <xref rid="fig-0002" ref-type="fig">2</xref>A). Subsequently, hierarchical clustering was used for classifying gene modules. After merging the modules, 25 coexpression modules were clustered (Figure <xref rid="fig-0002" ref-type="fig">2</xref>B). Further analysis was conducted to analyze the association between each module and immune score, with the brown module showing a strong correlation with the immune score (Figure <xref rid="fig-0002" ref-type="fig">2</xref>C). The brown module contained 1114 genes (Figure <xref rid="fig-0002" ref-type="fig">2</xref>D), and the gene membership was significantly positively correlated with the immune score (cor = 0.97, <italic toggle="yes">p</italic> = 1e − 200) (Figure <xref rid="fig-0002" ref-type="fig">2</xref>E).</p><fig position="float" fig-type="Figure" id="fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Results of WGCNA. (A) Scale‐free fit index and average connectivity across various soft‐threshold powers (<italic toggle="yes">β</italic>). (B) A gene dendrogram generated through clustering using 1‐TOM. (C) The connection between the module eigengenes of every module and the traits. (D) Gene number in every module. (E) The association between the module membership of genes within the brown module and the immune scores. Each point represents an individual gene. The <italic toggle="yes">x</italic>‐axis depicts the degree of a gene′s membership in the brown module (i.e., the extent of the relation between the gene and the brown module), and the <italic toggle="yes">y</italic>‐axis shows the association between the gene and the immune score.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="HUMU-2026-8948469-g010.webp"><?image-name HUMU-2026-8948469-g010.webp?><?image-size 49242?><?image-md5 3f4d4ef7a86f3f0517f6ca9cb2af225e?><?image-image-server-status NEVER_LOAD?><?image-original-height 651?><?image-original-width 600?><?image-scaled-height 651?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/3f4d4ef7a86f/HUMU-2026-8948469-g010.webp?><?thumb-name HUMU-2026-8948469-g010.gif?><?thumb-size 4974?><?thumb-md5 67dad2b1e812a049cc45bf8ed6f78588?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/67dad2b1e812/HUMU-2026-8948469-g010.gif?></graphic></fig></sec><sec id="sec-0023"><title>3.3. Enrichment Analysis</title><p>The KEGG enrichment results showed significant enrichment in pathways such as tuberculosis, osteoclast differentiation, Influenza A, phagosome, hematopoietic cell lineage, and lysosome (Figure <xref rid="fig-0003" ref-type="fig">3</xref>A). GO analysis revealed enrichment of the brown module genes in biological processes including regulation of neutrophil‐mediated immunity, leukocyte activation, neutrophil activation, and neutrophil degranulation involved in immune response (Figure <xref rid="fig-0003" ref-type="fig">3</xref>B). These genes were enriched in the cellular component terms including secretory granule membrane, endosome membrane, vacuolar membrane, side of membrane, lysosomal membrane, tertiary granule, and specific granule (Figure <xref rid="fig-0003" ref-type="fig">3</xref>C). In molecular function terms, these genes were significantly enriched in pathways including carbohydrate binding, cytokine activity, cytokine receptor binding, and cytokine receptor activity (Figure <xref rid="fig-0003" ref-type="fig">3</xref>D).</p><fig-group position="float" id="fig-0003" content-type="Figure" orientation="portrait"><label>Figure 3</label><caption><p>Results of enrichment analysis. (A) KEGG analysis on the brown module genes. (B) The brown module genes were subjected to GO analysis in the BO term. (C) The brown module genes were subjected to GO analysis in the CC term. (D) The brown module genes were subjected to GO analysis in the MF term.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0003" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="HUMU-2026-8948469-g009.webp"><?image-name HUMU-2026-8948469-g009.webp?><?image-size 39536?><?image-md5 9df7227f0c337964ebc30483db013211?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 858?><?image-original-width 600?><?image-scaled-height 858?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/9df7227f0c33/HUMU-2026-8948469-g009.webp?><?thumb-name HUMU-2026-8948469-g009.gif?><?thumb-size 2668?><?thumb-md5 dc42cce634c6db53719e467d3398d810?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/dc42cce634c6/HUMU-2026-8948469-g009.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0004" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="HUMU-2026-8948469-g008.webp"><?image-name HUMU-2026-8948469-g008.webp?><?image-size 42894?><?image-md5 403a9ed7743fd02238623ca810afb0b5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 900?><?image-original-width 600?><?image-scaled-height 900?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/403a9ed7743f/HUMU-2026-8948469-g008.webp?><?thumb-name HUMU-2026-8948469-g008.gif?><?thumb-size 2806?><?thumb-md5 03cd12114711d037d2a0bd3f6abcb2f6?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/03cd12114711/HUMU-2026-8948469-g008.gif?></graphic></fig></fig-group></sec><sec id="sec-0024"><title>3.4. Development and Validation of a Risk Model</title><p>A total of 1959 downregulated DEGs and 2290 upregulated DEGs were identified between the normal and tumor tissue samples in the LUAD‐TCGA database (Figure <xref rid="fig-0004" ref-type="fig">4</xref>A). Subsequently, 395 upregulated DEGs and 30 downregulated DEGs were identified between the low‐ and high‐expression groups of PD‐1. Next, a total of 96 overlapping genes were identified from the intersection of the brown module genes, the DEGs between normal and tumor tissues, and those between the two expression groups of PD‐1 (Figure <xref rid="fig-0004" ref-type="fig">4</xref>B). Univariate Cox regression analysis demonstrated that 34 of these DEGs were significantly related to the prognosis of LUAD (<italic toggle="yes">p</italic> &lt; 0.05, Supporting Information 5: Table <xref rid="sec-0040" ref-type="sec">S3</xref>). Multivariate Cox regression analysis was implemented, and finally, we obtained nine independent prognostic genes for constructing a RiskScore model (Figure <xref rid="fig-0004" ref-type="fig">4</xref>C): <disp-formula id="disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1" display="block"><mml:mtable><mml:mlabeledtr id="eq1"><mml:mtd columnalign="left"><mml:mtext>RiskScore</mml:mtext><mml:mo>=</mml:mo><mml:mrow><mml:mo>−</mml:mo></mml:mrow><mml:mn>0.27220.70953</mml:mn><mml:mo>×</mml:mo><mml:mi>A</mml:mi><mml:mi>D</mml:mi><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:mo>×</mml:mo><mml:mi>C</mml:mi><mml:mi>D</mml:mi><mml:mo>+</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.204</mml:mn></mml:mrow></mml:mfenced><mml:mo>×</mml:mo><mml:mi>H</mml:mi><mml:mi>L</mml:mi><mml:mi>A</mml:mi><mml:mo>_</mml:mo><mml:mi>D</mml:mi><mml:mi>M</mml:mi><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.417</mml:mn></mml:mrow></mml:mfenced></mml:mtd></mml:mlabeledtr><mml:mtr><mml:mtd columnalign="left"><mml:mo>×</mml:mo><mml:mi>I</mml:mi><mml:mi>T</mml:mi><mml:mi>G</mml:mi><mml:mi>A</mml:mi><mml:mi>X</mml:mi><mml:mo>+</mml:mo><mml:mn>0.56810.8811</mml:mn><mml:mo>×</mml:mo><mml:mi>M</mml:mi><mml:mi>Y</mml:mi><mml:mi>O</mml:mi><mml:mi>F</mml:mi><mml:mo>+</mml:mo><mml:mo>×</mml:mo><mml:mi>N</mml:mi><mml:mi>C</mml:mi><mml:mi>K</mml:mi><mml:mi>A</mml:mi><mml:mi>P</mml:mi><mml:mi>L</mml:mi><mml:mo>+</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mo>−</mml:mo><mml:mn>1.033</mml:mn></mml:mrow></mml:mfenced><mml:mo>×</mml:mo><mml:mi>P</mml:mi><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mi>R</mml:mi><mml:mi>C</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mo>+</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.161</mml:mn></mml:mrow></mml:mfenced><mml:mo>×</mml:mo><mml:mi>R</mml:mi><mml:mi>E</mml:mi><mml:mi>N</mml:mi><mml:mi>B</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.393</mml:mn></mml:mrow></mml:mfenced><mml:mo>×</mml:mo><mml:mi>T</mml:mi><mml:mi>N</mml:mi><mml:mi>F</mml:mi><mml:mi>A</mml:mi><mml:mi>I</mml:mi><mml:mi>P</mml:mi><mml:mn>82</mml:mn><mml:mi>L</mml:mi><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math>
+</disp-formula>
+</p><p>Using the formula, patients were assigned a prognosis‐related RiskScore and then divided into high‐ and low‐risk groups by the optimal cutoff value of RiskScore.</p><fig-group position="float" id="fig-0004" content-type="Figure" orientation="portrait"><label>Figure 4</label><caption><p>Development and verification of the risk model. (A) Volcano plot depicting the DEGs in tumor and normal groups within the TCGA dataset. (B) Venn diagram showing the overlap among the DEGs between the low and high PD‐1 expression groups, those between normal and tumor groups, and genes from the brown module. Venn diagram of the intersection of the DEGs between the normal and tumor groups, the DEGs between the low and high PD‐1 expression groups, and the brown module genes. (C) Risk coefficients of the key genes in the training set. (D) ROC curve of the TCGA training set. (E) KM curve of the DSS in the TCGA training set. (F) KM curve of the OS in the TCGA training set. (G) Distribution of survival status between high‐risk and low‐risk groups stratified by the median cutoff value of RiskScore in the TCGA dataset. (H) Distribution of survival status in high‐risk and low‐risk groups stratified by the median cutoff of risk score in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE30219">GSE30219</ext-link> dataset. (I) ROC curve of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE30219">GSE30219</ext-link> validation set. (J) KM curve of OS in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE30219">GSE30219</ext-link> validation set.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0005" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="HUMU-2026-8948469-g007.webp"><?image-name HUMU-2026-8948469-g007.webp?><?image-size 47602?><?image-md5 8fb6ad0f8c84c249c0344d8377a139b3?><?image-image-server-status NEVER_LOAD?><?image-original-height 756?><?image-original-width 600?><?image-scaled-height 756?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/8fb6ad0f8c84/HUMU-2026-8948469-g007.webp?><?thumb-name HUMU-2026-8948469-g007.gif?><?thumb-size 3334?><?thumb-md5 1ae2c5ac417fe46163e640a43cbfbd3d?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/1ae2c5ac417f/HUMU-2026-8948469-g007.gif?></graphic></fig><fig position="anchor" fig-type="Figure" id="figpt-0006" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="HUMU-2026-8948469-g006.webp"><?image-name HUMU-2026-8948469-g006.webp?><?image-size 36950?><?image-md5 5aa2652d47a3c1f320dbaf069f9c8170?><?image-image-server-status NEVER_LOAD?><?image-original-height 712?><?image-original-width 600?><?image-scaled-height 712?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/5aa2652d47a3/HUMU-2026-8948469-g006.webp?><?thumb-name HUMU-2026-8948469-g006.gif?><?thumb-size 4172?><?thumb-md5 42ac5a9a6b109a2f378d11185d1b8693?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/42ac5a9a6b10/HUMU-2026-8948469-g006.gif?></graphic></fig></fig-group><p>ROC analysis showed that the model had high AUC values, indicating a high accuracy in distinguishing patients with high and low risk (Figure <xref rid="fig-0004" ref-type="fig">4</xref>D). KM curve displayed a notable difference in DSS and OS between the two risk groups. Specifically, in the TCGA‐LUAD training cohort, patients with higher RiskScore had a poorer outcome (Figure <xref rid="fig-0004" ref-type="fig">4</xref>E,F, <italic toggle="yes">p</italic> &lt; 0.001). Analysis of the survival status demonstrated that the high‐risk group had more death cases than the low‐risk group (Figure <xref rid="fig-0004" ref-type="fig">4</xref>G). The stability and reliability of the model were also validated using the validation dataset <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE30219">GSE30219</ext-link>. As expected, the results in both the training set and validation dataset were consistent (Figure <xref rid="fig-0004" ref-type="fig">4</xref>H). In addition, the model also reached a high AUC value in the validation set (Figure <xref rid="fig-0004" ref-type="fig">4</xref>I). Similar to the training set results, patients with high RiskScore showed a poorer outcome, whereas those with low RiskScore exhibited a better prognosis (Figure <xref rid="fig-0004" ref-type="fig">4</xref>J, <italic toggle="yes">p</italic> &lt; 0.05).</p><p>To further validate the robustness and predictive performance of the model, we also conducted external validation using the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE3141">GSE3141</ext-link> dataset. The results showed a significantly higher proportion of death cases in the high‐risk group than in the low‐risk group (Supporting Information 1: Figure <xref rid="sec-0040" ref-type="sec">S1A</xref>, <italic toggle="yes">p</italic> &lt; 0.001). ROC curve analysis revealed that the model′s AUC values ranged from 0.58 to 0.63 over 1–5 years (Supporting Information 1: Figure <xref rid="sec-0040" ref-type="sec">S1B</xref>). Survival analysis further demonstrated that the OS rate of the high‐risk patients was significantly lower than that of low‐risk patients (Supporting Information 1: Figure <xref rid="sec-0040" ref-type="sec">S1C</xref>, <italic toggle="yes">p</italic> = 0.001), validating the model′s stability and generalizability in an independent dataset.</p><p>Further proteomic analysis revealed that multiple model genes exhibited significantly differential expression at the protein level, with their overall expression trends highly consistent with those observed in transcriptomic analysis. However, the expression differences of several proteins were not statistically significant (Supporting Information 2: Figure <xref rid="sec-0040" ref-type="sec">S2</xref>).</p></sec><sec id="sec-0025"><title>3.5. Development of a Nomogram</title><p>Univariate and multivariate Cox regression analyses demonstrated that T stage, N stage, and RiskScore were all independent prognostic factors for the OS of LUAD patients (Figure <xref rid="fig-0005" ref-type="fig">5</xref>A,B). Subsequently, we developed a nomogram prediction model incorporating T stage, N stage, and RiskScore (Figure <xref rid="fig-0005" ref-type="fig">5</xref>C). The calibration curve demonstrated that the model‐predicted survival rates closely aligned with actual observed values, indicating excellent predictive performance (Figure <xref rid="fig-0005" ref-type="fig">5</xref>D). Decision curve analysis (DCA) results further confirmed that the nomogram had greater clinical net benefit compared with using T staging, N staging, or RiskScore alone (Figure <xref rid="fig-0005" ref-type="fig">5</xref>E).</p><fig position="float" fig-type="Figure" id="fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Development of a nomogram integrating RiskScore and clinicopathological factors and validation. (A) Univariate Cox analysis of RiskScore and clinical characteristics. The asterisk significance is defined as ∗∗<italic toggle="yes">p</italic> &lt; 0.01 and ∗∗∗<italic toggle="yes">p</italic> &lt; 0.001. (B) Multivariate Cox analysis of risk score and clinical characteristics. (C) OS prediction by a nomogram that integrated T stage, N stage, and RiskScore. (D) Calibration plots showing strong agreement between 1‐, 3‐, and 5‐year actual and predicted survival. (E) DCA illustrating higher net clinical benefit from the nomogram than individual indicators.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="HUMU-2026-8948469-g005.webp"><?image-name HUMU-2026-8948469-g005.webp?><?image-size 28494?><?image-md5 a66961039b5546abe7eaf69990526e63?><?image-image-server-status NEVER_LOAD?><?image-original-height 654?><?image-original-width 600?><?image-scaled-height 654?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/a66961039b55/HUMU-2026-8948469-g005.webp?><?thumb-name HUMU-2026-8948469-g005.gif?><?thumb-size 3476?><?thumb-md5 fb934855f7297c67cc27c4862831459c?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/fb934855f729/HUMU-2026-8948469-g005.gif?></graphic></fig></sec><sec id="sec-0026"><title>3.6. <italic toggle="yes">MYO1F</italic> Transfection and In Vitro Experiments</title><p>The qRT‐PCR experiment showed that compared with human normal bronchial epithelial cell line (BEAS‐2B), LUAD cell lines (H2228 and A549) had higher expressions of <italic toggle="yes">MYO1F</italic> and NCK‐associated protein 1‐like (<italic toggle="yes">NCKAP1L</italic>) and lower expressions of adenosine Deaminase 2 (<italic toggle="yes">ADA2</italic>), cluster of Differentiation 53 (<italic toggle="yes">CD53</italic>), <italic toggle="yes">HLA-DMA</italic>, Integrin subunit alpha X (<italic toggle="yes">ITGAX</italic>), <italic toggle="yes">PTPRC</italic>, TNFAIP8‐like 2 (<italic toggle="yes">TNFAIP8L2</italic>), and renin binding protein (<italic toggle="yes">RENBP</italic>) (Figure <xref rid="fig-0006" ref-type="fig">6</xref>A, <italic toggle="yes">p</italic> &lt; 0.05). The results of WB were consistent with those of qRT‐PCR (Figure <xref rid="fig-0006" ref-type="fig">6</xref>B, <italic toggle="yes">p</italic> &lt; 0.05).</p><fig position="float" fig-type="Figure" id="fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>Verification of the expression of nine key genes. (A) Relative mRNA expression of nine prognostic biomarkers in BEAS‐2B, H2228, and A549 measured through qRT‐PCR test (<italic toggle="yes">n</italic> = 3). (B) Relative protein expression of nine prognostic biomarkers in BEAS‐2B, H2228, and A549 measured by WB. ns means not significant (<italic toggle="yes">n</italic> = 3).  <sup>∗∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.0001,  <sup>∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.001,  <sup>∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.01, and  <sup>∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-17" orientation="portrait" xlink:href="HUMU-2026-8948469-g004.webp"><?image-name HUMU-2026-8948469-g004.webp?><?image-size 27056?><?image-md5 66e63c06d8ae1a495fe22e12135efcd7?><?image-image-server-status NEVER_LOAD?><?image-original-height 523?><?image-original-width 600?><?image-scaled-height 523?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/66e63c06d8ae/HUMU-2026-8948469-g004.webp?><?thumb-name HUMU-2026-8948469-g004.gif?><?thumb-size 5114?><?thumb-md5 f386fc7e4ee40c15da703ebaf6a900f2?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/f386fc7e4ee4/HUMU-2026-8948469-g004.gif?></graphic></fig><p>
+<italic toggle="yes">MYO1F</italic> and <italic toggle="yes">PTPRC</italic> were identified as the genes with the highest and lowest expression levels, respectively. Thus, these two genes were selected for further validation. The qRT‐PCR and WB assays confirmed successful knockdown of <italic toggle="yes">MYO1F</italic> and overexpression of <italic toggle="yes">PTPRC</italic> (Figure <xref rid="fig-0007" ref-type="fig">7</xref>A–D, <italic toggle="yes">p</italic> &lt; 0.05). Subsequently, CCK‐8, wound healing, and Transwell assays showed that the proliferation, migration, and invasion abilities of LUAD cells (H2228 and A549) were markedly inhibited following MYO1F knockdown (Figure <xref rid="fig-0008" ref-type="fig">8</xref>A–L, <italic toggle="yes">p</italic> &lt; 0.05). Similarly, <italic toggle="yes">PTPRC</italic> overexpression also significantly suppressed the malignant phenotypes of LUAD cells (Figure <xref rid="fig-0008" ref-type="fig">8</xref>A–L, <italic toggle="yes">p</italic> &lt; 0.05).</p><fig position="float" fig-type="Figure" id="fig-0007" orientation="portrait"><label>Figure 7</label><caption><p>Silencing of <italic toggle="yes">MYO1F</italic> and overexpression of <italic toggle="yes">PTPRC</italic>. (A) The qRT‐PCR verification of the silencing of <italic toggle="yes">MYO1F</italic> in the H2228 and A549 cell lines (<italic toggle="yes">n</italic> = 3). (B) WB verification of the silencing of <italic toggle="yes">MYO1F</italic> in the H2228 and A549 cell lines (<italic toggle="yes">n</italic> = 3). (C) The qRT‐PCR verification of the overexpression of <italic toggle="yes">PTPRC</italic> in the H2228 and A549 cell lines (<italic toggle="yes">n</italic> = 3). (D) WB verification of the overexpression of <italic toggle="yes">PTPRC</italic> in the H2228 and A549 cell lines (<italic toggle="yes">n</italic> = 3). ns means not significant.  <sup>∗∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.0001,  <sup>∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.001, and  <sup>∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.01.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-19" orientation="portrait" xlink:href="HUMU-2026-8948469-g003.webp"><?image-name HUMU-2026-8948469-g003.webp?><?image-size 30522?><?image-md5 d542537f91a20aa7a2f75f06a2d937b7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 806?><?image-original-width 600?><?image-scaled-height 806?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/d542537f91a2/HUMU-2026-8948469-g003.webp?><?thumb-name HUMU-2026-8948469-g003.gif?><?thumb-size 3478?><?thumb-md5 2dbcaa5ed3d12e608f19b738cbd2d028?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/2dbcaa5ed3d1/HUMU-2026-8948469-g003.gif?></graphic></fig><fig position="float" fig-type="Figure" id="fig-0008" orientation="portrait"><label>Figure 8</label><caption><p>In vitro verification experiments utilizing LUAD cells. (A) Cell viability of H2228 cells after <italic toggle="yes">MYO1F</italic> silencing detected with the CCK‐8 test (<italic toggle="yes">n</italic> = 3). (B) Cell viability of A549 cells after <italic toggle="yes">MYO1F</italic> silencing measured by the CCK‐8 test (<italic toggle="yes">n</italic> = 3). (C, D) Migration and invasion capabilities of H2228 cells after <italic toggle="yes">MYO1F</italic> silencing measured by wound healing and Transwell experiments (<italic toggle="yes">n</italic> = 3). (E, F) The migratory and invasive capabilities of A549 cells following the silencing of <italic toggle="yes">MYO1F</italic>, which were assessed through wound healing and Transwell experiments (<italic toggle="yes">n</italic> = 3). (G) Cell viability of H2228 cells after <italic toggle="yes">PTPRC</italic> overexpress detected with the CCK‐8 test (<italic toggle="yes">n</italic> = 3). (H) Cell viability of A549 cells after <italic toggle="yes">PTPRC</italic> overexpress measured by the CCK‐8 test (<italic toggle="yes">n</italic> = 3). (I, J) Migration and invasion capabilities of H2228 cells after <italic toggle="yes">PTPRC</italic> overexpress measured by wound healing and Transwell experiments (<italic toggle="yes">n</italic> = 3). (K, L) The migratory and invasive capabilities of A549 cells following <italic toggle="yes">PTPRC</italic> overexpress, which were assessed through wound healing and Transwell experiments (<italic toggle="yes">n</italic> = 3). ns means not significant.  <sup>∗∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.0001,  <sup>∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.01, and ∗<italic toggle="yes">p</italic> &lt; 0.05.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-21" orientation="portrait" xlink:href="HUMU-2026-8948469-g002.webp"><?image-name HUMU-2026-8948469-g002.webp?><?image-size 43454?><?image-md5 93b734fb7606bcf251395771f3065266?><?image-image-server-status NEVER_LOAD?><?image-original-height 692?><?image-original-width 600?><?image-scaled-height 692?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/93b734fb7606/HUMU-2026-8948469-g002.webp?><?thumb-name HUMU-2026-8948469-g002.gif?><?thumb-size 4954?><?thumb-md5 a52dbd98a98f8fbdfe9723bec41d1aab?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/a52dbd98a98f/HUMU-2026-8948469-g002.gif?></graphic></fig></sec><sec id="sec-0027"><title>3.7. Correlation Analysis Between the RiskScore and Immune Function</title><p>The estimate scores of the TCGA dataset across different groups were calculated by the ESTIMATE algorithm. The results conspicuously demonstrated that the stromal score, immune score, and estimate score were significantly higher in the low‐risk group (Figure <xref rid="fig-0009" ref-type="fig">9</xref>A, <italic toggle="yes">p</italic> &lt; 0.001). Furthermore, the MCPcounter algorithm revealed that the infiltration scores of T cells, monocytic lineage cells, neutrophils, myeloid dendritic cells, B lineage cells, NK cells, endothelial cells, CD8 T cells, and cytotoxic lymphocytes were lower in the high‐risk group. On the contrary, these fibroblast infiltration scores were higher in the high‐risk group (Figure <xref rid="fig-0009" ref-type="fig">9</xref>B, <italic toggle="yes">p</italic> &lt; 0.05). The ssGSEA showed that immature dendritic cells, Type 1 T helper cells, macrophages, activated B cells, T follicular helper cells, immature B cells, regulatory T cells, Type 17 T helper cells, activated CD8 T cells, central memory CD4 T cells, mast cells, MDSCs, monocytes, plasmacytoid dendritic cells, natural killer T cells, natural killer cells, central memory CD8 T cells, effector memory CD8 T cells, and activated dendritic cells were positively correlated with the nine biomarkers and negatively associated with the RiskScore (Figure <xref rid="fig-0009" ref-type="fig">9</xref>C, <italic toggle="yes">p</italic> &lt; 0.05).</p><fig position="float" fig-type="Figure" id="fig-0009" orientation="portrait"><label>Figure 9</label><caption><p>Correlation between immune function and RiskScore. (A) The cell infiltration score by ESTIMATE. (B) The immune infiltration evaluated by MCPcounter. (C) The correlations among the immune infiltration scores evaluated by ssGSEA, RiskScore, and the prognosis genes.  <sup>∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.05,  <sup>∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.01, and  <sup>∗∗∗</sup>
+<italic toggle="yes">p</italic> &lt; 0.001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-23" orientation="portrait" xlink:href="HUMU-2026-8948469-g001.webp"><?image-name HUMU-2026-8948469-g001.webp?><?image-size 43788?><?image-md5 9a8cdc486c50d9c2fc02f84a7ce33158?><?image-image-server-status NEVER_LOAD?><?image-original-height 696?><?image-original-width 600?><?image-scaled-height 696?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/9a8cdc486c50/HUMU-2026-8948469-g001.webp?><?thumb-name HUMU-2026-8948469-g001.gif?><?thumb-size 5516?><?thumb-md5 a421ae47b5a4a6b8c3cecd694219530b?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/a421ae47b5a4/HUMU-2026-8948469-g001.gif?></graphic></fig></sec><sec id="sec-0028"><title>3.8. Drug Sensitivity Analysis</title><p>Correlation analysis between the drug IC<sub>50</sub> and RiskScore revealed that the IC<sub>50</sub> of the majority of drugs, for instance, rapamycin, Z‐LLNle‐CHO, PHA‐665752, cyclopamine, crizotinib, CP466722, parthenolide, and phenformin, was positively correlated with the RiskScore. This suggests that LUAD patients with a high RiskScore may have lower sensitivity to these drugs, but those with a low RiskScore may be more suitable for taking these medications (Figure <xref rid="fig-0010" ref-type="fig">10</xref>). Conversely, the IC<sub>50</sub> of drugs such as pyrimethamine, lapatinib, and cisplatin was negatively correlated with the RiskScore, suggesting that these agents might be candidate drugs for patients in the high‐risk group (Figure <xref rid="fig-0010" ref-type="fig">10</xref>).</p><fig position="float" fig-type="Figure" id="fig-0010" orientation="portrait"><label>Figure 10</label><caption><p>The relationship between drug IC<sub>50</sub> and RiskScore in the TCGA‐LUAD cohort.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-25" orientation="portrait" xlink:href="HUMU-2026-8948469-g013.webp"><?image-name HUMU-2026-8948469-g013.webp?><?image-size 36428?><?image-md5 87dda08a9a8d967412c8033e0aa50c05?><?image-image-server-status NEVER_LOAD?><?image-original-height 464?><?image-original-width 600?><?image-scaled-height 464?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/917f/13504365/87dda08a9a8d/HUMU-2026-8948469-g013.webp?><?thumb-name HUMU-2026-8948469-g013.gif?><?thumb-size 4280?><?thumb-md5 f23c33709c545a46b8df1d2db7f43ac4?><?thumb-image-server-status NEVER_LOAD?><?thumb-cloudpmc-urn urn:cdn:blobs/917f/13504365/f23c33709c54/HUMU-2026-8948469-g013.gif?></graphic></fig></sec></sec><sec id="sec-0029"><title>4. Discussion</title><p>LUAD continues to exhibit high incidence and mortality rates worldwide [<xref rid="bib-0032" ref-type="bibr">32</xref>]. PD‐L1/PD‐1 serves as a key immunotherapeutic target in LUAD [<xref rid="bib-0033" ref-type="bibr">33</xref>]. Previous studies have linked PD‐L1 expression to poor clinical outcomes [<xref rid="bib-0034" ref-type="bibr">34</xref>]. However, the comprehensive expression profile of PD‐1 and its related prognostic biomarkers in LUAD remains poorly understood. In this study, we identified nine biomarkers and established a prognostic model with high reliability. We further explored the potential function of PD‐1 in the immune evasion of LUAD cells and uncovered new biomarkers, thus offering novel insights into the pathogenesis of LUAD. The established prognostic model may serve as a practical tool for assessing patient prognosis and guiding personalized treatment strategies.</p><p>We discovered nine prognostic biomarkers, namely, <italic toggle="yes">ADA2</italic>, <italic toggle="yes">CD53</italic>, human leukocyte antigen–DM alpha chain (<italic toggle="yes">HLA-DMA</italic>), <italic toggle="yes">ITGAX</italic>, <italic toggle="yes">MYO1F</italic>, <italic toggle="yes">NCKAP1L</italic>, <italic toggle="yes">PTPRC</italic>, <italic toggle="yes">RENBP</italic>, and <italic toggle="yes">TNFAIP8L2</italic>, with distinct immunological and molecular functions in LUAD. <italic toggle="yes">ADA2</italic> is a purine catabolic enzyme that catalyzes the deamination of adenosine [<xref rid="bib-0035" ref-type="bibr">35</xref>]. <italic toggle="yes">ADA2</italic> deficiency impairs M2 macrophage differentiation and exhibits autocrine activity during monocyte proliferation [<xref rid="bib-0036" ref-type="bibr">36</xref>]. Reduced ADA activity is associated with advanced LUAD progression [<xref rid="bib-0037" ref-type="bibr">37</xref>]. <italic toggle="yes">CD53</italic> is a tetraspanin that regulates lymphocyte recirculation and immune responses [<xref rid="bib-0038" ref-type="bibr">38</xref>]. Its expression is predictive of NSCLC patients′ responsiveness to immunotherapy [<xref rid="bib-0039" ref-type="bibr">39</xref>] and may serve as a promising biomarker for LUAD [<xref rid="bib-0040" ref-type="bibr">40</xref>]. Through major histocompatibility complex (MHC) Class II molecules, <italic toggle="yes">HLA-DMA</italic> regulates antigen presentation [<xref rid="bib-0041" ref-type="bibr">41</xref>]. Downregulated <italic toggle="yes">HLA-DMA</italic> is linked to poor prognosis in LUAD [<xref rid="bib-0042" ref-type="bibr">42</xref>] and impaired activation of Th1 CD4<sup>+</sup> T cells [<xref rid="bib-0041" ref-type="bibr">41</xref>]. <italic toggle="yes">ITGAX</italic> is a transmembrane glycoprotein that marks immune cells (e.g., macrophages and dendritic cells) [<xref rid="bib-0043" ref-type="bibr">43</xref>] and acts as a receptor for the extracellular matrix (ECM) [<xref rid="bib-0044" ref-type="bibr">44</xref>]. It has been confirmed as a diagnostic biomarker for LUAD [<xref rid="bib-0045" ref-type="bibr">45</xref>]. Unconventional <italic toggle="yes">MYO1F</italic> [<xref rid="bib-0046" ref-type="bibr">46</xref>] is crucial for the transmigration and three‐dimensional motility of neutrophils and may regulate cancer cell adhesion [<xref rid="bib-0047" ref-type="bibr">47</xref>] and tumor‐associated immune responses [<xref rid="bib-0048" ref-type="bibr">48</xref>]. Our present study discovered that silencing <italic toggle="yes">MYO1F</italic> weakened the viability, migration, and invasion of LUAD cells. <italic toggle="yes">NCKAP1L</italic> regulates lymphocyte development and macrophage phagocytosis [<xref rid="bib-0049" ref-type="bibr">49</xref>]. Previous studies have confirmed that <italic toggle="yes">NCKAP1L</italic> may influence cancer development by affecting macrophage phagocytosis and antigen presentation [<xref rid="bib-0050" ref-type="bibr">50</xref>]. <italic toggle="yes">PTPRC</italic> functions as a pan‐leukocyte marker which regulates antigen receptor signaling [<xref rid="bib-0051" ref-type="bibr">51</xref>]. It interacts with PD‐L1 and influences immune infiltration and immunotherapy efficacy in LUAD [<xref rid="bib-0052" ref-type="bibr">52</xref>]. <italic toggle="yes">RENBP</italic> is a regulator of the renin–angiotensin system [<xref rid="bib-0053" ref-type="bibr">53</xref>], and its overexpression is correlated with a favorable prognosis in male LUAD [<xref rid="bib-0054" ref-type="bibr">54</xref>]. <italic toggle="yes">TNFAIP8L2</italic> and <italic toggle="yes">TIPE2</italic> are immunoregulatory factors that maintain immune homeostasis [<xref rid="bib-0055" ref-type="bibr">55</xref>]. Members of the <italic toggle="yes">TNFAIP8</italic> family are downregulated in LUAD tissues compared with adjacent normal tissues [<xref rid="bib-0056" ref-type="bibr">56</xref>]. Collectively, these biomarkers modulate the tumor immune microenvironment to promote LUAD progression, highlighting their potential as therapeutic targets and predictive biomarkers.</p><p>The results of multiple immune infiltration algorithms consistently demonstrated that the low‐risk group exhibited a more active immune microenvironment, characterized by higher stromal and immune scores and increased infiltration of key immune effector cells such as CD8<sup>+</sup> T cells. As central components of the immune system, these cells maintain tissue homeostasis and eliminate transformed or damaged cells, thereby providing essential antitumor defense [<xref rid="bib-0057" ref-type="bibr">57</xref>]. During tumor development, malignant cells dynamically interact with immune cells, shaping the tumor microenvironment toward either an immune‐activated or immunosuppressive state [<xref rid="bib-0058" ref-type="bibr">58</xref>]. The low‐risk group identified by our model displayed features of a hot immune phenotype, marked by active cytotoxic immune responses and robust antigen presentation. In contrast, the high‐risk group was associated with immune exhaustion, reflecting a cold or immunosuppressive phenotype. Collectively, these findings suggest that the RiskScore not only predicts clinical outcomes but also captures the functional status of the immune landscape, providing mechanistic insight into tumor–immune interactions and potential implications for immunotherapy responsiveness.</p><p>Additionally, this study revealed marked differences in the adaptability of drug treatment between the two risk groups. Low‐risk patients showed greater sensitivity to rapamycin and crizotinib, whereas the high‐risk group was more sensitive to pyrimethamine and cisplatin. Rapamycin, a mammalian target of rapamycin (mTOR) inhibitor, exhibits strong tumor‐suppressive efficacy in cancer treatment [<xref rid="bib-0059" ref-type="bibr">59</xref>]. In the low‐risk tumor microenvironment, where immunosuppression is relatively mild, rapamycin may synergistically enhance T‐cell function, reverse immune exhaustion, and delay tumor recurrence [<xref rid="bib-0060" ref-type="bibr">60</xref>]. Crizotinib, a tyrosine kinase inhibitor (TKI) used to treat advanced NSCLC patients with ALK positivity [<xref rid="bib-0061" ref-type="bibr">61</xref>], may disrupt PD‐L1/PD‐1‐mediated immune escape and enhance CD8<sup>+</sup> T‐cell activity, thereby bolstering antitumor immune surveillance [<xref rid="bib-0060" ref-type="bibr">60</xref>]. In contrast, pyrimethamine is an antiparasitic drug originally used for the treatment of malaria and toxoplasmosis [<xref rid="bib-0062" ref-type="bibr">62</xref>]. Pyrimethamine has been shown to selectively inhibit dihydrofolate reductase (DHFR) in LUAD cells, interfering with folate metabolism and offering a potential therapeutic option for lung cancer [<xref rid="bib-0063" ref-type="bibr">63</xref>]. Cisplatin induces reactive oxygen species through lipid peroxidation, activating p53 signaling and cell cycle arrest [<xref rid="bib-0064" ref-type="bibr">64</xref>], mechanisms that support its clinical application in LUAD [<xref rid="bib-0065" ref-type="bibr">65</xref>]. In conclusion, these agents represent promising candidates for personalized treatment strategies in LUAD patients with different risk stratifications, though further studies are needed to validate and optimize their clinical application.</p><p>Although the LUAD prognostic risk model constructed in this study exhibited favorable predictive performance, several limitations still need to be addressed. First, all analyses were performed based on public databases and lacked validation in clinical samples. The absence of protein‐level evidence from human tissues may limit the clinical translational value of this research. Future studies should collect paired tumor and adjacent normal tissues from LUAD patients and employ IHC and multiplex immunofluorescence staining to verify the protein expression and tissue localization of core model genes, thereby enhancing clinical translational potential. Second, there are inconsistent descriptions of computational analyses. Specifically, multivariate Cox regression was used to adjust for clinical confounders and identify independent prognostic factors in the results section, but the corresponding rationale was not adequately addressed, weakening the overall logical coherence. Subsequent revisions will ensure consistency across the methods, results, and discussion sections. Third, drug sensitivity predictions solely relied on computational analyses such as pRRophetic and cell line–based in silico analysis, without experimental or real‐world clinical validation. Therefore, definitive conclusions regarding clinical drug applicability, particularly for targeted agents (e.g., crizotinib) that specifically act on gene alterations, cannot be drawn. Further in vitro cell experiments will be performed to examine changes in PD‐L1 expression after knockdown of key model genes, with or without IFN‐<italic toggle="yes">γ</italic> stimulation. Flow cytometry and WB assays will be used to clarify the underlying regulatory mechanisms and provide solid experimental support for drug screening and molecular research.</p></sec><sec id="sec-0030"><title>5. Conclusion</title><p>In this study, nine biomarkers were successfully identified to develop a prognostic model for LUAD, which provides a novel perspective for predicting patient prognosis. The differential drug sensitivity observed between risk groups may guide precise medication selection, thereby improving therapeutic efficacy and reducing unnecessary adverse effects. However, its specific biological functions require further experimental verification. In‐depth exploration of the characteristics of the TIME may reveal potential targets for the development of novel immunotherapeutic approaches, ultimately contributing to improved treatment outcomes and survival in LUAD.</p></sec><sec><def-list list-content="abbreviations" list-type="simple"><title>Nomenclature</title><def-item><term>ADA2</term><def><p>adenosine Deaminase 2</p></def></def-item><def-item><term>ALK</term><def><p>anaplastic lymphoma kinase</p></def></def-item><def-item><term>AUC</term><def><p>area under the curve</p></def></def-item><def-item><term>BP</term><def><p>biological process</p></def></def-item><def-item><term>CC</term><def><p>cellular component</p></def></def-item><def-item><term>CCK‐8</term><def><p>Cell Counting Kit‐8</p></def></def-item><def-item><term>CD53</term><def><p>cluster of Differentiation 53</p></def></def-item><def-item><term>DEG</term><def><p>differentially expressed gene</p></def></def-item><def-item><term>DHFR</term><def><p>human dihydrofolate reductase</p></def></def-item><def-item><term>DSS</term><def><p>disease‐specific survival</p></def></def-item><def-item><term>ECM</term><def><p>extracellular matrix</p></def></def-item><def-item><term>FBS</term><def><p>fetal bovine serum</p></def></def-item><def-item><term>FDR</term><def><p>false discovery rate</p></def></def-item><def-item><term>FPKM</term><def><p>fragments per kilobase of exon per million reads mapped</p></def></def-item><def-item><term>GEO</term><def><p>Gene Expression Omnibus</p></def></def-item><def-item><term>GO</term><def><p>Gene Ontology</p></def></def-item><def-item><term>HLA‐DMA</term><def><p>human leukocyte antigen–DM alpha chain</p></def></def-item><def-item><term>IC<sub>50</sub>
+</term><def><p>half‐maximal inhibitory concentration</p></def></def-item><def-item><term>ICI</term><def><p>immune checkpoint inhibitor</p></def></def-item><def-item><term>IHC</term><def><p>immunohistochemical</p></def></def-item><def-item><term>ITGAX</term><def><p>integrin subunit alpha X</p></def></def-item><def-item><term>KEGG</term><def><p>Kyoto Encyclopedia of Genes and Genomes</p></def></def-item><def-item><term>KM</term><def><p>Kaplan–Meier</p></def></def-item><def-item><term>LUAD</term><def><p>lung adenocarcinoma</p></def></def-item><def-item><term>MF</term><def><p>molecular function</p></def></def-item><def-item><term>MHC</term><def><p>major histocompatibility complex</p></def></def-item><def-item><term>mTOR</term><def><p>mammalian target of rapamycin</p></def></def-item><def-item><term>MYO1F</term><def><p>myosin 1F</p></def></def-item><def-item><term>NCKAP1L</term><def><p>NCK‐associated protein 1‐like</p></def></def-item><def-item><term>NSCLC</term><def><p>non–small cell lung cancer</p></def></def-item><def-item><term>OS</term><def><p>overall survival</p></def></def-item><def-item><term>PD‐1</term><def><p>programmed cell death Protein 1</p></def></def-item><def-item><term>PD‐L1</term><def><p>programmed death‐ligand 1</p></def></def-item><def-item><term>PTPRC</term><def><p>protein tyrosine phosphatase receptor Type C</p></def></def-item><def-item><term>qRT‐PCR</term><def><p>quantitative reverse transcription PCR</p></def></def-item><def-item><term>RENBP</term><def><p>renin binding protein</p></def></def-item><def-item><term>RNA‐seq</term><def><p>RNA sequencing</p></def></def-item><def-item><term>ROC</term><def><p>receiver operating characteristic</p></def></def-item><def-item><term>ssGSEA</term><def><p>single‐sample gene set enrichment analysis</p></def></def-item><def-item><term>TCGA</term><def><p>The Cancer Genome Atlas</p></def></def-item><def-item><term>TIL</term><def><p>tumor‐infiltrating T lymphocyte</p></def></def-item><def-item><term>TIME</term><def><p>tumor immune microenvironment</p></def></def-item><def-item><term>TKI</term><def><p>tyrosine kinase inhibitor</p></def></def-item><def-item><term>TME</term><def><p>tumor microenvironment</p></def></def-item><def-item><term>TNFAIP8L2</term><def><p>TNFAIP8‐like 2</p></def></def-item><def-item><term>WB</term><def><p>western blot</p></def></def-item><def-item><term>WGCNA</term><def><p>weighted gene coexpression network analysis</p></def></def-item></def-list></sec><sec id="sec-0031"><title>Author Contributions</title><p>All authors contributed to the present work: B.J. and T.G. designed the study; C.C. acquired the data; B.S. and Z.Z. interpreted the data; B.J. drafted the manuscript; Z.Z. revised the manuscript. B.J. and T.G. contributed equally to this work.</p></sec><sec id="sec-0033"><title>Funding</title><p>No funding was received for this manuscript.</p></sec><sec id="sec-0034"><title>Disclosure</title><p>All authors read and approved the manuscript.</p></sec><sec id="sec-0035"><title>Ethics Statement</title><p>Ethical approval was not required for this study because it did not involve any human experiments.</p></sec><sec id="sec-0036"><title>Consent</title><p>The authors have nothing to report.</p></sec><sec sec-type="COI-statement" id="sec-0037"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec id="sec-0040"><title>Supporting Information</title><p>Additional supporting information can be found online in the Supporting Information section.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="link-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 1</bold> Figure S1: External validation of the prognostic model using the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE3141">GSE3141</ext-link> dataset. (A) Risk scores and survival statuses in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE3141">GSE3141</ext-link> dataset. (B) Time‐dependent ROC curves for 1–5‐year overall survival demonstrating good predictive performance (AUC values of 0.59, 0.61, 0.63, 0.6, and 0.58, respectively). (C) Kaplan–Meier survival analysis revealing that high‐risk patients had significantly worse overall survival than low‐risk patients (<italic toggle="yes">p</italic> = 0.001).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-2026-8948469-s001.pdf" position="float" orientation="portrait"><?suppdata-name HUMU-2026-8948469-s001.pdf?><?suppdata-size 206190?><?suppdata-md5 622f37b11cea33228a88d79c84b36c26?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:917f/13504365/622f37b11cea/HUMU-2026-8948469-s001.pdf?></media></supplementary-material><supplementary-material id="link-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 2</bold> Figure S2: Protein expression validation of nine prognostic model genes based on CPTAC‐LUAD proteomic data from the UALCAN database. The UALCAN platform (CPTAC‐LUAD) was used to compare the protein expression levels of nine prognostic genes, including HLA‐DMA, ITGAX, MYO1F, NCKAP1L, PTPRC, TNFAIP8L2, RENBP, CD53, and ADA2, between normal lung tissues and primary LUAD tumor tissues. Box plots present the standardized protein expression values (<italic toggle="yes">Z</italic>‐value), and the statistical significance of differences among groups is indicated in each subgraph.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-2026-8948469-s002.pdf" position="float" orientation="portrait"><?suppdata-name HUMU-2026-8948469-s002.pdf?><?suppdata-size 468003?><?suppdata-md5 4343f0c9cbf62fe7f0fd19b66c29a5e6?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:917f/13504365/4343f0c9cbf6/HUMU-2026-8948469-s002.pdf?></media></supplementary-material><supplementary-material id="link-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 3</bold> Table S1: The primary antibody utilized in this study.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-2026-8948469-s003.docx" position="float" orientation="portrait"><?suppdata-name HUMU-2026-8948469-s003.docx?><?suppdata-size 18839?><?suppdata-md5 218afc0c3a0e67f5f4728c8a862375f6?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:917f/13504365/218afc0c3a0e/HUMU-2026-8948469-s003.docx?></media></supplementary-material><supplementary-material id="link-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 4</bold> Table S2: Differentially expressed genes between the high‐expression group and the low‐expression group of PDCD1.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-2026-8948469-s004.zip" position="float" orientation="portrait"><?suppdata-name HUMU-2026-8948469-s004.zip?><?suppdata-size 15265?><?suppdata-md5 cb0a1316e1d3ddfb9651511dc9e9309d?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type zip?><?suppdata-cloudpmc-urn urn:app:917f/13504365/cb0a1316e1d3/HUMU-2026-8948469-s004.zip?></media></supplementary-material><supplementary-material id="link-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information 5</bold> Table S3: Results of univariate Cox regression analysis.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-2026-8948469-s005.docx" position="float" orientation="portrait"><?suppdata-name HUMU-2026-8948469-s005.docx?><?suppdata-size 20003?><?suppdata-md5 0a82639f6f7835760751cc2d4e8945ec?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:917f/13504365/0a82639f6f78/HUMU-2026-8948469-s005.docx?></media></supplementary-material></sec></body><back><ack id="sec-0032"><title>Acknowledgments</title><p>The authors have nothing to report.</p></ack><sec sec-type="data-availability" id="sec-0039"><title>Data Availability Statement</title><p>The datasets generated and/or analyzed during the current study are available in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-geo" xlink:href="GSE30219">GSE30219</ext-link> repository (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30219" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30219</ext-link>). The remaining analysis codes and intermediate processed data are available from the corresponding author upon reasonable request.</p></sec><ref-list><ref id="bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cit-0001">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cui</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jia</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>T.</given-names>
+</string-name>, <article-title>Prediction of SARS-CoV-2 Infection Phosphorylation Sites and Associations of These Modifications With Lung Cancer Development</article-title>, <source>Current Gene Therapy</source>. (<year>2024</year>) <volume>24</volume>, no. 3, <fpage>239</fpage>–<lpage>248</lpage>, <pub-id pub-id-type="doi">10.2174/0115665232268074231026111634</pub-id>, 37957848.<pub-id pub-id-type="pmid">37957848</pub-id>
+</mixed-citation></ref><ref id="bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cit-0002">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Deng</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dai</surname>
+<given-names>J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Q.</given-names>
+</string-name>, <article-title>A Novel Methylation-Based Model for Prognostic Prediction in Lung Adenocarcinoma</article-title>, <source>Current Genomics</source>. (<year>2024</year>) <volume>25</volume>, no. 1, <fpage>26</fpage>–<lpage>40</lpage>, <pub-id pub-id-type="doi">10.2174/0113892029277397231228062412</pub-id>, 38544827.<pub-id pub-id-type="pmid">38544827</pub-id>
+<pub-id pub-id-type="pmcid">PMC10964088</pub-id></mixed-citation></ref><ref id="bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cit-0003">
+<string-name name-style="western">
+<surname>Deng</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zou</surname>
+<given-names>G.</given-names>
+</string-name>, <article-title>The Role of TGFBR3 in the Development of Lung Cancer</article-title>, <source>Protein &amp; Peptide Letters</source>. (<year>2024</year>) <volume>31</volume>, no. 7, <fpage>491</fpage>–<lpage>503</lpage>, <pub-id pub-id-type="doi">10.2174/0109298665315841240731060636</pub-id>, 39092729.<pub-id pub-id-type="pmid">39092729</pub-id>
+</mixed-citation></ref><ref id="bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cit-0004">
+<string-name name-style="western">
+<surname>Bhattacharjee</surname>
+<given-names>S.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>GBD 2023 Cancer Collaborators</surname>
+</string-name>, <article-title>The Global, Regional, and National Burden of Cancer, 1990-2023, With Forecasts to 2050: A Systematic Analysis for the Global Burden of Disease Study 2023</article-title>, <source>Lancet</source>. (<year>2025</year>) <volume>406</volume>, no. 10512, <fpage>1565</fpage>–<lpage>1586</lpage>, <pub-id pub-id-type="doi">10.1016/s0140-6736(25)01635-6</pub-id>, 41015051.<pub-id pub-id-type="pmid">41015051</pub-id>
+<pub-id pub-id-type="pmcid">PMC12687902</pub-id></mixed-citation></ref><ref id="bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cit-0005">
+<string-name name-style="western">
+<surname>Wei</surname>
+<given-names>Y.-Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>M.-Z.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Yuan</surname>
+<given-names>W.</given-names>
+</string-name>, <article-title>Network Pharmacological Study of the Active Ingredient of Panax notoginseng Saponins for the Treatment of Lung Cancer by Inhibiting AKR1C3</article-title>, <source>Letters in Drug Design &amp; Discovery</source>. (<year>2024</year>) <volume>21</volume>, no. 9, <fpage>1546</fpage>–<lpage>1554</lpage>, <pub-id pub-id-type="doi">10.2174/1570180820666230914104206</pub-id>.</mixed-citation></ref><ref id="bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cit-0006">
+<string-name name-style="western">
+<surname>Jasemi</surname>
+<given-names>S. V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Khazaei</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fakhri</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Samimi</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Aneva</surname>
+<given-names>I. Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Farzaei</surname>
+<given-names>M. H.</given-names>
+</string-name>, <article-title>Quercetin Modulates the Signalling Pathways and Therapeutic Targets in the Pathophysiology of Lung Cancer: A Systematic Review</article-title>, <source>Letters in Drug Design &amp; Discovery</source>. (<year>2024</year>) <volume>21</volume>, no. 14, <fpage>2903</fpage>–<lpage>2915</lpage>, <pub-id pub-id-type="doi">10.2174/1570180820666230719121525</pub-id>.</mixed-citation></ref><ref id="bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cit-0007">
+<string-name name-style="western">
+<surname>Seguin</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Durandy</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Feral</surname>
+<given-names>C. C.</given-names>
+</string-name>, <article-title>Lung Adenocarcinoma Tumor Origin: A Guide for Personalized Medicine</article-title>, <source>Cancers</source>. (<year>2022</year>) <volume>14</volume>, no. 7, <pub-id pub-id-type="doi">10.3390/cancers14071759</pub-id>, 35406531.<pub-id pub-id-type="pmcid">PMC8996976</pub-id><pub-id pub-id-type="pmid">35406531</pub-id></mixed-citation></ref><ref id="bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cit-0008">
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tang</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xie</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shi</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xia</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>D.</given-names>
+</string-name>, <article-title>Exosomal LOC85009 Inhibits Docetaxel Resistance in Lung Adenocarcinoma Through Regulating ATG5-Induced Autophagy</article-title>, <source>Drug Resistance Updates</source>. (<year>2023</year>) <volume>67</volume>, <elocation-id>100915</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.drup.2022.100915</pub-id>, 36641841.<pub-id pub-id-type="pmid">36641841</pub-id>
+</mixed-citation></ref><ref id="bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cit-0009">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yin</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>S. W.</given-names>
+</string-name>, <article-title>How Nanotechniques Could Vitalize the O-GlcNAcylation-Targeting Approach for Cancer Therapy</article-title>, <source>International Journal of Nanomedicine</source>. (<year>2022</year>) <volume>17</volume>, <fpage>1829</fpage>–<lpage>1841</lpage>, <pub-id pub-id-type="doi">10.2147/IJN.S360488</pub-id>, 35498390.<pub-id pub-id-type="pmid">35498390</pub-id>
+<pub-id pub-id-type="pmcid">PMC9049135</pub-id></mixed-citation></ref><ref id="bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cit-0010">
+<string-name name-style="western">
+<surname>Seyfinejad</surname>
+<given-names>B.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Jouyban</surname>
+<given-names>A.</given-names>
+</string-name>, <article-title>Importance of Method Validation in the Analysis of Biomarker</article-title>, <source>Current Pharmaceutical Analysis</source>. (<year>2022</year>) <volume>18</volume>, no. 6, <fpage>567</fpage>–<lpage>569</lpage>, <pub-id pub-id-type="doi">10.2174/1573412918666211213142638</pub-id>.</mixed-citation></ref><ref id="bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cit-0011">
+<string-name name-style="western">
+<surname>Cao</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xue</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>F. E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhen</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Guo</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>Identification of Prognostic Molecular Subtypes and Model Based on CD8+ T Cells for Lung Adenocarcinoma</article-title>, <source>Biocell</source>. (<year>2024</year>) <volume>48</volume>, no. 3, <fpage>473</fpage>–<lpage>490</lpage>, <pub-id pub-id-type="doi">10.32604/biocell.2024.048946</pub-id>.</mixed-citation></ref><ref id="bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cit-0012">
+<string-name name-style="western">
+<surname>Fan</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mao</surname>
+<given-names>R.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Fan</surname>
+<given-names>Y.</given-names>
+</string-name>, <article-title>The Generation of PD-L1 and PD-L2 in Cancer Cells: From Nuclear Chromatin Reorganization to Extracellular Presentation</article-title>, <source>Acta Pharmaceutica Sinica B</source>. (<year>2022</year>) <volume>12</volume>, no. 3, <fpage>1041</fpage>–<lpage>1053</lpage>, <pub-id pub-id-type="doi">10.1016/j.apsb.2021.09.010</pub-id>, 35530130.<pub-id pub-id-type="pmid">35530130</pub-id>
+<pub-id pub-id-type="pmcid">PMC9069407</pub-id></mixed-citation></ref><ref id="bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cit-0013">
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hua</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mao</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fu</surname>
+<given-names>C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Qin</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>Photo-Thermally Controllable Tumor Metabolic Modulation to Assist T Cell Activation for Boosting Immunotherapy</article-title>, <source>International Journal of Nanomedicine</source>. (<year>2024</year>) <volume>19</volume>, <fpage>11181</fpage>–<lpage>11194</lpage>, <pub-id pub-id-type="doi">10.2147/IJN.S483815</pub-id>, 39513087.<pub-id pub-id-type="pmid">39513087</pub-id>
+<pub-id pub-id-type="pmcid">PMC11542477</pub-id></mixed-citation></ref><ref id="bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cit-0014">
+<string-name name-style="western">
+<surname>Geng</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>du</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jin</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Song</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Qu</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>G.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Jiao</surname>
+<given-names>P.</given-names>
+</string-name>, <article-title>Small Molecules Targeting Immune Checkpoint Proteins for Cancer Immunotherapy: A Patent and Literature Review (2020-2024)</article-title>, <source>Expert Opinion on Therapeutic Patents</source>. (<year>2025</year>) <volume>35</volume>, no. 4, <fpage>409</fpage>–<lpage>440</lpage>, <pub-id pub-id-type="doi">10.1080/13543776.2025.2462849</pub-id>, 39907457.<pub-id pub-id-type="pmid">39907457</pub-id>
+</mixed-citation></ref><ref id="bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cit-0015">
+<string-name name-style="western">
+<surname>Tao</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kuai</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xia</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>H.</given-names>
+</string-name>, <article-title>Combination of Chemotherapy and Immune Checkpoint Therapy by the Immunoconjugates-Based Nanocomplexes Synergistically Improves Therapeutic Efficacy in SCLC</article-title>, <source>Drug Delivery</source>. (<year>2022</year>) <volume>29</volume>, no. 1, <fpage>1571</fpage>–<lpage>1581</lpage>, <pub-id pub-id-type="doi">10.1080/10717544.2022.2039803</pub-id>, 35612299.<pub-id pub-id-type="pmid">35612299</pub-id>
+<pub-id pub-id-type="pmcid">PMC9762851</pub-id></mixed-citation></ref><ref id="bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cit-0016">
+<string-name name-style="western">
+<surname>Fang</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Guo</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ke</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jia</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>The Effectiveness of Anti-PD-L1 Treatment and the Underlying Regulatory Mechanism in Ovarian Clear Cell Carcinoma</article-title>, <source>International Immunopharmacology</source>. (<year>2025</year>) <volume>164</volume>, <elocation-id>115344</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.intimp.2025.115344</pub-id>, 40803218.<pub-id pub-id-type="pmid">40803218</pub-id>
+</mixed-citation></ref><ref id="bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cit-0017">
+<string-name name-style="western">
+<surname>Koomen</surname>
+<given-names>B. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Badrising</surname>
+<given-names>S. K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>van den Heuvel</surname>
+<given-names>M. M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Willems</surname>
+<given-names>S. M.</given-names>
+</string-name>, <article-title>Comparability of PD-L1 Immunohistochemistry Assays for Non-Small-Cell Lung Cancer: A Systematic Review</article-title>, <source>Histopathology</source>. (<year>2020</year>) <volume>76</volume>, no. 6, <fpage>793</fpage>–<lpage>802</lpage>, <pub-id pub-id-type="doi">10.1111/his.14040</pub-id>, 31793055.<pub-id pub-id-type="pmid">31793055</pub-id>
+<pub-id pub-id-type="pmcid">PMC7318295</pub-id></mixed-citation></ref><ref id="bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cit-0018">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wei</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>Y. L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>B.</given-names>
+</string-name>, <article-title>Integration of Multiple Key Molecules in Lung Adenocarcinoma Identifies Prognostic and Immunotherapeutic Relevant Gene Signatures</article-title>, <source>International Immunopharmacology</source>. (<year>2020</year>) <volume>83</volume>, <elocation-id>106477</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.intimp.2020.106477</pub-id>, 32278127.<pub-id pub-id-type="pmid">32278127</pub-id>
+</mixed-citation></ref><ref id="bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cit-0019">
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cui</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tao</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xiang</surname>
+<given-names>R.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>Y.</given-names>
+</string-name>, <article-title>Anti-PD-1/L1 Plus Anti-Angiogenesis Therapy as Second-Line or Later Treatment in Advanced Lung Adenocarcinoma</article-title>, <source>Journal of Cancer Research and Clinical Oncology</source>. (<year>2021</year>) <volume>147</volume>, no. 3, <fpage>881</fpage>–<lpage>891</lpage>, <pub-id pub-id-type="doi">10.1007/s00432-020-03380-x</pub-id>, 32909095.<pub-id pub-id-type="pmid">32909095</pub-id>
+<pub-id pub-id-type="pmcid">PMC11801922</pub-id></mixed-citation></ref><ref id="bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cit-0020">
+<string-name name-style="western">
+<surname>Lu</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yin</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ji</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Qian</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yan</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</string-name>, <article-title>The Impact of Tobacco Exposure on Tumor Microenvironment and Prognosis in Lung Adenocarcinoma by Integrative Analysis of Multi-Omics Data</article-title>, <source>International Immunopharmacology</source>. (<year>2021</year>) <volume>101</volume>, Part B, <elocation-id>108253</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.intimp.2021.108253</pub-id>, 34700112.<pub-id pub-id-type="pmid">34700112</pub-id>
+</mixed-citation></ref><ref id="bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cit-0021">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ren</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Jia</surname>
+<given-names>Y.</given-names>
+</string-name>, <article-title>Low Expression of RGL4 Is Associated With a Poor Prognosis and Immune Infiltration in Lung Adenocarcinoma Patients</article-title>, <source>International Immunopharmacology</source>. (<year>2020</year>) <volume>83</volume>, <elocation-id>106454</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.intimp.2020.106454</pub-id>, 32259700.<pub-id pub-id-type="pmid">32259700</pub-id>
+</mixed-citation></ref><ref id="bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cit-0022">
+<string-name name-style="western">
+<surname>Yoshihara</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shahmoradgoli</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Martínez</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Vegesna</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Torres-Garcia</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Treviño</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shen</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Laird</surname>
+<given-names>P. W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Levine</surname>
+<given-names>D. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Carter</surname>
+<given-names>S. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Getz</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Stemke-Hale</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mills</surname>
+<given-names>G. B.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Verhaak</surname>
+<given-names>R. G. W.</given-names>
+</string-name>, <article-title>Inferring Tumour Purity and Stromal and Immune Cell Admixture From Expression Data</article-title>, <source>Nature Communications</source>. (<year>2013</year>) <volume>4</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/ncomms3612</pub-id>, 24113773.<pub-id pub-id-type="pmcid">PMC3826632</pub-id><pub-id pub-id-type="pmid">24113773</pub-id></mixed-citation></ref><ref id="bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cit-0023">
+<string-name name-style="western">
+<surname>Langfelder</surname>
+<given-names>P.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Horvath</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>WGCNA: An R Package for Weighted Correlation Network Analysis</article-title>, <source>BMC Bioinformatics</source>. (<year>2008</year>) <volume>9</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/1471-2105-9-559</pub-id>, 19114008.<pub-id pub-id-type="pmcid">PMC2631488</pub-id><pub-id pub-id-type="pmid">19114008</pub-id></mixed-citation></ref><ref id="bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cit-0024">
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L. G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Han</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>Q. Y.</given-names>
+</string-name>, <article-title>clusterProfiler: An R Package for Comparing Biological Themes Among Gene Clusters</article-title>, <source>Omics: A Journal of Integrative Biology</source>. (<year>2012</year>) <volume>16</volume>, no. 5, <fpage>284</fpage>–<lpage>287</lpage>, <pub-id pub-id-type="doi">10.1089/omi.2011.0118</pub-id>, 22455463.<pub-id pub-id-type="pmid">22455463</pub-id>
+<pub-id pub-id-type="pmcid">PMC3339379</pub-id></mixed-citation></ref><ref id="bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cit-0025">
+<string-name name-style="western">
+<surname>Ritchie</surname>
+<given-names>M. E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Phipson</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Law</surname>
+<given-names>C. W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shi</surname>
+<given-names>W.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Smyth</surname>
+<given-names>G. K.</given-names>
+</string-name>, <article-title>limma Powers Differential Expression Analyses for RNA-Sequencing and Microarray Studies</article-title>, <source>Nucleic Acids Research</source>. (<year>2015</year>) <volume>43</volume>, no. 7, <pub-id pub-id-type="doi">10.1093/nar/gkv007</pub-id>, 25605792.<pub-id pub-id-type="pmcid">PMC4402510</pub-id><pub-id pub-id-type="pmid">25605792</pub-id></mixed-citation></ref><ref id="bib-0026"><label>26</label><mixed-citation publication-type="book" id="cit-0026">
+<string-name name-style="western">
+<surname>Therneau</surname>
+<given-names>T. J. R.</given-names>
+</string-name>, <source>A Package for Survival Analysis in S</source>, <year>2015</year>, <volume>2</volume>, no. 7, <publisher-name>Academic Publisher</publisher-name>.</mixed-citation></ref><ref id="bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cit-0027">
+<string-name name-style="western">
+<surname>Blanche</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dartigues</surname>
+<given-names>J. F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Jacqmin-Gadda</surname>
+<given-names>H.</given-names>
+</string-name>, <article-title>Estimating and Comparing Time-Dependent Areas Under Receiver Operating Characteristic Curves for Censored Event Times With Competing Risks</article-title>, <source>Statistics in Medicine</source>. (<year>2013</year>) <volume>32</volume>, no. 30, <fpage>5381</fpage>–<lpage>5397</lpage>, <pub-id pub-id-type="doi">10.1002/sim.5958</pub-id>, 24027076.<pub-id pub-id-type="pmid">24027076</pub-id>
+</mixed-citation></ref><ref id="bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cit-0028">
+<string-name name-style="western">
+<surname>Becht</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Giraldo</surname>
+<given-names>N. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lacroix</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Buttard</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Elarouci</surname>
+<given-names>N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Petitprez</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Selves</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Laurent-Puig</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sautès-Fridman</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fridman</surname>
+<given-names>W. H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>de Reyniès</surname>
+<given-names>A.</given-names>
+</string-name>, <article-title>Estimating the Population Abundance of Tissue-Infiltrating Immune and Stromal Cell Populations Using Gene Expression</article-title>, <source>Genome Biology</source>. (<year>2016</year>) <volume>17</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s13059-016-1070-5</pub-id>, 27765066.<pub-id pub-id-type="pmcid">PMC5134277</pub-id><pub-id pub-id-type="pmid">27908289</pub-id></mixed-citation></ref><ref id="bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cit-0029">
+<string-name name-style="western">
+<surname>Hänzelmann</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Castelo</surname>
+<given-names>R.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Guinney</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>GSVA: Gene Set Variation Analysis for Microarray and RNA-Seq Data</article-title>, <source>BMC Bioinformatics</source>. (<year>2013</year>) <volume>14</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/1471-2105-14-7</pub-id>, 23323831.<pub-id pub-id-type="pmcid">PMC3618321</pub-id><pub-id pub-id-type="pmid">23323831</pub-id></mixed-citation></ref><ref id="bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cit-0030">
+<string-name name-style="western">
+<surname>Charoentong</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Finotello</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Angelova</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mayer</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Efremova</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rieder</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hackl</surname>
+<given-names>H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Trajanoski</surname>
+<given-names>Z.</given-names>
+</string-name>, <article-title>Pan-Cancer Immunogenomic Analyses Reveal Genotype-Immunophenotype Relationships and Predictors of Response to Checkpoint Blockade</article-title>, <source>Cell Reports</source>. (<year>2017</year>) <volume>18</volume>, no. 1, <fpage>248</fpage>–<lpage>262</lpage>, <pub-id pub-id-type="doi">10.1016/j.celrep.2016.12.019</pub-id>, 28052254.<pub-id pub-id-type="pmid">28052254</pub-id>
+</mixed-citation></ref><ref id="bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cit-0031">
+<string-name name-style="western">
+<surname>Geeleher</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cox</surname>
+<given-names>N.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>R. S.</given-names>
+</string-name>, <article-title>pRRophetic: An R Package for Prediction of Clinical Chemotherapeutic Response From Tumor Gene Expression Levels</article-title>, <source>PLoS One</source>. (<year>2014</year>) <volume>9</volume>, no. 9, <elocation-id>e107468</elocation-id>, <pub-id pub-id-type="doi">10.1371/journal.pone.0107468</pub-id>, 25229481.<pub-id pub-id-type="pmid">25229481</pub-id>
+<pub-id pub-id-type="pmcid">PMC4167990</pub-id></mixed-citation></ref><ref id="bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cit-0032">
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xie</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xia</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>Z.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>CPSF6-Mediated XBP1 3′UTR Shortening Attenuates Cisplatin-Induced ER Stress and Elevates Chemo-Resistance in Lung Adenocarcinoma</article-title>, <source>Drug Resistance Updates</source>. (<year>2023</year>) <volume>68</volume>, <elocation-id>100933</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.drup.2023.100933</pub-id>, 36821972.<pub-id pub-id-type="pmid">36821972</pub-id>
+</mixed-citation></ref><ref id="bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cit-0033">
+<string-name name-style="western">
+<surname>Guan</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ji</surname>
+<given-names>J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>Y.</given-names>
+</string-name>, <article-title>GOT2 Elevation Mediated by YY1 Promotes the Tumorigenesis and Immune Escape of Lung Adenocarcinoma</article-title>, <source>Journal of Biochemical and Molecular Toxicology</source>. (<year>2025</year>) <volume>39</volume>, no. 5, <elocation-id>e70256</elocation-id>, <pub-id pub-id-type="doi">10.1002/jbt.70256</pub-id>, 40342193.<pub-id pub-id-type="pmid">40342193</pub-id>
+</mixed-citation></ref><ref id="bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cit-0034">
+<string-name name-style="western">
+<surname>Shinchi</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Komohara</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yonemitsu</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sato</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ohnishi</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Saito</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fujiwara</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mori</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shiraishi</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ikeda</surname>
+<given-names>K.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Suzuki</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>Accurate Expression of PD-L1/L2 in Lung Adenocarcinoma Cells: A Retrospective Study by Double Immunohistochemistry</article-title>, <source>Cancer Science</source>. (<year>2019</year>) <volume>110</volume>, no. 9, <fpage>2711</fpage>–<lpage>2721</lpage>, <pub-id pub-id-type="doi">10.1111/cas.14128</pub-id>, 31294893.<pub-id pub-id-type="pmid">31294893</pub-id>
+<pub-id pub-id-type="pmcid">PMC6726681</pub-id></mixed-citation></ref><ref id="bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cit-0035">
+<string-name name-style="western">
+<surname>Saiki</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yoshizawa</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dotsu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ariyasu</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Koyama</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sonoda</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Uchibori</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nishikawa</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kitazono</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yanagitani</surname>
+<given-names>N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Horiike</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Nishio</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>Correlation Between Serum Adenosine Deaminase Activity and Efficacy of Anti-Programmed Cell Death-1 Antibody</article-title>, <source>Lung Cancer</source>. (<year>2019</year>) <volume>133</volume>, <fpage>4</fpage>–<lpage>9</lpage>, <pub-id pub-id-type="doi">10.1016/j.lungcan.2019.04.022</pub-id>, 31200826.<pub-id pub-id-type="pmid">31200826</pub-id>
+</mixed-citation></ref><ref id="bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cit-0036">
+<string-name name-style="western">
+<surname>Wouters</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ehlers</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dzhus</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kienapfel</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bucciol</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Delafontaine</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hombrouck</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pillay</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Moens</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Meyts</surname>
+<given-names>I.</given-names>
+</string-name>, <article-title>Human ADA2 Deficiency: Ten Years Later</article-title>, <source>Current Allergy and Asthma Reports</source>. (<year>2024</year>) <volume>24</volume>, no. 9, <fpage>477</fpage>–<lpage>484</lpage>, <pub-id pub-id-type="doi">10.1007/s11882-024-01163-9</pub-id>, 38970744.<pub-id pub-id-type="pmid">38970744</pub-id>
+<pub-id pub-id-type="pmcid">PMC11364588</pub-id></mixed-citation></ref><ref id="bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cit-0037">
+<string-name name-style="western">
+<surname>Zanini</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Manfredi</surname>
+<given-names>L. H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pelinson</surname>
+<given-names>L. P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pimentel</surname>
+<given-names>V. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cardoso</surname>
+<given-names>A. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Carmo Araújo Gonçalves</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Santos</surname>
+<given-names>C. B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gutierres</surname>
+<given-names>J. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Morsch</surname>
+<given-names>V. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Leal</surname>
+<given-names>D. B. R.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Schetinger</surname>
+<given-names>M. R. C.</given-names>
+</string-name>, <article-title>ADA Activity Is Decreased in Lymphocytes From Patients With Advanced Stage of Lung Cancer</article-title>, <source>Medical Oncology</source>. (<year>2019</year>) <volume>36</volume>, no. 9, <pub-id pub-id-type="doi">10.1007/s12032-019-1301-1</pub-id>, 31375946.<pub-id pub-id-type="pmid">31375946</pub-id></mixed-citation></ref><ref id="bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cit-0038">
+<string-name name-style="western">
+<surname>Dunlock</surname>
+<given-names>V.-M. E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Arp</surname>
+<given-names>A. B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Singh</surname>
+<given-names>S. P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Charrin</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nguyen</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jansen</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Schaper</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Beest</surname>
+<given-names>M. T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zuidscherwoude</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>van Deventer</surname>
+<given-names>S. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nakken</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Szodoray</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Demaria</surname>
+<given-names>M. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wright</surname>
+<given-names>M. D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Querol Cano</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rubinstein</surname>
+<given-names>E.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>van Spriel</surname>
+<given-names>A. B.</given-names>
+</string-name>, <article-title>Tetraspanin CD53 Controls T Cell Immunity Through Regulation of CD45RO Stability, Mobility, and Function</article-title>, <source>Cell Reports</source>. (<year>2022</year>) <volume>39</volume>, no. 13, <elocation-id>111006</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.celrep.2022.111006</pub-id>, 35767951.<pub-id pub-id-type="pmid">35767951</pub-id>
+</mixed-citation></ref><ref id="bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cit-0039">
+<string-name name-style="western">
+<surname>Han</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S. Y. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jin</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Meng</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Y. L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>H.</given-names>
+</string-name>, <article-title>A Risk Score Combining Co-Expression Modules Related to Myeloid Cells and Alternative Splicing Associates With Response to PD-1/PD-L1 Blockade in Non-Small Cell Lung Cancer</article-title>, <source>Frontiers in Immunology</source>. (<year>2023</year>) <volume>14</volume>, <pub-id pub-id-type="doi">10.3389/fimmu.2023.1178193</pub-id>, 37492578.<pub-id pub-id-type="pmcid">PMC10363729</pub-id><pub-id pub-id-type="pmid">37492578</pub-id></mixed-citation></ref><ref id="bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cit-0040">
+<string-name name-style="western">
+<surname>Hong</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>D.</given-names>
+</string-name>, <article-title>Bioinformatic Analysis of Differentially Expressed Genes in Lung Cancer Bone Metastasis and Their Implications for Disease Progression in Lung Cancer Patients</article-title>, <source>Journal of Thoracic Disease</source>. (<year>2024</year>) <volume>16</volume>, no. 7, <fpage>4666</fpage>–<lpage>4677</lpage>, <pub-id pub-id-type="doi">10.21037/jtd-24-1081</pub-id>, 39144363.<pub-id pub-id-type="pmid">39144363</pub-id>
+<pub-id pub-id-type="pmcid">PMC11320291</pub-id></mixed-citation></ref><ref id="bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cit-0041">
+<string-name name-style="western">
+<surname>Oldford</surname>
+<given-names>S. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Robb</surname>
+<given-names>J. D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Codner</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gadag</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Watson</surname>
+<given-names>P. H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Drover</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>Tumor Cell Expression of HLA-DM Associates With a Th1 Profile and Predicts Improved Survival in Breast Carcinoma Patients</article-title>, <source>International Immunology</source>. (<year>2006</year>) <volume>18</volume>, no. 11, <fpage>1591</fpage>–<lpage>1602</lpage>, <pub-id pub-id-type="doi">10.1093/intimm/dxl092</pub-id>, 16987935.<pub-id pub-id-type="pmid">16987935</pub-id>
+</mixed-citation></ref><ref id="bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cit-0042">
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Y.-J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>J. K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Duan</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hou</surname>
+<given-names>R.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Shi</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>Prognostic Gene HLA-DMA Associated With Cell Cycle and Immune Infiltrates in LUAD</article-title>, <source>Clinical Respiratory Journal</source>. (<year>2023</year>) <volume>17</volume>, no. 12, <fpage>1286</fpage>–<lpage>1300</lpage>, <pub-id pub-id-type="doi">10.1111/crj.13716</pub-id>, 37972401.<pub-id pub-id-type="pmid">37972401</pub-id>
+<pub-id pub-id-type="pmcid">PMC10730455</pub-id></mixed-citation></ref><ref id="bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cit-0043">
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cao</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y.</given-names>
+</string-name>, <article-title>ITGAX Promotes Gastric Cancer Progression via Epithelial-Mesenchymal Transition Pathway</article-title>, <source>Frontiers in Pharmacology</source>. (<year>2025</year>) <volume>15</volume>, <pub-id pub-id-type="doi">10.3389/fphar.2024.1536478</pub-id>, 39845786.<pub-id pub-id-type="pmcid">PMC11750855</pub-id><pub-id pub-id-type="pmid">39845786</pub-id></mixed-citation></ref><ref id="bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cit-0044">
+<string-name name-style="western">
+<surname>Williams</surname>
+<given-names>K. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Andreas</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Patel</surname>
+<given-names>S. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chines</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Elkahloun</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chandrasekharappa</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gutkind</surname>
+<given-names>J. S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Molinolo</surname>
+<given-names>A. A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Crawford</surname>
+<given-names>N. P. S.</given-names>
+</string-name>, <article-title>A Systems Genetics Approach Identifies CXCL14, ITGAX, and LPCAT2 as Novel Aggressive Prostate Cancer Susceptibility Genes</article-title>, <source>PLOS Genetics</source>. (<year>2014</year>) <volume>10</volume>, no. 11, <elocation-id>e1004809</elocation-id>, <pub-id pub-id-type="doi">10.1371/journal.pgen.1004809</pub-id>, 25411967.<pub-id pub-id-type="pmid">25411967</pub-id>
+<pub-id pub-id-type="pmcid">PMC4238980</pub-id></mixed-citation></ref><ref id="bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cit-0045">
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Guo</surname>
+<given-names>D. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bu</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cai</surname>
+<given-names>Q. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>Y. Q.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Teng</surname>
+<given-names>F.</given-names>
+</string-name>, <article-title>Systematic Analysis of the Prognostic Significance and Roles of the Integrin Alpha Family in Non-Small Cell Lung Cancers</article-title>, <source>Advances in Therapy</source>. (<year>2023</year>) <volume>40</volume>, no. 5, <fpage>2186</fpage>–<lpage>2204</lpage>, <pub-id pub-id-type="doi">10.1007/s12325-023-02469-2</pub-id>, 36892810.<pub-id pub-id-type="pmid">36892810</pub-id>
+</mixed-citation></ref><ref id="bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cit-0046">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xue</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>X.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Che</surname>
+<given-names>C.</given-names>
+</string-name>, <article-title>Role of MYO1F in Neutrophil and Macrophage Recruitment and Pro-Inflammatory Cytokine Production in Aspergillus fumigatus Keratitis</article-title>, <source>International Immunopharmacology</source>. (<year>2024</year>) <volume>142</volume>, Part A, <elocation-id>113094</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.intimp.2024.113094</pub-id>, 39276460.<pub-id pub-id-type="pmid">39276460</pub-id>
+</mixed-citation></ref><ref id="bib-0047"><label>47</label><mixed-citation publication-type="journal" id="cit-0047">
+<string-name name-style="western">
+<surname>Teixeira</surname>
+<given-names>M. M.</given-names>
+</string-name>, <article-title>MYO1F Is Critical for Neutrophil Migration In Vivo</article-title>, <source>Blood</source>. (<year>2018</year>) <volume>131</volume>, no. 17, <fpage>1879</fpage>–<lpage>1880</lpage>, <pub-id pub-id-type="doi">10.1182/blood-2018-03-837872</pub-id>, 29699992.<pub-id pub-id-type="pmid">29699992</pub-id>
+</mixed-citation></ref><ref id="bib-0048"><label>48</label><mixed-citation publication-type="journal" id="cit-0048">
+<string-name name-style="western">
+<surname>Ouderkirk</surname>
+<given-names>J. L.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Krendel</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>Non-Muscle Myosins in Tumor Progression, Cancer Cell Invasion, and Metastasis</article-title>, <source>Cytoskeleton</source>. (<year>2014</year>) <volume>71</volume>, no. 8, <fpage>447</fpage>–<lpage>463</lpage>, <pub-id pub-id-type="doi">10.1002/cm.21187</pub-id>, 25087729.<pub-id pub-id-type="pmid">25087729</pub-id>
+<pub-id pub-id-type="pmcid">PMC4167922</pub-id></mixed-citation></ref><ref id="bib-0049"><label>49</label><mixed-citation publication-type="journal" id="cit-0049">
+<string-name name-style="western">
+<surname>Castro</surname>
+<given-names>C. N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rosenzwajg</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Carapito</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shahrooei</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Konantz</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Khan</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Miao</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Groß</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tranchant</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Radosavljevic</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Paul</surname>
+<given-names>N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Stemmelen</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pitoiset</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hirschler</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nespola</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Molitor</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rolli</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pichot</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Faletti</surname>
+<given-names>L. E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rinaldi</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Friant</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mednikov</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Karauzum</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Aman</surname>
+<given-names>M. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Carapito</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lengerke</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ziaee</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Eyaid</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ehl</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Alroqi</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Parvaneh</surname>
+<given-names>N.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Bahram</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>NCKAP1Ldefects Lead to a Novel Syndrome Combining Immunodeficiency, Lymphoproliferation, and Hyperinflammation</article-title>, <source>Journal of Experimental Medicine</source>. (<year>2020</year>) <volume>217</volume>, no. 12, <elocation-id>e20192275</elocation-id>, <pub-id pub-id-type="doi">10.1084/jem.20192275</pub-id>, 32766723.<pub-id pub-id-type="pmid">32766723</pub-id>
+<pub-id pub-id-type="pmcid">PMC7526481</pub-id></mixed-citation></ref><ref id="bib-0050"><label>50</label><mixed-citation publication-type="journal" id="cit-0050">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dou</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Tong</surname>
+<given-names>Z.</given-names>
+</string-name>, <article-title>Potential Predictive Value of Immune-Related Genes FUCA1 and NCKAP1L for Osteosarcoma Metastasis</article-title>, <source>Gene</source>. (<year>2024</year>) <volume>927</volume>, <elocation-id>148645</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.gene.2024.148645</pub-id>, 38844271.<pub-id pub-id-type="pmid">38844271</pub-id>
+</mixed-citation></ref><ref id="bib-0051"><label>51</label><mixed-citation publication-type="journal" id="cit-0051">
+<string-name name-style="western">
+<surname>Al Barashdi</surname>
+<given-names>M. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ali</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>McMullin</surname>
+<given-names>M. F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Mills</surname>
+<given-names>K.</given-names>
+</string-name>, <article-title>Protein Tyrosine Phosphatase Receptor Type C (PTPRC or CD45)</article-title>, <source>Journal of Clinical Pathology</source>. (<year>2021</year>) <volume>74</volume>, no. 9, <fpage>548</fpage>–<lpage>552</lpage>, <pub-id pub-id-type="doi">10.1136/jclinpath-2020-206927</pub-id>, 34039664.<pub-id pub-id-type="pmid">34039664</pub-id>
+<pub-id pub-id-type="pmcid">PMC8380896</pub-id></mixed-citation></ref><ref id="bib-0052"><label>52</label><mixed-citation publication-type="journal" id="cit-0052">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ping</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jia</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dou</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Henry</surname>
+<given-names>J. E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Guo</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cote</surname>
+<given-names>M. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cai</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shu</surname>
+<given-names>X. O.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>W.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Long</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>A Proteome-Wide Association Study Identifies Putative Causal Proteins for Breast Cancer Risk</article-title>, <source>British Journal of Cancer</source>. (<year>2024</year>) <volume>131</volume>, no. 11, <fpage>1796</fpage>–<lpage>1804</lpage>, <pub-id pub-id-type="doi">10.1038/s41416-024-02879-1</pub-id>, 39468330.<pub-id pub-id-type="pmid">39468330</pub-id>
+<pub-id pub-id-type="pmcid">PMC11589835</pub-id></mixed-citation></ref><ref id="bib-0053"><label>53</label><mixed-citation publication-type="journal" id="cit-0053">
+<string-name name-style="western">
+<surname>van Bilsen</surname>
+<given-names>J. H. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dulos</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>van Stee</surname>
+<given-names>M. F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Meima</surname>
+<given-names>M. Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rouhani Rankouhi</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Neergaard Jacobsen</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Staudt Kvistgaard</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Garthoff</surname>
+<given-names>J. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Knippels</surname>
+<given-names>L. M. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Knipping</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Houben</surname>
+<given-names>G. F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Verschuren</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Meijerink</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Krishnan</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>Seeking Windows of Opportunity to Shape Lifelong Immune Health: A Network-Based Strategy to Predict and Prioritize Markers of Early Life Immune Modulation</article-title>, <source>Frontiers in Immunology</source>. (<year>2020</year>) <volume>11</volume>, <pub-id pub-id-type="doi">10.3389/fimmu.2020.00644</pub-id>.<pub-id pub-id-type="pmcid">PMC7182036</pub-id><pub-id pub-id-type="pmid">32362896</pub-id></mixed-citation></ref><ref id="bib-0054"><label>54</label><mixed-citation publication-type="journal" id="cit-0054">
+<string-name name-style="western">
+<surname>Hammouz</surname>
+<given-names>R. Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Orzechowska</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Anusewicz</surname>
+<given-names>D.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Bednarek</surname>
+<given-names>A. K.</given-names>
+</string-name>, <article-title>X or Y Cancer: An Extensive Analysis of Sex Differences in Lung Adenocarcinoma</article-title>, <source>Current Oncology</source>. (<year>2023</year>) <volume>30</volume>, no. 2, <fpage>1395</fpage>–<lpage>1415</lpage>, <pub-id pub-id-type="doi">10.3390/curroncol30020107</pub-id>, 36826068.<pub-id pub-id-type="pmid">36826068</pub-id>
+<pub-id pub-id-type="pmcid">PMC9955992</pub-id></mixed-citation></ref><ref id="bib-0055"><label>55</label><mixed-citation publication-type="journal" id="cit-0055">
+<string-name name-style="western">
+<surname>Lou</surname>
+<given-names>Y.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>The TIPE (TNFAIP8) Family in Inflammation, Immunity, and Cancer</article-title>, <source>Molecular Immunology</source>. (<year>2011</year>) <volume>49</volume>, no. 1-2, <fpage>4</fpage>–<lpage>7</lpage>, <pub-id pub-id-type="doi">10.1016/j.molimm.2011.08.006</pub-id>, 21924498.<pub-id pub-id-type="pmid">21924498</pub-id>
+</mixed-citation></ref><ref id="bib-0056"><label>56</label><mixed-citation publication-type="journal" id="cit-0056">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>R.</given-names>
+</string-name>, <article-title>TIPE1 Function as a Prognosis Predictor and Negative Regulator of Lung Cancer</article-title>, <source>Oncotarget</source>. (<year>2017</year>) <volume>8</volume>, no. 45, <fpage>78496</fpage>–<lpage>78506</lpage>, <pub-id pub-id-type="doi">10.18632/oncotarget.19655</pub-id>, 29108244.<pub-id pub-id-type="pmid">29108244</pub-id>
+<pub-id pub-id-type="pmcid">PMC5667977</pub-id></mixed-citation></ref><ref id="bib-0057"><label>57</label><mixed-citation publication-type="journal" id="cit-0057">
+<string-name name-style="western">
+<surname>Bremnes</surname>
+<given-names>R. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Busund</surname>
+<given-names>L. T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kilvær</surname>
+<given-names>T. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Andersen</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Richardsen</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Paulsen</surname>
+<given-names>E. E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hald</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Khanehkenari</surname>
+<given-names>M. R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cooper</surname>
+<given-names>W. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kao</surname>
+<given-names>S. C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Dønnem</surname>
+<given-names>T.</given-names>
+</string-name>, <article-title>The Role of Tumor-Infiltrating Lymphocytes in Development, Progression, and Prognosis of Non–Small Cell Lung Cancer</article-title>, <source>Journal of Thoracic Oncology</source>. (<year>2016</year>) <volume>11</volume>, no. 6, <fpage>789</fpage>–<lpage>800</lpage>, <pub-id pub-id-type="doi">10.1016/j.jtho.2016.01.015</pub-id>, 26845192.<pub-id pub-id-type="pmid">26845192</pub-id>
+</mixed-citation></ref><ref id="bib-0058"><label>58</label><mixed-citation publication-type="journal" id="cit-0058">
+<string-name name-style="western">
+<surname>Guan</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jiao</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>L.</given-names>
+</string-name>, <article-title>Immune Infiltration Analysis With the CIBERSORT Method in Lung Cancer</article-title>, <source>Disease Markers</source>. (<year>2022</year>) <volume>2022</volume>, no. 1, <elocation-id>3186427</elocation-id>, <pub-id pub-id-type="doi">10.1155/2022/3186427</pub-id>.<pub-id pub-id-type="pmid">35340416</pub-id>
+<pub-id pub-id-type="pmcid">PMC8956442</pub-id></mixed-citation></ref><ref id="bib-0059"><label>59</label><mixed-citation publication-type="journal" id="cit-0059">
+<string-name name-style="western">
+<surname>Selvarani</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mohammed</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Richardson</surname>
+<given-names>A.</given-names>
+</string-name>, <article-title>Effect of Rapamycin on Aging and Age-Related Diseases—Past and Future</article-title>, <source>Gero Science</source>. (<year>2021</year>) <volume>43</volume>, no. 3, <fpage>1135</fpage>–<lpage>1158</lpage>, <pub-id pub-id-type="doi">10.1007/s11357-020-00274-1</pub-id>, 33037985.<pub-id pub-id-type="pmid">33037985</pub-id>
+<pub-id pub-id-type="pmcid">PMC8190242</pub-id></mixed-citation></ref><ref id="bib-0060"><label>60</label><mixed-citation publication-type="journal" id="cit-0060">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>P.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pol</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Levesque</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Petrazzuolo</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pfirschke</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Engblom</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rickelt</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yamazaki</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Iribarren</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Senovilla</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bezu</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Vacchelli</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sica</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Melis</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Martin</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Xia</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Durand</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Aprahamian</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lefevre</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Broutin</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Paci</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bongers</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Minard-Colin</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tartour</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zitvogel</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Apetoh</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pittet</surname>
+<given-names>M. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kepp</surname>
+<given-names>O.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Kroemer</surname>
+<given-names>G.</given-names>
+</string-name>, <article-title>Crizotinib-Induced Immunogenic Cell Death in Non-Small Cell Lung Cancer</article-title>, <source>Nature Communications</source>. (<year>2019</year>) <volume>10</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/s41467-019-09415-3</pub-id>, 30940805.<pub-id pub-id-type="pmcid">PMC6445096</pub-id><pub-id pub-id-type="pmid">30940805</pub-id></mixed-citation></ref><ref id="bib-0061"><label>61</label><mixed-citation publication-type="journal" id="cit-0061">
+<string-name name-style="western">
+<surname>Camidge</surname>
+<given-names>D. R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Otterson</surname>
+<given-names>G. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Clark</surname>
+<given-names>J. W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ignatius Ou</surname>
+<given-names>S. H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Weiss</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ades</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shapiro</surname>
+<given-names>G. I.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Socinski</surname>
+<given-names>M. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Murphy</surname>
+<given-names>D. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Conte</surname>
+<given-names>U.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>S. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wilner</surname>
+<given-names>K. D.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Villaruz</surname>
+<given-names>L. C.</given-names>
+</string-name>, <article-title>Crizotinib in Patients With MET-Amplified NSCLC</article-title>, <source>Journal of Thoracic Oncology</source>. (<year>2021</year>) <volume>16</volume>, no. 6, <fpage>1017</fpage>–<lpage>1029</lpage>, <pub-id pub-id-type="doi">10.1016/j.jtho.2021.02.010</pub-id>, 33676017.<pub-id pub-id-type="pmid">33676017</pub-id>
+</mixed-citation></ref><ref id="bib-0062"><label>62</label><mixed-citation publication-type="journal" id="cit-0062">
+<string-name name-style="western">
+<surname>Ramchandani</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mohan</surname>
+<given-names>C. D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Mistry</surname>
+<given-names>J. R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Naz</surname>
+<given-names>I.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rangappa</surname>
+<given-names>K. S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Ahn</surname>
+<given-names>K. S.</given-names>
+</string-name>, <article-title>The Multifaceted Antineoplastic Role of Pyrimethamine Against Human Malignancies</article-title>, <source>IUBMB Life</source>. (<year>2022</year>) <volume>74</volume>, no. 3, <fpage>198</fpage>–<lpage>212</lpage>, <pub-id pub-id-type="doi">10.1002/iub.2590</pub-id>, 34921584.<pub-id pub-id-type="pmid">34921584</pub-id>
+</mixed-citation></ref><ref id="bib-0063"><label>63</label><mixed-citation publication-type="journal" id="cit-0063">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Qin</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhai</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gu</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tang</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Meng</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>T.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>C.</given-names>
+</string-name>, <article-title>Antimalarial Drug Pyrimethamine Plays a Dual Role in Antitumor Proliferation and Metastasis Through Targeting DHFR and TP</article-title>, <source>Molecular Cancer Therapeutics</source>. (<year>2019</year>) <volume>18</volume>, no. 3, <fpage>541</fpage>–<lpage>555</lpage>, <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-18-0936</pub-id>, 30642883.<pub-id pub-id-type="pmid">30642883</pub-id>
+</mixed-citation></ref><ref id="bib-0064"><label>64</label><mixed-citation publication-type="journal" id="cit-0064">
+<string-name name-style="western">
+<surname>Tchounwou</surname>
+<given-names>P. B.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dasari</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Noubissi</surname>
+<given-names>F. K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ray</surname>
+<given-names>P.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Kumar</surname>
+<given-names>S.</given-names>
+</string-name>, <article-title>Advances in Our Understanding of the Molecular Mechanisms of Action of Cisplatin in Cancer Therapy</article-title>, <source>Journal of Experimental Pharmacology</source>. (<year>2021</year>) <volume>13</volume>, <fpage>303</fpage>–<lpage>328</lpage>, <pub-id pub-id-type="doi">10.2147/JEP.S267383</pub-id>, 33776489.<pub-id pub-id-type="pmid">33776489</pub-id>
+<pub-id pub-id-type="pmcid">PMC7987268</pub-id></mixed-citation></ref><ref id="bib-0065"><label>65</label><mixed-citation publication-type="journal" id="cit-0065">
+<string-name name-style="western">
+<surname>Kryczka</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kryczka</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Czarnecka-Chrebelska</surname>
+<given-names>K. H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Brzeziańska-Lasota</surname>
+<given-names>E.</given-names>
+</string-name>, <article-title>Molecular Mechanisms of Chemoresistance Induced by Cisplatin in NSCLC Cancer Therapy</article-title>, <source>International Journal of Molecular Sciences</source>. (<year>2021</year>) <volume>22</volume>, no. 16, <pub-id pub-id-type="doi">10.3390/ijms22168885</pub-id>, 34445588.<pub-id pub-id-type="pmcid">PMC8396273</pub-id><pub-id pub-id-type="pmid">34445588</pub-id></mixed-citation></ref></ref-list></back></article>

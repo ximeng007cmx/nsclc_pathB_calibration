@@ -1,0 +1,102 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+== 23_lusc_calibration.R（修订 04）==
+签名注册： 49 个
+LUSC 完整病例 n=482，事件 209（排除：stage 缺失/Discrepancy、age 缺失、无 ESTIMATE）
+  SIG01  inflammation bM1=+0.069 (P=0.342) bM3=+0.017 A=+75.0%
+  SIG02  inflammation bM1=+0.137 (P=0.0434) bM3=+0.126 A=+8.0%
+  SIG03  inflammation bM1=+0.130 (P=0.0844) bM3=+0.121 A=+6.8%
+  SIG04  inflammation bM1=+0.112 (P=0.127) bM3=+0.086 A=+23.2%
+  SIG05  inflammation bM1=+0.014 (P=0.849) bM3=-0.027 A=+295.3%
+  SIG06  inflammation bM1=+0.187 (P=0.00593) bM3=+0.193 A=-2.7%
+  SIG07  inflammation bM1=+0.016 (P=0.828) bM3=-0.058 A=+469.4%
+  SIG08  inflammation bM1=+0.069 (P=0.34) bM3=+0.083 A=-19.3%
+  SIG09  metabolism   bM1=-0.090 (P=0.211) bM3=-0.074 A=+18.0%
+  SIG10  metabolism   bM1=+0.015 (P=0.837) bM3=-0.020 A=+231.8%
+  SIG11  metabolism   bM1=+0.068 (P=0.333) bM3=+0.070 A=-1.7%
+  SIG12  metabolism   bM1=+0.128 (P=0.0597) bM3=+0.138 A=-8.2%
+  SIG13  metabolism   bM1=+0.129 (P=0.0679) bM3=+0.133 A=-3.2%
+  SIG14  metabolism   bM1=+0.093 (P=0.219) bM3=+0.106 A=-14.0%
+  SIG15  metabolism   bM1=+0.151 (P=0.0437) bM3=+0.138 A=+8.6%
+  SIG16  metabolism   bM1=+0.039 (P=0.571) bM3=+0.027 A=+30.1%
+  SIG17  metabolism   bM1=+0.005 (P=0.948) bM3=+0.003 A=+39.4%
+  SIG18  metabolism   bM1=+0.068 (P=0.332) bM3=+0.032 A=+53.3%
+  SIG19  metabolism   bM1=+0.104 (P=0.141) bM3=+0.093 A=+10.5%
+  SIG20  metabolism   bM1=+0.092 (P=0.196) bM3=+0.079 A=+14.4%
+  SIG21  metabolism   bM1=+0.037 (P=0.613) bM3=+0.068 A=-84.0%
+  SIG22  metabolism   bM1=+0.001 (P=0.992) bM3=+0.041 A=-6181.7%
+  SIG23  metabolism   bM1=+0.038 (P=0.601) bM3=+0.066 A=-76.4%
+  SIG24  metabolism   bM1=-0.065 (P=0.349) bM3=-0.032 A=+51.5%
+  SIG25  metabolism   bM1=+0.060 (P=0.384) bM3=+0.082 A=-37.1%
+  SIG26  metabolism   bM1=+0.116 (P=0.102) bM3=+0.106 A=+9.0%
+  SIG27  metabolism   bM1=-0.064 (P=0.377) bM3=-0.050 A=+22.1%
+  SIG28  metabolism   bM1=-0.069 (P=0.305) bM3=-0.047 A=+32.1%
+  SIG29  metabolism   bM1=-0.072 (P=0.299) bM3=-0.036 A=+50.4%
+  SIG30  metabolism   bM1=+0.040 (P=0.611) bM3=+0.047 A=-18.6%
+  SIG31  metabolism   bM1=-0.068 (P=0.342) bM3=-0.037 A=+45.2%
+  SIG32  inflammation bM1=+0.167 (P=0.0197) bM3=+0.155 A=+7.2%
+  SIG33  metabolism   bM1=+0.075 (P=0.336) bM3=+0.078 A=-4.2%
+  SIG34  metabolism   bM1=+0.113 (P=0.126) bM3=+0.194 A=-71.0%
+  SIG35  metabolism   bM1=+0.034 (P=0.654) bM3=+0.069 A=-100.1%
+  SIG36  metabolism   bM1=+0.098 (P=0.165) bM3=+0.094 A=+4.3%
+  SIG37  metabolism   bM1=-0.039 (P=0.561) bM3=-0.010 A=+74.4%
+  SIG38  metabolism   bM1=+0.115 (P=0.119) bM3=+0.106 A=+8.1%
+  SIG39  metabolism   bM1=+0.038 (P=0.607) bM3=+0.060 A=-56.5%
+  SIG40  metabolism   bM1=-0.025 (P=0.724) bM3=-0.004 A=+85.9%
+  SIG41  metabolism   bM1=+0.132 (P=0.058) bM3=+0.125 A=+5.2%
+  SIG42  inflammation bM1=+0.010 (P=0.882) bM3=-0.130 A=+1355.7%
+  SIG43  inflammation bM1=+0.204 (P=0.00524) bM3=+0.205 A=-0.3%
+  SIG44  immune       bM1=-0.016 (P=0.828) bM3=+0.007 A=+143.4%
+  SIG45  immune       bM1=-0.017 (P=0.807) bM3=+0.029 A=+270.6%
+  SIG46  immune       bM1=+0.126 (P=0.072) bM3=+0.130 A=-3.6%
+  SIG47  immune       bM1=+0.131 (P=0.0913) bM3=+0.113 A=+13.8%
+  SIG48  immune       bM1=+0.092 (P=0.203) bM3=+0.108 A=-16.8%
+  SIG49  immune       bM1=+0.023 (P=0.739) bM3=-0.062 A=+368.3%
+逐签名输出： 49 行
+            set     n n_ratio_valid   median_A          lo        hi
+         <char> <int>         <int>      <num>       <num>     <num>
+1:          ALL    49             5   8.580869  -0.2825025  23.24497
+2:           W1    13             2   7.962598  -2.7326918  74.95585
+3:           W2    28             2   8.321589  -9.1132011  24.19010
+4:           W3     2             1 677.720987          NA        NA
+5:           W4     6             0  78.624826 -10.1937243 319.46389
+6: inflammation    11             4   7.962598  -0.2825025 295.34265
+7:   metabolism    32             1   8.321589  -4.1928523  22.08470
+8:       immune     6             0  78.624826 -10.1937243 319.46389
+   median_A_valid  lo_valid hi_valid n_abs_gt100 n_dir_flip n_FDR_M1 n_FDR_M3
+            <num>     <num>    <num>       <int>      <int>    <int>    <int>
+1:      7.1796101 -2.732692 8.580869           9          7        0        0
+2:      2.6149530        NA       NA           3          3        0        0
+3:      7.8802397        NA       NA           2          0        0        0
+4:     -0.2825025        NA       NA           1          1        0        0
+5:             NA        NA       NA           3          3        0        0
+6:      3.4485538 -2.732692 7.962598           3          3        0        0
+7:      8.5808692        NA       NA           3          1        0        0
+8:             NA        NA       NA           3          3        0        0
+   median_abs_dbeta
+              <num>
+1:       0.01617834
+2:       0.01336126
+3:       0.01780131
+4:       0.07066409
+5:       0.02049028
+6:       0.01336126
+7:       0.01511677
+8:       0.02049028
+
+三条对照轴（LUSC）：
+              axis n_genes coverage rho_immune    beta_M1        p_M1
+            <char>   <int>    <num>      <num>      <num>       <num>
+1:      lymphocyte      16        1  0.8991250 0.00759182 0.915394939
+2:      neutrophil      16        1  0.4960138 0.10066599 0.148367989
+3: nutrition_liver      16        1  0.3249640 0.15648091 0.004772107
+       beta_M3       p_M3 attenuation
+         <num>      <num>       <num>
+1: -0.20778271 0.19644058 28.36928708
+2:  0.09033436 0.27266680  0.10263282
+3:  0.16450415 0.00575405 -0.05127297
+
+[23] 完成 -> results/attenuation_lusc49.tsv、summary_lusc49.tsv、control_axes_lusc.tsv

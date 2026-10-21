@@ -1,0 +1,2 @@
+endpoint	n_signatures	median_attenuation	median_attenuation_purity_only	n_FDR_sig_M1	n_FDR_sig_M3	n_lost_significance	dose_response_rho	dose_response_p	median_rho_immune	median_rho_purity
+TCGA-LUAD, OS	13	-0.0250614763243318	-0.0349318867093034	7	7	0	0.384615384615385	0.195502283663209	0.39440229857305	-0.363064821162868

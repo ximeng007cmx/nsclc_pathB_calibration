@@ -1,0 +1,75 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+
+## median_attenuation_all 
+     median          lo          hi           n 
+-0.02506148 -0.79162933  0.08876176 13.00000000 
+
+## median_attenuation_stable_beta 
+     median          lo          hi           n 
+-0.02506148 -0.79162933  0.08876176  9.00000000 
+
+## median_attenuation_lusc 
+     median          lo          hi           n 
+ 0.08118617 -0.02756666  0.75233670 13.00000000 
+
+## prop_fdr_sig_M1 
+         k          n          p         lo         hi 
+ 7.0000000 13.0000000  0.5384615  0.2674638  0.8094593 
+
+## prop_fdr_sig_M3 
+         k          n          p         lo         hi 
+ 7.0000000 13.0000000  0.5384615  0.2674638  0.8094593 
+
+## n_stable 
+[1] 9
+
+## stable_ids 
+[1] "SIG02,SIG04,SIG05,SIG07,SIG08,SIG10,SIG11,SIG12,SIG13"
+
+## ext_same_dir_GSE68465 
+[1] 5
+
+## ext_same_dir_GSE31210 
+[1] 6
+
+## ext_nominal_p05_GSE68465 
+[1] 0
+
+## ext_nominal_p05_GSE31210 
+[1] 3
+
+## median_coverage_GSE68465 
+[1] 0.5
+
+## median_coverage_GSE31210 
+[1] 0.5
+                                          item
+                                        <char>
+ 1:  median attenuation, all 13 (LUAD, M1->M3)
+ 2: median attenuation, |beta_M1|>=0.10 subset
+ 3:              median attenuation, TCGA-LUSC
+ 4:                      FDR<0.05 in M1 (LUAD)
+ 5:                      FDR<0.05 in M3 (LUAD)
+ 6:          external GSE68465: same direction
+ 7:                  external GSE68465: P<0.05
+ 8:          external GSE31210: same direction
+ 9:                  external GSE31210: P<0.05
+10:              median gene coverage GSE68465
+11:              median gene coverage GSE31210
+                                                                                value
+                                                                               <char>
+ 1:                                                        -2.5% (-79.2 to 8.9), n=13
+ 2: -2.5% (-79.2 to 8.9), n=9 [SIG02,SIG04,SIG05,SIG07,SIG08,SIG10,SIG11,SIG12,SIG13]
+ 3:                                                         8.1% (-2.8 to 75.2), n=13
+ 4:                                                                        7/13 (54%)
+ 5:                                                                        7/13 (54%)
+ 6:                                                                              5/13
+ 7:                                                                              0/13
+ 8:                                                                              6/13
+ 9:                                                                              3/13
+10:                                                                               50%
+11:                                                                               50%

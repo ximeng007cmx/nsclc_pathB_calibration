@@ -1,0 +1,30 @@
+W3Q1_irg               total=45     fetched=45
+W3Q2_infresp           total=20     fetched=20
+W3Q3_cytokine          total=88     fetched=88
+W3Q4_acutephase        total=57     fetched=57
+W3Q5_sysinf            total=13     fetched=13
+W3Q6_title             total=788    fetched=500
+W3Q7_lusc_inf          total=21     fetched=21
+W3Q8_prognostic_inf    total=107    fetched=107
+
+去重 782 条；排除已知与 2020 前、无 PMCID 后：605 条
+拿到摘要 605 篇
+
+【Tier A】摘要含 2–15 基因符号 且 有炎症基因池措辞：15
+  PMC12813068    2025 n= 6 IRGs                       Identification of immune-related prognostic biomarkers in lung CIRC:immune-related
+  PMC12491262    2025 n= 2 IRGs                       Interpretable artificial intelligence based on immunoregulatio CIRC:immunotherapy response
+  PMC12752188    2025 n= 5 IRGs                       Molecular subtyping and a seven-gene immune signature reveal h CIRC:immune-related
+  PMC13313863    2024 n= 7 IRGs                       Identification of an immune-related genes signature in lung ad CIRC:immune-related
+  PMC9136055     2022 n= 2 IRGs                       Immune-Related RNA-Binding Protein-Based Signature With Predic CIRC:Immune-Related
+  PMC9484176     2022 n= 7 IRGS                       Comprehensive analysis reveals the potential value of inflamma 
+  PMC8182055     2021 n= 6 IRGs                       Identification and Validation of Immune-Related Gene Signature CIRC:Immune-Related
+  PMC8643179     2021 n= 4 IRGs                       Identification of an Innate Immune-Related Prognostic Signatur CIRC:Immune-Related
+  PMC8212041     2021 n= 6 IRGs                       Integrated Analysis of Cell Cycle-Related and Immunity-Related 
+  PMC8317604     2021 n= 4 inflammatory genes         Prognosis of Non-small-cell Lung Cancer Patients With Lipid Me 
+  PMC8445607     2021 n= 3 Inflammation-Associated Ge Comprehensive Analysis to Identify Enhancer-Regulated Inflamma CIRC:infiltrat
+  PMC7485220     2020 n= 5 IRGs                       Development of an Immune-Related Risk Signature for Predicting CIRC:Immune-Related
+  PMC7368195     2020 n= 6 IRGs                       Identification of Prognostic Immune-Related Genes by Integrati CIRC:Immune-Related
+  PMC7493716     2020 n= 8 IRGs                       Identification of a Prognostic Model Based on Immune-Related G CIRC:Immune-Related
+  PMC7372779     2020 n= 9 IRGs                       Establishment of the prognostic index of lung squamous cell ca CIRC:immune-related
+
+-> work/wave3_screened.csv（605 行）

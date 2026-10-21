@@ -1,0 +1,7 @@
+﻿pmcid,pmid,exclusion_reason,rule
+PMC8647082,34881236,"8-gene signature; gene names only in Figure/Supplementary, not retrievable from text",E1
+PMC9736863,36497225,8-gene signature; construct shown in Figure S1 only,E1
+PMC9455632,36091041,states 10 genes but text contains inconsistent 4- and 7-gene lists; final list unverifiable,E2
+PMC10124980,37083272,no explicit final gene list in text (model described by score only),E1
+PMC12102027,40407957,INF scoring system from subtypes; no fixed final gene list (MMP14 validated experimentally),E1
+PMC10493788,37701116,final gene list not stated in text/abstract,E1
