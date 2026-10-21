@@ -113,3 +113,10 @@ n_included 6  n_excluded 10
 - MANIFEST.sha256: 335 项全量 SHA-256; 四波注册表哈希与既有 LOCK 记录一致
 - pathA 依赖未随库分发 (pa_data.rds 145MB / 外部阵列 594MB), 校验和见 docs/pathA_dependencies.md + pathA_external_data.sha256
 - Zenodo: 暂缓, 待投稿阶段再定
+
+[2026-10-22 07:0x] 修订08 Zenodo 发布 + DOI 回写
+- Zenodo deposit 23537008 发布: DOI 10.5281/zenodo.23537008 (records/23537008, state done, 公开 200)
+- 文件: zip 6,168,064 B (md5 023dc2c3…) + pa_data.rds 145,327,565 B (md5 46c831c8…), 与本地一致
+- 作者: Chen, Mingxiang (单作者); cc-by-4.0; v1.0.0
+- 正文新增 Data and code availability 一节; README 加 DOI 徽章; html/pdf 重渲染; MANIFEST 重算
+- MS_draft_v1.md: 67dc50ec12860396 -> 4f7e8e12b59ce94b (修订 08, 见 08_amendment_doi.md)

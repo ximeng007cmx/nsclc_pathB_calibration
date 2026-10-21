@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 29_render_manuscript_html.py — render the current manuscript (MS_draft_v1.md,
-revision 07, sha256[:16] 67dc50ec12860396) into a single readable HTML file.
+revision 07, sha256[:16] 4f7e8e12b59ce94b) into a single readable HTML file.
 
 Read-only rendering for review; the .md master is NOT modified.
 
@@ -28,7 +28,7 @@ md_text = io.open(MS, encoding="utf-8").read()
 
 # integrity: render the revision-07 version, fail loudly otherwise
 h = hashlib.sha256(io.open(MS, "rb").read()).hexdigest()[:16]
-assert h == "67dc50ec12860396", "MS_draft_v1.md changed since revision 07: %s" % h
+assert h == "4f7e8e12b59ce94b", "MS_draft_v1.md changed since revision 08: %s" % h
 
 body = markdown.markdown(md_text, extensions=["tables"])
 

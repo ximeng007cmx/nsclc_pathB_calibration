@@ -164,6 +164,10 @@ Several limitations bound these conclusions. The primary cohort is a single TCGA
 
 Across 49 published NSCLC prognostic signatures, adjustment for immune and stromal content produced no systematic change in effect size, while the same adjustment abolished a known immune proxy. Immune and stromal content is therefore not an explanatory variable for these signatures, and published signatures attenuate even less than random gene panels. Signature studies should report TME-adjusted effect sizes alongside unadjusted ones and state the direction of change, rather than treating TME content as a confounder presumed to inflate their results.
 
+## Data and code availability
+
+All analysis code (R and Python), the four hash-locked signature registries, all result tables and the manuscript source are archived at https://github.com/ximeng007cmx/nsclc_pathB_calibration (v1.0.0) and mirrored on Zenodo: **10.5281/zenodo.23537008**. The Zenodo deposit additionally contains the calibrated TCGA-LUAD/LUSC expression matrix and survival tables (pa_data.rds) required to re-run the pipeline. SHA-256 checksums of all archived files are recorded in the repository (MANIFEST.sha256; docs/pathA_dependencies.md). Expression and clinical data originate from TCGA/TCGA-CDR, the external cohorts from GEO/ArrayExpress (E-GEOD-68465, E-GEOD-31210) and the full-text extraction corpus from PubMed Central; these third-party public data are subject to their original terms and are not redistributed beyond the derived files listed above.
+
 ---
 
 ## References

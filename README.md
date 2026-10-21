@@ -1,5 +1,7 @@
 # TME calibration of published NSCLC prognostic signatures (pathB)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23537008.svg)](https://doi.org/10.5281/zenodo.23537008)
+
 Code, registries and result tables for:
 
 > **Immune and stromal content does not explain the effect sizes of published inflammation- and metabolism-related prognostic signatures in non-small cell lung cancer: a calibration study of 49 signatures with positive and negative controls**
@@ -30,7 +32,7 @@ Every analysis step is hashed and locked before downstream use (`work/LOCK.txt`)
 
 ## Companion data (not in this repository)
 
-The calibrated expression matrix and the raw external arrays are **not redistributed** in this repository; they accompany the publication (available from the corresponding author) or are obtainable from the original public sources:
+The calibrated expression matrix and the raw external arrays are **not redistributed** in this repository. `pa_data.rds` is included in the Zenodo deposit **10.5281/zenodo.23537008**; the raw external arrays are obtainable from the original public sources:
 
 | File | Size | Purpose |
 |---|---|---|
