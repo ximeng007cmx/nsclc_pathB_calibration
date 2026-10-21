@@ -106,3 +106,10 @@ n_included 6  n_excluded 10
 - 修订文件: 07_amendment_review_fixes.md (3c45909633ce70b6)
 - MS_draft_v1.md: d0711d03a3641be3 -> 67dc50ec12860396
 - 验收: em-dash=0; CJK=8(文件名); 勾稽重跑 146 项=145对+1人工核对
+
+[2026-10-21 22:1x] GitHub 归档
+- 仓库: github.com/ximeng007cmx/nsclc_pathB_calibration (public, branch main)
+- 归档提交: 8bd26e2 (335 files, 含 README/LICENSE/DATA_LICENSE/.gitignore/docs/MANIFEST.sha256)
+- MANIFEST.sha256: 335 项全量 SHA-256; 四波注册表哈希与既有 LOCK 记录一致
+- pathA 依赖未随库分发 (pa_data.rds 145MB / 外部阵列 594MB), 校验和见 docs/pathA_dependencies.md + pathA_external_data.sha256
+- Zenodo: 暂缓, 待投稿阶段再定
