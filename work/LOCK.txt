@@ -120,3 +120,8 @@ n_included 6  n_excluded 10
 - 作者: Chen, Mingxiang (单作者); cc-by-4.0; v1.0.0
 - 正文新增 Data and code availability 一节; README 加 DOI 徽章; html/pdf 重渲染; MANIFEST 重算
 - MS_draft_v1.md: 67dc50ec12860396 -> 4f7e8e12b59ce94b (修订 08, 见 08_amendment_doi.md)
+
+[2026-10-22 10:4x] 投稿材料 ③: cover letter + 声明段
+- manuscript/cover_letter.md（含占位符清单）+ cover_letter.txt（纯文本可直接粘贴，em-dash=0/CJK=0）
+- manuscript/data_availability_statements.md（9 版：短/中/长 DOI 声明、code availability、数据限制、ethics、funding、COI、CRediT）
+- 信中 10 处关键数字与正文逐条比对一致（−1.4% CI、21/25/3、31/31、68.9%、P 0.053→0.775、KS D/P、partial ρ 0.373、ρ −0.125、482/177、11/32/6）
